@@ -254,7 +254,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598447555550</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add force update and change firebase">
+      <created>1598447769070</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1598447769070</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -263,7 +270,8 @@
     </ignored-roots>
     <MESSAGE value="//add comment to splash" />
     <MESSAGE value="//add force update" />
-    <option name="LAST_COMMIT_MESSAGE" value="//add force update" />
+    <MESSAGE value="add force update and change firebase" />
+    <option name="LAST_COMMIT_MESSAGE" value="add force update and change firebase" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="22" key="#Plugins" timestamp="1597729921719">
@@ -286,10 +294,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="263" y="119" key="AndroidCreateResourceFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1597559962117" />
-    <state x="252" y="0" key="CommitChangelistDialog2" timestamp="1598447732516">
+    <state x="252" y="0" key="CommitChangelistDialog2" timestamp="1598448570211">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="252" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1598447732516" />
+    <state x="252" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1598448570211" />
     <state width="445" height="466" key="DebuggerActiveHint" timestamp="1598444653699">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -348,14 +356,18 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="222" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1597132555542" />
+    <state x="395" y="80" key="MultipleFileMergeDialog" timestamp="1598448523537">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="395" y="80" key="MultipleFileMergeDialog/0.0.1366.728@0.0.1366.728" timestamp="1598448523537" />
     <state x="184" y="6" key="SettingsEditor" timestamp="1598430682472">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="6" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1598430682472" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1598447692923">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1598447791032">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1598447692923" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1598447791032" />
     <state x="92" y="92" width="1182" height="544" key="com.android.tools.idea.avdmanager.AvdListDialog" timestamp="1597078623747">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
