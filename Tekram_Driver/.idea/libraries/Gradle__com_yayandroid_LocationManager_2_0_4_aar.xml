@@ -1,12 +1,12 @@
 <component name="libraryTable">
   <library name="Gradle: com.yayandroid:LocationManager:2.0.4@aar">
     <ANNOTATIONS>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/46a5875ccb13ff74aec6faff23c0fe3d/jetified-LocationManager-2.0.4/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9171cb0a6719053dbb8b7bb7fb794a5d/jetified-LocationManager-2.0.4/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/46a5875ccb13ff74aec6faff23c0fe3d/jetified-LocationManager-2.0.4/AndroidManifest.xml" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/46a5875ccb13ff74aec6faff23c0fe3d/jetified-LocationManager-2.0.4/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/46a5875ccb13ff74aec6faff23c0fe3d/jetified-LocationManager-2.0.4/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9171cb0a6719053dbb8b7bb7fb794a5d/jetified-LocationManager-2.0.4/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9171cb0a6719053dbb8b7bb7fb794a5d/jetified-LocationManager-2.0.4/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9171cb0a6719053dbb8b7bb7fb794a5d/jetified-LocationManager-2.0.4/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

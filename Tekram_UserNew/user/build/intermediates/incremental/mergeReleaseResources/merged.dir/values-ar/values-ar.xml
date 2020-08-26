@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <attr format="string" name="fontPath"/>
+    <item name="calligraphy_tag_id" type="id"/>
+    <integer name="gravity_center">17</integer>
+    <integer name="gravity_center_horizontal">1</integer>
+    <integer name="gravity_center_vertical">16</integer>
+    <integer name="gravity_left">5</integer>
+    <integer name="gravity_left_center_vertical">21</integer>
+    <integer name="gravity_right">3</integer>
+    <integer name="gravity_right_center_vertical">19</integer>
+    <integer name="scale_x_child">-1</integer>
+    <integer name="scale_x_parent">-1</integer>
+    <integer name="swipe_drag_edge">1</integer>
+    <string name="Discount">خصم</string>
+    <string name="JoinToCaptain">انضم الى الكابتن</string>
+    <string name="Logout">تسجيل الخروج</string>
+    <string name="Message">الرسالة</string>
+    <string name="Old_balance">الرصيد الحالي</string>
+    <string name="Trip_fee">قيمة التوصيلة</string>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"التنقل إلى الشاشة الرئيسية"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"التنقل إلى أعلى"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"خيارات إضافية"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"تم"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"عرض الكل"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"اختيار تطبيق"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"إيقاف"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"تشغيل"</string>
+    <string msgid="1302280443949172191" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="1324831542140195728" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="8362206064229013510" name="abc_menu_delete_shortcut_label">"delete"</string>
+    <string msgid="8341180395196749340" name="abc_menu_enter_shortcut_label">"enter"</string>
+    <string msgid="4792426091847145555" name="abc_menu_function_shortcut_label">"Function+"</string>
+    <string msgid="7643535737296831317" name="abc_menu_meta_shortcut_label">"Meta+"</string>
+    <string msgid="8126296154200614004" name="abc_menu_shift_shortcut_label">"Shift+"</string>
+    <string msgid="2378550843553983978" name="abc_menu_space_shortcut_label">"space"</string>
+    <string msgid="9002602288060866689" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="1351762916121158029" name="abc_prepend_shortcut_label">"القائمة+"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"بحث…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"محو طلب البحث"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"طلب البحث"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"بحث"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"إرسال طلب البحث"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"البحث الصوتي"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"مشاركة مع"</string>
+    <string msgid="3300176832234831527" name="abc_shareactionprovider_share_with_application">"مشاركة مع <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"تصغير"</string>
+    <string name="about_tecram">عن تكرم</string>
+    <string name="action_settings">Settings</string>
+    <string name="add">اضافة</string>
+    <string name="add_ticket_title">اضافة تذكرة</string>
+    <string name="admin">المسؤوول</string>
+    <string name="afew_min_left">دقائق للوصول</string>
+    <string name="alerte_force_update_message">عليك تحديث التطبيق حتى تتمكن من استخدامه</string>
+    <string name="alerte_force_update_title">تحديث اجباري</string>
+    <string name="app_name">تكرم</string>
+    <string name="are_you_sure">هل انت متأكد؟</string>
+    <string name="are_you_sure_loc">الرجاء تأكيد الموقع الحالي؟</string>
+    <string name="are_your_sure">هل انت متاكد؟</string>
+    <string name="back_toMain">الرجوع الى الشاشة الرئيسية.</string>
+    <string name="balance">الرصيد :</string>
+    <string name="base_fee">المبلغ الاساسي</string>
+    <string name="btn_user_name_reg">تسجيل</string>
+    <string name="bus">باص</string>
+    <string name="call_captain">الاتصال بالكابتن</string>
+    <string name="call_captain_app">الاتصال بالكابتن عبر التطبيق</string>
+    <string name="call_captain_phone">الاتصال بالكابتن هاتفيا</string>
+    <string name="call_support">الاتصال بالدعم الفني</string>
+    <string name="call_us">اتصل بنا</string>
+    <string name="cancel">الغاء</string>
+    <string name="cancel_free">للالغاء المجاني</string>
+    <string name="cancel_order">تم الغاؤ الطلب من</string>
+    <string name="cancel_pay">مبلغ الالغاء 1.2 د.أ</string>
+    <string name="cancel_payment">مبلغ الالغاء 1.2 د.أ</string>
+    <string name="cancel_question">من الغاء الطلب</string>
+    <string name="captain">الكابتن</string>
+    <string name="captain_Arrived">وصل الكابتن</string>
+    <string name="captain_is_close">الكابتن قريب</string>
+    <string name="car_num">لوحة السيارة</string>
+    <string name="cartype">نوع السيارة</string>
+    <string name="cash">كاش</string>
+    <string name="check_internet">خطأ بالاتصال بالانترنت!</string>
+    <string name="check_message_pin">ادخل رمز التاكيد المرسل الى جوالك لتاكيد رقم الجوال</string>
+    <string name="choose_reason">سبب الالغاء :</string>
+    <string name="choose_type_complaint">--اختر نوع التبليغ--</string>
+    <string name="chose_place">لوين العزم ؟</string>
+    <string name="codee">كوبون الخصم</string>
+    <string msgid="8585111718777012708" name="common_google_play_services_enable_button">"تفعيل"</string>
+    <string msgid="7045129128108380659" name="common_google_play_services_enable_text">"‏لن يعمل <ns1:g id="APP_NAME">%1$s</ns1:g> ما لم يتم تفعيل خدمات Google Play."</string>
+    <string msgid="3147157405986503375" name="common_google_play_services_enable_title">"‏تفعيل خدمات Google Play"</string>
+    <string msgid="9115728400623041681" name="common_google_play_services_install_button">"تثبيت"</string>
+    <string msgid="8179894293032530091" name="common_google_play_services_install_text">"‏لن يتم تشغيل <ns1:g id="APP_NAME">%1$s</ns1:g> بدون خدمات Google Play، والتي لا تتوفر على جهازك."</string>
+    <string msgid="7442193194585196676" name="common_google_play_services_install_title">"‏الحصول على خدمات Google Play"</string>
+    <string msgid="4293541511340436975" name="common_google_play_services_notification_channel_name">"‏مدى توفّر خدمات Google Play"</string>
+    <string msgid="180394615667698242" name="common_google_play_services_notification_ticker">"‏خطأ في خدمات Google Play"</string>
+    <string msgid="2518680582564677258" name="common_google_play_services_unknown_issue">"‏لدى <ns1:g id="APP_NAME">%1$s</ns1:g> مشكلة في خدمات Google Play. يُرجى إعادة المحاولة."</string>
+    <string msgid="5501187292256987189" name="common_google_play_services_unsupported_text">"‏لن يتم تشغيل <ns1:g id="APP_NAME">%1$s</ns1:g> بدون خدمات Google Play التي لا يوفرها جهازك."</string>
+    <string msgid="8172070149091615356" name="common_google_play_services_update_button">"تحديث"</string>
+    <string msgid="7773943415006962566" name="common_google_play_services_update_text">"‏لن يتم تشغيل <ns1:g id="APP_NAME">%1$s</ns1:g> ما لم يتم تحديث خدمات Google Play."</string>
+    <string msgid="8706675115216073244" name="common_google_play_services_update_title">"‏تحديث خدمات Google Play"</string>
+    <string msgid="7894275749778928941" name="common_google_play_services_updating_text">"‏لن يتم تشغيل <ns1:g id="APP_NAME">%1$s</ns1:g> بدون خدمات Google Play، والتي يتم تحديثها حاليًا."</string>
+    <string msgid="2804989272736383918" name="common_google_play_services_wear_update_text">"‏يجب توفر إصدار جديد من خدمات Google Play. سيتم تحديثها تلقائيًا قريبًا."</string>
+    <string msgid="5201977337835724196" name="common_open_on_phone">"فتح على الهاتف"</string>
+    <string msgid="3441753203274453993" name="common_signin_button_text">"تسجل الدخول"</string>
+    <string msgid="669893613918351210" name="common_signin_button_text_long">"‏تسجيل الدخول عبر Google"</string>
+    <string name="conditions">الشروط والاحكام</string>
+    <string name="confirm">متأكد</string>
+    <string name="cost_price">بسعر:</string>
+    <string name="credit_number">رقم البطاقة</string>
+    <string name="credit_owner">اسم حامل البطاقة</string>
+    <string name="credit_pay_method"> بطاقة ائتمانية : 2564xxxxxxxxxx</string>
+    <string name="delete_oreder">حذف الطلب</string>
+    <string name="des_is_required">يجب اختيار نقطه الانتهاء (لوين العزم) اولا!</string>
+    <string name="dialoge_select_destination">هل انت متأكد من اختيارك لوجهتك؟</string>
+    <string name="dialoge_select_start">هل انت متأكد من اختيارك لنقطت الانطلاق؟</string>
+    <string name="done">تاكيد</string>
+    <string name="done_loc">تم</string>
+    <string name="driver">السائق</string>
+    <string name="ed_user_name">ادخل اسم المستخدم</string>
+    <string name="email">البريد الالكتروني</string>
+    <string name="enter">دخول</string>
+    <string name="enter_code_confir">قم بادخال الرمز المرسل اليك.</string>
+    <string name="enter_count">اختر العدد :</string>
+    <string name="enter_required_fields">قم بادخال المعلومات المطلوبة اولا!</string>
+    <string name="expected_fee">المبلغ المتوقع</string>
+    <string name="expected_fee_item">السعر</string>
+    <string name="expire_date">الانتهاء</string>
+    <string msgid="4133737464567140336" name="fcm_fallback_notification_channel_label">"متنوعة"</string>
+    <string name="fields_are_missing">الرجاء اتمام البيانات</string>
+    <string name="free_cancelation">الغاء الطلب</string>
+    <string name="gas">غاز</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="help">المساعدة</string>
+    <string name="hour">ساعة</string>
+    <string name="invite">ادعو صديق</string>
+    <string name="jod">دينار</string>
+    <string name="khaleha_alena">خليها علينا</string>
+    <string name="lim">ليموزين</string>
+    <string name="min">دقيقة</string>
+    <string name="mobile_number">رقم الهاتف</string>
+    <string name="my_orders_title">طلباتي</string>
+    <string name="myorders">طلباتي</string>
+    <string name="name">الاسم</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="no">لا</string>
+    <string name="no_cars_found">لم يتم تحديد كباتن في منطقتك.قم باعاده تشغيل التطبيق.</string>
+    <string name="no_driver">لا توجد استجابة لطلبك \nيرجى المحاولة مرة اخرى</string>
+    <string name="no_orders">لا يوجد طلبات</string>
+    <string name="not_confirm">غير متأكد</string>
+    <string name="ok">حسنا</string>
+    <string name="order_details_title">تفاصيل الطلب</string>
+    <string name="order_non_taxi">اطلب الآن</string>
+    <string name="order_non_taxi_are_you_sure">هل انت متاكد من معلومات طلبك؟</string>
+    <string name="order_num">رقم الطلب</string>
+    <string name="pay_Amount">المبلغ</string>
+    <string name="pay_meth">طريقة الدفع</string>
+    <string name="pay_method">طريقة الدفع</string>
+    <string name="phone">رقم الجوال</string>
+    <string name="pick_up_first"> اختر سيارة اولا!</string>
+    <string name="places_autocomplete_clear_button">مسح البحث</string>
+    <string name="places_autocomplete_label">اختيار مكان</string>
+    <string name="places_autocomplete_no_results_for_query">لم يتم العثور على نتائج عن %1$s</string>
+    <string name="places_autocomplete_search_hint">بحث</string>
+    <string name="places_cancel">إلغاء</string>
+    <string name="places_powered_by_google">‏تدعمه Google</string>
+    <string name="places_search_error">يتعذر تحميل نتائج البحث.</string>
+    <string name="places_try_again">إعادة المحاولة</string>
+    <string name="please_add_location">الرجاء اختيار مكان</string>
+    <string name="please_add_name">الرجاء ادخال الاسم</string>
+    <string name="please_add_number">الرجاء ادخال الرقم</string>
+    <string name="please_add_picture">الرجاء اضافة صورة</string>
+    <string name="please_chose_type_car">الرجاء اختيار نوع السيارة</string>
+    <string name="please_wait">ارجو الانتظار</string>
+    <string name="prices">الاسعار</string>
+    <string name="questions">الاسئلة المتكررة</string>
+    <string name="rate_driver">قيم تجربتك مع</string>
+    <string name="register">تسجيل</string>
+    <string name="reorder">اعادة الطلب</string>
+    <string name="reply_ticket">اضافة رد</string>
+    <string name="report">تبليغ عن شكوى</string>
+    <string name="report_problem">تبليغ عن مشكلة</string>
+    <string name="resend_code">اعاده ارسال كود التفعيل</string>
+    <string name="save_changes">حفظ</string>
+    <string msgid="146198913615257606" name="search_menu_title">"البحث"</string>
+    <string name="send">ارسال</string>
+    <string name="service_not_available">هذه الخدمة غير متوفرة حاليا!</string>
+    <string name="settings">الاعدادات</string>
+    <string msgid="7988687684186075107" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="suggest">المقترح</string>
+    <string name="support">الدعم الفني</string>
+    <string name="support_ticket">تذاكر الدعم الفني والاقتراحات</string>
+    <string name="tawklna">اطلب الان</string>
+    <string name="taxi">توصيلة</string>
+    <string name="taxi_khas">خاص</string>
+    <string name="taxi_momyaz">مميز</string>
+    <string name="taxi_yellow">اصفر</string>
+    <string name="tech_support">الدعم الفني</string>
+    <string name="tech_support_not_available">الدعم الفني غير متوفر حاليا!</string>
+    <string name="thank_u">الحمد لله على السلامة</string>
+    <string name="ticket_sent_text">تم ارسال طلب الدعم الفني بنجاح</string>
+    <string name="tickets_title">تذاكر الدعم الفني</string>
+    <string name="timeanddistance">معلومات الطلب</string>
+    <string name="title_activity_add_name_and_picture">AddNameAndPicture</string>
+    <string name="title_activity_auto_complete_place">AutoCompletePlace</string>
+    <string name="title_activity_auto_complete_place_current">AutoCompletePlaceCurrent</string>
+    <string name="title_activity_check_code">CheckCode</string>
+    <string name="title_activity_chose_map">ChoseMapActivity</string>
+    <string name="title_activity_complaint_support">ComplaintSupport</string>
+    <string name="title_activity_frequently_questions">FrequentlyQuestions</string>
+    <string name="title_activity_incomming_call">IncommingCallActivity</string>
+    <string name="title_activity_main2">MainMapActivity</string>
+    <string name="title_activity_main_map">MainMap</string>
+    <string name="title_activity_make_call_sinch">MakeCallSinch</string>
+    <string name="title_activity_map">Map</string>
+    <string name="title_activity_my_order_details">MyOrderDetails</string>
+    <string name="title_activity_my_orders">MyOrders</string>
+    <string name="title_activity_my_orders2">MyOrders2</string>
+    <string name="title_activity_my_profile">MyProfile</string>
+    <string name="title_activity_navigation_drawer">navigationDrawerAct</string>
+    <string name="title_activity_payment_and_review">PaymentAndReview</string>
+    <string name="title_activity_questions">QuestionsActivity</string>
+    <string name="title_activity_show_notification_content">ShowNotificationContent</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="title_activity_support">Support</string>
+    <string name="title_activity_tarweej_code">TarweejCode</string>
+    <string name="title_activity_testt">testt</string>
+    <string name="title_activity_trip_details">TripDetails</string>
+    <string name="title_complaintt">تبليغ</string>
+    <string name="title_support">الدعم الفني</string>
+    <string name="title_tarwej">كوبون الخصم</string>
+    <string name="to">إلى</string>
+    <string name="track">شاحنة</string>
+    <string name="trip_canceled_dialoge">لقد تم الغاء الطلب!</string>
+    <string name="trip_duration">المدة</string>
+    <string name="trip_started">بدء الكابتن الرحلة</string>
+    <string name="triptype">نوع التوصيلة</string>
+    <string name="turnGps_confir">ارجوك قم بتشغيل ال gps لاستكمال العمليه!</string>
+    <string name="update">تعديل</string>
+    <string name="use_code">استخدم الرمز</string>
+    <string name="use_tarwej_code">استخدم كوبون الخصم</string>
+    <string name="user_name_confir">اسم المستخدم يجب ان يكون من ثلاث احرف عالاقل!</string>
+    <string name="username">الاسم</string>
+    <string name="verify">تحقق</string>
+    <string name="waiting">دقائق وسيتم استلام طلبك</string>
+    <string name="water">مي</string>
+    <string name="yes">نعم</string>
+</resources>

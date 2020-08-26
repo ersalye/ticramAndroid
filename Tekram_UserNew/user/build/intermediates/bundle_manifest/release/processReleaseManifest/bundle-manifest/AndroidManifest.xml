@@ -108,7 +108,7 @@
         -->
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyCFhwRtoMlXHmWGhJKetncTk9kXp4Nt0kc" />
+            android:value="AIzaSyBTEYwwSSVol2OMbYYmXTvswlx0xBEl0tw" />
 
         <activity
             android:name="com.turnpoint.ticram.Activites.MapActivity"

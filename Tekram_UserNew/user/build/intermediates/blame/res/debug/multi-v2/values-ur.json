@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "E:\\Tekram_UserNew\\user\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ur\\values-ur.xml",
+            "outputFile": "C:\\ticramAndroid\\Tekram_UserNew\\user\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ur\\values-ur.xml",
             "map": [
                 {
                     "source": "C:\\Users\\admin\\.gradle\\caches\\transforms-2\\files-2.1\\0846d45251c39513590c4c8457bd9677\\jetified-firebase-messaging-20.0.1\\res\\values-ur\\values.xml",

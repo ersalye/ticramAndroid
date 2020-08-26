@@ -39,9 +39,14 @@ import com.google.android.gms.location.LocationSettingsResult;
 import com.google.android.gms.location.LocationSettingsStates;
 import com.google.android.gms.location.LocationSettingsStatusCodes;
 import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.OnFailureListener;
+import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.android.gms.tasks.Task;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
 import com.google.firebase.remoteconfig.FirebaseRemoteConfig;
 import com.google.firebase.remoteconfig.FirebaseRemoteConfigSettings;
 import com.google.gson.Gson;
@@ -87,6 +92,7 @@ public class SplashActivity extends LocationBaseActivity implements GoogleApiCli
 
     long cacheExpiration = 43200;
     String BaseUrl = "";
+    boolean  ckeckVersion = false;
 
     @Override
     public LocationConfiguration getLocationConfiguration() {
@@ -124,12 +130,14 @@ public class SplashActivity extends LocationBaseActivity implements GoogleApiCli
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        checkUpdate();
         CalligraphyConfig.initDefault(new CalligraphyConfig.Builder()
                 .setDefaultFontPath("fonts/Al-Jazeera-Arabic-Regular.ttf")
                 .setFontAttrId(R.attr.fontPath)
                 .build()
         );
         setContentView(R.layout.activity_splash);
+
 
         mFirebaseRemoteConfig = FirebaseRemoteConfig.getInstance();
         configSettings = new FirebaseRemoteConfigSettings.Builder()
@@ -201,32 +209,7 @@ public class SplashActivity extends LocationBaseActivity implements GoogleApiCli
             createNetErrorDialog();
         }
 
-        firebaseDatabase = FirebaseDatabase.getInstance();
-        reference = firebaseDatabase.getReference("version_code");
-        /*reference.child("code").setValue("60").addOnCompleteListener(new OnCompleteListener<Void>() {
-            @Override
-            public void onComplete(@NonNull Task<Void> task) {
-                if(task.isSuccessful()){
-                    if(task.equals()){
 
-                    }
-                    else{
-                        AlertDialog.Builder builder = new AlertDialog.Builder(SplashActivity.this);
-                        builder.setMessage("Messsage Dialog");
-                        builder.setIcon(R.drawable.ic_launcher_background);
-                        builder.setTitle("Force Update");
-                        builder.setCancelable(false);
-                        builder.setPositiveButton("yes",new  DialogInterface.OnClickListener(){
-
-
-                            @Override
-                            public void onClick(DialogInterface dialogInterface, int i) {
-                            }
-                        });
-                    }
-                }
-            }
-        });*/
 
 
 
@@ -264,6 +247,7 @@ public class SplashActivity extends LocationBaseActivity implements GoogleApiCli
 
     @Override
     public void onRequestPermissionsResult(int requestCode, String permissions[], int[] grantResults) {
+        super.onRequestPermissionsResult(requestCode, permissions, grantResults);
         switch (requestCode) {
             case 200: {
                 // If request is cancelled, the result arrays are empty.
@@ -277,7 +261,7 @@ public class SplashActivity extends LocationBaseActivity implements GoogleApiCli
                             ActivityCompat.requestPermissions(SplashActivity.this,
                                     new String[]{Manifest.permission.RECORD_AUDIO},
                                     1);*/
-                            delay();
+                        delay();
 
                     } else {
                         mEnableGps();
@@ -381,9 +365,11 @@ public class SplashActivity extends LocationBaseActivity implements GoogleApiCli
                    user_info_splash res = gson.fromJson(response, user_info_splash.class);
                    if (res.getHandle().equals("02")) {  // account not found
                        Toast.makeText(SplashActivity.this, res.getMsg(), Toast.LENGTH_LONG).show();
+                       if(ckeckVersion == false){
                        Intent intent = new Intent(SplashActivity.this, LoginPhoneNumber.class);
                        startActivity(intent);
                        finish();
+                       }
                    } else if (res.getHandle().equals("10")) {
                        //Toast.makeText(SplashActivity.this, res.getMsg(), Toast.LENGTH_LONG).show();
 
@@ -416,23 +402,26 @@ public class SplashActivity extends LocationBaseActivity implements GoogleApiCli
                                new MySharedPreference(getApplicationContext()).setStringShared("order_id", String.valueOf(user_info1.getOrderId()));
                                new MySharedPreference(getApplicationContext()).setStringShared("from_w_status", "splash");
                                user_info_splash3 user_info2 = user_info1.getOrder();
-                               Intent i = new Intent(getApplicationContext(), MapActivity.class);
-                               i.setFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP);
-                               if (!user_info2.getToLocation().equals("") &&
-                                       user_info2.getToLocation() != null) {
-                                   i.putExtra("tolocation", user_info2.getToLocation());
-                                   i.putExtra("destination_exist", "yes");
+                               if (ckeckVersion == false) {
+                                   Intent i = new Intent(getApplicationContext(), MapActivity.class);
+                                   i.setFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP);
+
+                                   if (!user_info2.getToLocation().equals("") &&
+                                           user_info2.getToLocation() != null) {
+                                       i.putExtra("tolocation", user_info2.getToLocation());
+                                       i.putExtra("destination_exist", "yes");
+                                   }
+                                   if (user_info2.getToLocation().equals("") ||
+                                           user_info2.getToLocation() == null) {
+                                       i.putExtra("destination_exist", "no");
+                                   }
+                                   i.putExtra("location", user_info2.getLocation());
+                                   i.putExtra("subtype", user_info2.getSubtype());
+                                   i.putExtra("tmp_distance", user_info2.getDistance());
+                                   i.putExtra("tmp_time", user_info2.getTime());
+                                   startActivity(i);
+                                   finish();
                                }
-                               if (user_info2.getToLocation().equals("") ||
-                                       user_info2.getToLocation() == null) {
-                                   i.putExtra("destination_exist", "no");
-                               }
-                               i.putExtra("location", user_info2.getLocation());
-                               i.putExtra("subtype", user_info2.getSubtype());
-                               i.putExtra("tmp_distance", user_info2.getDistance());
-                               i.putExtra("tmp_time", user_info2.getTime());
-                               startActivity(i);
-                               finish();
                            }
 
 
@@ -440,18 +429,21 @@ public class SplashActivity extends LocationBaseActivity implements GoogleApiCli
                                new MySharedPreference(getApplicationContext()).setStringShared("from_D_A_S_status", "splash");
                                new MySharedPreference(getApplicationContext()).setStringShared("order_id", String.valueOf(user_info1.getOrderId()));
                                new MySharedPreference(getApplicationContext()).setStringShared("order_status_splash", String.valueOf(user_info1.getOrderStatus()));
-                               Intent intent = new Intent(SplashActivity.this, TripDetails.class);
-                               startActivity(intent);
-                               finish();
+                               if(ckeckVersion == false) {
+                                   Intent intent = new Intent(SplashActivity.this, TripDetails.class);
+                                   startActivity(intent);
+                                   finish();
+                               }
                            }
                            if (user_info1.getOrderStatus().equals("A")) {   // arrived
                                new MySharedPreference(getApplicationContext()).setStringShared("from_D_A_S_status", "splash");
                                new MySharedPreference(getApplicationContext()).setStringShared("order_id", String.valueOf(user_info1.getOrderId()));
                                new MySharedPreference(getApplicationContext()).setStringShared("order_status_splash", String.valueOf(user_info1.getOrderStatus()));
-
+                               if(ckeckVersion == false) {
                                Intent intent = new Intent(SplashActivity.this, TripDetails.class);
                                startActivity(intent);
                                finish();
+                           }
                            }
                            if (user_info1.getOrderStatus().equals("S")) {   // start
                                new MySharedPreference(getApplicationContext()).setStringShared("from_D_A_S_status", "splash");
@@ -469,25 +461,31 @@ public class SplashActivity extends LocationBaseActivity implements GoogleApiCli
                                if(userInfo3.getRated().equals("0")) {  // not rated
                                    new MySharedPreference(getApplicationContext()).setStringShared("order_id",
                                            String.valueOf(user_info1.getOrderId()));
+                                   if(ckeckVersion == false) {
                                    Intent intent = new Intent(SplashActivity.this, PaymentAndReview.class);
                                    startActivity(intent);
                                    finish();
                                }
+                               }
                                else if(userInfo3.getRated().equals("1")) {// rated
-                                   Intent intent = new Intent(SplashActivity.this, MapActivity.class);
-                                   intent.setFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP);
-                                   startActivity(intent);
-                                   finish();
+                                   if(ckeckVersion == false) {
+                                       Intent intent = new Intent(SplashActivity.this, MapActivity.class);
+                                       intent.setFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP);
+                                       startActivity(intent);
+                                       finish();
+                                   }
                                }
                            }
                        } else if (user_info1.getOrderStatus().equals("C") ||
                                user_info1.getOrderStatus().equals("N") ||
                                user_info1.getOrderStatus().equals("") ||
                                user_info1.getOrderStatus() == null) {
+                           if(ckeckVersion == false) {
                            Intent intent = new Intent(SplashActivity.this, MapActivity.class);
                            intent.setFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP);
                            startActivity(intent);
                            finish();
+                       }
                        }
                    }
                    updateVersion = Double.parseDouble(res.getUser().getAndroid_version());
@@ -670,9 +668,11 @@ public class SplashActivity extends LocationBaseActivity implements GoogleApiCli
                     Volley_go();
 
                 } else {
+                    if(ckeckVersion == false){
                     Intent intent = new Intent(SplashActivity.this, LoginPhoneNumber.class);
                     startActivity(intent);
                     finish();
+                }
                 }
 
             }
@@ -683,6 +683,48 @@ public class SplashActivity extends LocationBaseActivity implements GoogleApiCli
     @Override
     public void onLocationFailed(int type) {
 
+    }
+    private void checkUpdate() {
+        FirebaseDatabase.getInstance().getReference("version_code").addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
+                String code= dataSnapshot.child("user_code").getValue(String.class);
+                Log.d("user_code",code);
+                if (!code.equals(BuildConfig.VERSION_CODE)){
+                    ckeckVersion = true;
+                    showForceUpdateDialog();
+
+                }else{
+                    return;
+                }
+            }
+            @Override
+            public void onCancelled(@NonNull DatabaseError databaseError) {
+            }
+        });
+    }
+
+    private void showForceUpdateDialog() {
+        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        builder.setTitle(getResources().getString(R.string.alerte_force_update_title));
+        builder.setMessage(getResources().getString(R.string.alerte_force_update_message));
+        builder.setCancelable(false);
+        builder.setPositiveButton(getResources().getString(R.string.ok),new  DialogInterface.OnClickListener(){
+
+            @Override
+            public void onClick(DialogInterface dialogInterface, int i) {
+                final String appPackageName = getPackageName(); // getPackageName() from Context or Activity object
+                try {
+                    startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("market://details?id=" + appPackageName)));
+                } catch (android.content.ActivityNotFoundException anfe) {
+                    startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://play.google.com/store/apps/details?id=" + appPackageName)));
+                }
+
+
+            }
+        });
+
+        builder.show();
     }
 }
 

@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "E:\\Tekram_UserNew\\user\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-iw\\values-iw.xml",
+            "outputFile": "C:\\ticramAndroid\\Tekram_UserNew\\user\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-iw\\values-iw.xml",
             "map": [
                 {
                     "source": "C:\\Users\\admin\\.gradle\\caches\\transforms-2\\files-2.1\\e014b1634a3e6ef61d6ec75f83a31be0\\core-1.0.0\\res\\values-iw\\values-iw.xml",

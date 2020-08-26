@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "E:\\Tekram_UserNew\\user\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-km\\values-km.xml",
+            "outputFile": "C:\\ticramAndroid\\Tekram_UserNew\\user\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-km\\values-km.xml",
             "map": [
                 {
                     "source": "C:\\Users\\admin\\.gradle\\caches\\transforms-2\\files-2.1\\869a66051617b417aa7e6f9112d4bb51\\jetified-play-services-basement-17.0.0\\res\\values-km\\values.xml",

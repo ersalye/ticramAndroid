@@ -270,4 +270,7 @@
     <string name="delete_oreder">حذف الطلب</string>
     <string name="hour">ساعة</string>
     <string name="min">دقيقة</string>
+    <string name="ok">حسنا</string>
+    <string name="alerte_force_update_title">تحديث اجباري</string>
+    <string name="alerte_force_update_message">عليك تحديث التطبيق حتى تتمكن من استخدامه</string>
 </resources>

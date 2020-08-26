@@ -65,7 +65,7 @@ public class SplashActivity extends AppCompatActivity implements GoogleApiClient
     VolleyService voly_ser;
     public ProgressDialog loading;
 
-// ticram 
+
     public static final int REQUEST_LOCATION = 001;
     GoogleApiClient googleApiClient;
     LocationManager locationManager;
