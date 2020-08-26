@@ -491,19 +491,19 @@
 270            </intent-filter>
 271        </service>
 272        <service
-272-->[com.google.firebase:firebase-database-ktx:19.2.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\77df39f6c6d03058e34ef12ba7a79791\firebase-database-ktx-19.2.0\AndroidManifest.xml:12:9-18:19
+272-->[com.google.firebase:firebase-database-ktx:19.3.1] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\1e972d3bd075e43a1faea07d95763b24\firebase-database-ktx-19.3.1\AndroidManifest.xml:12:9-18:19
 273            android:name="com.google.firebase.components.ComponentDiscoveryService"
-273-->[com.google.firebase:firebase-database-ktx:19.2.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\77df39f6c6d03058e34ef12ba7a79791\firebase-database-ktx-19.2.0\AndroidManifest.xml:13:13-84
+273-->[com.google.firebase:firebase-database-ktx:19.3.1] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\1e972d3bd075e43a1faea07d95763b24\firebase-database-ktx-19.3.1\AndroidManifest.xml:13:13-84
 274            android:directBootAware="true"
-274-->[com.google.firebase:firebase-common:19.2.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\c977ce82ea816e69bf5897334f4f5aff\firebase-common-19.2.0\AndroidManifest.xml:15:13-43
+274-->[com.google.firebase:firebase-common:19.3.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\c03ef4dd46bf25f41a4b598c130f5442\jetified-firebase-common-19.3.0\AndroidManifest.xml:34:13-43
 275            android:exported="false" >
-275-->[com.google.firebase:firebase-database-ktx:19.2.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\77df39f6c6d03058e34ef12ba7a79791\firebase-database-ktx-19.2.0\AndroidManifest.xml:14:13-37
+275-->[com.google.firebase:firebase-database-ktx:19.3.1] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\1e972d3bd075e43a1faea07d95763b24\firebase-database-ktx-19.3.1\AndroidManifest.xml:14:13-37
 276            <meta-data
-276-->[com.google.firebase:firebase-database-ktx:19.2.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\77df39f6c6d03058e34ef12ba7a79791\firebase-database-ktx-19.2.0\AndroidManifest.xml:15:13-17:85
+276-->[com.google.firebase:firebase-database-ktx:19.3.1] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\1e972d3bd075e43a1faea07d95763b24\firebase-database-ktx-19.3.1\AndroidManifest.xml:15:13-17:85
 277                android:name="com.google.firebase.components:com.google.firebase.database.ktx.FirebaseDatabaseKtxRegistrar"
-277-->[com.google.firebase:firebase-database-ktx:19.2.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\77df39f6c6d03058e34ef12ba7a79791\firebase-database-ktx-19.2.0\AndroidManifest.xml:16:17-124
+277-->[com.google.firebase:firebase-database-ktx:19.3.1] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\1e972d3bd075e43a1faea07d95763b24\firebase-database-ktx-19.3.1\AndroidManifest.xml:16:17-124
 278                android:value="com.google.firebase.components.ComponentRegistrar" />
-278-->[com.google.firebase:firebase-database-ktx:19.2.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\77df39f6c6d03058e34ef12ba7a79791\firebase-database-ktx-19.2.0\AndroidManifest.xml:17:17-82
+278-->[com.google.firebase:firebase-database-ktx:19.3.1] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\1e972d3bd075e43a1faea07d95763b24\firebase-database-ktx-19.3.1\AndroidManifest.xml:17:17-82
 279            <meta-data
 279-->[com.google.firebase:firebase-config-ktx:19.0.3] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\8b6d68365b22bcd1221e0a1d664fa860\firebase-config-ktx-19.0.3\AndroidManifest.xml:15:13-17:85
 280                android:name="com.google.firebase.components:com.google.firebase.remoteconfig.ktx.FirebaseConfigKtxRegistrar"
@@ -529,17 +529,17 @@
 290                android:value="com.google.firebase.components.ComponentRegistrar" />
 290-->[com.google.firebase:firebase-iid:20.0.1] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\d0f5d1cc011ee64d1645289e7770d61d\firebase-iid-20.0.1\AndroidManifest.xml:34:17-82
 291            <meta-data
-291-->[com.google.firebase:firebase-common-ktx:19.2.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\3f6e13fc28d010f1c7ebdfee9d61ea2e\firebase-common-ktx-19.2.0\AndroidManifest.xml:15:13-17:85
+291-->[com.google.firebase:firebase-common-ktx:19.3.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\0a855f7b6e134fd27c9ac95bc20214a8\firebase-common-ktx-19.3.0\AndroidManifest.xml:15:13-17:85
 292                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar"
-292-->[com.google.firebase:firebase-common-ktx:19.2.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\3f6e13fc28d010f1c7ebdfee9d61ea2e\firebase-common-ktx-19.2.0\AndroidManifest.xml:16:17-113
+292-->[com.google.firebase:firebase-common-ktx:19.3.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\0a855f7b6e134fd27c9ac95bc20214a8\firebase-common-ktx-19.3.0\AndroidManifest.xml:16:17-113
 293                android:value="com.google.firebase.components.ComponentRegistrar" />
-293-->[com.google.firebase:firebase-common-ktx:19.2.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\3f6e13fc28d010f1c7ebdfee9d61ea2e\firebase-common-ktx-19.2.0\AndroidManifest.xml:17:17-82
+293-->[com.google.firebase:firebase-common-ktx:19.3.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\0a855f7b6e134fd27c9ac95bc20214a8\firebase-common-ktx-19.3.0\AndroidManifest.xml:17:17-82
 294            <meta-data
-294-->[com.google.firebase:firebase-database:19.2.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\bbd256c0dbffb4f92cd42e1413bfcf7f\firebase-database-19.2.0\AndroidManifest.xml:32:13-34:85
+294-->[com.google.firebase:firebase-database:19.3.1] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\ad9cad77a2645c6c1dde6fcf5b1f492b\firebase-database-19.3.1\AndroidManifest.xml:32:13-34:85
 295                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
-295-->[com.google.firebase:firebase-database:19.2.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\bbd256c0dbffb4f92cd42e1413bfcf7f\firebase-database-19.2.0\AndroidManifest.xml:33:17-109
+295-->[com.google.firebase:firebase-database:19.3.1] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\ad9cad77a2645c6c1dde6fcf5b1f492b\firebase-database-19.3.1\AndroidManifest.xml:33:17-109
 296                android:value="com.google.firebase.components.ComponentRegistrar" />
-296-->[com.google.firebase:firebase-database:19.2.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\bbd256c0dbffb4f92cd42e1413bfcf7f\firebase-database-19.2.0\AndroidManifest.xml:34:17-82
+296-->[com.google.firebase:firebase-database:19.3.1] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\ad9cad77a2645c6c1dde6fcf5b1f492b\firebase-database-19.3.1\AndroidManifest.xml:34:17-82
 297            <meta-data
 297-->[com.google.firebase:firebase-abt:19.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\2b8cfbb7cbbe70a95d52dd1f40c9fd4a\firebase-abt-19.0.0\AndroidManifest.xml:13:13-15:85
 298                android:name="com.google.firebase.components:com.google.firebase.abt.component.AbtRegistrar"
@@ -571,15 +571,15 @@
 312        </receiver>
 313
 314        <provider
-314-->[com.google.firebase:firebase-common:19.2.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\c977ce82ea816e69bf5897334f4f5aff\firebase-common-19.2.0\AndroidManifest.xml:19:9-23:39
+314-->[com.google.firebase:firebase-common:19.3.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\c03ef4dd46bf25f41a4b598c130f5442\jetified-firebase-common-19.3.0\AndroidManifest.xml:26:9-30:39
 315            android:name="com.google.firebase.provider.FirebaseInitProvider"
-315-->[com.google.firebase:firebase-common:19.2.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\c977ce82ea816e69bf5897334f4f5aff\firebase-common-19.2.0\AndroidManifest.xml:20:13-77
+315-->[com.google.firebase:firebase-common:19.3.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\c03ef4dd46bf25f41a4b598c130f5442\jetified-firebase-common-19.3.0\AndroidManifest.xml:27:13-77
 316            android:authorities="com.turnpoint.ticram.firebaseinitprovider"
-316-->[com.google.firebase:firebase-common:19.2.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\c977ce82ea816e69bf5897334f4f5aff\firebase-common-19.2.0\AndroidManifest.xml:21:13-72
+316-->[com.google.firebase:firebase-common:19.3.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\c03ef4dd46bf25f41a4b598c130f5442\jetified-firebase-common-19.3.0\AndroidManifest.xml:28:13-72
 317            android:exported="false"
-317-->[com.google.firebase:firebase-common:19.2.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\c977ce82ea816e69bf5897334f4f5aff\firebase-common-19.2.0\AndroidManifest.xml:22:13-37
+317-->[com.google.firebase:firebase-common:19.3.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\c03ef4dd46bf25f41a4b598c130f5442\jetified-firebase-common-19.3.0\AndroidManifest.xml:29:13-37
 318            android:initOrder="100" />
-318-->[com.google.firebase:firebase-common:19.2.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\c977ce82ea816e69bf5897334f4f5aff\firebase-common-19.2.0\AndroidManifest.xml:23:13-36
+318-->[com.google.firebase:firebase-common:19.3.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\c03ef4dd46bf25f41a4b598c130f5442\jetified-firebase-common-19.3.0\AndroidManifest.xml:30:13-36
 319
 320        <activity
 320-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\2f6b67f3a70350fae2128ebf0b664e29\play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75

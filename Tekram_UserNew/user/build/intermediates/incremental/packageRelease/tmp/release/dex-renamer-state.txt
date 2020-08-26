@@ -1,4 +1,4 @@
-#Wed Aug 26 13:49:32 EEST 2020
+#Wed Aug 26 15:06:32 EEST 2020
 base.0=C\:\\ticramAndroid\\Tekram_UserNew\\user\\build\\intermediates\\dex\\release\\mergeDexRelease\\out\\classes.dex
 path.1=classes2.dex
 renamed.1=classes2.dex
