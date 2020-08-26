@@ -15,6 +15,22 @@
       },
       "oauth_client": [
         {
+          "client_id": "126898036308-29irifbik3bdgj9f00ro7mmp6mp4fajq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.turnpoint.ticram",
+            "certificate_hash": "7b30228d8e49945b322aed2d5346106f3e343a21"
+          }
+        },
+        {
+          "client_id": "126898036308-s7ebe9jg2r080bb3c6f6jv9mv80mh2vc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.turnpoint.ticram",
+            "certificate_hash": "b9ae1b1255140cdf929471f2e3d6d48abb5a3e67"
+          }
+        },
+        {
           "client_id": "126898036308-8lcchamtkl0fe3np82k2svod9c1ukvmq.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
