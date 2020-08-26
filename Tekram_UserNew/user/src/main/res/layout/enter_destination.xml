@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layoutDirection="ltr"
+    android:layout_margin="20dp"
+    android:id="@+id/trip_details_ll"
+    android:orientation="vertical">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/shadow_bg"
+        android:padding="15dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:src="@drawable/menu" />
+            <TextView
+                android:id="@+id/tv_currentLoc_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="10"
+                android:gravity="right"
+                android:drawablePadding="20dp"
+                android:drawableRight="@drawable/blue_circle"
+                android:onClick="choose_current_loc"
+                android:text="------" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+                android:id="@+id/lay_select_des_sep"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/gray30"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginLeft="50dp"
+            android:orientation="horizontal"></LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lay_select_des"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_des_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableRight="@drawable/green_circle"
+                android:drawablePadding="20dp"
+                android:gravity="right"
+                android:text="@string/chose_place" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/tv_time_to_user"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="5dp"
+        android:textColor="#fff"
+        android:textAlignment="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="7dp"
+        android:paddingRight="20dp"
+        android:paddingLeft="20dp"
+        android:background="@drawable/drawable_label"
+        android:text="----------" />
+</LinearLayout>

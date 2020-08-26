@@ -1,0 +1,236 @@
+<resources>
+    <string name="app_name">ticram</string>
+    <string name="action_settings">Settings</string>
+    <string name="mobile_number">Mobile numer</string>
+    <string name="enter">Enter</string>
+    <string name="please_add_number">Please Add Mobile</string>
+    <string name="check_message_pin">Enter confirmation code sent to your mobile  to confirm your mobile number</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="title_activity_main2">MainMapActivity</string>
+    <string name="ed_user_name">Enter username</string>
+    <string name="btn_user_name_reg">Register</string>
+    <string name="resend_code">Resend Activation Code</string>
+
+    <string name="taxi_yellow">Yellow</string>
+    <string name="taxi_momyaz">Momayaz</string>
+    <string name="taxi_khas">Khas</string>
+    <string name="tawklna">Order Now</string>
+    <string name="cash">Cash</string>
+    <string name="dialoge_select_destination">Are You Sure You Want To Use This as Destination?</string>
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+    <string name="choose_reason">Why Do You Want To Cancel?</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="name">Name</string>
+    <string name="register">Register</string>
+    <string name="please_add_name">Please add name</string>
+    <string name="please_add_picture">Please Add Picture</string>
+
+    <string name="lim">ليموزين</string>
+
+    <string name="taxi">Taxi</string>
+    <string name="bus">Bus</string>
+    <string name="track">Truck</string>
+    <string name="gas">Gas</string>
+    <string name="water">Water</string>
+
+    <string name="please_add_location">الرجاء اختيار مكان</string>
+    <string name="chose_place">Final Destination ? </string>
+    <string name="please_chose_type_car">الرجاء اختيار نوع السيارة</string>
+    <string name="cancel_free">الغاء الطلب</string>
+    <string name="cancel_payment">مبلغ الالغاء 1.2 د.أ</string>
+    <string name="update">تعديل</string>
+    <string name="cancel_order">تم الغاؤ الطلب من</string>
+    <string name="driver">السائق</string>
+    <string name="admin">المسؤوول</string>
+    <string name="title_activity_chose_map">ChoseMapActivity</string>
+    <string name="done">تاكيد</string>
+    <string name="are_your_sure">هل انت متاكد؟</string>
+    <string name="cancel_question">الغاء الرحلة</string>
+    <string name="expected_fee">Expected Fee</string>
+    <string name="free_cancelation">Free Cancelation</string>
+
+    <string name="done_loc">Done</string>
+    <string name="waiting">Please Wait , Your order will be accepted soon.</string>
+    <string name="cancel_pay">Cancellation Costs : 1.2 jd</string>
+    <string name="ticket_sent_text">Ticket sent Successfully.</string>
+
+    <string name="are_you_sure">Are You Sure?</string>
+    <string name="captain_is_close">captain is close</string>
+    <string name="afew_min_left">Few Minutes Left</string>
+    <string name="trip_started">Trip has started</string>
+    <string name="captain_Arrived">Captain Arrived</string>
+    <string name="tech_support_not_available">Technical Support not available!</string>
+
+    <string name="please_wait">Please Wait ...</string>
+    <string name="balance"> : Balance</string>
+    <string name="service_not_available">Service Not Available!</string>
+    <string name="pick_up_first">Please Pick Up a car first!</string>
+    <string name="trip_canceled_dialoge">Sorry! Trip has Canceled.</string>
+    <string name="back_toMain">Back To Main Screen.</string>
+
+
+    <string name="credit_number">Credit Card Number</string>
+    <string name="credit_owner">Owner Name</string>
+    <string name="expire_date">Expire Date</string>
+
+
+    <!--finish trip activity-->
+    <string name="Trip_fee">Trip fare</string>
+    <string name="base_fee">Base fare</string>
+    <string name="Old_balance">Current Balance</string>
+    <string name="Discount">Discount</string>
+    <string name="thank_u">Thank You</string>
+    <string name="khaleha_alena">Total</string>
+    <string name="rate_driver">Rate the driver</string>
+
+
+    <!--my orders activity-->
+    <string name="my_orders_title">My Orders</string>
+
+
+    <!--order_details activity-->
+    <string name="order_details_title">Order Details</string>
+    <string name="reorder">Reorder</string>
+    <string name="report_problem">Report</string>
+    <string name="triptype">Trip Type</string>
+    <string name="cartype">Car</string>
+    <string name="captain">Captain</string>
+    <string name="pay_meth">Payment Method</string>
+    <string name="trip_duration">Duration</string>
+    <string name="order_num">Order Number</string>
+    <string name="pay_Amount">Payment Amount</string>
+    <string name="car_num">Car Number</string>
+
+
+    <!--Add name pic activity-->
+    <string name="user_name_confir">User name should have at least 3 letters!</string>
+    <string name="turnGps_confir">Please turn on Gps To Proceed!</string>
+
+
+    <!--EditProfile activity-->
+    <string name="enter_code_confir">Please enter the code that sent to you.</string>
+    <string name="save_changes">Save</string>
+    <string name="username">User Name</string>
+    <string name="phone">Phone Number</string>
+    <string name="email">Email</string>
+    <string name="pay_method">Payment Method</string>
+    <string name="credit_pay_method">Credit Card : 2564xxxxxxxxxx</string>
+
+
+    <!--support activity-->
+    <string name="title_support">Technical Support</string>
+    <string name="report">Report</string>
+    <string name="call_us">Call US</string>
+    <string name="help">Help</string>
+    <string name="conditions">Conditions</string>
+    <string name="questions">Frequently Asked Questions</string>
+    <string name="about_tecram">About Ticram</string>
+    <string name="suggest">Suggestions</string>
+    <string name="support_ticket">Suggestions and Support Tickets</string>
+    <string name="tickets_title">Tickets</string>
+    <string name="add_ticket_title">Add Ticket</string>
+
+
+    <!--complaint support activity-->
+    <string name="title_complaintt">Complaint</string>
+    <string name="send">Send</string>
+    <string name="Message">Message</string>
+    <string name="choose_type_complaint">-- Choose Type --</string>
+    <string name="enter_required_fields">Please Enter Required Fields!</string>
+
+
+    <!--Tarweej activity-->
+    <string name="title_tarwej">Coupons</string>
+
+
+    <!--drawer -->
+    <string name="myorders">My Orders</string>
+    <string name="invite">Invite</string>
+    <string name="codee">Coupons</string>
+    <string name="prices">Prices</string>
+    <string name="support">Support</string>
+    <string name="JoinToCaptain">Join To Captain</string>
+    <string name="Logout">Logout</string>
+    <string name="use_tarwej_code">Use Coupon</string>
+    <string name="use_code">Use Code</string>
+    <string name="timeanddistance">Expected time - dis</string>
+    <string name="check_internet">Please Check Internet Connection!</string>
+    <string name="settings">Settings</string>
+    <string name="cancel">Cancel</string>
+
+
+    <string name="title_activity_check_code">CheckCode</string>
+    <string name="title_activity_add_name_and_picture">AddNameAndPicture</string>
+    <string name="title_activity_map">Map</string>
+    <string name="title_activity_testt">testt</string>
+    <string name="title_activity_main_map">MainMap</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_navigation_drawer">navigationDrawerAct</string>
+    <string name="title_activity_auto_complete_place">AutoCompletePlace</string>
+    <string name="title_activity_trip_details">TripDetails</string>
+    <string name="title_activity_payment_and_review">PaymentAndReview</string>
+    <string name="title_activity_my_profile">MyProfile</string>
+    <string name="title_activity_support">Support</string>
+    <string name="title_activity_complaint_support">ComplaintSupport</string>
+    <string name="title_activity_tarweej_code">TarweejCode</string>
+    <string name="title_activity_my_orders">MyOrders</string>
+    <string name="title_activity_make_call_sinch">MakeCallSinch</string>
+    <string name="title_activity_incomming_call">IncommingCallActivity</string>
+    <string name="title_activity_my_orders2">MyOrders2</string>
+    <string name="title_activity_my_order_details">MyOrderDetails</string>
+    <string name="title_activity_auto_complete_place_current">AutoCompletePlaceCurrent</string>
+    <string name="title_activity_questions">QuestionsActivity</string>
+    <string name="title_activity_frequently_questions">FrequentlyQuestions</string>
+    <string name="title_activity_show_notification_content">ShowNotificationContent</string>
+
+    <string name="are_you_sure_loc">Please Confirm Your Current Location?</string>
+    <string name="confirm">Confirm</string>
+    <string name="not_confirm">UnConfirm</string>
+    <string name="call_captain_phone">Call Captain Phone</string>
+    <string name="call_captain_app">Call Captain anonymously</string>
+    <string name="tech_support">Technical Support</string>
+
+
+    <string name="enter_count">Please select Number of items :</string>
+
+    <string name="des_is_required">Destination is required!</string>
+    <string name="expected_fee_item">Fee</string>
+
+    <string name="no_orders">No orders yet</string>
+
+    <string name="verify">Verify</string>
+    <string name="fields_are_missing">Please fill the missing fields</string>
+    <string name="title_activity_department_list">DepartmentList</string>
+    <string name="title_activity_department2">Department2</string>
+    <string name="title_activity_department_list2">DepartmentList2</string>
+    <string name="title_activity_my_tickets">MyTickets</string>
+    <string name="add">Add</string>
+    <string name="title_activity_view_ticket">ViewTicket</string>
+
+    <string name="reply_ticket">Reply</string>
+
+
+    <string name="call_support">Call Support</string>
+    <string name="call_captain">Call Captain</string>
+    <string name="no_cars_found">No coordinates selected.Please restart the app.</string>
+
+    <string name="dialoge_select_start">Are You Sure You Want To Use This as Start Location?</string>
+    <string name="order_non_taxi">Order now</string>
+
+    <string name="order_non_taxi_are_you_sure">Confirmation of order details</string>
+    <string name="cost_price">With price:</string>
+    <string name="jod">JOD</string>
+    <string name="to">To</string>
+
+    <string name="no_driver">There is no responded  to your order,\n please try again</string>
+    <string name="delete_oreder">Delete order</string>
+    <string name="ok">OK</string>
+    <string name="hour">hour</string>
+    <string name="min">min</string>
+    <string name="alerte_force_update_title"></string>
+</resources>

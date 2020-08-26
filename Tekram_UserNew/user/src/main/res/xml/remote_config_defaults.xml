@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<defaultsMap>
+    <entry>
+        <key>base_url</key>
+        <value>https://new.faistec.com/</value>
+    </entry>
+    <entry>
+        <key>base_url_new</key>
+        <value>https://new.faistec.com/</value>
+    </entry>
+</defaultsMap>

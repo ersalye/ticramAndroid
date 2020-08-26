@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/login_layout"
+    android:layout_height="match_parent"
+  >
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:context="com.turnpoint.ticram.tekram_driver.Activites.LoginActivity"
+        android:layoutDirection="ltr"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="50dp"
+                app:srcCompat="@drawable/logo" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/ed_phone"
+                android:layout_alignEnd="@+id/button"
+                android:layout_alignRight="@+id/button"
+                android:text="Captain"
+                android:textColor="@color/blue"
+                android:textSize="12dp" />
+
+            <EditText
+                android:id="@+id/ed_phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageView3"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="50dp"
+                android:backgroundTint="@color/blue"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="@string/mobile_number"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/ed_password"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/ed_phone"
+                android:layout_alignStart="@+id/ed_phone"
+                android:layout_below="@+id/ed_phone"
+                android:layout_marginTop="22dp"
+                android:backgroundTint="@color/blue"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="@string/password"
+                android:inputType="textPassword" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ed_password"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="33dp"
+                android:text="@string/forget_password"
+                android:onClick="btn_reset_pass"
+                android:textColor="@color/green" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView3"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/rounded_corners_blue"
+                android:text="@string/enter"
+                android:textColor="@color/colorPrimary"
+                android:onClick="btn_login"
+                android:textSize="16dp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

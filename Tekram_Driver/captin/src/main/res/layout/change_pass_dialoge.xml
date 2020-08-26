@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:textSize="18dp"
+        android:gravity="center"
+        android:text="تعديل كلمة المرور" />
+
+    <EditText
+        android:id="@+id/ed_old_pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="كلمة المرور الحالية"
+        android:padding="5dp"
+        android:singleLine="true"
+        android:password="true"
+        android:gravity="right"
+        android:cursorVisible="false"
+        android:background="@android:color/transparent"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gray"
+        android:orientation="horizontal"></LinearLayout>
+
+    <EditText
+        android:id="@+id/ed_new_pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="كلمة المرور الجديدة"
+        android:padding="5dp"
+        android:singleLine="true"
+        android:password="true"
+        android:gravity="right"
+        android:cursorVisible="false"
+        android:background="@android:color/transparent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gray"
+        android:orientation="horizontal"></LinearLayout>
+
+    <EditText
+        android:id="@+id/ed_confirm_pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="تأكيد كلمة المرور الجديدة"
+        android:padding="5dp"
+        android:singleLine="true"
+        android:password="true"
+        android:gravity="right"
+        android:cursorVisible="false"
+        android:background="@android:color/transparent"
+        />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="حفظ"
+        android:textColor="@color/white"
+        android:layout_margin="5dp"
+        android:background="@color/green"/>
+</LinearLayout>

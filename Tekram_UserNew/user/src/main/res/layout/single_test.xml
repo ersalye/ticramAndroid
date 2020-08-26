@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/kolha_yellow"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:padding="5dp"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+                <TextView
+                    android:id="@+id/tv_yellow_taxi"
+                    style="@style/MainTheme.ButtonStyleLogin.mainText"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="15dp"
+                    android:text="---" />
+        <TextView
+            android:id="@+id/tv_count_yellow"
+            style="@style/MainTheme.ButtonStyleLogin.mainText"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:background="@drawable/green_circle"
+            android:gravity="center"
+            android:layout_marginLeft="7dp"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/colorPrimary"
+            android:text="10" />
+
+
+
+    <ImageView
+        android:id="@+id/icon_yellow_taxi"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/img_taxi" />
+</RelativeLayout>

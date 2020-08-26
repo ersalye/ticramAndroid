@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layoutDirection="ltr"
+    android:background="@android:color/transparent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="vertical"
+            android:layout_margin="20dp"
+            android:paddingTop="10dp"
+            android:background="@drawable/shadow_bg">
+
+            <TextView
+                android:id="@+id/textView_timer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/red"
+                android:textSize="20dp"
+                android:layout_marginLeft="30dp"
+                android:text="00" />
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:src="@drawable/logo" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="right"
+                        android:textSize="17dp"
+                        android:textColor="@color/black"
+                        android:layout_marginTop="5dp"
+                        android:layout_gravity="right"
+                        android:text="TextView" />
+
+                    <TextView
+                        android:id="@+id/textView_distance"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="right"
+                        android:textColor="@color/black"
+                        android:layout_marginTop="5dp"
+                        android:textSize="15dp"
+                        android:layout_gravity="right"
+                        android:text="TextView" />
+
+                    <TextView
+                        android:id="@+id/textView_time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="right"
+                        android:textSize="15dp"
+                        android:textColor="@color/black"
+                        android:layout_marginTop="5dp"
+                        android:layout_gravity="right"
+                        android:text="TextView" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="20dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="@color/white"
+                    android:layout_margin="10dp"
+                    android:textSize="20dp"
+                    android:background="@drawable/rounded_corners_blue"
+                    android:text="@string/btn_tawklna" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>

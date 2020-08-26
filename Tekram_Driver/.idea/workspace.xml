@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="AWSORDER" />
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="verbose" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8b5238d6-af6f-4a6b-b8e2-956a27184a14" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="Pixel_3a_API_24" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$/captin">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Tekram_Driver" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Tekram_Driver" type="f1a62948:ProjectNode" />
+                <item name="captin" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Tekram_Driver" type="f1a62948:ProjectNode" />
+                <item name="captin" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Tekram_Driver" type="f1a62948:ProjectNode" />
+                <item name="captin" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="install" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="layoutResourceFile_vertical" />
+      </list>
+    </option>
+  </component>
+  <component name="GenerateSignedApkSettings">
+    <option name="KEY_STORE_PATH" value="C:\Users\awsha\OneDrive\Desktop\driver_key.jks" />
+    <option name="KEY_ALIAS" value="driverkey" />
+    <option name="REMEMBER_PASSWORDS" value="true" />
+    <option name="BUILD_TARGET_KEY" value="apk" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="D:\Tekram_Driver" />
+        <option value="D:\Tekram_Driver\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1e65sERlgV1B19rRNu3B0TqP5C2" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ApkExportedModule" value="captin" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="Pixel_2_API_27" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2020-05-05T12:25:52.457Z" />
+    <property name="ExportApk.ApkPath" value="C:\Users\awsha\OneDrive\Desktop\driverr" />
+    <property name="ExportApk.BuildVariants" value="release" />
+    <property name="ExportApk.SignV1" value="true" />
+    <property name="ExportApk.SignV2" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="android.template.71685974">
+      <recent name="com.turnpoint.ticram.tekram_driver.Activites" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Tekram_Driver\captin" />
+      <recent name="E:\Tekram_Driver\captin\src\main\res\drawable" />
+      <recent name="D:\Tekram_Driver\captin" />
+      <recent name="D:\Tekram_Driver\captin\src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Android App.captin">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="captin" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="captin" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tekram_Driver:captin [signingReport]" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/captin" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="signingReport" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="Tekram_Driver:captin [uninstallAll]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/captin" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="uninstallAll" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.Tekram_Driver:captin [uninstallAll]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8b5238d6-af6f-4a6b-b8e2-956a27184a14" name="Default Changelist" comment="" />
+      <created>1579377188373</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1579377188373</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="275" y="22" key="#Plugins" timestamp="1597729921719">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="22" key="#Plugins/0.0.1366.728@0.0.1366.728" timestamp="1597729921719" />
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597129277594">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1597129277594" />
+    <state x="488" y="80" key="#com.intellij.ide.util.MemberChooser" timestamp="1598168903619">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="488" y="80" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1598168903619" />
+    <state x="263" y="119" key="AndroidCreateResourceFileDialog" timestamp="1597559962117">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="263" y="119" key="AndroidCreateResourceFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1597559962117" />
+    <state x="463" y="134" key="FileChooserDialogImpl" timestamp="1598253871300">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="134" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1598253871300" />
+    <state x="521" y="152" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1593856799313" />
+    <state x="505" y="263" key="Github.CreateGistDialog" timestamp="1598336431119">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="505" y="263" key="Github.CreateGistDialog/0.0.1366.728@0.0.1366.728" timestamp="1598336431119" />
+    <state x="583" y="253" key="Github.ShareDialog" timestamp="1598427878741">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="583" y="253" key="Github.ShareDialog/0.0.1366.728@0.0.1366.728" timestamp="1598427878741" />
+    <state x="656" y="286" key="Github.ShareDialog/0.0.1536.824@0.0.1536.824" timestamp="1593856664847" />
+    <state x="473" y="98" key="Github.UntrackedFilesDialog" timestamp="1593856680463">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="473" y="98" key="Github.UntrackedFilesDialog/0.0.1536.824@0.0.1536.824" timestamp="1593856680463" />
+    <state width="1323" height="182" key="GridCell.Tab.0.bottom" timestamp="1598339695237">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="182" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1598339695237" />
+    <state width="1340" height="240" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593928785300" />
+    <state width="1323" height="182" key="GridCell.Tab.0.center" timestamp="1598339695236">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="182" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1598339695236" />
+    <state width="1340" height="240" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1593928785300" />
+    <state width="1323" height="182" key="GridCell.Tab.0.left" timestamp="1598339695234">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="182" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1598339695234" />
+    <state width="1340" height="240" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1593928785300" />
+    <state width="1323" height="182" key="GridCell.Tab.0.right" timestamp="1598339695236">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="182" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1598339695236" />
+    <state width="1340" height="240" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1593928785300" />
+    <state width="1323" height="222" key="GridCell.Tab.1.bottom" timestamp="1597132555542">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="222" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1597132555542" />
+    <state width="1323" height="222" key="GridCell.Tab.1.center" timestamp="1597132555541">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="222" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1597132555541" />
+    <state width="1323" height="222" key="GridCell.Tab.1.left" timestamp="1597132555541">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="222" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1597132555541" />
+    <state width="1323" height="222" key="GridCell.Tab.1.right" timestamp="1597132555542">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="222" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1597132555542" />
+    <state x="184" y="6" key="SettingsEditor" timestamp="1598428754297">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="184" y="6" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1598428754297" />
+    <state x="92" y="92" width="1182" height="544" key="com.android.tools.idea.avdmanager.AvdListDialog" timestamp="1597078623747">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="92" y="92" width="1182" height="544" key="com.android.tools.idea.avdmanager.AvdListDialog/0.0.1366.728@0.0.1366.728" timestamp="1597078623747" />
+    <state x="389" y="194" key="com.intellij.ide.util.TipDialog" timestamp="1598427824225">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="389" y="194" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1598427824225" />
+    <state x="437" y="220" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1593780336769" />
+    <state x="401" y="128" width="672" height="600" key="search.everywhere.popup" timestamp="1598272781999">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="401" y="128" width="672" height="600" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1598272781999" />
+    <state x="451" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1593780491705" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/captin/src/main/java/com/turnpoint/ticram/tekram_driver/Activites/LoginActivity.java</url>
+          <line>215</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/captin/src/main/java/com/turnpoint/ticram/tekram_driver/Activites/LoginActivity.java</url>
+          <line>221</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/captin/src/main/java/com/turnpoint/ticram/tekram_driver/Services/LocationServiceBeforeTawaklna.java</url>
+          <line>64</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/captin/src/main/java/com/turnpoint/ticram/tekram_driver/Activites/MyOrderDetails.java</url>
+          <line>134</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/captin/src/main/java/com/turnpoint/ticram/tekram_driver/Activites/MyOrderDetails.java</url>
+          <line>135</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/captin/src/main/java/com/turnpoint/ticram/tekram_driver/Activites/MyOrderDetails.java</url>
+          <line>136</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/captin/src/main/java/com/turnpoint/ticram/tekram_driver/Activites/MyOrderDetails.java</url>
+          <line>173</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/captin/src/main/java/com/turnpoint/ticram/tekram_driver/Activites/MyOrderDetails.java</url>
+          <line>174</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/captin/src/main/java/com/turnpoint/ticram/tekram_driver/Activites/MyOrderDetails.java</url>
+          <line>177</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/captin/src/main/java/com/turnpoint/ticram/tekram_driver/Activites/MyOrderDetails.java</url>
+          <line>178</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/captin/src/main/java/com/turnpoint/ticram/tekram_driver/Activites/MyOrderDetails.java</url>
+          <line>179</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/captin/src/main/java/com/turnpoint/ticram/tekram_driver/Activites/MyOrderDetails.java</url>
+          <line>180</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/captin/src/main/java/com/turnpoint/ticram/tekram_driver/Activites/MyOrderDetails.java</url>
+          <line>182</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/captin/src/main/java/com/turnpoint/ticram/tekram_driver/Activites/MyOrderDetails.java</url>
+          <line>183</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/captin/src/main/java/com/turnpoint/ticram/tekram_driver/Activites/MyOrderDetails.java</url>
+          <line>184</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/captin/src/main/java/com/turnpoint/ticram/tekram_driver/Activites/MyOrderDetails.java</url>
+          <line>185</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/captin/src/main/java/com/turnpoint/ticram/tekram_driver/Activites/ViewDetailsOrder.java</url>
+          <line>610</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="captin">
+        <watch expression="task.isSuccessful();" />
+        <watch expression="new MySharedPreference(getApplicationContext()).&#10;                getStringShared(&quot;user_id&quot;)" />
+        <watch expression="mFirebaseRemoteConfig.getString(&quot;base_url&quot;);" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>

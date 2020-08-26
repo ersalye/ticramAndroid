@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/kolha_yellow"
+    android:layout_width="80dp"
+    android:layout_height="80dp"
+    android:gravity="center"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:gravity="center">
+
+        <LinearLayout
+            android:id="@+id/lay1"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/lin_tax_yellow"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="@drawable/circle_blankhdpi"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/icon_yellow_taxi"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/img_taxi" />
+
+                <TextView
+                    android:id="@+id/tv_yellow_taxi"
+                    style="@style/MainTheme.ButtonStyleLogin.mainText"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="15dp"
+                    android:text="---" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_count_yellow"
+            style="@style/MainTheme.ButtonStyleLogin.mainText"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignLeft="@+id/lay1"
+            android:background="@drawable/green_circle"
+            android:gravity="center"
+            android:layout_marginLeft="7dp"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/colorPrimary"
+            android:text="10" />
+    </RelativeLayout>
+
+</LinearLayout>

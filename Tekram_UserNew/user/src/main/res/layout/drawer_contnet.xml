@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layoutDirection="ltr"
+    android:layout_gravity="left"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:background="@color/blue"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/driver_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="----"
+                android:textSize="18dp"
+                android:layout_marginRight="20dp"
+                android:textColor="@android:color/white"
+                android:gravity="right"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:orientation="horizontal">
+
+                <RatingBar
+                    android:id="@+id/ratingBar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="?android:attr/ratingBarStyleSmall"
+                    android:numStars="5"
+                    android:layout_weight="1"
+                    android:layout_marginRight="10dp"
+                    android:theme="@style/RatingBar"
+                    />
+                <TextView
+                    android:id="@+id/driver_rate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="3.5"
+                    android:layout_marginRight="20dp"
+                    android:layout_weight="2"
+                    android:textColor="@android:color/white"
+                    android:gravity="right"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:orientation="horizontal"
+                >
+
+                <TextView
+                    android:id="@+id/driver_money"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="0.0"
+                    android:layout_weight="1"
+                    android:textColor="@android:color/white"
+                    android:gravity="right"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.5"
+                    android:gravity="right"
+                    android:textColor="@android:color/white"
+                    android:text="@string/balance" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/drawer_imgdriver"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/user_imagehdpi"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:id="@+id/linlay_profile_myorders"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:text="@string/myorders"
+                android:textColor="@android:color/black" />
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"/>
+
+
+        <LinearLayout
+            android:id="@+id/linlay_profile_invite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="right"
+                android:layout_marginRight="30dp"
+                android:textColor="@android:color/black"
+                android:text="@string/invite" />
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"/>
+
+        <LinearLayout
+            android:id="@+id/linlay_profile_code"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="right"
+                android:layout_marginRight="30dp"
+                android:layout_weight="1"
+                android:textColor="@android:color/black"
+                android:text="@string/codee" />
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"/>
+
+
+        <LinearLayout
+            android:id="@+id/linear_Support"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="right"
+                android:layout_marginRight="30dp"
+                android:textColor="@android:color/black"
+                android:text="@string/support" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"/>
+
+
+        <LinearLayout
+            android:id="@+id/linlay_JoinCaptain"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="right"
+                android:layout_marginRight="30dp"
+                android:textColor="@android:color/black"
+                android:text="@string/JoinToCaptain" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"/>
+
+        <LinearLayout
+            android:id="@+id/linlay_profile_logout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="right"
+                android:layout_marginRight="30dp"
+                android:textColor="@android:color/black"
+                android:text="@string/Logout" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"/>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_build_v_num"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="right"
+                android:layout_marginRight="30dp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:text="---" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

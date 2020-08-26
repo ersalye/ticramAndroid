@@ -1,0 +1,645 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.turnpoint.ticram"
+4    android:versionCode="60"
+5    android:versionName="6.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="17"
+8-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+11-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:6:5-81
+11-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:6:22-78
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:7:5-67
+12-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:7:22-64
+13    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+13-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:8:5-80
+13-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:8:22-77
+14    <uses-permission android:name="android.permission.VIBRATE" />
+14-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:9:5-66
+14-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:9:22-63
+15    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+15-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:10:5-81
+15-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:10:22-78
+16    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+16-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:11:5-79
+16-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:11:22-76
+17    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+17-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:12:5-78
+17-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:12:22-75
+18    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+18-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:13:5-98
+18-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:13:22-95
+19    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+19-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:14:5-76
+19-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:14:22-73
+20    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+20-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:15:5-79
+20-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:15:22-76
+21<!--     <uses-permission android:name="android.permission.RECEIVE_SMS" /> -->
+22    <uses-permission android:name="android.permission.CALL_PHONE" />
+22-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:19:5-69
+22-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:19:22-66
+23    <!-- for sinch -->
+24    <!--
+25    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+26    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+27    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+28    <uses-permission android:name="android.permission.ACCESS_NOTIFICATION_POLICY" />
+29    -->
+30
+31    <uses-feature
+31-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:26:5-28:35
+32        android:glEsVersion="0x00020000"
+32-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:27:9-41
+33        android:required="true" />
+33-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:28:9-32
+34
+35    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+35-->[com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\a7bd3dd6e8a243b349cfd271f42416eb\play-services-measurement-api-17.2.1\AndroidManifest.xml:24:5-68
+35-->[com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\a7bd3dd6e8a243b349cfd271f42416eb\play-services-measurement-api-17.2.1\AndroidManifest.xml:24:22-65
+36    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+36-->[com.google.firebase:firebase-iid:20.0.1] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\d0f5d1cc011ee64d1645289e7770d61d\firebase-iid-20.0.1\AndroidManifest.xml:26:5-82
+36-->[com.google.firebase:firebase-iid:20.0.1] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\d0f5d1cc011ee64d1645289e7770d61d\firebase-iid-20.0.1\AndroidManifest.xml:26:22-79
+37    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+37-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\19ed648474dbee544f187979ef7e319c\play-services-measurement-17.2.1\AndroidManifest.xml:26:5-110
+37-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\19ed648474dbee544f187979ef7e319c\play-services-measurement-17.2.1\AndroidManifest.xml:26:22-107
+38
+39    <application
+39-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:30:5-225:19
+40        android:name="androidx.multidex.MultiDexApplication"
+41        android:allowBackup="true"
+41-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:31:9-35
+42        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+42-->[androidx.core:core:1.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\e014b1634a3e6ef61d6ec75f83a31be0\core-1.0.0\AndroidManifest.xml:22:18-86
+43        android:icon="@drawable/icon"
+43-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:32:9-38
+44        android:label="@string/app_name"
+44-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:33:9-41
+45        android:roundIcon="@drawable/icon"
+45-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:34:9-43
+46        android:supportsRtl="true"
+46-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:35:9-35
+47        android:theme="@style/AppTheme"
+47-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:37:9-40
+48        android:usesCleartextTraffic="true" >
+48-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:36:9-44
+49        <activity
+49-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:38:9-46:20
+50            android:name="com.turnpoint.ticram.Activites.ViewTicket"
+50-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:39:13-49
+51            android:label="@string/title_activity_view_ticket"
+51-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:40:13-63
+52            android:theme="@style/AppTheme.NoActionBar" >
+52-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:41:13-56
+53            <intent-filter>
+53-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:42:13-45:29
+54                <action android:name=".Activites.ViewTicket" />
+54-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:43:17-64
+54-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:43:25-61
+55
+56                <category android:name="android.intent.category.DEFAULT" />
+56-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:44:17-76
+56-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:44:27-73
+57            </intent-filter>
+58        </activity>
+59        <activity
+59-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:47:9-50:59
+60            android:name="com.turnpoint.ticram.Activites.MyTickets"
+60-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:48:13-48
+61            android:label="@string/title_activity_my_tickets"
+61-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:49:13-62
+62            android:theme="@style/AppTheme.NoActionBar" />
+62-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:50:13-56
+63        <activity
+63-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:51:9-54:59
+64            android:name="com.turnpoint.ticram.Activites.DepartmentList2"
+64-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:52:13-54
+65            android:label="@string/title_activity_department_list2"
+65-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:53:13-68
+66            android:theme="@style/AppTheme.NoActionBar" />
+66-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:54:13-56
+67        <activity
+67-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:55:9-58:59
+68            android:name="com.turnpoint.ticram.Adapters.Department2"
+68-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:56:13-49
+69            android:label="@string/title_activity_department2"
+69-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:57:13-63
+70            android:theme="@style/AppTheme.NoActionBar" />
+70-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:58:13-56
+71        <activity
+71-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:59:9-62:59
+72            android:name="com.turnpoint.ticram.Activites.DepartmentList"
+72-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:60:13-53
+73            android:label="@string/title_activity_department_list"
+73-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:61:13-67
+74            android:theme="@style/AppTheme.NoActionBar" />
+74-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:62:13-56
+75        <activity
+75-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:63:9-73:20
+76            android:name="com.turnpoint.ticram.Activites.SplashActivity"
+76-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:64:13-53
+77            android:label="@string/app_name"
+77-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:65:13-45
+78            android:screenOrientation="portrait"
+78-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:66:13-49
+79            android:theme="@style/AppTheme.NoActionBar" >
+79-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:67:13-56
+80            <intent-filter>
+80-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:68:13-72:29
+81                <action android:name="android.intent.action.MAIN" />
+81-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:69:17-69
+81-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:69:25-66
+82
+83                <category android:name="android.intent.category.LAUNCHER" />
+83-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:71:17-77
+83-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:71:27-74
+84            </intent-filter>
+85        </activity>
+86        <activity
+86-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:74:9-78:59
+87            android:name="com.turnpoint.ticram.Activites.LoginPhoneNumber"
+87-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:75:13-55
+88            android:label="nothing"
+88-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:76:13-36
+89            android:screenOrientation="portrait"
+89-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:77:13-49
+90            android:theme="@style/AppTheme.NoActionBar" />
+90-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:78:13-56
+91        <activity
+91-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:79:9-83:59
+92            android:name="com.turnpoint.ticram.Activites.CheckCode"
+92-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:80:13-48
+93            android:label="@string/title_activity_check_code"
+93-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:81:13-62
+94            android:screenOrientation="portrait"
+94-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:82:13-49
+95            android:theme="@style/AppTheme.NoActionBar" />
+95-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:83:13-56
+96        <activity
+96-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:84:9-88:59
+97            android:name="com.turnpoint.ticram.Activites.AddNameAndPicture"
+97-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:85:13-56
+98            android:label="@string/title_activity_add_name_and_picture"
+98-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:86:13-72
+99            android:screenOrientation="portrait"
+99-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:87:13-49
+100            android:theme="@style/AppTheme.NoActionBar" />
+100-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:88:13-56
+101        <!--
+102             The API key for Google Maps-based APIs is defined as a string resource.
+103             (See the file "res/values/google_maps_api.xml").
+104             Note that the API key is linked to the encryption key used to sign the APK.
+105             You need a different API key for each encryption key, including the release key that is used to
+106             sign the APK for publishing.
+107             You can define the keys for the debug and release targets in src/debug/ and src/release/. 
+108        -->
+109        <meta-data
+109-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:97:9-99:71
+110            android:name="com.google.android.geo.API_KEY"
+110-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:98:13-58
+111            android:value="AIzaSyCFhwRtoMlXHmWGhJKetncTk9kXp4Nt0kc" />
+111-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:99:13-68
+112
+113        <activity
+113-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:101:9-105:59
+114            android:name="com.turnpoint.ticram.Activites.MapActivity"
+114-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:102:13-50
+115            android:label="@string/title_activity_map"
+115-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:103:13-55
+116            android:screenOrientation="portrait"
+116-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:104:13-49
+117            android:theme="@style/AppTheme.NoActionBar" />
+117-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:105:13-56
+118        <activity
+118-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:106:9-110:59
+119            android:name="com.turnpoint.ticram.Activites.AutoCompletePlace"
+119-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:107:13-56
+120            android:label="@string/title_activity_auto_complete_place"
+120-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:108:13-71
+121            android:screenOrientation="portrait"
+121-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:109:13-49
+122            android:theme="@style/AppTheme.NoActionBar" />
+122-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:110:13-56
+123
+124        <service android:name="com.turnpoint.ticram.FCM.MyFirebaseMessagingService" >
+124-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:112:9-116:19
+124-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:112:18-64
+125            <intent-filter>
+125-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:113:13-115:29
+126                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+126-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:114:17-78
+126-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:114:25-75
+127            </intent-filter>
+128        </service>
+129
+130        <activity
+130-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:118:9-122:59
+131            android:name="com.turnpoint.ticram.Activites.TripDetails"
+131-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:119:13-50
+132            android:label="@string/title_activity_trip_details"
+132-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:120:13-64
+133            android:screenOrientation="portrait"
+133-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:121:13-49
+134            android:theme="@style/AppTheme.NoActionBar" />
+134-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:122:13-56
+135        <activity
+135-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:123:9-127:59
+136            android:name="com.turnpoint.ticram.Activites.PaymentAndReview"
+136-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:124:13-55
+137            android:label="@string/title_activity_payment_and_review"
+137-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:125:13-70
+138            android:screenOrientation="portrait"
+138-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:126:13-49
+139            android:theme="@style/AppTheme.NoActionBar" />
+139-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:127:13-56
+140        <activity
+140-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:128:9-132:59
+141            android:name="com.turnpoint.ticram.Activites.MyProfile"
+141-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:129:13-48
+142            android:label="@string/title_activity_my_profile"
+142-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:130:13-62
+143            android:screenOrientation="portrait"
+143-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:131:13-49
+144            android:theme="@style/AppTheme.NoActionBar" />
+144-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:132:13-56
+145        <activity
+145-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:133:9-137:59
+146            android:name="com.turnpoint.ticram.Activites.Support"
+146-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:134:13-46
+147            android:label="@string/title_activity_support"
+147-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:135:13-59
+148            android:screenOrientation="portrait"
+148-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:136:13-49
+149            android:theme="@style/AppTheme.NoActionBar" />
+149-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:137:13-56
+150        <activity
+150-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:138:9-141:59
+151            android:name="com.turnpoint.ticram.Activites.TermsActivity"
+151-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:139:13-52
+152            android:screenOrientation="portrait"
+152-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:140:13-49
+153            android:theme="@style/AppTheme.NoActionBar" />
+153-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:141:13-56
+154        <activity
+154-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:142:9-145:59
+155            android:name="com.turnpoint.ticram.Activites.HelpActivity"
+155-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:143:13-51
+156            android:screenOrientation="portrait"
+156-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:144:13-49
+157            android:theme="@style/AppTheme.NoActionBar" />
+157-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:145:13-56
+158        <activity
+158-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:146:9-150:59
+159            android:name="com.turnpoint.ticram.Activites.ComplaintSupport"
+159-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:147:13-55
+160            android:label="@string/title_activity_complaint_support"
+160-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:148:13-69
+161            android:screenOrientation="portrait"
+161-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:149:13-49
+162            android:theme="@style/AppTheme.NoActionBar" />
+162-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:150:13-56
+163        <activity
+163-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:151:9-155:59
+164            android:name="com.turnpoint.ticram.Activites.TarweejCode"
+164-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:152:13-50
+165            android:label="@string/title_activity_tarweej_code"
+165-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:153:13-64
+166            android:screenOrientation="portrait"
+166-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:154:13-49
+167            android:theme="@style/AppTheme.NoActionBar" />
+167-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:155:13-56
+168        <activity
+168-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:156:9-160:59
+169            android:name="com.turnpoint.ticram.Activites.MyOrders"
+169-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:157:13-47
+170            android:label=""
+170-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:158:13-29
+171            android:screenOrientation="portrait"
+171-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:159:13-49
+172            android:theme="@style/AppTheme.NoActionBar" />
+172-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:160:13-56
+173        <activity
+173-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:161:9-165:59
+174            android:name="com.turnpoint.ticram.Activites.MakeCallSinch"
+174-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:162:13-52
+175            android:label="@string/title_activity_make_call_sinch"
+175-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:163:13-67
+176            android:screenOrientation="portrait"
+176-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:164:13-49
+177            android:theme="@style/AppTheme.NoActionBar" />
+177-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:165:13-56
+178        <activity
+178-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:166:9-170:59
+179            android:name="com.turnpoint.ticram.Activites.IncommingCallActivity"
+179-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:167:13-60
+180            android:label="@string/title_activity_incomming_call"
+180-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:168:13-66
+181            android:screenOrientation="portrait"
+181-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:169:13-49
+182            android:theme="@style/AppTheme.NoActionBar" />
+182-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:170:13-56
+183        <activity
+183-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:171:9-175:59
+184            android:name="com.turnpoint.ticram.Activites.MyOrders2"
+184-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:172:13-48
+185            android:label="@string/title_activity_my_orders2"
+185-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:173:13-62
+186            android:screenOrientation="portrait"
+186-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:174:13-49
+187            android:theme="@style/AppTheme.NoActionBar" />
+187-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:175:13-56
+188        <activity
+188-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:176:9-180:59
+189            android:name="com.turnpoint.ticram.Activites.MyOrderDetails"
+189-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:177:13-53
+190            android:label="@string/title_activity_my_order_details"
+190-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:178:13-68
+191            android:screenOrientation="portrait"
+191-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:179:13-49
+192            android:theme="@style/AppTheme.NoActionBar" />
+192-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:180:13-56
+193        <activity
+193-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:181:9-185:59
+194            android:name="com.turnpoint.ticram.Activites.AutoCompletePlaceCurrent"
+194-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:182:13-63
+195            android:label="@string/title_activity_auto_complete_place_current"
+195-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:183:13-79
+196            android:screenOrientation="portrait"
+196-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:184:13-49
+197            android:theme="@style/AppTheme.NoActionBar" />
+197-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:185:13-56
+198
+199        <service
+199-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:187:9-190:40
+200            android:name="com.turnpoint.ticram.Activites.TripDetails$Service_getDriverLoc"
+200-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:188:13-71
+201            android:enabled="true"
+201-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:189:13-35
+202            android:exported="false" />
+202-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:190:13-37
+203        <!--
+204            <service
+205            android:name=".Services.StartSinch"
+206            android:enabled="true"
+207            android:exported="false" />
+208        -->
+209
+210        <receiver
+210-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:196:9-198:38
+211            android:name="com.turnpoint.ticram.Services.BroadcastReceiver_LocUpdate"
+211-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:197:13-65
+212            android:enabled="true" />
+212-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:198:13-35
+213        <!--
+214        <receiver
+215            android:name=".Services.BroadcastRestartSinch"
+216            android:enabled="true"
+217            android:exported="true"
+218            android:label="RestartServiceWhenStopped">
+219            <intent-filter>
+220                <action android:name="uk.ac.shef.oak.ActivityRecognition.RestartSensor"/>
+221            </intent-filter>
+222        </receiver>
+223        -->
+224        <activity
+224-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:210:9-213:59
+225            android:name="com.turnpoint.ticram.Activites.FrequentlyQuestions"
+225-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:211:13-58
+226            android:label="@string/title_activity_frequently_questions"
+226-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:212:13-72
+227            android:theme="@style/AppTheme.NoActionBar" />
+227-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:213:13-56
+228
+229        <receiver android:name="com.turnpoint.ticram.Services.SMSListner" >
+229-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:215:9-219:20
+229-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:215:19-54
+230            <intent-filter>
+230-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:216:13-218:29
+231                <action android:name="android.provider.Telephony.SMS_RECEIVED" />
+231-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:217:17-82
+231-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:217:25-79
+232            </intent-filter>
+233        </receiver>
+234
+235        <activity
+235-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:221:9-224:59
+236            android:name="com.turnpoint.ticram.Activites.ShowNotificationContent"
+236-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:222:13-62
+237            android:label=""
+237-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:223:13-29
+238            android:theme="@style/AppTheme.NoActionBar" />
+238-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:224:13-56
+239
+240        <provider
+240-->[com.crashlytics.sdk.android:crashlytics:2.8.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\8587a50b3bc9abaa88044eac18129f5e\crashlytics-2.8.0\AndroidManifest.xml:12:9-16:39
+241            android:name="com.crashlytics.android.CrashlyticsInitProvider"
+241-->[com.crashlytics.sdk.android:crashlytics:2.8.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\8587a50b3bc9abaa88044eac18129f5e\crashlytics-2.8.0\AndroidManifest.xml:13:13-75
+242            android:authorities="com.turnpoint.ticram.crashlyticsinitprovider"
+242-->[com.crashlytics.sdk.android:crashlytics:2.8.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\8587a50b3bc9abaa88044eac18129f5e\crashlytics-2.8.0\AndroidManifest.xml:14:13-75
+243            android:exported="false"
+243-->[com.crashlytics.sdk.android:crashlytics:2.8.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\8587a50b3bc9abaa88044eac18129f5e\crashlytics-2.8.0\AndroidManifest.xml:15:13-37
+244            android:initOrder="100" />
+244-->[com.crashlytics.sdk.android:crashlytics:2.8.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\8587a50b3bc9abaa88044eac18129f5e\crashlytics-2.8.0\AndroidManifest.xml:16:13-36
+245
+246        <service android:name="com.sinch.android.rtc.internal.client.fcm.InstanceIDTokenService" >
+246-->[:sinch-android-rtc:3.12.4] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\34f18890dc4cb4a765d95e2677915390\sinch-android-rtc-3.12.4\AndroidManifest.xml:12:9-16:19
+246-->[:sinch-android-rtc:3.12.4] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\34f18890dc4cb4a765d95e2677915390\sinch-android-rtc-3.12.4\AndroidManifest.xml:12:18-97
+247            <intent-filter>
+247-->[:sinch-android-rtc:3.12.4] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\34f18890dc4cb4a765d95e2677915390\sinch-android-rtc-3.12.4\AndroidManifest.xml:13:13-15:29
+248                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+248-->[:sinch-android-rtc:3.12.4] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\34f18890dc4cb4a765d95e2677915390\sinch-android-rtc-3.12.4\AndroidManifest.xml:14:17-80
+248-->[:sinch-android-rtc:3.12.4] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\34f18890dc4cb4a765d95e2677915390\sinch-android-rtc-3.12.4\AndroidManifest.xml:14:25-77
+249            </intent-filter>
+250        </service> <!-- Autocomplete -->
+251        <activity
+251-->[com.google.android.libraries.places:places:2.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\74bee7d80dc7a7e608e0927262e64d21\places-2.0.0\AndroidManifest.xml:16:9-23:20
+252            android:name="com.google.android.libraries.places.widget.AutocompleteActivity"
+252-->[com.google.android.libraries.places:places:2.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\74bee7d80dc7a7e608e0927262e64d21\places-2.0.0\AndroidManifest.xml:17:13-91
+253            android:exported="false"
+253-->[com.google.android.libraries.places:places:2.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\74bee7d80dc7a7e608e0927262e64d21\places-2.0.0\AndroidManifest.xml:18:13-37
+254            android:hardwareAccelerated="true"
+254-->[com.google.android.libraries.places:places:2.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\74bee7d80dc7a7e608e0927262e64d21\places-2.0.0\AndroidManifest.xml:19:13-47
+255            android:label="@string/places_autocomplete_label"
+255-->[com.google.android.libraries.places:places:2.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\74bee7d80dc7a7e608e0927262e64d21\places-2.0.0\AndroidManifest.xml:20:13-62
+256            android:theme="@style/PlacesAutocompleteThemeOverlay"
+256-->[com.google.android.libraries.places:places:2.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\74bee7d80dc7a7e608e0927262e64d21\places-2.0.0\AndroidManifest.xml:21:13-66
+257            android:windowSoftInputMode="stateAlwaysVisible|adjustPan" >
+257-->[com.google.android.libraries.places:places:2.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\74bee7d80dc7a7e608e0927262e64d21\places-2.0.0\AndroidManifest.xml:22:13-71
+258        </activity>
+259        <!--
+260             FirebaseMessagingService performs security checks at runtime,
+261             but set to not exported to explicitly avoid allowing another app to call it.
+262        -->
+263        <service
+263-->[com.google.firebase:firebase-messaging:20.0.1] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\0846d45251c39513590c4c8457bd9677\jetified-firebase-messaging-20.0.1\AndroidManifest.xml:28:9-34:19
+264            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+264-->[com.google.firebase:firebase-messaging:20.0.1] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\0846d45251c39513590c4c8457bd9677\jetified-firebase-messaging-20.0.1\AndroidManifest.xml:29:13-82
+265            android:exported="false" >
+265-->[com.google.firebase:firebase-messaging:20.0.1] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\0846d45251c39513590c4c8457bd9677\jetified-firebase-messaging-20.0.1\AndroidManifest.xml:30:13-37
+266            <intent-filter android:priority="-500" >
+266-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:113:13-115:29
+267                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+267-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:114:17-78
+267-->E:\Tekram_UserNew\user\src\main\AndroidManifest.xml:114:25-75
+268            </intent-filter>
+269        </service>
+270        <service
+270-->[com.google.firebase:firebase-database-ktx:19.2.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\77df39f6c6d03058e34ef12ba7a79791\firebase-database-ktx-19.2.0\AndroidManifest.xml:12:9-18:19
+271            android:name="com.google.firebase.components.ComponentDiscoveryService"
+271-->[com.google.firebase:firebase-database-ktx:19.2.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\77df39f6c6d03058e34ef12ba7a79791\firebase-database-ktx-19.2.0\AndroidManifest.xml:13:13-84
+272            android:directBootAware="true"
+272-->[com.google.firebase:firebase-common:19.2.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\c977ce82ea816e69bf5897334f4f5aff\firebase-common-19.2.0\AndroidManifest.xml:15:13-43
+273            android:exported="false" >
+273-->[com.google.firebase:firebase-database-ktx:19.2.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\77df39f6c6d03058e34ef12ba7a79791\firebase-database-ktx-19.2.0\AndroidManifest.xml:14:13-37
+274            <meta-data
+274-->[com.google.firebase:firebase-database-ktx:19.2.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\77df39f6c6d03058e34ef12ba7a79791\firebase-database-ktx-19.2.0\AndroidManifest.xml:15:13-17:85
+275                android:name="com.google.firebase.components:com.google.firebase.database.ktx.FirebaseDatabaseKtxRegistrar"
+275-->[com.google.firebase:firebase-database-ktx:19.2.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\77df39f6c6d03058e34ef12ba7a79791\firebase-database-ktx-19.2.0\AndroidManifest.xml:16:17-124
+276                android:value="com.google.firebase.components.ComponentRegistrar" />
+276-->[com.google.firebase:firebase-database-ktx:19.2.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\77df39f6c6d03058e34ef12ba7a79791\firebase-database-ktx-19.2.0\AndroidManifest.xml:17:17-82
+277            <meta-data
+277-->[com.google.firebase:firebase-config-ktx:19.0.3] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\8b6d68365b22bcd1221e0a1d664fa860\firebase-config-ktx-19.0.3\AndroidManifest.xml:15:13-17:85
+278                android:name="com.google.firebase.components:com.google.firebase.remoteconfig.ktx.FirebaseConfigKtxRegistrar"
+278-->[com.google.firebase:firebase-config-ktx:19.0.3] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\8b6d68365b22bcd1221e0a1d664fa860\firebase-config-ktx-19.0.3\AndroidManifest.xml:16:17-126
+279                android:value="com.google.firebase.components.ComponentRegistrar" />
+279-->[com.google.firebase:firebase-config-ktx:19.0.3] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\8b6d68365b22bcd1221e0a1d664fa860\firebase-config-ktx-19.0.3\AndroidManifest.xml:17:17-82
+280            <meta-data
+280-->[com.google.firebase:firebase-config:19.0.3] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\ec8e8beaaf2e6cbdf25f5570644171b9\firebase-config-19.0.3\AndroidManifest.xml:32:13-34:85
+281                android:name="com.google.firebase.components:com.google.firebase.remoteconfig.RemoteConfigRegistrar"
+281-->[com.google.firebase:firebase-config:19.0.3] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\ec8e8beaaf2e6cbdf25f5570644171b9\firebase-config-19.0.3\AndroidManifest.xml:33:17-117
+282                android:value="com.google.firebase.components.ComponentRegistrar" />
+282-->[com.google.firebase:firebase-config:19.0.3] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\ec8e8beaaf2e6cbdf25f5570644171b9\firebase-config-19.0.3\AndroidManifest.xml:34:17-82
+283            <meta-data
+283-->[com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\a7bd3dd6e8a243b349cfd271f42416eb\play-services-measurement-api-17.2.1\AndroidManifest.xml:30:13-32:85
+284                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+284-->[com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\a7bd3dd6e8a243b349cfd271f42416eb\play-services-measurement-api-17.2.1\AndroidManifest.xml:31:17-139
+285                android:value="com.google.firebase.components.ComponentRegistrar" />
+285-->[com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\a7bd3dd6e8a243b349cfd271f42416eb\play-services-measurement-api-17.2.1\AndroidManifest.xml:32:17-82
+286            <meta-data
+286-->[com.google.firebase:firebase-iid:20.0.1] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\d0f5d1cc011ee64d1645289e7770d61d\firebase-iid-20.0.1\AndroidManifest.xml:32:13-34:85
+287                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+287-->[com.google.firebase:firebase-iid:20.0.1] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\d0f5d1cc011ee64d1645289e7770d61d\firebase-iid-20.0.1\AndroidManifest.xml:33:17-96
+288                android:value="com.google.firebase.components.ComponentRegistrar" />
+288-->[com.google.firebase:firebase-iid:20.0.1] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\d0f5d1cc011ee64d1645289e7770d61d\firebase-iid-20.0.1\AndroidManifest.xml:34:17-82
+289            <meta-data
+289-->[com.google.firebase:firebase-common-ktx:19.2.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\3f6e13fc28d010f1c7ebdfee9d61ea2e\firebase-common-ktx-19.2.0\AndroidManifest.xml:15:13-17:85
+290                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar"
+290-->[com.google.firebase:firebase-common-ktx:19.2.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\3f6e13fc28d010f1c7ebdfee9d61ea2e\firebase-common-ktx-19.2.0\AndroidManifest.xml:16:17-113
+291                android:value="com.google.firebase.components.ComponentRegistrar" />
+291-->[com.google.firebase:firebase-common-ktx:19.2.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\3f6e13fc28d010f1c7ebdfee9d61ea2e\firebase-common-ktx-19.2.0\AndroidManifest.xml:17:17-82
+292            <meta-data
+292-->[com.google.firebase:firebase-database:19.2.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\bbd256c0dbffb4f92cd42e1413bfcf7f\firebase-database-19.2.0\AndroidManifest.xml:32:13-34:85
+293                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+293-->[com.google.firebase:firebase-database:19.2.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\bbd256c0dbffb4f92cd42e1413bfcf7f\firebase-database-19.2.0\AndroidManifest.xml:33:17-109
+294                android:value="com.google.firebase.components.ComponentRegistrar" />
+294-->[com.google.firebase:firebase-database:19.2.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\bbd256c0dbffb4f92cd42e1413bfcf7f\firebase-database-19.2.0\AndroidManifest.xml:34:17-82
+295            <meta-data
+295-->[com.google.firebase:firebase-abt:19.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\2b8cfbb7cbbe70a95d52dd1f40c9fd4a\firebase-abt-19.0.0\AndroidManifest.xml:13:13-15:85
+296                android:name="com.google.firebase.components:com.google.firebase.abt.component.AbtRegistrar"
+296-->[com.google.firebase:firebase-abt:19.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\2b8cfbb7cbbe70a95d52dd1f40c9fd4a\firebase-abt-19.0.0\AndroidManifest.xml:14:17-109
+297                android:value="com.google.firebase.components.ComponentRegistrar" />
+297-->[com.google.firebase:firebase-abt:19.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\2b8cfbb7cbbe70a95d52dd1f40c9fd4a\firebase-abt-19.0.0\AndroidManifest.xml:15:17-82
+298        </service> <!-- Needs to be explicitly declared on P+ -->
+299        <uses-library
+299-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\35acb48e5aaeba91fc95faf1080a31ce\play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
+300            android:name="org.apache.http.legacy"
+300-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\35acb48e5aaeba91fc95faf1080a31ce\play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
+301            android:required="false" />
+301-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\35acb48e5aaeba91fc95faf1080a31ce\play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
+302
+303        <receiver
+303-->[com.google.firebase:firebase-iid:20.0.1] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\d0f5d1cc011ee64d1645289e7770d61d\firebase-iid-20.0.1\AndroidManifest.xml:37:9-44:20
+304            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+304-->[com.google.firebase:firebase-iid:20.0.1] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\d0f5d1cc011ee64d1645289e7770d61d\firebase-iid-20.0.1\AndroidManifest.xml:38:13-78
+305            android:exported="true"
+305-->[com.google.firebase:firebase-iid:20.0.1] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\d0f5d1cc011ee64d1645289e7770d61d\firebase-iid-20.0.1\AndroidManifest.xml:39:13-36
+306            android:permission="com.google.android.c2dm.permission.SEND" >
+306-->[com.google.firebase:firebase-iid:20.0.1] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\d0f5d1cc011ee64d1645289e7770d61d\firebase-iid-20.0.1\AndroidManifest.xml:40:13-73
+307            <intent-filter>
+307-->[com.google.firebase:firebase-iid:20.0.1] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\d0f5d1cc011ee64d1645289e7770d61d\firebase-iid-20.0.1\AndroidManifest.xml:41:13-43:29
+308                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+308-->[com.google.firebase:firebase-iid:20.0.1] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\d0f5d1cc011ee64d1645289e7770d61d\firebase-iid-20.0.1\AndroidManifest.xml:42:17-81
+308-->[com.google.firebase:firebase-iid:20.0.1] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\d0f5d1cc011ee64d1645289e7770d61d\firebase-iid-20.0.1\AndroidManifest.xml:42:25-78
+309            </intent-filter>
+310        </receiver>
+311
+312        <provider
+312-->[com.google.firebase:firebase-common:19.2.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\c977ce82ea816e69bf5897334f4f5aff\firebase-common-19.2.0\AndroidManifest.xml:19:9-23:39
+313            android:name="com.google.firebase.provider.FirebaseInitProvider"
+313-->[com.google.firebase:firebase-common:19.2.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\c977ce82ea816e69bf5897334f4f5aff\firebase-common-19.2.0\AndroidManifest.xml:20:13-77
+314            android:authorities="com.turnpoint.ticram.firebaseinitprovider"
+314-->[com.google.firebase:firebase-common:19.2.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\c977ce82ea816e69bf5897334f4f5aff\firebase-common-19.2.0\AndroidManifest.xml:21:13-72
+315            android:exported="false"
+315-->[com.google.firebase:firebase-common:19.2.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\c977ce82ea816e69bf5897334f4f5aff\firebase-common-19.2.0\AndroidManifest.xml:22:13-37
+316            android:initOrder="100" />
+316-->[com.google.firebase:firebase-common:19.2.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\c977ce82ea816e69bf5897334f4f5aff\firebase-common-19.2.0\AndroidManifest.xml:23:13-36
+317
+318        <activity
+318-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\2f6b67f3a70350fae2128ebf0b664e29\play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+319            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+319-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\2f6b67f3a70350fae2128ebf0b664e29\play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+320            android:exported="false"
+320-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\2f6b67f3a70350fae2128ebf0b664e29\play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+321            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+321-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\2f6b67f3a70350fae2128ebf0b664e29\play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+322
+323        <receiver
+323-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\19ed648474dbee544f187979ef7e319c\play-services-measurement-17.2.1\AndroidManifest.xml:29:9-33:20
+324            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+324-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\19ed648474dbee544f187979ef7e319c\play-services-measurement-17.2.1\AndroidManifest.xml:30:13-85
+325            android:enabled="true"
+325-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\19ed648474dbee544f187979ef7e319c\play-services-measurement-17.2.1\AndroidManifest.xml:31:13-35
+326            android:exported="false" >
+326-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\19ed648474dbee544f187979ef7e319c\play-services-measurement-17.2.1\AndroidManifest.xml:32:13-37
+327        </receiver>
+328        <receiver
+328-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\19ed648474dbee544f187979ef7e319c\play-services-measurement-17.2.1\AndroidManifest.xml:34:9-42:20
+329            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+329-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\19ed648474dbee544f187979ef7e319c\play-services-measurement-17.2.1\AndroidManifest.xml:35:13-100
+330            android:enabled="true"
+330-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\19ed648474dbee544f187979ef7e319c\play-services-measurement-17.2.1\AndroidManifest.xml:36:13-35
+331            android:exported="true"
+331-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\19ed648474dbee544f187979ef7e319c\play-services-measurement-17.2.1\AndroidManifest.xml:37:13-36
+332            android:permission="android.permission.INSTALL_PACKAGES" >
+332-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\19ed648474dbee544f187979ef7e319c\play-services-measurement-17.2.1\AndroidManifest.xml:38:13-69
+333            <intent-filter>
+333-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\19ed648474dbee544f187979ef7e319c\play-services-measurement-17.2.1\AndroidManifest.xml:39:13-41:29
+334                <action android:name="com.android.vending.INSTALL_REFERRER" />
+334-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\19ed648474dbee544f187979ef7e319c\play-services-measurement-17.2.1\AndroidManifest.xml:40:17-79
+334-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\19ed648474dbee544f187979ef7e319c\play-services-measurement-17.2.1\AndroidManifest.xml:40:25-76
+335            </intent-filter>
+336        </receiver>
+337
+338        <service
+338-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\19ed648474dbee544f187979ef7e319c\play-services-measurement-17.2.1\AndroidManifest.xml:44:9-47:40
+339            android:name="com.google.android.gms.measurement.AppMeasurementService"
+339-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\19ed648474dbee544f187979ef7e319c\play-services-measurement-17.2.1\AndroidManifest.xml:45:13-84
+340            android:enabled="true"
+340-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\19ed648474dbee544f187979ef7e319c\play-services-measurement-17.2.1\AndroidManifest.xml:46:13-35
+341            android:exported="false" />
+341-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\19ed648474dbee544f187979ef7e319c\play-services-measurement-17.2.1\AndroidManifest.xml:47:13-37
+342        <service
+342-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\19ed648474dbee544f187979ef7e319c\play-services-measurement-17.2.1\AndroidManifest.xml:48:9-52:72
+343            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+343-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\19ed648474dbee544f187979ef7e319c\play-services-measurement-17.2.1\AndroidManifest.xml:49:13-87
+344            android:enabled="true"
+344-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\19ed648474dbee544f187979ef7e319c\play-services-measurement-17.2.1\AndroidManifest.xml:50:13-35
+345            android:exported="false"
+345-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\19ed648474dbee544f187979ef7e319c\play-services-measurement-17.2.1\AndroidManifest.xml:51:13-37
+346            android:permission="android.permission.BIND_JOB_SERVICE" />
+346-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\19ed648474dbee544f187979ef7e319c\play-services-measurement-17.2.1\AndroidManifest.xml:52:13-69
+347
+348        <meta-data
+348-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\869a66051617b417aa7e6f9112d4bb51\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+349            android:name="com.google.android.gms.version"
+349-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\869a66051617b417aa7e6f9112d4bb51\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+350            android:value="@integer/google_play_services_version" />
+350-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\869a66051617b417aa7e6f9112d4bb51\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+351    </application>
+352
+353</manifest>

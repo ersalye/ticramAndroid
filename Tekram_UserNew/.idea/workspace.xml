@@ -1,0 +1,701 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="verbose" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="41a39391-2383-45bc-be67-6a105b0faa10" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/com/turnpoint/ticram/Activites/SplashActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/com/turnpoint/ticram/Activites/SplashActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/res/values/strings.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="Pixel_2_API_26" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Tekram_UserNew" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Tekram_UserNew" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Tekram_UserNew" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="android" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Tekram_UserNew" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="install" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="GenerateSignedApkSettings">
+    <option name="EXPORT_PRIVATE_KEY" value="false" />
+    <option name="KEY_STORE_PATH" value="C:\keyuser.jks" />
+    <option name="KEY_ALIAS" value="keyuser" />
+    <option name="REMEMBER_PASSWORDS" value="true" />
+    <option name="BUILD_TARGET_KEY" value="apk" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\Users\husse\Desktop\Tekram_UserNew" />
+        <option value="C:\Users\husse\Desktop\Tekram_UserNew\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1e6S4BTBBsLlD1aPybrVCfUmc1l" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="AnalyzeApkAction.lastApkPath" value="$PROJECT_DIR$/user/release/user-release.apk" />
+    <property name="ApkExportedModule" value="user" />
+    <property name="BundleExportedModule" value="user" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="Pixel_3_API_27" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2020-03-17T20:32:16.071Z" />
+    <property name="ExportApk.ApkPath" value="E:\user" />
+    <property name="ExportApk.BuildVariants" value="release" />
+    <property name="ExportApk.SignV2" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/user" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Suggestions" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.turnpoint.ticram.modules" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Tekram_UserNew\user" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Android App.user">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TripDetails" type="AndroidRunConfigurationType" factoryName="Android App" temporary="true">
+      <module name="user" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="specific_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="com.turnpoint.ticram.Activites.TripDetails" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="user" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="user" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tekram_UserNew [signingReport]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="signingReport" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="Tekram_UserNew [uninstallAll]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="uninstallAll" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="Tekram_UserNew [uninstallDebug]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="uninstallDebug" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.Tekram_UserNew [signingReport]" />
+        <item itemvalue="Gradle.Tekram_UserNew [uninstallAll]" />
+        <item itemvalue="Gradle.Tekram_UserNew [uninstallDebug]" />
+        <item itemvalue="Android App.TripDetails" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="41a39391-2383-45bc-be67-6a105b0faa10" name="Default Changelist" comment="" />
+      <created>1579350611052</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1579350611052</updated>
+    </task>
+    <task id="LOCAL-00001" summary="add new links">
+      <created>1598426038171</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1598426038171</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add new links" />
+    <option name="LAST_COMMIT_MESSAGE" value="add new links" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="275" y="22" key="#Notifications" timestamp="1597080611243">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="22" key="#Notifications/0.0.1366.728@0.0.1366.728" timestamp="1597080611243" />
+    <state x="200" y="96" key="#PSD" timestamp="1597751843082">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="200" y="96" key="#PSD/0.0.1366.728@0.0.1366.728" timestamp="1597751843082" />
+    <state x="488" y="73" key="#com.intellij.ide.util.MemberChooser" timestamp="1597658880904">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="488" y="73" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1597658880904" />
+    <state x="541" y="177" key="AndroidCreateXmlResourceDialog" timestamp="1597655828600">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="541" y="177" key="AndroidCreateXmlResourceDialog/0.0.1366.728@0.0.1366.728" timestamp="1597655828600" />
+    <state x="538" y="129" key="AndroidProcessChooserDialog" timestamp="1597660557054">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="538" y="129" key="AndroidProcessChooserDialog/0.0.1366.728@0.0.1366.728" timestamp="1597660557054" />
+    <state x="249" y="0" key="CommitChangelistDialog2" timestamp="1598426019433">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="249" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1598426019433" />
+    <state x="463" y="134" key="FileChooserDialogImpl" timestamp="1598254446771">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="134" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1598254446771" />
+    <state x="521" y="152" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1593641519471" />
+    <state x="534" y="256" key="Github.ShareDialog" timestamp="1598358942288">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="534" y="256" key="Github.ShareDialog/0.0.1366.728@0.0.1366.728" timestamp="1598358942288" />
+    <state x="600" y="290" key="Github.ShareDialog/0.0.1536.824@0.0.1536.824" timestamp="1593856926180" />
+    <state x="425" y="102" key="Github.UntrackedFilesDialog" timestamp="1593856940261">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="102" key="Github.UntrackedFilesDialog/0.0.1536.824@0.0.1536.824" timestamp="1593856940261" />
+    <state width="1323" height="110" key="GridCell.Tab.0.bottom" timestamp="1598254306016">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="110" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1598254306016" />
+    <state width="1340" height="329" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593672844966" />
+    <state width="1323" height="110" key="GridCell.Tab.0.center" timestamp="1598254306016">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="110" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1598254306016" />
+    <state width="1340" height="329" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1593672844966" />
+    <state width="1323" height="110" key="GridCell.Tab.0.left" timestamp="1598254306016">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="110" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1598254306016" />
+    <state width="1340" height="329" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1593672844966" />
+    <state width="1323" height="110" key="GridCell.Tab.0.right" timestamp="1598254306016">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="110" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1598254306016" />
+    <state width="1340" height="329" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1593672844966" />
+    <state width="1323" height="222" key="GridCell.Tab.1.bottom" timestamp="1597834992810">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="222" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1597834992810" />
+    <state width="1323" height="222" key="GridCell.Tab.1.center" timestamp="1597834992810">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="222" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1597834992810" />
+    <state width="1323" height="222" key="GridCell.Tab.1.left" timestamp="1597834992809">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="222" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1597834992809" />
+    <state width="1323" height="222" key="GridCell.Tab.1.right" timestamp="1597834992810">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="222" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1597834992810" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1598426077500">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1598426077500" />
+    <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1597602024991">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1366.728@0.0.1366.728" timestamp="1597602024991" />
+    <state x="389" y="194" key="com.intellij.ide.util.TipDialog" timestamp="1598339710888">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="389" y="194" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1598339710888" />
+    <state x="437" y="220" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1593657023911" />
+    <state x="358" y="128" width="672" height="600" key="search.everywhere.popup" timestamp="1598428217099">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="358" y="128" width="672" height="600" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1598428217099" />
+    <state x="403" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1593656092378" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/user/src/main/java/com/turnpoint/ticram/Activites/TripDetails.java</url>
+          <line>730</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/user/src/main/java/com/turnpoint/ticram/Activites/TripDetails.java</url>
+          <line>744</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/user/src/main/java/com/turnpoint/ticram/Services/SingleShotLocationProvider.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/user/src/main/java/com/turnpoint/ticram/Services/SingleShotLocationProvider.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/user/src/main/java/com/turnpoint/ticram/Services/SingleShotLocationProvider.java</url>
+          <line>60</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/user/src/main/java/com/turnpoint/ticram/Services/SingleShotLocationProvider.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/user/src/main/java/com/turnpoint/ticram/Services/SingleShotLocationProvider.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/user/src/main/java/com/turnpoint/ticram/Services/SingleShotLocationProvider.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/user/src/main/java/com/turnpoint/ticram/Services/SingleShotLocationProvider.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/user/src/main/java/com/turnpoint/ticram/Activites/TripDetails.java</url>
+          <line>1118</line>
+          <option name="timeStamp" value="74" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/user/src/main/java/com/turnpoint/ticram/Activites/TripDetails.java</url>
+          <line>1117</line>
+          <option name="timeStamp" value="75" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/user/src/main/java/com/turnpoint/ticram/Activites/TripDetails.java</url>
+          <line>1119</line>
+          <option name="timeStamp" value="76" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/user/src/main/java/com/turnpoint/ticram/Activites/TripDetails.java</url>
+          <line>1121</line>
+          <option name="timeStamp" value="77" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/user/src/main/java/com/turnpoint/ticram/Activites/TripDetails.java</url>
+          <line>1123</line>
+          <option name="timeStamp" value="78" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/user/src/main/java/com/turnpoint/ticram/Activites/MapActivity.java</url>
+          <line>1694</line>
+          <option name="timeStamp" value="81" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/user/src/main/java/com/turnpoint/ticram/Activites/MapActivity.java</url>
+          <line>2680</line>
+          <option name="timeStamp" value="96" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/user/src/main/java/com/turnpoint/ticram/Activites/MapActivity.java</url>
+          <line>2685</line>
+          <option name="timeStamp" value="97" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/user/src/main/java/com/turnpoint/ticram/Activites/MapActivity.java</url>
+          <line>1500</line>
+          <option name="timeStamp" value="107" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/user/src/main/java/com/turnpoint/ticram/Activites/MapActivity.java</url>
+          <line>1478</line>
+          <option name="timeStamp" value="108" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/user/src/main/java/com/turnpoint/ticram/Activites/MapActivity.java</url>
+          <line>1462</line>
+          <option name="timeStamp" value="110" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/user/src/main/java/com/turnpoint/ticram/Activites/MapActivity.java</url>
+          <line>2426</line>
+          <option name="timeStamp" value="112" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/user/src/main/java/com/turnpoint/ticram/Activites/MapActivity.java</url>
+          <line>490</line>
+          <option name="timeStamp" value="119" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/user/src/main/java/com/turnpoint/ticram/Activites/MapActivity.java</url>
+          <line>494</line>
+          <option name="timeStamp" value="120" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/user/src/main/java/com/turnpoint/ticram/Activites/MapActivity.java</url>
+          <line>496</line>
+          <option name="timeStamp" value="121" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/user/src/main/java/com/turnpoint/ticram/Activites/MapActivity.java</url>
+          <line>2405</line>
+          <option name="timeStamp" value="123" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/user/src/main/java/com/turnpoint/ticram/Activites/MapActivity.java</url>
+          <line>2334</line>
+          <option name="timeStamp" value="124" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/user/src/main/java/com/turnpoint/ticram/Activites/MapActivity.java</url>
+          <line>2337</line>
+          <option name="timeStamp" value="127" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/user/src/main/java/com/turnpoint/ticram/Activites/MapActivity.java</url>
+          <line>2410</line>
+          <option name="timeStamp" value="129" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/user/src/main/java/com/turnpoint/ticram/Activites/MapActivity.java</url>
+          <line>2382</line>
+          <option name="timeStamp" value="131" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/user/src/main/java/com/turnpoint/ticram/Activites/MapActivity.java</url>
+          <line>2383</line>
+          <option name="timeStamp" value="132" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/user/src/main/java/com/turnpoint/ticram/Activites/MapActivity.java</url>
+          <line>2441</line>
+          <option name="timeStamp" value="133" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/user/src/main/java/com/turnpoint/ticram/Activites/MapActivity.java</url>
+          <line>2443</line>
+          <option name="timeStamp" value="134" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/user/src/main/java/com/turnpoint/ticram/Activites/MapActivity.java</url>
+          <line>492</line>
+          <option name="timeStamp" value="139" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/user/src/main/java/com/turnpoint/ticram/Activites/MapActivity.java</url>
+          <line>495</line>
+          <option name="timeStamp" value="140" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/user/src/main/java/com/turnpoint/ticram/Activites/MapActivity.java</url>
+          <line>497</line>
+          <option name="timeStamp" value="142" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/user/src/main/java/com/turnpoint/ticram/Activites/MapActivity.java</url>
+          <line>1418</line>
+          <option name="timeStamp" value="144" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/user/src/main/java/com/turnpoint/ticram/Activites/MapActivity.java</url>
+          <line>1419</line>
+          <option name="timeStamp" value="145" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/user/src/main/java/com/turnpoint/ticram/Activites/MapActivity.java</url>
+          <line>1420</line>
+          <option name="timeStamp" value="146" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/user/src/main/java/com/turnpoint/ticram/Activites/MapActivity.java</url>
+          <line>1424</line>
+          <option name="timeStamp" value="147" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/user/src/main/java/com/turnpoint/ticram/Activites/MapActivity.java</url>
+          <line>1439</line>
+          <option name="timeStamp" value="148" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/user/src/main/java/com/turnpoint/ticram/Activites/MapActivity.java</url>
+          <line>664</line>
+          <option name="timeStamp" value="149" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/user/src/main/java/com/turnpoint/ticram/Activites/MapActivity.java</url>
+          <line>666</line>
+          <option name="timeStamp" value="150" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/user/src/main/java/com/turnpoint/ticram/Activites/MapActivity.java</url>
+          <line>671</line>
+          <option name="timeStamp" value="151" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/user/src/main/java/com/turnpoint/ticram/Activites/MapActivity.java</url>
+          <line>669</line>
+          <option name="timeStamp" value="152" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/user/src/main/java/com/turnpoint/ticram/Activites/MapActivity.java</url>
+          <line>670</line>
+          <option name="timeStamp" value="153" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/user/src/main/java/com/turnpoint/ticram/Activites/MapActivity.java</url>
+          <line>676</line>
+          <option name="timeStamp" value="154" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/user/src/main/java/com/turnpoint/ticram/Activites/MapActivity.java</url>
+          <line>663</line>
+          <option name="timeStamp" value="155" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/user/src/main/java/com/turnpoint/ticram/Activites/MapActivity.java</url>
+          <line>3682</line>
+          <option name="timeStamp" value="156" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/user/src/main/java/com/turnpoint/ticram/Activites/MapActivity.java</url>
+          <line>3689</line>
+          <option name="timeStamp" value="157" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/user/src/main/java/com/turnpoint/ticram/Activites/MapActivity.java</url>
+          <line>3681</line>
+          <option name="timeStamp" value="158" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="user">
+        <watch expression="values" />
+        <watch expression="values.getInfo()" />
+        <watch expression="values.info" />
+        <watch expression="dataSnapshot.getValue();" />
+        <watch expression="values.getCoords()" />
+        <watch expression="nearestListenerHashMap" />
+        <watch expression="nearestListenerHashMap.containsKey(id)" />
+        <watch expression="nearestListenerHashMap.get(id)" />
+        <watch expression="nearestMarkerHashMap" />
+        <watch expression="timeElapsed" />
+        <watch expression="timeElapsed &lt; 5000" />
+        <watch expression="nearestMarkerHashMap.containsKey(id)" />
+        <watch expression="nearestStartLocationListenerHashMap.containsKey(id)" />
+        <watch expression="nearestStartLocationListenerHashMap" />
+        <watch expression="selected_type" />
+        <watch expression="endPosition.longitude + endPosition.latitude" />
+        <watch expression="startPosition.longitude + startPosition.latitude" />
+        <watch expression="nearestMarkerHashMap.contains(id)" />
+        <watch expression="task.isComplete()" />
+        <watch expression="mFirebaseRemoteConfig.getString(&quot;base_url&quot;);" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>

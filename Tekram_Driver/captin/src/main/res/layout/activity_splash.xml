@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.turnpoint.ticram.tekram_driver.Activites.SplashActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.percentlayout.widget.PercentRelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layoutDirection="ltr">
+
+        <FrameLayout
+            android:id="@+id/frame1"
+            app:layout_heightPercent="65%"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:background="@drawable/driver_splash">
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_below="@+id/frame1"
+            app:layout_heightPercent="50%"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:background="@drawable/drive_splash_patern">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="40dp"
+                    app:srcCompat="@drawable/logo" />
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/imageView2"
+                    android:layout_alignLeft="@+id/imageView2"
+                    android:layout_alignStart="@+id/imageView2"
+                    android:layout_marginLeft="86dp"
+                    android:layout_marginStart="86dp"
+                    android:text="Captain"
+                    android:textColor="@color/blue"
+                    android:textSize="12dp" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="20dp"
+                    android:text="ticram.com"
+                    android:textColor="@color/blue"/>
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="5dp"
+                    android:textSize="12dp"
+                    android:visibility="gone"
+                    android:text="Testing v3.4" />
+            </RelativeLayout>
+        </FrameLayout>
+
+    </androidx.percentlayout.widget.PercentRelativeLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.turnpoint.ticram.tekram_driver.Activites.MyOrders"
+    tools:showIn="@layout/activity_my_orders">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layoutDirection="ltr"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageView_back"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/more_xxxhdpi" />
+
+        <TextView
+            android:id="@+id/tv_date_to"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:text="---" />
+
+        <TextView
+            android:id="@+id/tv_date_from"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:text="---" />
+
+        <ImageView
+            android:id="@+id/imageView_next"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:layoutDirection="ltr"
+            app:srcCompat="@drawable/more_xxxhdpiflipped" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:orientation="horizontal">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/blue"
+                android:gravity="center"
+                android:text="الرصيد" />
+
+            <TextView
+                android:id="@+id/textView_mymoney"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="---"
+                android:textColor="@color/green"
+                android:gravity="center"/>
+
+        </LinearLayout>
+
+
+         <LinearLayout
+                     android:layout_width="2dp"
+                     android:layout_height="50dp"
+                     android:background="@color/black"
+                     android:orientation="vertical"></LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="@color/blue"
+                android:text="المبلغ" />
+
+            <TextView
+                android:id="@+id/textView_earned_money"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="@color/green"
+                android:text="---" />
+
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:layout_width="2dp"
+            android:layout_height="50dp"
+            android:background="@color/black"
+            android:orientation="vertical"></LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/blue"
+                android:gravity="center"
+                android:text="عدد التوصيلات" />
+
+            <TextView
+                android:id="@+id/textView_numOfRides"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/green"
+                android:text="---"
+                android:gravity="center"/>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/textView_no_orderLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:text="لا يوجد طلبات"
+        android:visibility="gone"/>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycle_myorders"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+</LinearLayout>

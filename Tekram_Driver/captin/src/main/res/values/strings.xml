@@ -1,0 +1,99 @@
+<resources>
+    <!--  <string name="app_name">ticram</string>
+    <string name="action_settings">Settings</string>
+    <string name="mobile_number">Phone Number :790000000</string>
+    <string name="password">Password</string>
+    <string name="enter">Enter</string>
+    <string name="please_add_number">Your Phone Number :</string>
+    <string name="check_message_pin">Enter confirmation code sent to your mobile  to confirm your @@@ mobile number</string>
+-->
+
+
+    <!--    <string name="forget_password">Forget Password?</string>
+
+    <string name="phone_num_validation">Incorrect Phone Number!</string>
+    <string name="blank_fields">Please Fill Up The Blank Fields!</string>
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+    <string name="reset_passord">Reset Password.</string>
+    <string name="check_conn">Check Internet Connection!</string>
+
+    <string name="btn_tawklna">Go!</string>
+    <string name="btn_arrive_user">Arrived!</string>
+    <string name="btn_cancel_trip">Cancel</string>
+    <string name="btn_start_trip">Start</string>
+    <string name="btn_done_transport_user">Done!</string>-->
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="title_activity_main2">MainMapActivity</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_driver">DriverActivity</string>
+    <string name="title_activity_trip">TripActivity</string>
+    <string name="title_activity_payment">PaymentActivity</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="title_activity_maps_main">Map</string>
+    <string name="title_activity_view_details_order">ViewDetailsOrder</string>
+    <string name="title_activity_finish_trip">FinishTrip</string>
+    <string name="title_activity_edit_profile">EditProfile</string>
+    <string name="title_activity_my_orders">MyOrders</string>
+    <string name="title_activity_support">Support</string>
+    <string name="title_activity_complaint_support">ComplaintSupport</string>
+    <string name="title_activity_make_call_sinch">MakeCallSinch</string>
+    <string name="title_activity_incomming_call">IncommingCallActivity</string>
+    <string name="title_activity_orders_density">OrdersDensity</string>
+    <string name="title_activity_call_support">CallSupport</string>
+
+    <string name="app_name">تكرم</string>
+    <string name="min"> min </string>
+    <string name="hour"> hour </string>
+    <string name="mobile_number">رقم الجوال : 790000000</string>
+    <string name="password">كلمة المرور</string>
+    <string name="enter">دخول</string>
+    <string name="please_add_number">رقم الجوال :</string>
+    <string name="check_message_pin">ادخل رمز التاكيد المرسل الى @@@ جوالك لتاكيد رقم الجوال</string>
+    <string name="name">الاسم</string>
+    <string name="register">تسجيل</string>
+    <string name="please_add_name">الرجاء ادخال الاسم</string>
+    <string name="please_add_picture">الرجاء اضافة صورة</string>
+    <string name="taxi">توصيلة</string>
+    <string name="lim">ليموزين</string>
+    <string name="bus">باص</string>
+    <string name="track">شاحنة</string>
+    <string name="gas">غاز</string>
+    <string name="water">مي</string>
+    <string name="email">البريد الالكتروني</string>
+    <string name="please_add_password">Password</string>
+    <string name="newss">جديد</string>
+    <string name="after">لاحقا</string>
+    <string name="done">تم</string>
+    <string name="cancel">الغاء</string>
+    <string name="cancel_order">تم الغاؤ الطلب من</string>
+    <string name="driver">السائق</string>
+    <string name="admin">المسؤوول</string>
+    <string name="user">المستخدم</string>
+    <string name="no_name">لايوجد اسم</string>
+    <string name="are_your_sure">هل انت متاكد؟</string>
+    <string name="cancel_question">من الغاء الرحلة</string>
+    <string name="forget_password">نسيت كلمة المرور</string>
+
+    <string name="phone_num_validation">رقم الهاتف المخل غير صحيح!</string>
+    <string name="blank_fields">الرجاء ملئ المعلومات المطلوبة!</string>
+    <string name="reset_passord">اعادة تعيين كلمة المرور.</string>
+    <string name="check_conn">خلل بالاتصال بالانترنت!</string>
+
+    <string name="no">لا</string>
+    <string name="yes">نعم</string>
+
+
+    <string name="btn_tawklna">وصول</string>
+    <string name="btn_arrive_user">وصول</string>
+    <string name="btn_cancel_trip">الغاء</string>
+    <string name="btn_start_trip">بدء</string>
+    <string name="btn_done_transport_user">انهاء الرحلة</string>
+    <string name="title_activity_help">HelpActivity</string>
+    <string name="title_activity_terms">TermsActivity</string>
+    <string name="title_activity_my_order_details">MyOrderDetails</string>
+    <string name="title_activity_show_notfication_logged_out">ShowNotficationLoggedOut</string>
+
+
+</resources>

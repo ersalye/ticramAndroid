@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Tekram_Driver.iml" filepath="$PROJECT_DIR$/Tekram_Driver.iml" group="Tekram_Driver" />
+      <module fileurl="file://$PROJECT_DIR$/bubbles/bubbles.iml" filepath="$PROJECT_DIR$/bubbles/bubbles.iml" group="Tekram_Driver/bubbles" />
+      <module fileurl="file://$PROJECT_DIR$/captin/captin.iml" filepath="$PROJECT_DIR$/captin/captin.iml" group="Tekram_Driver/captin" />
+    </modules>
+  </component>
+</project>
