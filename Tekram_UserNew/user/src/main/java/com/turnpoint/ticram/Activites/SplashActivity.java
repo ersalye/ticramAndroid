@@ -67,6 +67,7 @@ import com.turnpoint.ticram.modules.user_info_splash3;
 
 import java.util.Hashtable;
 import java.util.Map;
+import java.util.concurrent.TimeUnit;
 
 import com.yayandroid.locationmanager.base.LocationBaseActivity;
 import com.yayandroid.locationmanager.configuration.DefaultProviderConfiguration;
@@ -133,7 +134,6 @@ public class SplashActivity extends LocationBaseActivity implements GoogleApiCli
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        checkUpdate();
         CalligraphyConfig.initDefault(new CalligraphyConfig.Builder()
                 .setDefaultFontPath("fonts/Al-Jazeera-Arabic-Regular.ttf")
                 .setFontAttrId(R.attr.fontPath)
@@ -141,6 +141,12 @@ public class SplashActivity extends LocationBaseActivity implements GoogleApiCli
         );
         setContentView(R.layout.activity_splash);
 
+        checkUpdate();
+        try {
+            TimeUnit.SECONDS.sleep(1);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
 
         mFirebaseRemoteConfig = FirebaseRemoteConfig.getInstance();
         configSettings = new FirebaseRemoteConfigSettings.Builder()
@@ -638,25 +644,49 @@ public class SplashActivity extends LocationBaseActivity implements GoogleApiCli
     }
 
     private void checkUpdate() {
-        FirebaseDatabase.getInstance().getReference("version_code").addValueEventListener(new ValueEventListener() {
+        DatabaseReference databaseReference = FirebaseDatabase.getInstance().getReference().child("version_code").child("user_code");
+
+        databaseReference.addListenerForSingleValueEvent(new ValueEventListener() {
             @Override
-            public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
-                String code = dataSnapshot.child("user_code").getValue(String.class);
+            public void onDataChange(@NonNull DataSnapshot snapshot) {
+                String code = snapshot.getValue(String.class);
                 Log.d("user_code_rahaf =", code + "");
                 Log.d("version_code_rahaf", BuildConfig.VERSION_CODE + "");
-                if (dataSnapshot.child("user_code").exists()) {
-                    if (!code.equals(Integer.toString(BuildConfig.VERSION_CODE))) {
+                if (snapshot.exists()) {
+                    if (!code.equals(String.valueOf(BuildConfig.VERSION_CODE))) {
                         ckeckVersion = false;
                         showForceUpdateDialog();
-
+                    }else {
+                        ckeckVersion = true;
                     }
                 }
             }
 
             @Override
-            public void onCancelled(@NonNull DatabaseError databaseError) {
+            public void onCancelled(@NonNull DatabaseError error) {
+
             }
         });
+        //        databaseReference.addValueEventListener(new ValueEventListener() {
+//            @Override
+//            public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
+//                String code = dataSnapshot.child("user_code").getValue(String.class);
+//                Log.d("user_code_rahaf =", code + "");
+//                Log.d("version_code_rahaf", BuildConfig.VERSION_CODE + "");
+//                if (dataSnapshot.child("user_code").exists()) {
+//                    if (!code.equals(String.valueOf(BuildConfig.VERSION_CODE))) {
+//                        ckeckVersion = false;
+//                        showForceUpdateDialog();
+//                    }else {
+//                        ckeckVersion = true;
+//                    }
+//                }
+//            }
+//
+//            @Override
+//            public void onCancelled(@NonNull DatabaseError databaseError) {
+//            }
+//        });
     }
 
     private void showForceUpdateDialog() {
@@ -682,5 +712,3 @@ public class SplashActivity extends LocationBaseActivity implements GoogleApiCli
         builder.show();
     }
 }
-
-
