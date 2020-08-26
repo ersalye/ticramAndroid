@@ -6,53 +6,53 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="16"
-8-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml
+8-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="28" />
-9-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml
+9-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml
 10
 11    <uses-feature
-11-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:5:5-7:36
+11-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:5:5-7:36
 12        android:name="android.hardware.microphone"
-12-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:6:9-51
+12-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:6:9-51
 13        android:required="false" />
-13-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:7:9-33
+13-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:7:9-33
 14
 15    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-15-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:9:5-81
-15-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:9:22-78
+15-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:9:5-81
+15-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:9:22-78
 16    <uses-permission android:name="android.permission.INTERNET" />
-16-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:10:5-67
-16-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:10:22-64
+16-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:10:5-67
+16-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:10:22-64
 17    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-17-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:11:5-80
-17-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:11:22-77
+17-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:11:5-80
+17-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:11:22-77
 18    <uses-permission android:name="android.permission.VIBRATE" />
-18-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:12:5-66
-18-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:12:22-63
+18-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:12:5-66
+18-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:12:22-63
 19    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-19-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:13:5-81
-19-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:13:22-78
+19-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:13:5-81
+19-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:13:22-78
 20    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-20-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:14:5-79
-20-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:14:22-76
+20-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:14:5-79
+20-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:14:22-76
 21    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
-21-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:15:5-78
-21-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:15:22-75
+21-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:15:5-78
+21-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:15:22-75
 22    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
-22-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:16:5-98
-22-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:16:22-95
+22-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:16:5-98
+22-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:16:22-95
 23    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
-23-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:17:5-76
-23-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:17:22-73
+23-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:17:5-76
+23-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:17:22-73
 24    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-24-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:18:5-79
-24-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:18:22-76
+24-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:18:5-79
+24-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:18:22-76
 25    <uses-permission android:name="android.permission.CALL_PHONE" />
-25-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:19:5-69
-25-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:19:22-66
+25-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:19:5-69
+25-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:19:22-66
 26    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- for sinch -->
-26-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:20:5-68
-26-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:20:22-65
+26-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:20:5-68
+26-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:20:22-65
 27    <!--
 28  <uses-permission android:name="android.permission.RECORD_AUDIO" />
 29    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
@@ -61,156 +61,156 @@
 32    -->
 33    <!-- for sinch push notfication -->
 34    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
-34-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:28:5-82
-34-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:28:22-79
+34-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:28:5-82
+34-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:28:22-79
 35    <!-- <uses-permission android:name="android.permission.WAKE_LOCK" /> -->
 36    <permission
-36-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:30:5-32:47
+36-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:30:5-32:47
 37        android:name="com.turnpoint.ticram.tekram_driver.permission.C2D_MESSAGE"
-37-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:31:9-81
+37-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:31:9-81
 38        android:protectionLevel="signature" />
-38-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:32:9-44
+38-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:32:9-44
 39
 40    <uses-permission android:name="com.turnpoint.ticram.tekram_driver.permission.C2D_MESSAGE" /> <!-- for floating widget -draw over other apps- -->
-40-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:34:5-97
-40-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:34:22-94
+40-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:34:5-97
+40-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:34:22-94
 41    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
-41-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:15:5-78
-41-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:15:22-75
+41-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:15:5-78
+41-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:15:22-75
 42    <uses-permission android:name="android.permission.ACTION_MANAGE_OVERLAY_PERMISSION" />
-42-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:36:5-91
-42-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:36:22-88
+42-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:36:5-91
+42-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:36:22-88
 43    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
-43-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:37:5-77
-43-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:37:22-74
+43-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:37:5-77
+43-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:37:22-74
 44
 45    <uses-feature
-45-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\awsha\.gradle\caches\transforms-2\files-2.1\5996b574ff2952ac777748dff8cb2ae5\play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
+45-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\alnajjar\.gradle\caches\transforms-2\files-2.1\5996b574ff2952ac777748dff8cb2ae5\play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
 46        android:glEsVersion="0x00020000"
-46-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\awsha\.gradle\caches\transforms-2\files-2.1\5996b574ff2952ac777748dff8cb2ae5\play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
+46-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\alnajjar\.gradle\caches\transforms-2\files-2.1\5996b574ff2952ac777748dff8cb2ae5\play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
 47        android:required="true" />
-47-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\awsha\.gradle\caches\transforms-2\files-2.1\5996b574ff2952ac777748dff8cb2ae5\play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
+47-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\alnajjar\.gradle\caches\transforms-2\files-2.1\5996b574ff2952ac777748dff8cb2ae5\play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
 48
 49    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
-49-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\awsha\.gradle\caches\transforms-2\files-2.1\063794b2f3a216e034ca367de768eb30\play-services-measurement-17.2.1\AndroidManifest.xml:26:5-110
-49-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\awsha\.gradle\caches\transforms-2\files-2.1\063794b2f3a216e034ca367de768eb30\play-services-measurement-17.2.1\AndroidManifest.xml:26:22-107
+49-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\alnajjar\.gradle\caches\transforms-2\files-2.1\063794b2f3a216e034ca367de768eb30\play-services-measurement-17.2.1\AndroidManifest.xml:26:5-110
+49-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\alnajjar\.gradle\caches\transforms-2\files-2.1\063794b2f3a216e034ca367de768eb30\play-services-measurement-17.2.1\AndroidManifest.xml:26:22-107
 50
 51    <application
-51-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:39:5-239:19
+51-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:39:5-239:19
 52        android:name="com.turnpoint.ticram.tekram_driver.MyApplication"
-52-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:40:9-38
+52-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:40:9-38
 53        android:allowBackup="true"
-53-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:41:9-35
+53-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:41:9-35
 54        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-54-->[androidx.core:core:1.0.0] C:\Users\awsha\.gradle\caches\transforms-2\files-2.1\f156dd080c57e7265ff8cf5cde96cc0b\core-1.0.0\AndroidManifest.xml:22:18-86
+54-->[androidx.core:core:1.0.0] C:\Users\alnajjar\.gradle\caches\transforms-2\files-2.1\f156dd080c57e7265ff8cf5cde96cc0b\core-1.0.0\AndroidManifest.xml:22:18-86
 55        android:debuggable="true"
 56        android:hardwareAccelerated="false"
-56-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:42:9-44
+56-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:42:9-44
 57        android:icon="@drawable/driver_ticram_icon"
-57-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:43:9-52
+57-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:43:9-52
 58        android:label="@string/app_name"
-58-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:44:9-41
+58-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:44:9-41
 59        android:largeHeap="true"
-59-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:45:9-33
+59-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:45:9-33
 60        android:roundIcon="@drawable/driver_ticram_icon"
-60-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:46:9-57
+60-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:46:9-57
 61        android:supportsRtl="true"
-61-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:47:9-35
+61-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:47:9-35
 62        android:testOnly="true"
 63        android:theme="@style/AppTheme"
-63-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:48:9-40
+63-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:48:9-40
 64        android:usesCleartextTraffic="true" >
-64-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:49:9-44
+64-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:49:9-44
 65        <activity
-65-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:50:9-52:25
+65-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:50:9-52:25
 66            android:name="com.turnpoint.ticram.tekram_driver.Activites.NotesActivity"
-66-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:50:19-58
+66-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:50:19-58
 67            android:theme="@style/AppTheme.NoActionBar" />
-67-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:51:19-62
+67-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:51:19-62
 68        <activity
-68-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:53:9-63:20
+68-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:53:9-63:20
 69            android:name="com.turnpoint.ticram.tekram_driver.Activites.SplashActivity"
-69-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:54:13-53
+69-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:54:13-53
 70            android:label="@string/app_name"
-70-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:55:13-45
+70-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:55:13-45
 71            android:screenOrientation="portrait"
-71-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:56:13-49
+71-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:56:13-49
 72            android:theme="@style/AppTheme.NoActionBar" >
-72-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:57:13-56
+72-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:57:13-56
 73            <intent-filter>
-73-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:58:13-62:29
+73-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:58:13-62:29
 74                <action android:name="android.intent.action.MAIN" />
-74-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:59:17-69
-74-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:59:25-66
+74-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:59:17-69
+74-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:59:25-66
 75
 76                <category android:name="android.intent.category.LAUNCHER" />
-76-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:61:17-77
-76-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:61:27-74
+76-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:61:17-77
+76-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:61:27-74
 77            </intent-filter>
 78        </activity>
 79        <activity
-79-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:64:9-68:59
+79-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:64:9-68:59
 80            android:name="com.turnpoint.ticram.tekram_driver.Activites.LoginActivity"
-80-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:65:13-52
+80-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:65:13-52
 81            android:label="@string/title_activity_login"
-81-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:66:13-57
+81-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:66:13-57
 82            android:screenOrientation="portrait"
-82-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:67:13-49
+82-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:67:13-49
 83            android:theme="@style/AppTheme.NoActionBar" />
-83-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:68:13-56
+83-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:68:13-56
 84
 85        <meta-data
-85-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:70:9-72:71
+85-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:70:9-72:71
 86            android:name="com.google.android.geo.API_KEY"
-86-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:71:13-58
+86-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:71:13-58
 87            android:value="AIzaSyCFhwRtoMlXHmWGhJKetncTk9kXp4Nt0kc" />
-87-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:72:13-68
+87-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:72:13-68
 88        <meta-data
-88-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:73:9-75:69
+88-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:73:9-75:69
 89            android:name="com.google.android.gms.version"
-89-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:74:13-58
+89-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:74:13-58
 90            android:value="@integer/google_play_services_version" />
-90-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:75:13-66
+90-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:75:13-66
 91        <!--
 92            <meta-data
 93            android:name="com.google.android.gms.version"
 94            android:value="@integer/google_play_services_version" />
 95        -->
 96        <activity
-96-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:81:9-85:59
+96-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:81:9-85:59
 97            android:name="com.turnpoint.ticram.tekram_driver.Activites.MapsMain"
-97-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:82:13-47
+97-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:82:13-47
 98            android:label="@string/title_activity_maps_main"
-98-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:83:13-61
+98-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:83:13-61
 99            android:screenOrientation="portrait"
-99-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:84:13-49
+99-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:84:13-49
 100            android:theme="@style/AppTheme.NoActionBar" />
-100-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:85:13-56
+100-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:85:13-56
 101
 102        <service
-102-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:87:9-93:19
+102-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:87:9-93:19
 103            android:name="com.turnpoint.ticram.tekram_driver.FCM.MyFirebaseMessagingService"
-103-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:88:13-59
+103-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:88:13-59
 104            android:exported="false" >
-104-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:89:13-37
+104-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:89:13-37
 105            <intent-filter>
-105-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:90:13-92:29
+105-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:90:13-92:29
 106                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-106-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:91:17-78
-106-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:91:25-75
+106-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:91:17-78
+106-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:91:25-75
 107            </intent-filter>
 108        </service>
 109
 110        <activity
-110-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:95:9-107:20
+110-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:95:9-107:20
 111            android:name="com.turnpoint.ticram.tekram_driver.Activites.ViewDetailsOrder"
-111-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:96:13-55
+111-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:96:13-55
 112            android:label="@string/title_activity_view_details_order"
-112-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:97:13-70
+112-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:97:13-70
 113            android:screenOrientation="portrait"
-113-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:98:13-49
+113-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:98:13-49
 114            android:theme="@style/AppTheme.NoActionBar" >
-114-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:99:13-56
+114-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:99:13-56
 115
 116            <!--
 117            <intent-filter>
@@ -220,150 +220,150 @@
 121            -->
 122        </activity>
 123        <activity
-123-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:108:9-112:59
+123-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:108:9-112:59
 124            android:name="com.turnpoint.ticram.tekram_driver.Activites.FinishTrip"
-124-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:109:13-49
+124-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:109:13-49
 125            android:label="@string/title_activity_finish_trip"
-125-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:110:13-63
+125-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:110:13-63
 126            android:screenOrientation="portrait"
-126-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:111:13-49
+126-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:111:13-49
 127            android:theme="@style/AppTheme.NoActionBar" />
-127-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:112:13-56
+127-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:112:13-56
 128        <activity
-128-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:113:9-117:59
+128-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:113:9-117:59
 129            android:name="com.turnpoint.ticram.tekram_driver.Activites.EditProfile"
-129-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:114:13-50
+129-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:114:13-50
 130            android:label="@string/title_activity_edit_profile"
-130-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:115:13-64
+130-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:115:13-64
 131            android:screenOrientation="portrait"
-131-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:116:13-49
+131-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:116:13-49
 132            android:theme="@style/AppTheme.NoActionBar" />
-132-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:117:13-56
+132-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:117:13-56
 133        <activity
-133-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:118:9-122:59
+133-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:118:9-122:59
 134            android:name="com.turnpoint.ticram.tekram_driver.Activites.MyOrders"
-134-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:119:13-47
+134-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:119:13-47
 135            android:label="@string/title_activity_my_orders"
-135-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:120:13-61
+135-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:120:13-61
 136            android:screenOrientation="portrait"
-136-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:121:13-49
+136-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:121:13-49
 137            android:theme="@style/AppTheme.NoActionBar" />
-137-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:122:13-56
+137-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:122:13-56
 138        <activity
-138-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:123:9-127:59
+138-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:123:9-127:59
 139            android:name="com.turnpoint.ticram.tekram_driver.Activites.Support"
-139-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:124:13-46
+139-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:124:13-46
 140            android:label="@string/title_activity_support"
-140-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:125:13-59
+140-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:125:13-59
 141            android:screenOrientation="portrait"
-141-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:126:13-49
+141-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:126:13-49
 142            android:theme="@style/AppTheme.NoActionBar" />
-142-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:127:13-56
+142-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:127:13-56
 143        <activity
-143-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:128:9-132:59
+143-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:128:9-132:59
 144            android:name="com.turnpoint.ticram.tekram_driver.Activites.ComplaintSupport"
-144-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:129:13-55
+144-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:129:13-55
 145            android:label="@string/title_activity_complaint_support"
-145-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:130:13-69
+145-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:130:13-69
 146            android:screenOrientation="portrait"
-146-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:131:13-49
+146-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:131:13-49
 147            android:theme="@style/AppTheme.NoActionBar" />
-147-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:132:13-56
+147-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:132:13-56
 148        <activity
-148-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:133:9-137:59
+148-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:133:9-137:59
 149            android:name="com.turnpoint.ticram.tekram_driver.Activites.MakeCallSinch"
-149-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:134:13-52
+149-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:134:13-52
 150            android:label="@string/title_activity_make_call_sinch"
-150-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:135:13-67
+150-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:135:13-67
 151            android:screenOrientation="portrait"
-151-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:136:13-49
+151-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:136:13-49
 152            android:theme="@style/AppTheme.NoActionBar" />
-152-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:137:13-56
+152-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:137:13-56
 153        <activity
-153-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:138:9-142:59
+153-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:138:9-142:59
 154            android:name="com.turnpoint.ticram.tekram_driver.Activites.IncommingCallActivity"
-154-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:139:13-60
+154-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:139:13-60
 155            android:label="@string/title_activity_incomming_call"
-155-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:140:13-66
+155-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:140:13-66
 156            android:screenOrientation="portrait"
-156-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:141:13-49
+156-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:141:13-49
 157            android:theme="@style/AppTheme.NoActionBar" />
-157-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:142:13-56
+157-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:142:13-56
 158        <activity
-158-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:143:9-147:59
+158-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:143:9-147:59
 159            android:name="com.turnpoint.ticram.tekram_driver.Activites.OrdersDensity"
-159-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:144:13-52
+159-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:144:13-52
 160            android:label="@string/title_activity_orders_density"
-160-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:145:13-66
+160-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:145:13-66
 161            android:screenOrientation="portrait"
-161-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:146:13-49
+161-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:146:13-49
 162            android:theme="@style/AppTheme.NoActionBar" />
-162-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:147:13-56
+162-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:147:13-56
 163
 164        <service
-164-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:149:9-152:40
+164-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:149:9-152:40
 165            android:name="com.turnpoint.ticram.tekram_driver.Services.MyLocationServiceAfter"
-165-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:150:13-60
+165-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:150:13-60
 166            android:enabled="true"
-166-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:151:13-35
+166-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:151:13-35
 167            android:exported="false" />
-167-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:152:13-37
+167-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:152:13-37
 168        <service
-168-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:153:9-156:40
+168-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:153:9-156:40
 169            android:name="com.turnpoint.ticram.tekram_driver.Services.LocationServiceBeforeTawaklna"
-169-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:154:13-67
+169-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:154:13-67
 170            android:enabled="true"
-170-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:155:13-35
+170-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:155:13-35
 171            android:exported="false" />
-171-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:156:13-37
+171-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:156:13-37
 172
 173        <activity
-173-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:158:9-162:59
+173-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:158:9-162:59
 174            android:name="com.turnpoint.ticram.tekram_driver.Activites.HelpActivity"
-174-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:159:13-51
+174-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:159:13-51
 175            android:label="@string/title_activity_help"
-175-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:160:13-56
+175-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:160:13-56
 176            android:screenOrientation="portrait"
-176-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:161:13-49
+176-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:161:13-49
 177            android:theme="@style/AppTheme.NoActionBar" />
-177-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:162:13-56
+177-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:162:13-56
 178        <activity
-178-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:163:9-167:59
+178-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:163:9-167:59
 179            android:name="com.turnpoint.ticram.tekram_driver.Activites.TermsActivity"
-179-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:164:13-52
+179-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:164:13-52
 180            android:label="@string/title_activity_terms"
-180-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:165:13-57
+180-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:165:13-57
 181            android:screenOrientation="portrait"
-181-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:166:13-49
+181-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:166:13-49
 182            android:theme="@style/AppTheme.NoActionBar" />
-182-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:167:13-56
+182-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:167:13-56
 183        <activity
-183-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:168:9-172:59
+183-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:168:9-172:59
 184            android:name="com.turnpoint.ticram.tekram_driver.Activites.MyOrderDetails"
-184-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:169:13-53
+184-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:169:13-53
 185            android:label="@string/title_activity_my_order_details"
-185-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:170:13-68
+185-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:170:13-68
 186            android:screenOrientation="portrait"
-186-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:171:13-49
+186-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:171:13-49
 187            android:theme="@style/AppTheme.NoActionBar" />
-187-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:172:13-56
+187-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:172:13-56
 188
 189        <service
-189-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:174:9-177:40
+189-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:174:9-177:40
 190            android:name="com.turnpoint.ticram.tekram_driver.Services.StartSinch"
-190-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:175:13-48
+190-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:175:13-48
 191            android:enabled="true"
-191-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:176:13-35
+191-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:176:13-35
 192            android:exported="false" />
-192-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:177:13-37
+192-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:177:13-37
 193        <service
-193-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:178:9-181:40
+193-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:178:9-181:40
 194            android:name="com.turnpoint.ticram.tekram_driver.Services.FloatingViewService"
-194-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:179:13-57
+194-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:179:13-57
 195            android:enabled="true"
-195-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:180:13-35
+195-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:180:13-35
 196            android:exported="false" />
-196-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:181:13-37
+196-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:181:13-37
 197        <!--
 198        <receiver android:name=".Services.BroadcastStartSinch"
 199            android:enabled="true"
@@ -375,56 +375,56 @@
 205        </receiver>
 206        -->
 207        <activity
-207-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:192:9-195:59
+207-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:192:9-195:59
 208            android:name="com.turnpoint.ticram.tekram_driver.Activites.ShowNotficationLoggedOut"
-208-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:193:13-63
+208-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:193:13-63
 209            android:label=""
-209-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:194:13-29
+209-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:194:13-29
 210            android:theme="@style/AppTheme.NoActionBar" />
-210-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:195:13-56
+210-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:195:13-56
 211
 212        <service
-212-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:197:9-200:40
+212-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:197:9-200:40
 213            android:name="com.turnpoint.ticram.tekram_driver.Services.SendLoc_beforeTawklnaOreo"
-213-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:198:13-63
+213-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:198:13-63
 214            android:enabled="true"
-214-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:199:13-35
+214-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:199:13-35
 215            android:exported="false" />
-215-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:200:13-37
+215-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:200:13-37
 216
 217        <receiver
-217-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:202:9-205:40
+217-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:202:9-205:40
 218            android:name="com.turnpoint.ticram.tekram_driver.Services.BoradcastReceiver_restartLocation"
-218-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:203:13-71
+218-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:203:13-71
 219            android:enabled="true"
-219-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:204:13-35
+219-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:204:13-35
 220            android:exported="false" />
-220-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:205:13-37
+220-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:205:13-37
 221
 222        <service
-222-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:207:9-210:40
+222-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:207:9-210:40
 223            android:name="com.turnpoint.ticram.tekram_driver.Services.CancelTripListner"
-223-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:208:13-55
+223-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:208:13-55
 224            android:enabled="true"
-224-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:209:13-35
+224-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:209:13-35
 225            android:exported="false" />
-225-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:210:13-37
+225-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:210:13-37
 226        <service
-226-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:211:9-214:40
+226-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:211:9-214:40
 227            android:name="com.turnpoint.ticram.tekram_driver.Services.FloatWidgetCancel"
-227-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:212:13-55
+227-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:212:13-55
 228            android:enabled="true"
-228-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:213:13-35
+228-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:213:13-35
 229            android:exported="false" />
-229-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:214:13-37
+229-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:214:13-37
 230        <service
-230-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:215:9-218:40
+230-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:215:9-218:40
 231            android:name="com.turnpoint.ticram.tekram_driver.Services.WidgetNewOrder"
-231-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:216:13-52
+231-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:216:13-52
 232            android:enabled="true"
-232-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:217:13-35
+232-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:217:13-35
 233            android:exported="false" />
-233-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:218:13-37
+233-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:218:13-37
 234        <!--
 235 <receiver
 236            android:name=".FCM.FirebaseBroadcastReceiver"
@@ -435,211 +435,211 @@
 241        </receiver>
 242        -->
 243        <uses-library
-243-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:228:9-230:40
+243-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:228:9-230:40
 244            android:name="org.apache.http.legacy"
-244-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:229:13-50
+244-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:229:13-50
 245            android:required="false" />
-245-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:230:13-37
+245-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:230:13-37
 246
 247        <service
-247-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:87:9-93:19
+247-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:87:9-93:19
 248            android:name="com.turnpoint.ticram.tekram_driver.FCM.MyFirebaseMessagingService"
-248-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:88:13-59
+248-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:88:13-59
 249            android:exported="false" >
-249-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:89:13-37
+249-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:89:13-37
 250            <intent-filter>
-250-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:90:13-92:29
+250-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:90:13-92:29
 251                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-251-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:91:17-78
-251-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:91:25-75
+251-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:91:17-78
+251-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:91:25-75
 252            </intent-filter>
 253        </service>
 254
 255        <provider
-255-->[com.crashlytics.sdk.android:crashlytics:2.8.0] C:\Users\awsha\.gradle\caches\transforms-2\files-2.1\c5acc56d22e67dc8ce6d4b9f5f542628\crashlytics-2.8.0\AndroidManifest.xml:12:9-16:39
+255-->[com.crashlytics.sdk.android:crashlytics:2.8.0] C:\Users\alnajjar\.gradle\caches\transforms-2\files-2.1\c5acc56d22e67dc8ce6d4b9f5f542628\crashlytics-2.8.0\AndroidManifest.xml:12:9-16:39
 256            android:name="com.crashlytics.android.CrashlyticsInitProvider"
-256-->[com.crashlytics.sdk.android:crashlytics:2.8.0] C:\Users\awsha\.gradle\caches\transforms-2\files-2.1\c5acc56d22e67dc8ce6d4b9f5f542628\crashlytics-2.8.0\AndroidManifest.xml:13:13-75
+256-->[com.crashlytics.sdk.android:crashlytics:2.8.0] C:\Users\alnajjar\.gradle\caches\transforms-2\files-2.1\c5acc56d22e67dc8ce6d4b9f5f542628\crashlytics-2.8.0\AndroidManifest.xml:13:13-75
 257            android:authorities="com.turnpoint.ticram.tekram_driver.crashlyticsinitprovider"
-257-->[com.crashlytics.sdk.android:crashlytics:2.8.0] C:\Users\awsha\.gradle\caches\transforms-2\files-2.1\c5acc56d22e67dc8ce6d4b9f5f542628\crashlytics-2.8.0\AndroidManifest.xml:14:13-75
+257-->[com.crashlytics.sdk.android:crashlytics:2.8.0] C:\Users\alnajjar\.gradle\caches\transforms-2\files-2.1\c5acc56d22e67dc8ce6d4b9f5f542628\crashlytics-2.8.0\AndroidManifest.xml:14:13-75
 258            android:exported="false"
-258-->[com.crashlytics.sdk.android:crashlytics:2.8.0] C:\Users\awsha\.gradle\caches\transforms-2\files-2.1\c5acc56d22e67dc8ce6d4b9f5f542628\crashlytics-2.8.0\AndroidManifest.xml:15:13-37
+258-->[com.crashlytics.sdk.android:crashlytics:2.8.0] C:\Users\alnajjar\.gradle\caches\transforms-2\files-2.1\c5acc56d22e67dc8ce6d4b9f5f542628\crashlytics-2.8.0\AndroidManifest.xml:15:13-37
 259            android:initOrder="100" />
-259-->[com.crashlytics.sdk.android:crashlytics:2.8.0] C:\Users\awsha\.gradle\caches\transforms-2\files-2.1\c5acc56d22e67dc8ce6d4b9f5f542628\crashlytics-2.8.0\AndroidManifest.xml:16:13-36
+259-->[com.crashlytics.sdk.android:crashlytics:2.8.0] C:\Users\alnajjar\.gradle\caches\transforms-2\files-2.1\c5acc56d22e67dc8ce6d4b9f5f542628\crashlytics-2.8.0\AndroidManifest.xml:16:13-36
 260
 261        <service android:name="com.sinch.android.rtc.internal.client.fcm.InstanceIDTokenService" >
-261-->[:sinch-android-rtc:3.12.4] C:\Users\awsha\.gradle\caches\transforms-2\files-2.1\b8e907710dabf9772d464e0c095e13ae\sinch-android-rtc-3.12.4\AndroidManifest.xml:12:9-16:19
-261-->[:sinch-android-rtc:3.12.4] C:\Users\awsha\.gradle\caches\transforms-2\files-2.1\b8e907710dabf9772d464e0c095e13ae\sinch-android-rtc-3.12.4\AndroidManifest.xml:12:18-97
+261-->[:sinch-android-rtc:3.12.4] C:\Users\alnajjar\.gradle\caches\transforms-2\files-2.1\b8e907710dabf9772d464e0c095e13ae\sinch-android-rtc-3.12.4\AndroidManifest.xml:12:9-16:19
+261-->[:sinch-android-rtc:3.12.4] C:\Users\alnajjar\.gradle\caches\transforms-2\files-2.1\b8e907710dabf9772d464e0c095e13ae\sinch-android-rtc-3.12.4\AndroidManifest.xml:12:18-97
 262            <intent-filter>
-262-->[:sinch-android-rtc:3.12.4] C:\Users\awsha\.gradle\caches\transforms-2\files-2.1\b8e907710dabf9772d464e0c095e13ae\sinch-android-rtc-3.12.4\AndroidManifest.xml:13:13-15:29
+262-->[:sinch-android-rtc:3.12.4] C:\Users\alnajjar\.gradle\caches\transforms-2\files-2.1\b8e907710dabf9772d464e0c095e13ae\sinch-android-rtc-3.12.4\AndroidManifest.xml:13:13-15:29
 263                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
-263-->[:sinch-android-rtc:3.12.4] C:\Users\awsha\.gradle\caches\transforms-2\files-2.1\b8e907710dabf9772d464e0c095e13ae\sinch-android-rtc-3.12.4\AndroidManifest.xml:14:17-80
-263-->[:sinch-android-rtc:3.12.4] C:\Users\awsha\.gradle\caches\transforms-2\files-2.1\b8e907710dabf9772d464e0c095e13ae\sinch-android-rtc-3.12.4\AndroidManifest.xml:14:25-77
+263-->[:sinch-android-rtc:3.12.4] C:\Users\alnajjar\.gradle\caches\transforms-2\files-2.1\b8e907710dabf9772d464e0c095e13ae\sinch-android-rtc-3.12.4\AndroidManifest.xml:14:17-80
+263-->[:sinch-android-rtc:3.12.4] C:\Users\alnajjar\.gradle\caches\transforms-2\files-2.1\b8e907710dabf9772d464e0c095e13ae\sinch-android-rtc-3.12.4\AndroidManifest.xml:14:25-77
 264            </intent-filter>
 265        </service>
 266        <service
-266-->[:bubbles] C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\bubbles\build\intermediates\library_manifest\debug\AndroidManifest.xml:39:9-42:40
+266-->[:bubbles] C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\bubbles\build\intermediates\library_manifest\debug\AndroidManifest.xml:39:9-42:40
 267            android:name="com.txusballesteros.bubbles.BubblesService"
-267-->[:bubbles] C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\bubbles\build\intermediates\library_manifest\debug\AndroidManifest.xml:40:13-70
+267-->[:bubbles] C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\bubbles\build\intermediates\library_manifest\debug\AndroidManifest.xml:40:13-70
 268            android:enabled="true"
-268-->[:bubbles] C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\bubbles\build\intermediates\library_manifest\debug\AndroidManifest.xml:41:13-35
+268-->[:bubbles] C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\bubbles\build\intermediates\library_manifest\debug\AndroidManifest.xml:41:13-35
 269            android:exported="false" />
-269-->[:bubbles] C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\bubbles\build\intermediates\library_manifest\debug\AndroidManifest.xml:42:13-37
+269-->[:bubbles] C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\bubbles\build\intermediates\library_manifest\debug\AndroidManifest.xml:42:13-37
 270        <!--
 271             FirebaseMessagingService performs security checks at runtime,
 272             but set to not exported to explicitly avoid allowing another app to call it.
 273        -->
 274        <service
-274-->[com.google.firebase:firebase-messaging:20.0.1] C:\Users\awsha\.gradle\caches\transforms-2\files-2.1\97b20a769b9a9cfb5883d95e00f9acf1\jetified-firebase-messaging-20.0.1\AndroidManifest.xml:28:9-34:19
+274-->[com.google.firebase:firebase-messaging:20.0.1] C:\Users\alnajjar\.gradle\caches\transforms-2\files-2.1\60b3e4cc84f863501bb1510046f83bd8\jetified-firebase-messaging-20.0.1\AndroidManifest.xml:28:9-34:19
 275            android:name="com.google.firebase.messaging.FirebaseMessagingService"
-275-->[com.google.firebase:firebase-messaging:20.0.1] C:\Users\awsha\.gradle\caches\transforms-2\files-2.1\97b20a769b9a9cfb5883d95e00f9acf1\jetified-firebase-messaging-20.0.1\AndroidManifest.xml:29:13-82
+275-->[com.google.firebase:firebase-messaging:20.0.1] C:\Users\alnajjar\.gradle\caches\transforms-2\files-2.1\60b3e4cc84f863501bb1510046f83bd8\jetified-firebase-messaging-20.0.1\AndroidManifest.xml:29:13-82
 276            android:exported="false" >
-276-->[com.google.firebase:firebase-messaging:20.0.1] C:\Users\awsha\.gradle\caches\transforms-2\files-2.1\97b20a769b9a9cfb5883d95e00f9acf1\jetified-firebase-messaging-20.0.1\AndroidManifest.xml:30:13-37
+276-->[com.google.firebase:firebase-messaging:20.0.1] C:\Users\alnajjar\.gradle\caches\transforms-2\files-2.1\60b3e4cc84f863501bb1510046f83bd8\jetified-firebase-messaging-20.0.1\AndroidManifest.xml:30:13-37
 277            <intent-filter android:priority="-500" >
-277-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:90:13-92:29
+277-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:90:13-92:29
 278                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-278-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:91:17-78
-278-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:91:25-75
+278-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:91:17-78
+278-->C:\Users\alnajjar\Desktop\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:91:25-75
 279            </intent-filter>
 280        </service>
 281        <service
-281-->[com.google.firebase:firebase-database-ktx:19.3.1] C:\Users\awsha\.gradle\caches\transforms-2\files-2.1\94f7ff63c0b01f5179ad9b6ea9d5e6bf\firebase-database-ktx-19.3.1\AndroidManifest.xml:12:9-18:19
+281-->[com.google.firebase:firebase-database-ktx:19.3.1] C:\Users\alnajjar\.gradle\caches\transforms-2\files-2.1\94f7ff63c0b01f5179ad9b6ea9d5e6bf\firebase-database-ktx-19.3.1\AndroidManifest.xml:12:9-18:19
 282            android:name="com.google.firebase.components.ComponentDiscoveryService"
-282-->[com.google.firebase:firebase-database-ktx:19.3.1] C:\Users\awsha\.gradle\caches\transforms-2\files-2.1\94f7ff63c0b01f5179ad9b6ea9d5e6bf\firebase-database-ktx-19.3.1\AndroidManifest.xml:13:13-84
+282-->[com.google.firebase:firebase-database-ktx:19.3.1] C:\Users\alnajjar\.gradle\caches\transforms-2\files-2.1\94f7ff63c0b01f5179ad9b6ea9d5e6bf\firebase-database-ktx-19.3.1\AndroidManifest.xml:13:13-84
 283            android:directBootAware="true"
-283-->[com.google.firebase:firebase-common:19.3.0] C:\Users\awsha\.gradle\caches\transforms-2\files-2.1\8e07a5d6ebabf50706d19184f52fbbed\jetified-firebase-common-19.3.0\AndroidManifest.xml:34:13-43
+283-->[com.google.firebase:firebase-common:19.3.0] C:\Users\alnajjar\.gradle\caches\transforms-2\files-2.1\64786d63d0f80968f8c50c5248f585ad\jetified-firebase-common-19.3.0\AndroidManifest.xml:34:13-43
 284            android:exported="false" >
-284-->[com.google.firebase:firebase-database-ktx:19.3.1] C:\Users\awsha\.gradle\caches\transforms-2\files-2.1\94f7ff63c0b01f5179ad9b6ea9d5e6bf\firebase-database-ktx-19.3.1\AndroidManifest.xml:14:13-37
+284-->[com.google.firebase:firebase-database-ktx:19.3.1] C:\Users\alnajjar\.gradle\caches\transforms-2\files-2.1\94f7ff63c0b01f5179ad9b6ea9d5e6bf\firebase-database-ktx-19.3.1\AndroidManifest.xml:14:13-37
 285            <meta-data
-285-->[com.google.firebase:firebase-database-ktx:19.3.1] C:\Users\awsha\.gradle\caches\transforms-2\files-2.1\94f7ff63c0b01f5179ad9b6ea9d5e6bf\firebase-database-ktx-19.3.1\AndroidManifest.xml:15:13-17:85
+285-->[com.google.firebase:firebase-database-ktx:19.3.1] C:\Users\alnajjar\.gradle\caches\transforms-2\files-2.1\94f7ff63c0b01f5179ad9b6ea9d5e6bf\firebase-database-ktx-19.3.1\AndroidManifest.xml:15:13-17:85
 286                android:name="com.google.firebase.components:com.google.firebase.database.ktx.FirebaseDatabaseKtxRegistrar"
-286-->[com.google.firebase:firebase-database-ktx:19.3.1] C:\Users\awsha\.gradle\caches\transforms-2\files-2.1\94f7ff63c0b01f5179ad9b6ea9d5e6bf\firebase-database-ktx-19.3.1\AndroidManifest.xml:16:17-124
+286-->[com.google.firebase:firebase-database-ktx:19.3.1] C:\Users\alnajjar\.gradle\caches\transforms-2\files-2.1\94f7ff63c0b01f5179ad9b6ea9d5e6bf\firebase-database-ktx-19.3.1\AndroidManifest.xml:16:17-124
 287                android:value="com.google.firebase.components.ComponentRegistrar" />
-287-->[com.google.firebase:firebase-database-ktx:19.3.1] C:\Users\awsha\.gradle\caches\transforms-2\files-2.1\94f7ff63c0b01f5179ad9b6ea9d5e6bf\firebase-database-ktx-19.3.1\AndroidManifest.xml:17:17-82
+287-->[com.google.firebase:firebase-database-ktx:19.3.1] C:\Users\alnajjar\.gradle\caches\transforms-2\files-2.1\94f7ff63c0b01f5179ad9b6ea9d5e6bf\firebase-database-ktx-19.3.1\AndroidManifest.xml:17:17-82
 288            <meta-data
-288-->[com.google.firebase:firebase-config-ktx:19.1.0] C:\Users\awsha\.gradle\caches\transforms-2\files-2.1\a6cffb38df1fff9b1a54c3189bb2d656\firebase-config-ktx-19.1.0\AndroidManifest.xml:15:13-17:85
+288-->[com.google.firebase:firebase-config-ktx:19.1.0] C:\Users\alnajjar\.gradle\caches\transforms-2\files-2.1\a6cffb38df1fff9b1a54c3189bb2d656\firebase-config-ktx-19.1.0\AndroidManifest.xml:15:13-17:85
 289                android:name="com.google.firebase.components:com.google.firebase.remoteconfig.ktx.FirebaseConfigKtxRegistrar"
-289-->[com.google.firebase:firebase-config-ktx:19.1.0] C:\Users\awsha\.gradle\caches\transforms-2\files-2.1\a6cffb38df1fff9b1a54c3189bb2d656\firebase-config-ktx-19.1.0\AndroidManifest.xml:16:17-126
+289-->[com.google.firebase:firebase-config-ktx:19.1.0] C:\Users\alnajjar\.gradle\caches\transforms-2\files-2.1\a6cffb38df1fff9b1a54c3189bb2d656\firebase-config-ktx-19.1.0\AndroidManifest.xml:16:17-126
 290                android:value="com.google.firebase.components.ComponentRegistrar" />
-290-->[com.google.firebase:firebase-config-ktx:19.1.0] C:\Users\awsha\.gradle\caches\transforms-2\files-2.1\a6cffb38df1fff9b1a54c3189bb2d656\firebase-config-ktx-19.1.0\AndroidManifest.xml:17:17-82
+290-->[com.google.firebase:firebase-config-ktx:19.1.0] C:\Users\alnajjar\.gradle\caches\transforms-2\files-2.1\a6cffb38df1fff9b1a54c3189bb2d656\firebase-config-ktx-19.1.0\AndroidManifest.xml:17:17-82
 291            <meta-data
-291-->[com.google.firebase:firebase-config:19.1.0] C:\Users\awsha\.gradle\caches\transforms-2\files-2.1\aefb3d81d4a5c0b02fd15d54d38f1ab1\firebase-config-19.1.0\AndroidManifest.xml:32:13-34:85
+291-->[com.google.firebase:firebase-config:19.1.0] C:\Users\alnajjar\.gradle\caches\transforms-2\files-2.1\aefb3d81d4a5c0b02fd15d54d38f1ab1\firebase-config-19.1.0\AndroidManifest.xml:32:13-34:85
 292                android:name="com.google.firebase.components:com.google.firebase.remoteconfig.RemoteConfigRegistrar"
-292-->[com.google.firebase:firebase-config:19.1.0] C:\Users\awsha\.gradle\caches\transforms-2\files-2.1\aefb3d81d4a5c0b02fd15d54d38f1ab1\firebase-config-19.1.0\AndroidManifest.xml:33:17-117
+292-->[com.google.firebase:firebase-config:19.1.0] C:\Users\alnajjar\.gradle\caches\transforms-2\files-2.1\aefb3d81d4a5c0b02fd15d54d38f1ab1\firebase-config-19.1.0\AndroidManifest.xml:33:17-117
 293                android:value="com.google.firebase.components.ComponentRegistrar" />
-293-->[com.google.firebase:firebase-config:19.1.0] C:\Users\awsha\.gradle\caches\transforms-2\files-2.1\aefb3d81d4a5c0b02fd15d54d38f1ab1\firebase-config-19.1.0\AndroidManifest.xml:34:17-82
+293-->[com.google.firebase:firebase-config:19.1.0] C:\Users\alnajjar\.gradle\caches\transforms-2\files-2.1\aefb3d81d4a5c0b02fd15d54d38f1ab1\firebase-config-19.1.0\AndroidManifest.xml:34:17-82
 294            <meta-data
-294-->[com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\awsha\.gradle\caches\transforms-2\files-2.1\f0d2e946ae913db26851db1bd33f42cd\play-services-measurement-api-17.2.1\AndroidManifest.xml:30:13-32:85
+294-->[com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\alnajjar\.gradle\caches\transforms-2\files-2.1\f0d2e946ae913db26851db1bd33f42cd\play-services-measurement-api-17.2.1\AndroidManifest.xml:30:13-32:85
 295                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
-295-->[com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\awsha\.gradle\caches\transforms-2\files-2.1\f0d2e946ae913db26851db1bd33f42cd\play-services-measurement-api-17.2.1\AndroidManifest.xml:31:17-139
+295-->[com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\alnajjar\.gradle\caches\transforms-2\files-2.1\f0d2e946ae913db26851db1bd33f42cd\play-services-measurement-api-17.2.1\AndroidManifest.xml:31:17-139
 296                android:value="com.google.firebase.components.ComponentRegistrar" />
-296-->[com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\awsha\.gradle\caches\transforms-2\files-2.1\f0d2e946ae913db26851db1bd33f42cd\play-services-measurement-api-17.2.1\AndroidManifest.xml:32:17-82
+296-->[com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\alnajjar\.gradle\caches\transforms-2\files-2.1\f0d2e946ae913db26851db1bd33f42cd\play-services-measurement-api-17.2.1\AndroidManifest.xml:32:17-82
 297            <meta-data
-297-->[com.google.firebase:firebase-iid:20.0.1] C:\Users\awsha\.gradle\caches\transforms-2\files-2.1\71d348f5814b66b690bb457c26835509\firebase-iid-20.0.1\AndroidManifest.xml:32:13-34:85
+297-->[com.google.firebase:firebase-iid:20.0.1] C:\Users\alnajjar\.gradle\caches\transforms-2\files-2.1\71d348f5814b66b690bb457c26835509\firebase-iid-20.0.1\AndroidManifest.xml:32:13-34:85
 298                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
-298-->[com.google.firebase:firebase-iid:20.0.1] C:\Users\awsha\.gradle\caches\transforms-2\files-2.1\71d348f5814b66b690bb457c26835509\firebase-iid-20.0.1\AndroidManifest.xml:33:17-96
+298-->[com.google.firebase:firebase-iid:20.0.1] C:\Users\alnajjar\.gradle\caches\transforms-2\files-2.1\71d348f5814b66b690bb457c26835509\firebase-iid-20.0.1\AndroidManifest.xml:33:17-96
 299                android:value="com.google.firebase.components.ComponentRegistrar" />
-299-->[com.google.firebase:firebase-iid:20.0.1] C:\Users\awsha\.gradle\caches\transforms-2\files-2.1\71d348f5814b66b690bb457c26835509\firebase-iid-20.0.1\AndroidManifest.xml:34:17-82
+299-->[com.google.firebase:firebase-iid:20.0.1] C:\Users\alnajjar\.gradle\caches\transforms-2\files-2.1\71d348f5814b66b690bb457c26835509\firebase-iid-20.0.1\AndroidManifest.xml:34:17-82
 300            <meta-data
-300-->[com.google.firebase:firebase-common-ktx:19.3.0] C:\Users\awsha\.gradle\caches\transforms-2\files-2.1\1991827f972eaea600ef30ed9b52fe51\firebase-common-ktx-19.3.0\AndroidManifest.xml:15:13-17:85
+300-->[com.google.firebase:firebase-common-ktx:19.3.0] C:\Users\alnajjar\.gradle\caches\transforms-2\files-2.1\1991827f972eaea600ef30ed9b52fe51\firebase-common-ktx-19.3.0\AndroidManifest.xml:15:13-17:85
 301                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar"
-301-->[com.google.firebase:firebase-common-ktx:19.3.0] C:\Users\awsha\.gradle\caches\transforms-2\files-2.1\1991827f972eaea600ef30ed9b52fe51\firebase-common-ktx-19.3.0\AndroidManifest.xml:16:17-113
+301-->[com.google.firebase:firebase-common-ktx:19.3.0] C:\Users\alnajjar\.gradle\caches\transforms-2\files-2.1\1991827f972eaea600ef30ed9b52fe51\firebase-common-ktx-19.3.0\AndroidManifest.xml:16:17-113
 302                android:value="com.google.firebase.components.ComponentRegistrar" />
-302-->[com.google.firebase:firebase-common-ktx:19.3.0] C:\Users\awsha\.gradle\caches\transforms-2\files-2.1\1991827f972eaea600ef30ed9b52fe51\firebase-common-ktx-19.3.0\AndroidManifest.xml:17:17-82
+302-->[com.google.firebase:firebase-common-ktx:19.3.0] C:\Users\alnajjar\.gradle\caches\transforms-2\files-2.1\1991827f972eaea600ef30ed9b52fe51\firebase-common-ktx-19.3.0\AndroidManifest.xml:17:17-82
 303            <meta-data
-303-->[com.google.firebase:firebase-database:19.3.1] C:\Users\awsha\.gradle\caches\transforms-2\files-2.1\b9c72ceafe24de344f310c001fcbd2cf\firebase-database-19.3.1\AndroidManifest.xml:32:13-34:85
+303-->[com.google.firebase:firebase-database:19.3.1] C:\Users\alnajjar\.gradle\caches\transforms-2\files-2.1\b9c72ceafe24de344f310c001fcbd2cf\firebase-database-19.3.1\AndroidManifest.xml:32:13-34:85
 304                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
-304-->[com.google.firebase:firebase-database:19.3.1] C:\Users\awsha\.gradle\caches\transforms-2\files-2.1\b9c72ceafe24de344f310c001fcbd2cf\firebase-database-19.3.1\AndroidManifest.xml:33:17-109
+304-->[com.google.firebase:firebase-database:19.3.1] C:\Users\alnajjar\.gradle\caches\transforms-2\files-2.1\b9c72ceafe24de344f310c001fcbd2cf\firebase-database-19.3.1\AndroidManifest.xml:33:17-109
 305                android:value="com.google.firebase.components.ComponentRegistrar" />
-305-->[com.google.firebase:firebase-database:19.3.1] C:\Users\awsha\.gradle\caches\transforms-2\files-2.1\b9c72ceafe24de344f310c001fcbd2cf\firebase-database-19.3.1\AndroidManifest.xml:34:17-82
+305-->[com.google.firebase:firebase-database:19.3.1] C:\Users\alnajjar\.gradle\caches\transforms-2\files-2.1\b9c72ceafe24de344f310c001fcbd2cf\firebase-database-19.3.1\AndroidManifest.xml:34:17-82
 306            <meta-data
-306-->[com.google.firebase:firebase-abt:19.0.0] C:\Users\awsha\.gradle\caches\transforms-2\files-2.1\5bf4d6da21703bd32375ad9def1efa74\firebase-abt-19.0.0\AndroidManifest.xml:13:13-15:85
+306-->[com.google.firebase:firebase-abt:19.0.0] C:\Users\alnajjar\.gradle\caches\transforms-2\files-2.1\5bf4d6da21703bd32375ad9def1efa74\firebase-abt-19.0.0\AndroidManifest.xml:13:13-15:85
 307                android:name="com.google.firebase.components:com.google.firebase.abt.component.AbtRegistrar"
-307-->[com.google.firebase:firebase-abt:19.0.0] C:\Users\awsha\.gradle\caches\transforms-2\files-2.1\5bf4d6da21703bd32375ad9def1efa74\firebase-abt-19.0.0\AndroidManifest.xml:14:17-109
+307-->[com.google.firebase:firebase-abt:19.0.0] C:\Users\alnajjar\.gradle\caches\transforms-2\files-2.1\5bf4d6da21703bd32375ad9def1efa74\firebase-abt-19.0.0\AndroidManifest.xml:14:17-109
 308                android:value="com.google.firebase.components.ComponentRegistrar" />
-308-->[com.google.firebase:firebase-abt:19.0.0] C:\Users\awsha\.gradle\caches\transforms-2\files-2.1\5bf4d6da21703bd32375ad9def1efa74\firebase-abt-19.0.0\AndroidManifest.xml:15:17-82
+308-->[com.google.firebase:firebase-abt:19.0.0] C:\Users\alnajjar\.gradle\caches\transforms-2\files-2.1\5bf4d6da21703bd32375ad9def1efa74\firebase-abt-19.0.0\AndroidManifest.xml:15:17-82
 309        </service>
 310
 311        <receiver
-311-->[com.google.firebase:firebase-iid:20.0.1] C:\Users\awsha\.gradle\caches\transforms-2\files-2.1\71d348f5814b66b690bb457c26835509\firebase-iid-20.0.1\AndroidManifest.xml:37:9-44:20
+311-->[com.google.firebase:firebase-iid:20.0.1] C:\Users\alnajjar\.gradle\caches\transforms-2\files-2.1\71d348f5814b66b690bb457c26835509\firebase-iid-20.0.1\AndroidManifest.xml:37:9-44:20
 312            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
-312-->[com.google.firebase:firebase-iid:20.0.1] C:\Users\awsha\.gradle\caches\transforms-2\files-2.1\71d348f5814b66b690bb457c26835509\firebase-iid-20.0.1\AndroidManifest.xml:38:13-78
+312-->[com.google.firebase:firebase-iid:20.0.1] C:\Users\alnajjar\.gradle\caches\transforms-2\files-2.1\71d348f5814b66b690bb457c26835509\firebase-iid-20.0.1\AndroidManifest.xml:38:13-78
 313            android:exported="true"
-313-->[com.google.firebase:firebase-iid:20.0.1] C:\Users\awsha\.gradle\caches\transforms-2\files-2.1\71d348f5814b66b690bb457c26835509\firebase-iid-20.0.1\AndroidManifest.xml:39:13-36
+313-->[com.google.firebase:firebase-iid:20.0.1] C:\Users\alnajjar\.gradle\caches\transforms-2\files-2.1\71d348f5814b66b690bb457c26835509\firebase-iid-20.0.1\AndroidManifest.xml:39:13-36
 314            android:permission="com.google.android.c2dm.permission.SEND" >
-314-->[com.google.firebase:firebase-iid:20.0.1] C:\Users\awsha\.gradle\caches\transforms-2\files-2.1\71d348f5814b66b690bb457c26835509\firebase-iid-20.0.1\AndroidManifest.xml:40:13-73
+314-->[com.google.firebase:firebase-iid:20.0.1] C:\Users\alnajjar\.gradle\caches\transforms-2\files-2.1\71d348f5814b66b690bb457c26835509\firebase-iid-20.0.1\AndroidManifest.xml:40:13-73
 315            <intent-filter>
-315-->[com.google.firebase:firebase-iid:20.0.1] C:\Users\awsha\.gradle\caches\transforms-2\files-2.1\71d348f5814b66b690bb457c26835509\firebase-iid-20.0.1\AndroidManifest.xml:41:13-43:29
+315-->[com.google.firebase:firebase-iid:20.0.1] C:\Users\alnajjar\.gradle\caches\transforms-2\files-2.1\71d348f5814b66b690bb457c26835509\firebase-iid-20.0.1\AndroidManifest.xml:41:13-43:29
 316                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
-316-->[com.google.firebase:firebase-iid:20.0.1] C:\Users\awsha\.gradle\caches\transforms-2\files-2.1\71d348f5814b66b690bb457c26835509\firebase-iid-20.0.1\AndroidManifest.xml:42:17-81
-316-->[com.google.firebase:firebase-iid:20.0.1] C:\Users\awsha\.gradle\caches\transforms-2\files-2.1\71d348f5814b66b690bb457c26835509\firebase-iid-20.0.1\AndroidManifest.xml:42:25-78
+316-->[com.google.firebase:firebase-iid:20.0.1] C:\Users\alnajjar\.gradle\caches\transforms-2\files-2.1\71d348f5814b66b690bb457c26835509\firebase-iid-20.0.1\AndroidManifest.xml:42:17-81
+316-->[com.google.firebase:firebase-iid:20.0.1] C:\Users\alnajjar\.gradle\caches\transforms-2\files-2.1\71d348f5814b66b690bb457c26835509\firebase-iid-20.0.1\AndroidManifest.xml:42:25-78
 317            </intent-filter>
 318        </receiver>
 319
 320        <provider
-320-->[com.google.firebase:firebase-common:19.3.0] C:\Users\awsha\.gradle\caches\transforms-2\files-2.1\8e07a5d6ebabf50706d19184f52fbbed\jetified-firebase-common-19.3.0\AndroidManifest.xml:26:9-30:39
+320-->[com.google.firebase:firebase-common:19.3.0] C:\Users\alnajjar\.gradle\caches\transforms-2\files-2.1\64786d63d0f80968f8c50c5248f585ad\jetified-firebase-common-19.3.0\AndroidManifest.xml:26:9-30:39
 321            android:name="com.google.firebase.provider.FirebaseInitProvider"
-321-->[com.google.firebase:firebase-common:19.3.0] C:\Users\awsha\.gradle\caches\transforms-2\files-2.1\8e07a5d6ebabf50706d19184f52fbbed\jetified-firebase-common-19.3.0\AndroidManifest.xml:27:13-77
+321-->[com.google.firebase:firebase-common:19.3.0] C:\Users\alnajjar\.gradle\caches\transforms-2\files-2.1\64786d63d0f80968f8c50c5248f585ad\jetified-firebase-common-19.3.0\AndroidManifest.xml:27:13-77
 322            android:authorities="com.turnpoint.ticram.tekram_driver.firebaseinitprovider"
-322-->[com.google.firebase:firebase-common:19.3.0] C:\Users\awsha\.gradle\caches\transforms-2\files-2.1\8e07a5d6ebabf50706d19184f52fbbed\jetified-firebase-common-19.3.0\AndroidManifest.xml:28:13-72
+322-->[com.google.firebase:firebase-common:19.3.0] C:\Users\alnajjar\.gradle\caches\transforms-2\files-2.1\64786d63d0f80968f8c50c5248f585ad\jetified-firebase-common-19.3.0\AndroidManifest.xml:28:13-72
 323            android:exported="false"
-323-->[com.google.firebase:firebase-common:19.3.0] C:\Users\awsha\.gradle\caches\transforms-2\files-2.1\8e07a5d6ebabf50706d19184f52fbbed\jetified-firebase-common-19.3.0\AndroidManifest.xml:29:13-37
+323-->[com.google.firebase:firebase-common:19.3.0] C:\Users\alnajjar\.gradle\caches\transforms-2\files-2.1\64786d63d0f80968f8c50c5248f585ad\jetified-firebase-common-19.3.0\AndroidManifest.xml:29:13-37
 324            android:initOrder="100" />
-324-->[com.google.firebase:firebase-common:19.3.0] C:\Users\awsha\.gradle\caches\transforms-2\files-2.1\8e07a5d6ebabf50706d19184f52fbbed\jetified-firebase-common-19.3.0\AndroidManifest.xml:30:13-36
+324-->[com.google.firebase:firebase-common:19.3.0] C:\Users\alnajjar\.gradle\caches\transforms-2\files-2.1\64786d63d0f80968f8c50c5248f585ad\jetified-firebase-common-19.3.0\AndroidManifest.xml:30:13-36
 325
 326        <activity
-326-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\awsha\.gradle\caches\transforms-2\files-2.1\d308c6d695b411da38e1bc86ebb2b91c\play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+326-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\alnajjar\.gradle\caches\transforms-2\files-2.1\d308c6d695b411da38e1bc86ebb2b91c\play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
 327            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-327-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\awsha\.gradle\caches\transforms-2\files-2.1\d308c6d695b411da38e1bc86ebb2b91c\play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+327-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\alnajjar\.gradle\caches\transforms-2\files-2.1\d308c6d695b411da38e1bc86ebb2b91c\play-services-base-17.0.0\AndroidManifest.xml:24:13-79
 328            android:exported="false"
-328-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\awsha\.gradle\caches\transforms-2\files-2.1\d308c6d695b411da38e1bc86ebb2b91c\play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+328-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\alnajjar\.gradle\caches\transforms-2\files-2.1\d308c6d695b411da38e1bc86ebb2b91c\play-services-base-17.0.0\AndroidManifest.xml:25:13-37
 329            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-329-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\awsha\.gradle\caches\transforms-2\files-2.1\d308c6d695b411da38e1bc86ebb2b91c\play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+329-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\alnajjar\.gradle\caches\transforms-2\files-2.1\d308c6d695b411da38e1bc86ebb2b91c\play-services-base-17.0.0\AndroidManifest.xml:26:13-72
 330
 331        <receiver
-331-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\awsha\.gradle\caches\transforms-2\files-2.1\063794b2f3a216e034ca367de768eb30\play-services-measurement-17.2.1\AndroidManifest.xml:29:9-33:20
+331-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\alnajjar\.gradle\caches\transforms-2\files-2.1\063794b2f3a216e034ca367de768eb30\play-services-measurement-17.2.1\AndroidManifest.xml:29:9-33:20
 332            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
-332-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\awsha\.gradle\caches\transforms-2\files-2.1\063794b2f3a216e034ca367de768eb30\play-services-measurement-17.2.1\AndroidManifest.xml:30:13-85
+332-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\alnajjar\.gradle\caches\transforms-2\files-2.1\063794b2f3a216e034ca367de768eb30\play-services-measurement-17.2.1\AndroidManifest.xml:30:13-85
 333            android:enabled="true"
-333-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\awsha\.gradle\caches\transforms-2\files-2.1\063794b2f3a216e034ca367de768eb30\play-services-measurement-17.2.1\AndroidManifest.xml:31:13-35
+333-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\alnajjar\.gradle\caches\transforms-2\files-2.1\063794b2f3a216e034ca367de768eb30\play-services-measurement-17.2.1\AndroidManifest.xml:31:13-35
 334            android:exported="false" >
-334-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\awsha\.gradle\caches\transforms-2\files-2.1\063794b2f3a216e034ca367de768eb30\play-services-measurement-17.2.1\AndroidManifest.xml:32:13-37
+334-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\alnajjar\.gradle\caches\transforms-2\files-2.1\063794b2f3a216e034ca367de768eb30\play-services-measurement-17.2.1\AndroidManifest.xml:32:13-37
 335        </receiver>
 336        <receiver
-336-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\awsha\.gradle\caches\transforms-2\files-2.1\063794b2f3a216e034ca367de768eb30\play-services-measurement-17.2.1\AndroidManifest.xml:34:9-42:20
+336-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\alnajjar\.gradle\caches\transforms-2\files-2.1\063794b2f3a216e034ca367de768eb30\play-services-measurement-17.2.1\AndroidManifest.xml:34:9-42:20
 337            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
-337-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\awsha\.gradle\caches\transforms-2\files-2.1\063794b2f3a216e034ca367de768eb30\play-services-measurement-17.2.1\AndroidManifest.xml:35:13-100
+337-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\alnajjar\.gradle\caches\transforms-2\files-2.1\063794b2f3a216e034ca367de768eb30\play-services-measurement-17.2.1\AndroidManifest.xml:35:13-100
 338            android:enabled="true"
-338-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\awsha\.gradle\caches\transforms-2\files-2.1\063794b2f3a216e034ca367de768eb30\play-services-measurement-17.2.1\AndroidManifest.xml:36:13-35
+338-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\alnajjar\.gradle\caches\transforms-2\files-2.1\063794b2f3a216e034ca367de768eb30\play-services-measurement-17.2.1\AndroidManifest.xml:36:13-35
 339            android:exported="true"
-339-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\awsha\.gradle\caches\transforms-2\files-2.1\063794b2f3a216e034ca367de768eb30\play-services-measurement-17.2.1\AndroidManifest.xml:37:13-36
+339-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\alnajjar\.gradle\caches\transforms-2\files-2.1\063794b2f3a216e034ca367de768eb30\play-services-measurement-17.2.1\AndroidManifest.xml:37:13-36
 340            android:permission="android.permission.INSTALL_PACKAGES" >
-340-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\awsha\.gradle\caches\transforms-2\files-2.1\063794b2f3a216e034ca367de768eb30\play-services-measurement-17.2.1\AndroidManifest.xml:38:13-69
+340-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\alnajjar\.gradle\caches\transforms-2\files-2.1\063794b2f3a216e034ca367de768eb30\play-services-measurement-17.2.1\AndroidManifest.xml:38:13-69
 341            <intent-filter>
-341-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\awsha\.gradle\caches\transforms-2\files-2.1\063794b2f3a216e034ca367de768eb30\play-services-measurement-17.2.1\AndroidManifest.xml:39:13-41:29
+341-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\alnajjar\.gradle\caches\transforms-2\files-2.1\063794b2f3a216e034ca367de768eb30\play-services-measurement-17.2.1\AndroidManifest.xml:39:13-41:29
 342                <action android:name="com.android.vending.INSTALL_REFERRER" />
-342-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\awsha\.gradle\caches\transforms-2\files-2.1\063794b2f3a216e034ca367de768eb30\play-services-measurement-17.2.1\AndroidManifest.xml:40:17-79
-342-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\awsha\.gradle\caches\transforms-2\files-2.1\063794b2f3a216e034ca367de768eb30\play-services-measurement-17.2.1\AndroidManifest.xml:40:25-76
+342-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\alnajjar\.gradle\caches\transforms-2\files-2.1\063794b2f3a216e034ca367de768eb30\play-services-measurement-17.2.1\AndroidManifest.xml:40:17-79
+342-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\alnajjar\.gradle\caches\transforms-2\files-2.1\063794b2f3a216e034ca367de768eb30\play-services-measurement-17.2.1\AndroidManifest.xml:40:25-76
 343            </intent-filter>
 344        </receiver>
 345
 346        <service
-346-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\awsha\.gradle\caches\transforms-2\files-2.1\063794b2f3a216e034ca367de768eb30\play-services-measurement-17.2.1\AndroidManifest.xml:44:9-47:40
+346-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\alnajjar\.gradle\caches\transforms-2\files-2.1\063794b2f3a216e034ca367de768eb30\play-services-measurement-17.2.1\AndroidManifest.xml:44:9-47:40
 347            android:name="com.google.android.gms.measurement.AppMeasurementService"
-347-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\awsha\.gradle\caches\transforms-2\files-2.1\063794b2f3a216e034ca367de768eb30\play-services-measurement-17.2.1\AndroidManifest.xml:45:13-84
+347-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\alnajjar\.gradle\caches\transforms-2\files-2.1\063794b2f3a216e034ca367de768eb30\play-services-measurement-17.2.1\AndroidManifest.xml:45:13-84
 348            android:enabled="true"
-348-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\awsha\.gradle\caches\transforms-2\files-2.1\063794b2f3a216e034ca367de768eb30\play-services-measurement-17.2.1\AndroidManifest.xml:46:13-35
+348-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\alnajjar\.gradle\caches\transforms-2\files-2.1\063794b2f3a216e034ca367de768eb30\play-services-measurement-17.2.1\AndroidManifest.xml:46:13-35
 349            android:exported="false" />
-349-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\awsha\.gradle\caches\transforms-2\files-2.1\063794b2f3a216e034ca367de768eb30\play-services-measurement-17.2.1\AndroidManifest.xml:47:13-37
+349-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\alnajjar\.gradle\caches\transforms-2\files-2.1\063794b2f3a216e034ca367de768eb30\play-services-measurement-17.2.1\AndroidManifest.xml:47:13-37
 350        <service
-350-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\awsha\.gradle\caches\transforms-2\files-2.1\063794b2f3a216e034ca367de768eb30\play-services-measurement-17.2.1\AndroidManifest.xml:48:9-52:72
+350-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\alnajjar\.gradle\caches\transforms-2\files-2.1\063794b2f3a216e034ca367de768eb30\play-services-measurement-17.2.1\AndroidManifest.xml:48:9-52:72
 351            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
-351-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\awsha\.gradle\caches\transforms-2\files-2.1\063794b2f3a216e034ca367de768eb30\play-services-measurement-17.2.1\AndroidManifest.xml:49:13-87
+351-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\alnajjar\.gradle\caches\transforms-2\files-2.1\063794b2f3a216e034ca367de768eb30\play-services-measurement-17.2.1\AndroidManifest.xml:49:13-87
 352            android:enabled="true"
-352-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\awsha\.gradle\caches\transforms-2\files-2.1\063794b2f3a216e034ca367de768eb30\play-services-measurement-17.2.1\AndroidManifest.xml:50:13-35
+352-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\alnajjar\.gradle\caches\transforms-2\files-2.1\063794b2f3a216e034ca367de768eb30\play-services-measurement-17.2.1\AndroidManifest.xml:50:13-35
 353            android:exported="false"
-353-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\awsha\.gradle\caches\transforms-2\files-2.1\063794b2f3a216e034ca367de768eb30\play-services-measurement-17.2.1\AndroidManifest.xml:51:13-37
+353-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\alnajjar\.gradle\caches\transforms-2\files-2.1\063794b2f3a216e034ca367de768eb30\play-services-measurement-17.2.1\AndroidManifest.xml:51:13-37
 354            android:permission="android.permission.BIND_JOB_SERVICE" />
-354-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\awsha\.gradle\caches\transforms-2\files-2.1\063794b2f3a216e034ca367de768eb30\play-services-measurement-17.2.1\AndroidManifest.xml:52:13-69
+354-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\alnajjar\.gradle\caches\transforms-2\files-2.1\063794b2f3a216e034ca367de768eb30\play-services-measurement-17.2.1\AndroidManifest.xml:52:13-69
 355    </application>
 356
 357</manifest>
