@@ -9,17 +9,19 @@ import android.content.Intent;
 import android.content.IntentSender;
 import android.content.pm.PackageManager;
 import android.location.LocationManager;
+import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
 import android.provider.Settings;
+import android.util.Log;
 import android.widget.Toast;
+
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.core.app.ActivityCompat;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
-import android.util.Log;
+import androidx.core.app.ActivityCompat;
 
 import com.android.volley.RequestQueue;
 import com.android.volley.Response;
@@ -40,6 +42,10 @@ import com.google.android.gms.location.LocationSettingsStates;
 import com.google.android.gms.location.LocationSettingsStatusCodes;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
 import com.google.firebase.remoteconfig.FirebaseRemoteConfig;
 import com.google.firebase.remoteconfig.FirebaseRemoteConfigSettings;
 import com.turnpoint.ticram.tekram_driver.BuildConfig;
@@ -47,7 +53,6 @@ import com.turnpoint.ticram.tekram_driver.CheckIntenetConn;
 import com.turnpoint.ticram.tekram_driver.DBHelper2;
 import com.turnpoint.ticram.tekram_driver.MySharedPreference;
 import com.turnpoint.ticram.tekram_driver.R;
-
 import com.turnpoint.ticram.tekram_driver.Volley.IResult;
 import com.turnpoint.ticram.tekram_driver.Volley.VolleyService;
 
@@ -55,7 +60,9 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import io.paperdb.Paper;
+import java.util.Timer;
+import java.util.TimerTask;
+
 import uk.co.chrisjenx.calligraphy.CalligraphyConfig;
 import uk.co.chrisjenx.calligraphy.CalligraphyContextWrapper;
 
@@ -64,20 +71,21 @@ public class SplashActivity extends AppCompatActivity implements GoogleApiClient
     IResult iresult;
     VolleyService voly_ser;
     public ProgressDialog loading;
-
-// ticram 
+public static  Context context ;
+    // ticram
     public static final int REQUEST_LOCATION = 001;
     GoogleApiClient googleApiClient;
     LocationManager locationManager;
     LocationRequest locationRequest;
     LocationSettingsRequest.Builder locationSettingsRequest;
     PendingResult<LocationSettingsResult> pendingResult;
-
+    AlertDialog.Builder builder;
 
     FirebaseRemoteConfig mFirebaseRemoteConfig;
     FirebaseRemoteConfigSettings configSettings;
     long cacheExpiration = 43200;
     String BaseUrl = "";
+    boolean checkVersion = true;
     DBHelper2 db = new DBHelper2(this);
 
     @Override
@@ -88,6 +96,9 @@ public class SplashActivity extends AppCompatActivity implements GoogleApiClient
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        context = SplashActivity.this;
+        checkUpdate();
+
         InsertTOLocalDB();
 
         CalligraphyConfig.initDefault(new CalligraphyConfig.Builder()
@@ -115,7 +126,7 @@ public class SplashActivity extends AppCompatActivity implements GoogleApiClient
                         new String[]{Manifest.permission.ACCESS_FINE_LOCATION},
                         200);
 
-            } else  if (ActivityCompat.checkSelfPermission(SplashActivity.this,
+            } else if (ActivityCompat.checkSelfPermission(SplashActivity.this,
                     Manifest.permission.ACCESS_FINE_LOCATION)
                     == PackageManager.PERMISSION_GRANTED &&
                     ActivityCompat.checkSelfPermission(SplashActivity.this,
@@ -127,9 +138,7 @@ public class SplashActivity extends AppCompatActivity implements GoogleApiClient
                     mEnableGps();
                 }
             }
-        }
-
-        else  if (Build.VERSION.SDK_INT < Build.VERSION_CODES.M) {
+        } else if (Build.VERSION.SDK_INT < Build.VERSION_CODES.M) {
 
             locationManager = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
             if (locationManager.isProviderEnabled(LocationManager.GPS_PROVIDER)) {
@@ -152,10 +161,67 @@ public class SplashActivity extends AppCompatActivity implements GoogleApiClient
 
         new MySharedPreference(getApplicationContext()).setStringShared("base_url", "http://new.ticram.com/");
     }
-    public void  InsertTOLocalDB(){
+    @Override public void onStop() {
+        super.onStop();
+        if (builder != null) {
+            builder.create().dismiss();
+            builder = null;
+        }
+    }
+    private void checkUpdate() {
+
+        FirebaseDatabase.getInstance().getReference("version_code").addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
+                if (dataSnapshot.child("driver_code").exists()) {
+                    String code = dataSnapshot.child("driver_code").getValue(String.class);
+                    Toast.makeText(SplashActivity.this, dataSnapshot.child("driver_code").getValue(String.class), Toast.LENGTH_SHORT).show();
+                    if (!code.equals(Integer.toString(BuildConfig.VERSION_CODE))) {
+                        checkVersion = false;
+
+                                showForceUpdateDialog();
+
+
+                    }
+                }
+                else{
+                    checkVersion = false;
+                    showForceUpdateDialog();
+                }
+
+            }
+
+            @Override
+            public void onCancelled(@NonNull DatabaseError databaseError) {
+
+            }
+        });
+
+    }
+
+    private void showForceUpdateDialog() {
+        builder = new AlertDialog.Builder(this);
+        builder.create().dismiss();
+        builder.setTitle(getResources().getString(R.string.update_new));
+        builder.setMessage(getResources().getString(R.string.update_message));
+        builder.setCancelable(false);
+        builder.setPositiveButton(getResources().getString(R.string.update),new  DialogInterface.OnClickListener(){
+            @Override
+            public void onClick(DialogInterface dialogInterface, int i) {
+                final String appPackageName = getPackageName(); // getPackageName() from Context or Activity object
+                try {
+                    startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("market://details?id=" + appPackageName)));
+                } catch (android.content.ActivityNotFoundException anfe) {
+                    startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://play.google.com/store/apps/details?id=" + appPackageName)));
+                }
+            }
+        });
+        builder.create().show();
+    }
+    public void InsertTOLocalDB() {
 
         RequestQueue requestQueue = Volley.newRequestQueue(this);
-        JsonArrayRequest request= new JsonArrayRequest("http://new.ticram.com/api/api/get_geozones",new Response.Listener<JSONArray>() {
+        JsonArrayRequest request = new JsonArrayRequest("http://new.ticram.com/api/api/get_geozones", new Response.Listener<JSONArray>() {
 
             @Override
             public void onResponse(JSONArray response) {
@@ -176,12 +242,11 @@ public class SplashActivity extends AppCompatActivity implements GoogleApiClient
                         String Lat = obj.getString("vertices_x");
                         String Lon = obj.getString("vertices_y");
 
-                        db.insertToLatLongTable(id_Zones,title_geoZone ,Lat, Lon);
-
+                        db.insertToLatLongTable(id_Zones, title_geoZone, Lat, Lon);
 
 
                     } catch (JSONException e) {
-                        Toast.makeText(SplashActivity.this,e.getMessage(),Toast.LENGTH_LONG).show();
+                        Toast.makeText(SplashActivity.this, e.getMessage(), Toast.LENGTH_LONG).show();
                         e.printStackTrace();
                     }
 
@@ -203,16 +268,12 @@ public class SplashActivity extends AppCompatActivity implements GoogleApiClient
     }
 
 
-
-
-
     @Override
-    public void onResume(){
+    public void onResume() {
         super.onResume();
-        boolean check_internet=new CheckIntenetConn(getApplicationContext()).isNetworkAvailable();
-        if(check_internet) {
-        }
-        else if(check_internet == false){
+        boolean check_internet = new CheckIntenetConn(getApplicationContext()).isNetworkAvailable();
+        if (check_internet) {
+        } else if (check_internet == false) {
             createNetErrorDialog();
         }
 
@@ -227,7 +288,8 @@ public class SplashActivity extends AppCompatActivity implements GoogleApiClient
                         new DialogInterface.OnClickListener() {
                             public void onClick(DialogInterface dialog, int id) {
                                 Intent i = new Intent(Settings.ACTION_WIRELESS_SETTINGS);
-                                startActivity(i);
+                                if (checkVersion)
+                                    startActivity(i);
                             }
                         }
                 )
@@ -243,10 +305,8 @@ public class SplashActivity extends AppCompatActivity implements GoogleApiClient
     }
 
 
-
-
     @Override
-    public void onRequestPermissionsResult(int requestCode, String permissions[], int[] grantResults) {
+    public void onRequestPermissionsResult(int requestCode, String[] permissions, int[] grantResults) {
         switch (requestCode) {
             case 200: {
                 // If request is cancelled, the result arrays are empty.
@@ -271,10 +331,8 @@ public class SplashActivity extends AppCompatActivity implements GoogleApiClient
             }
 
 
-
         }
     }
-
 
 
     public void delay_splash() {
@@ -286,38 +344,34 @@ public class SplashActivity extends AppCompatActivity implements GoogleApiClient
                 if (login_status.contains("login")) {
                     Intent intent = new Intent(SplashActivity.this, MapsMain.class);
                     intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-                    finish();
-                    startActivity(intent);
+
+                    if (checkVersion) {
+                        startActivity(intent);
+                        finish();
+                    }
 
                 } else {
                     Intent intent = new Intent(SplashActivity.this, LoginActivity.class);
                     intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-                    finish();
-                    startActivity(intent);
+                    if (checkVersion) {
+                        startActivity(intent);
+                        finish();
+                    }
                 }
-
             }
         }, 1000);
 
     }
 
 
+    @Override
+    public void onDestroy() {
+        super.onDestroy();
 
-
-
-        @Override
-        public void onDestroy() {
-            super.onDestroy();
-
-        }
-
-
-
-
+    }
 
 
     //===================================enable gps =================================================
-
 
 
     public void mEnableGps() {
@@ -328,7 +382,6 @@ public class SplashActivity extends AppCompatActivity implements GoogleApiClient
         googleApiClient.connect();
         mLocationSetting();
     }
-
 
 
     public void mLocationSetting() {
@@ -379,11 +432,6 @@ public class SplashActivity extends AppCompatActivity implements GoogleApiClient
     }
 
 
-
-
-
-
-
     //callback method
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
@@ -394,11 +442,11 @@ public class SplashActivity extends AppCompatActivity implements GoogleApiClient
             case REQUEST_LOCATION:
                 switch (resultCode) {
                     case Activity.RESULT_OK:
-                         delay_splash();
+                        delay_splash();
                         break;
                     case Activity.RESULT_CANCELED:
                         mEnableGps();
-                         break;
+                        break;
                     default:
                         break;
                 }
@@ -413,28 +461,23 @@ public class SplashActivity extends AppCompatActivity implements GoogleApiClient
         }
 
 
-
-
     }
 
     @Override
     public void onConnected(@Nullable Bundle bundle) {
     }
+
     @Override
     public void onConnectionSuspended(int i) {
     }
+
     @Override
     public void onConnectionFailed(@NonNull ConnectionResult connectionResult) {
 
     }
 
 
-
-
-
-
-
-    public String fetchUrlBase(Context context){
+    public String fetchUrlBase(Context context) {
         mFirebaseRemoteConfig.fetchAndActivate()
                 .addOnCompleteListener(this, new OnCompleteListener<Boolean>() {
                     @Override
@@ -497,7 +540,6 @@ public class SplashActivity extends AppCompatActivity implements GoogleApiClient
         }
 
     }*/
-
 
 
 }

@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\awsha\\OneDrive\\Desktop\\Tekram_Driver last\\Tekram_Driver\\captin\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-iw\\values-iw.xml",
+            "outputFile": "C:\\Users\\awsha\\OneDrive\\Desktop\\Tekram_Driver last\\Driver\\Tekram_Driver\\captin\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-iw\\values-iw.xml",
             "map": [
                 {
                     "source": "C:\\Users\\awsha\\.gradle\\caches\\transforms-2\\files-2.1\\d308c6d695b411da38e1bc86ebb2b91c\\play-services-base-17.0.0\\res\\values-iw\\values.xml",

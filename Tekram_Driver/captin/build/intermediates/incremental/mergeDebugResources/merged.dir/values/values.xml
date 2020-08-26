@@ -611,7 +611,7 @@
     <string name="character_counter_pattern" translatable="false">%1$d / %2$d</string>
     <string name="check_conn">خلل بالاتصال بالانترنت!</string>
     <string name="check_message_pin">ادخل رمز التاكيد المرسل الى @@@ جوالك لتاكيد رقم الجوال</string>
-    <string name="com.crashlytics.android.build_id" ns2:ignore="UnusedResources,TypographyDashes" translatable="false">cc4b0f63-5359-4f82-892a-8bb9cc5c00f8</string>
+    <string name="com.crashlytics.android.build_id" ns2:ignore="UnusedResources,TypographyDashes" translatable="false">31002621-e075-4785-9d0b-8068a24e1134</string>
     <string msgid="2523291102206661146" name="common_google_play_services_enable_button">Enable</string>
     <string msgid="227660514972886228" name="common_google_play_services_enable_text"><ns1:g id="app_name">%1$s</ns1:g> won\'t work unless you enable Google Play services.</string>
     <string msgid="5122002158466380389" name="common_google_play_services_enable_title">Enable Google Play services</string>
@@ -698,6 +698,9 @@
     <string name="title_activity_trip">TripActivity</string>
     <string name="title_activity_view_details_order">ViewDetailsOrder</string>
     <string name="track">شاحنة</string>
+    <string name="update">Updaet</string>
+    <string name="update_message">The application must be updated  to use it</string>
+    <string name="update_new">New Update</string>
     <string name="user">المستخدم</string>
     <string name="water">مي</string>
     <string name="yes">نعم</string>

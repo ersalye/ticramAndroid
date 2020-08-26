@@ -39,6 +39,7 @@
 
     <string name="no">لا</string>
     <string name="yes">نعم</string>
+    <string name="update_new">تحدسيث جديد</string>
 
 
     <string name="btn_tawklna">وصول</string>
@@ -72,6 +73,8 @@
     <string name="title_activity_my_order_details">MyOrderDetails</string>
 
     <string name="title_activity_show_notfication_logged_out">ShowNotficationLoggedOut</string>
+    <string name="update_message">يجب تحديث التطبيق حتى تتمكن من استخدام التطبيق</string>
+    <string name="update">تحديث</string>
 
 
 </resources>

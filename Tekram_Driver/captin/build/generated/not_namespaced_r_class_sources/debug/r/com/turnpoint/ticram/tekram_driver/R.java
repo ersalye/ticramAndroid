@@ -5764,9 +5764,12 @@ public final class R {
     public static final int title_activity_trip=0x7f0f008f;
     public static final int title_activity_view_details_order=0x7f0f0090;
     public static final int track=0x7f0f0091;
-    public static final int user=0x7f0f0092;
-    public static final int water=0x7f0f0093;
-    public static final int yes=0x7f0f0094;
+    public static final int update=0x7f0f0092;
+    public static final int update_message=0x7f0f0093;
+    public static final int update_new=0x7f0f0094;
+    public static final int user=0x7f0f0095;
+    public static final int water=0x7f0f0096;
+    public static final int yes=0x7f0f0097;
   }
   public static final class style {
     public static final int AlertDialog_AppCompat=0x7f100000;

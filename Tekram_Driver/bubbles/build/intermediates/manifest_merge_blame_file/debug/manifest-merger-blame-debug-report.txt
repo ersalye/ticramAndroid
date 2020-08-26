@@ -30,27 +30,27 @@
 30
 31    <uses-sdk
 32        android:minSdkVersion="14"
-32-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Tekram_Driver\bubbles\src\main\AndroidManifest.xml
+32-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\bubbles\src\main\AndroidManifest.xml
 33        android:targetSdkVersion="28" />
-33-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Tekram_Driver\bubbles\src\main\AndroidManifest.xml
+33-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\bubbles\src\main\AndroidManifest.xml
 34
 35    <uses-permission android:name="android.permission.VIBRATE" />
-35-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Tekram_Driver\bubbles\src\main\AndroidManifest.xml:30:5-65
-35-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Tekram_Driver\bubbles\src\main\AndroidManifest.xml:30:22-63
+35-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\bubbles\src\main\AndroidManifest.xml:30:5-65
+35-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\bubbles\src\main\AndroidManifest.xml:30:22-63
 36    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
-36-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Tekram_Driver\bubbles\src\main\AndroidManifest.xml:31:5-78
-36-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Tekram_Driver\bubbles\src\main\AndroidManifest.xml:31:22-75
+36-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\bubbles\src\main\AndroidManifest.xml:31:5-78
+36-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\bubbles\src\main\AndroidManifest.xml:31:22-75
 37
 38    <application>
-38-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Tekram_Driver\bubbles\src\main\AndroidManifest.xml:33:5-39:19
+38-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\bubbles\src\main\AndroidManifest.xml:33:5-39:19
 39        <service
-39-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Tekram_Driver\bubbles\src\main\AndroidManifest.xml:35:9-37:40
+39-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\bubbles\src\main\AndroidManifest.xml:35:9-37:40
 40            android:name="com.txusballesteros.bubbles.BubblesService"
-40-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Tekram_Driver\bubbles\src\main\AndroidManifest.xml:35:18-75
+40-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\bubbles\src\main\AndroidManifest.xml:35:18-75
 41            android:enabled="true"
-41-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Tekram_Driver\bubbles\src\main\AndroidManifest.xml:36:13-35
+41-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\bubbles\src\main\AndroidManifest.xml:36:13-35
 42            android:exported="false" />
-42-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Tekram_Driver\bubbles\src\main\AndroidManifest.xml:37:13-37
+42-->C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\bubbles\src\main\AndroidManifest.xml:37:13-37
 43    </application>
 44
 45</manifest>

@@ -1,27 +1,8 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\awsha\\OneDrive\\Desktop\\Tekram_Driver last\\Tekram_Driver\\captin\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v21\\values-v21.xml",
+            "outputFile": "C:\\Users\\awsha\\OneDrive\\Desktop\\Tekram_Driver last\\Driver\\Tekram_Driver\\captin\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v21\\values-v21.xml",
             "map": [
-                {
-                    "source": "C:\\Users\\awsha\\OneDrive\\Desktop\\Tekram_Driver last\\Tekram_Driver\\captin\\src\\main\\res\\values-v21\\styles.xml",
-                    "from": {
-                        "startLines": "3",
-                        "startColumns": "4",
-                        "startOffsets": "106",
-                        "endLines": "9",
-                        "endColumns": "12",
-                        "endOffsets": "353"
-                    },
-                    "to": {
-                        "startLines": "6",
-                        "startColumns": "4",
-                        "startOffsets": "399",
-                        "endLines": "12",
-                        "endColumns": "12",
-                        "endOffsets": "638"
-                    }
-                },
                 {
                     "source": "C:\\Users\\awsha\\.gradle\\caches\\transforms-2\\files-2.1\\9dfff5c81036fc71e64a7ff3971afe78\\material-1.0.0\\res\\values-v21\\values-v21.xml",
                     "from": {
@@ -58,6 +39,25 @@
                         "endLines": "2,3,4,5,270,271,278,282,320,325",
                         "endColumns": "103,63,66,63,115,125,125,127,12,12",
                         "endOffsets": "199,263,330,394,19662,19788,20245,20541,22593,22931"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\awsha\\OneDrive\\Desktop\\Tekram_Driver last\\Driver\\Tekram_Driver\\captin\\src\\main\\res\\values-v21\\styles.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "106",
+                        "endLines": "9",
+                        "endColumns": "12",
+                        "endOffsets": "353"
+                    },
+                    "to": {
+                        "startLines": "6",
+                        "startColumns": "4",
+                        "startOffsets": "399",
+                        "endLines": "12",
+                        "endColumns": "12",
+                        "endOffsets": "638"
                     }
                 },
                 {
