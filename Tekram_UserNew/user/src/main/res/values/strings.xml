@@ -232,5 +232,6 @@
     <string name="ok">OK</string>
     <string name="hour">hour</string>
     <string name="min">min</string>
-    <string name="alerte_force_update_title"></string>
+    <string name="alerte_force_update_title">Update Force</string>
+    <string name="alerte_force_update_message">You have to update the app to be able to use it</string>
 </resources>

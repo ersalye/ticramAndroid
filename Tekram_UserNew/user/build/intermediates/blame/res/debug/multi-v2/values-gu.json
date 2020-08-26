@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "E:\\Tekram_UserNew\\user\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-gu\\values-gu.xml",
+            "outputFile": "C:\\ticramAndroid\\Tekram_UserNew\\user\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-gu\\values-gu.xml",
             "map": [
                 {
                     "source": "C:\\Users\\admin\\.gradle\\caches\\transforms-2\\files-2.1\\2f6b67f3a70350fae2128ebf0b664e29\\play-services-base-17.0.0\\res\\values-gu\\values.xml",

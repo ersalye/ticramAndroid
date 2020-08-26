@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "E:\\Tekram_UserNew\\user\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-hdpi-v4\\values-hdpi-v4.xml",
+            "outputFile": "C:\\ticramAndroid\\Tekram_UserNew\\user\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-hdpi-v4\\values-hdpi-v4.xml",
             "map": [
                 {
                     "source": "C:\\Users\\admin\\.gradle\\caches\\transforms-2\\files-2.1\\0f9dd3bce8adc69beb57c07956805d9a\\appcompat-1.0.0\\res\\values-hdpi-v4\\values-hdpi-v4.xml",

@@ -55,7 +55,7 @@ dependencies {
 
     implementation 'com.google.firebase:firebase-core:17.2.1'
     implementation 'com.google.firebase:firebase-messaging:20.0.1'
-    implementation 'com.google.firebase:firebase-database-ktx:19.2.0'
+    implementation 'com.google.firebase:firebase-database-ktx:19.3.1'
 
 
     compile('com.crashlytics.sdk.android:crashlytics:2.8.0@aar') {

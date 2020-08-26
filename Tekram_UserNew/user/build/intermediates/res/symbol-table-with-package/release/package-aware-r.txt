@@ -2315,6 +2315,8 @@ string add
 string add_ticket_title
 string admin
 string afew_min_left
+string alerte_force_update_message
+string alerte_force_update_title
 string app_name
 string appbar_scrolling_view_behavior
 string are_you_sure

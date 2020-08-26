@@ -6917,664 +6917,670 @@ public final class R2 {
     public static final int afew_min_left = 0x7f0f0032;
 
     @StringRes
-    public static final int app_name = 0x7f0f0033;
+    public static final int alerte_force_update_message = 0x7f0f0033;
 
     @StringRes
-    public static final int appbar_scrolling_view_behavior = 0x7f0f0034;
+    public static final int alerte_force_update_title = 0x7f0f0034;
 
     @StringRes
-    public static final int are_you_sure = 0x7f0f0035;
+    public static final int app_name = 0x7f0f0035;
 
     @StringRes
-    public static final int are_you_sure_loc = 0x7f0f0036;
+    public static final int appbar_scrolling_view_behavior = 0x7f0f0036;
 
     @StringRes
-    public static final int are_your_sure = 0x7f0f0037;
+    public static final int are_you_sure = 0x7f0f0037;
 
     @StringRes
-    public static final int back_toMain = 0x7f0f0038;
+    public static final int are_you_sure_loc = 0x7f0f0038;
 
     @StringRes
-    public static final int balance = 0x7f0f0039;
+    public static final int are_your_sure = 0x7f0f0039;
 
     @StringRes
-    public static final int base_fee = 0x7f0f003a;
+    public static final int back_toMain = 0x7f0f003a;
 
     @StringRes
-    public static final int bottom_sheet_behavior = 0x7f0f003b;
+    public static final int balance = 0x7f0f003b;
 
     @StringRes
-    public static final int btn_user_name_reg = 0x7f0f003c;
+    public static final int base_fee = 0x7f0f003c;
 
     @StringRes
-    public static final int bus = 0x7f0f003d;
+    public static final int bottom_sheet_behavior = 0x7f0f003d;
 
     @StringRes
-    public static final int call_captain = 0x7f0f003e;
+    public static final int btn_user_name_reg = 0x7f0f003e;
 
     @StringRes
-    public static final int call_captain_app = 0x7f0f003f;
+    public static final int bus = 0x7f0f003f;
 
     @StringRes
-    public static final int call_captain_phone = 0x7f0f0040;
+    public static final int call_captain = 0x7f0f0040;
 
     @StringRes
-    public static final int call_support = 0x7f0f0041;
+    public static final int call_captain_app = 0x7f0f0041;
 
     @StringRes
-    public static final int call_us = 0x7f0f0042;
+    public static final int call_captain_phone = 0x7f0f0042;
 
     @StringRes
-    public static final int cancel = 0x7f0f0043;
+    public static final int call_support = 0x7f0f0043;
 
     @StringRes
-    public static final int cancel_free = 0x7f0f0044;
+    public static final int call_us = 0x7f0f0044;
 
     @StringRes
-    public static final int cancel_order = 0x7f0f0045;
+    public static final int cancel = 0x7f0f0045;
 
     @StringRes
-    public static final int cancel_pay = 0x7f0f0046;
+    public static final int cancel_free = 0x7f0f0046;
 
     @StringRes
-    public static final int cancel_payment = 0x7f0f0047;
+    public static final int cancel_order = 0x7f0f0047;
 
     @StringRes
-    public static final int cancel_question = 0x7f0f0048;
+    public static final int cancel_pay = 0x7f0f0048;
 
     @StringRes
-    public static final int captain = 0x7f0f0049;
+    public static final int cancel_payment = 0x7f0f0049;
 
     @StringRes
-    public static final int captain_Arrived = 0x7f0f004a;
+    public static final int cancel_question = 0x7f0f004a;
 
     @StringRes
-    public static final int captain_is_close = 0x7f0f004b;
+    public static final int captain = 0x7f0f004b;
 
     @StringRes
-    public static final int car_num = 0x7f0f004c;
+    public static final int captain_Arrived = 0x7f0f004c;
 
     @StringRes
-    public static final int cartype = 0x7f0f004d;
+    public static final int captain_is_close = 0x7f0f004d;
 
     @StringRes
-    public static final int cash = 0x7f0f004e;
+    public static final int car_num = 0x7f0f004e;
 
     @StringRes
-    public static final int character_counter_content_description = 0x7f0f004f;
+    public static final int cartype = 0x7f0f004f;
 
     @StringRes
-    public static final int character_counter_pattern = 0x7f0f0050;
+    public static final int cash = 0x7f0f0050;
 
     @StringRes
-    public static final int check_internet = 0x7f0f0051;
+    public static final int character_counter_content_description = 0x7f0f0051;
 
     @StringRes
-    public static final int check_message_pin = 0x7f0f0052;
+    public static final int character_counter_pattern = 0x7f0f0052;
 
     @StringRes
-    public static final int choose_reason = 0x7f0f0053;
+    public static final int check_internet = 0x7f0f0053;
 
     @StringRes
-    public static final int choose_type_complaint = 0x7f0f0054;
+    public static final int check_message_pin = 0x7f0f0054;
 
     @StringRes
-    public static final int chose_place = 0x7f0f0055;
+    public static final int choose_reason = 0x7f0f0055;
 
     @StringRes
-    public static final int codee = 0x7f0f0056;
+    public static final int choose_type_complaint = 0x7f0f0056;
 
     @StringRes
-    public static final int com_crashlytics_android_build_id = 0x7f0f0057;
+    public static final int chose_place = 0x7f0f0057;
 
     @StringRes
-    public static final int common_google_play_services_enable_button = 0x7f0f0058;
+    public static final int codee = 0x7f0f0058;
 
     @StringRes
-    public static final int common_google_play_services_enable_text = 0x7f0f0059;
+    public static final int com_crashlytics_android_build_id = 0x7f0f0059;
 
     @StringRes
-    public static final int common_google_play_services_enable_title = 0x7f0f005a;
+    public static final int common_google_play_services_enable_button = 0x7f0f005a;
 
     @StringRes
-    public static final int common_google_play_services_install_button = 0x7f0f005b;
+    public static final int common_google_play_services_enable_text = 0x7f0f005b;
 
     @StringRes
-    public static final int common_google_play_services_install_text = 0x7f0f005c;
+    public static final int common_google_play_services_enable_title = 0x7f0f005c;
 
     @StringRes
-    public static final int common_google_play_services_install_title = 0x7f0f005d;
+    public static final int common_google_play_services_install_button = 0x7f0f005d;
 
     @StringRes
-    public static final int common_google_play_services_notification_channel_name = 0x7f0f005e;
+    public static final int common_google_play_services_install_text = 0x7f0f005e;
 
     @StringRes
-    public static final int common_google_play_services_notification_ticker = 0x7f0f005f;
+    public static final int common_google_play_services_install_title = 0x7f0f005f;
 
     @StringRes
-    public static final int common_google_play_services_unknown_issue = 0x7f0f0060;
+    public static final int common_google_play_services_notification_channel_name = 0x7f0f0060;
 
     @StringRes
-    public static final int common_google_play_services_unsupported_text = 0x7f0f0061;
+    public static final int common_google_play_services_notification_ticker = 0x7f0f0061;
 
     @StringRes
-    public static final int common_google_play_services_update_button = 0x7f0f0062;
+    public static final int common_google_play_services_unknown_issue = 0x7f0f0062;
 
     @StringRes
-    public static final int common_google_play_services_update_text = 0x7f0f0063;
+    public static final int common_google_play_services_unsupported_text = 0x7f0f0063;
 
     @StringRes
-    public static final int common_google_play_services_update_title = 0x7f0f0064;
+    public static final int common_google_play_services_update_button = 0x7f0f0064;
 
     @StringRes
-    public static final int common_google_play_services_updating_text = 0x7f0f0065;
+    public static final int common_google_play_services_update_text = 0x7f0f0065;
 
     @StringRes
-    public static final int common_google_play_services_wear_update_text = 0x7f0f0066;
+    public static final int common_google_play_services_update_title = 0x7f0f0066;
 
     @StringRes
-    public static final int common_open_on_phone = 0x7f0f0067;
+    public static final int common_google_play_services_updating_text = 0x7f0f0067;
 
     @StringRes
-    public static final int common_signin_button_text = 0x7f0f0068;
+    public static final int common_google_play_services_wear_update_text = 0x7f0f0068;
 
     @StringRes
-    public static final int common_signin_button_text_long = 0x7f0f0069;
+    public static final int common_open_on_phone = 0x7f0f0069;
 
     @StringRes
-    public static final int conditions = 0x7f0f006a;
+    public static final int common_signin_button_text = 0x7f0f006a;
 
     @StringRes
-    public static final int confirm = 0x7f0f006b;
+    public static final int common_signin_button_text_long = 0x7f0f006b;
 
     @StringRes
-    public static final int cost_price = 0x7f0f006c;
+    public static final int conditions = 0x7f0f006c;
 
     @StringRes
-    public static final int credit_number = 0x7f0f006d;
+    public static final int confirm = 0x7f0f006d;
 
     @StringRes
-    public static final int credit_owner = 0x7f0f006e;
+    public static final int cost_price = 0x7f0f006e;
 
     @StringRes
-    public static final int credit_pay_method = 0x7f0f006f;
+    public static final int credit_number = 0x7f0f006f;
 
     @StringRes
-    public static final int default_web_client_id = 0x7f0f0070;
+    public static final int credit_owner = 0x7f0f0070;
 
     @StringRes
-    public static final int delete_oreder = 0x7f0f0071;
+    public static final int credit_pay_method = 0x7f0f0071;
 
     @StringRes
-    public static final int des_is_required = 0x7f0f0072;
+    public static final int default_web_client_id = 0x7f0f0072;
 
     @StringRes
-    public static final int dialoge_select_destination = 0x7f0f0073;
+    public static final int delete_oreder = 0x7f0f0073;
 
     @StringRes
-    public static final int dialoge_select_start = 0x7f0f0074;
+    public static final int des_is_required = 0x7f0f0074;
 
     @StringRes
-    public static final int done = 0x7f0f0075;
+    public static final int dialoge_select_destination = 0x7f0f0075;
 
     @StringRes
-    public static final int done_loc = 0x7f0f0076;
+    public static final int dialoge_select_start = 0x7f0f0076;
 
     @StringRes
-    public static final int driver = 0x7f0f0077;
+    public static final int done = 0x7f0f0077;
 
     @StringRes
-    public static final int ed_user_name = 0x7f0f0078;
+    public static final int done_loc = 0x7f0f0078;
 
     @StringRes
-    public static final int email = 0x7f0f0079;
+    public static final int driver = 0x7f0f0079;
 
     @StringRes
-    public static final int enter = 0x7f0f007a;
+    public static final int ed_user_name = 0x7f0f007a;
 
     @StringRes
-    public static final int enter_code_confir = 0x7f0f007b;
+    public static final int email = 0x7f0f007b;
 
     @StringRes
-    public static final int enter_count = 0x7f0f007c;
+    public static final int enter = 0x7f0f007c;
 
     @StringRes
-    public static final int enter_required_fields = 0x7f0f007d;
+    public static final int enter_code_confir = 0x7f0f007d;
 
     @StringRes
-    public static final int expected_fee = 0x7f0f007e;
+    public static final int enter_count = 0x7f0f007e;
 
     @StringRes
-    public static final int expected_fee_item = 0x7f0f007f;
+    public static final int enter_required_fields = 0x7f0f007f;
 
     @StringRes
-    public static final int expire_date = 0x7f0f0080;
+    public static final int expected_fee = 0x7f0f0080;
 
     @StringRes
-    public static final int fab_transformation_scrim_behavior = 0x7f0f0081;
+    public static final int expected_fee_item = 0x7f0f0081;
 
     @StringRes
-    public static final int fab_transformation_sheet_behavior = 0x7f0f0082;
+    public static final int expire_date = 0x7f0f0082;
 
     @StringRes
-    public static final int fcm_fallback_notification_channel_label = 0x7f0f0083;
+    public static final int fab_transformation_scrim_behavior = 0x7f0f0083;
 
     @StringRes
-    public static final int fields_are_missing = 0x7f0f0084;
+    public static final int fab_transformation_sheet_behavior = 0x7f0f0084;
 
     @StringRes
-    public static final int firebase_database_url = 0x7f0f0085;
+    public static final int fcm_fallback_notification_channel_label = 0x7f0f0085;
 
     @StringRes
-    public static final int free_cancelation = 0x7f0f0086;
+    public static final int fields_are_missing = 0x7f0f0086;
 
     @StringRes
-    public static final int gas = 0x7f0f0087;
+    public static final int firebase_database_url = 0x7f0f0087;
 
     @StringRes
-    public static final int gcm_defaultSenderId = 0x7f0f0088;
+    public static final int free_cancelation = 0x7f0f0088;
 
     @StringRes
-    public static final int google_api_key = 0x7f0f0089;
+    public static final int gas = 0x7f0f0089;
 
     @StringRes
-    public static final int google_app_id = 0x7f0f008a;
+    public static final int gcm_defaultSenderId = 0x7f0f008a;
 
     @StringRes
-    public static final int google_crash_reporting_api_key = 0x7f0f008b;
+    public static final int google_api_key = 0x7f0f008b;
 
     @StringRes
-    public static final int google_maps_key = 0x7f0f008c;
+    public static final int google_app_id = 0x7f0f008c;
 
     @StringRes
-    public static final int google_storage_bucket = 0x7f0f008d;
+    public static final int google_crash_reporting_api_key = 0x7f0f008d;
 
     @StringRes
-    public static final int hello_blank_fragment = 0x7f0f008e;
+    public static final int google_maps_key = 0x7f0f008e;
 
     @StringRes
-    public static final int help = 0x7f0f008f;
+    public static final int google_storage_bucket = 0x7f0f008f;
 
     @StringRes
-    public static final int hide_bottom_view_on_scroll_behavior = 0x7f0f0090;
+    public static final int hello_blank_fragment = 0x7f0f0090;
 
     @StringRes
-    public static final int hour = 0x7f0f0091;
+    public static final int help = 0x7f0f0091;
 
     @StringRes
-    public static final int invite = 0x7f0f0092;
+    public static final int hide_bottom_view_on_scroll_behavior = 0x7f0f0092;
 
     @StringRes
-    public static final int jod = 0x7f0f0093;
+    public static final int hour = 0x7f0f0093;
 
     @StringRes
-    public static final int khaleha_alena = 0x7f0f0094;
+    public static final int invite = 0x7f0f0094;
 
     @StringRes
-    public static final int lim = 0x7f0f0095;
+    public static final int jod = 0x7f0f0095;
 
     @StringRes
-    public static final int min = 0x7f0f0096;
+    public static final int khaleha_alena = 0x7f0f0096;
 
     @StringRes
-    public static final int mobile_number = 0x7f0f0097;
+    public static final int lim = 0x7f0f0097;
 
     @StringRes
-    public static final int mtrl_chip_close_icon_content_description = 0x7f0f0098;
+    public static final int min = 0x7f0f0098;
 
     @StringRes
-    public static final int my_orders_title = 0x7f0f0099;
+    public static final int mobile_number = 0x7f0f0099;
 
     @StringRes
-    public static final int myorders = 0x7f0f009a;
+    public static final int mtrl_chip_close_icon_content_description = 0x7f0f009a;
 
     @StringRes
-    public static final int name = 0x7f0f009b;
+    public static final int my_orders_title = 0x7f0f009b;
 
     @StringRes
-    public static final int navigation_drawer_close = 0x7f0f009c;
+    public static final int myorders = 0x7f0f009c;
 
     @StringRes
-    public static final int navigation_drawer_open = 0x7f0f009d;
+    public static final int name = 0x7f0f009d;
 
     @StringRes
-    public static final int no = 0x7f0f009e;
+    public static final int navigation_drawer_close = 0x7f0f009e;
 
     @StringRes
-    public static final int no_cars_found = 0x7f0f009f;
+    public static final int navigation_drawer_open = 0x7f0f009f;
 
     @StringRes
-    public static final int no_driver = 0x7f0f00a0;
+    public static final int no = 0x7f0f00a0;
 
     @StringRes
-    public static final int no_orders = 0x7f0f00a1;
+    public static final int no_cars_found = 0x7f0f00a1;
 
     @StringRes
-    public static final int not_confirm = 0x7f0f00a2;
+    public static final int no_driver = 0x7f0f00a2;
 
     @StringRes
-    public static final int ok = 0x7f0f00a3;
+    public static final int no_orders = 0x7f0f00a3;
 
     @StringRes
-    public static final int order_details_title = 0x7f0f00a4;
+    public static final int not_confirm = 0x7f0f00a4;
 
     @StringRes
-    public static final int order_non_taxi = 0x7f0f00a5;
+    public static final int ok = 0x7f0f00a5;
 
     @StringRes
-    public static final int order_non_taxi_are_you_sure = 0x7f0f00a6;
+    public static final int order_details_title = 0x7f0f00a6;
 
     @StringRes
-    public static final int order_num = 0x7f0f00a7;
+    public static final int order_non_taxi = 0x7f0f00a7;
 
     @StringRes
-    public static final int password_toggle_content_description = 0x7f0f00a8;
+    public static final int order_non_taxi_are_you_sure = 0x7f0f00a8;
 
     @StringRes
-    public static final int path_password_eye = 0x7f0f00a9;
+    public static final int order_num = 0x7f0f00a9;
 
     @StringRes
-    public static final int path_password_eye_mask_strike_through = 0x7f0f00aa;
+    public static final int password_toggle_content_description = 0x7f0f00aa;
 
     @StringRes
-    public static final int path_password_eye_mask_visible = 0x7f0f00ab;
+    public static final int path_password_eye = 0x7f0f00ab;
 
     @StringRes
-    public static final int path_password_strike_through = 0x7f0f00ac;
+    public static final int path_password_eye_mask_strike_through = 0x7f0f00ac;
 
     @StringRes
-    public static final int pay_Amount = 0x7f0f00ad;
+    public static final int path_password_eye_mask_visible = 0x7f0f00ad;
 
     @StringRes
-    public static final int pay_meth = 0x7f0f00ae;
+    public static final int path_password_strike_through = 0x7f0f00ae;
 
     @StringRes
-    public static final int pay_method = 0x7f0f00af;
+    public static final int pay_Amount = 0x7f0f00af;
 
     @StringRes
-    public static final int phone = 0x7f0f00b0;
+    public static final int pay_meth = 0x7f0f00b0;
 
     @StringRes
-    public static final int pick_up_first = 0x7f0f00b1;
+    public static final int pay_method = 0x7f0f00b1;
 
     @StringRes
-    public static final int places_autocomplete_clear_button = 0x7f0f00b2;
+    public static final int phone = 0x7f0f00b2;
 
     @StringRes
-    public static final int places_autocomplete_label = 0x7f0f00b3;
+    public static final int pick_up_first = 0x7f0f00b3;
 
     @StringRes
-    public static final int places_autocomplete_no_results_for_query = 0x7f0f00b4;
+    public static final int places_autocomplete_clear_button = 0x7f0f00b4;
 
     @StringRes
-    public static final int places_autocomplete_search_hint = 0x7f0f00b5;
+    public static final int places_autocomplete_label = 0x7f0f00b5;
 
     @StringRes
-    public static final int places_cancel = 0x7f0f00b6;
+    public static final int places_autocomplete_no_results_for_query = 0x7f0f00b6;
 
     @StringRes
-    public static final int places_powered_by_google = 0x7f0f00b7;
+    public static final int places_autocomplete_search_hint = 0x7f0f00b7;
 
     @StringRes
-    public static final int places_search_error = 0x7f0f00b8;
+    public static final int places_cancel = 0x7f0f00b8;
 
     @StringRes
-    public static final int places_try_again = 0x7f0f00b9;
+    public static final int places_powered_by_google = 0x7f0f00b9;
 
     @StringRes
-    public static final int please_add_location = 0x7f0f00ba;
+    public static final int places_search_error = 0x7f0f00ba;
 
     @StringRes
-    public static final int please_add_name = 0x7f0f00bb;
+    public static final int places_try_again = 0x7f0f00bb;
 
     @StringRes
-    public static final int please_add_number = 0x7f0f00bc;
+    public static final int please_add_location = 0x7f0f00bc;
 
     @StringRes
-    public static final int please_add_picture = 0x7f0f00bd;
+    public static final int please_add_name = 0x7f0f00bd;
 
     @StringRes
-    public static final int please_chose_type_car = 0x7f0f00be;
+    public static final int please_add_number = 0x7f0f00be;
 
     @StringRes
-    public static final int please_wait = 0x7f0f00bf;
+    public static final int please_add_picture = 0x7f0f00bf;
 
     @StringRes
-    public static final int prices = 0x7f0f00c0;
+    public static final int please_chose_type_car = 0x7f0f00c0;
 
     @StringRes
-    public static final int project_id = 0x7f0f00c1;
+    public static final int please_wait = 0x7f0f00c1;
 
     @StringRes
-    public static final int questions = 0x7f0f00c2;
+    public static final int prices = 0x7f0f00c2;
 
     @StringRes
-    public static final int rate_driver = 0x7f0f00c3;
+    public static final int project_id = 0x7f0f00c3;
 
     @StringRes
-    public static final int register = 0x7f0f00c4;
+    public static final int questions = 0x7f0f00c4;
 
     @StringRes
-    public static final int reorder = 0x7f0f00c5;
+    public static final int rate_driver = 0x7f0f00c5;
 
     @StringRes
-    public static final int reply_ticket = 0x7f0f00c6;
+    public static final int register = 0x7f0f00c6;
 
     @StringRes
-    public static final int report = 0x7f0f00c7;
+    public static final int reorder = 0x7f0f00c7;
 
     @StringRes
-    public static final int report_problem = 0x7f0f00c8;
+    public static final int reply_ticket = 0x7f0f00c8;
 
     @StringRes
-    public static final int resend_code = 0x7f0f00c9;
+    public static final int report = 0x7f0f00c9;
 
     @StringRes
-    public static final int save_changes = 0x7f0f00ca;
+    public static final int report_problem = 0x7f0f00ca;
 
     @StringRes
-    public static final int search_menu_title = 0x7f0f00cb;
+    public static final int resend_code = 0x7f0f00cb;
 
     @StringRes
-    public static final int send = 0x7f0f00cc;
+    public static final int save_changes = 0x7f0f00cc;
 
     @StringRes
-    public static final int service_not_available = 0x7f0f00cd;
+    public static final int search_menu_title = 0x7f0f00cd;
 
     @StringRes
-    public static final int settings = 0x7f0f00ce;
+    public static final int send = 0x7f0f00ce;
 
     @StringRes
-    public static final int status_bar_notification_info_overflow = 0x7f0f00cf;
+    public static final int service_not_available = 0x7f0f00cf;
 
     @StringRes
-    public static final int suggest = 0x7f0f00d0;
+    public static final int settings = 0x7f0f00d0;
 
     @StringRes
-    public static final int support = 0x7f0f00d1;
+    public static final int status_bar_notification_info_overflow = 0x7f0f00d1;
 
     @StringRes
-    public static final int support_ticket = 0x7f0f00d2;
+    public static final int suggest = 0x7f0f00d2;
 
     @StringRes
-    public static final int tawklna = 0x7f0f00d3;
+    public static final int support = 0x7f0f00d3;
 
     @StringRes
-    public static final int taxi = 0x7f0f00d4;
+    public static final int support_ticket = 0x7f0f00d4;
 
     @StringRes
-    public static final int taxi_khas = 0x7f0f00d5;
+    public static final int tawklna = 0x7f0f00d5;
 
     @StringRes
-    public static final int taxi_momyaz = 0x7f0f00d6;
+    public static final int taxi = 0x7f0f00d6;
 
     @StringRes
-    public static final int taxi_yellow = 0x7f0f00d7;
+    public static final int taxi_khas = 0x7f0f00d7;
 
     @StringRes
-    public static final int tech_support = 0x7f0f00d8;
+    public static final int taxi_momyaz = 0x7f0f00d8;
 
     @StringRes
-    public static final int tech_support_not_available = 0x7f0f00d9;
+    public static final int taxi_yellow = 0x7f0f00d9;
 
     @StringRes
-    public static final int thank_u = 0x7f0f00da;
+    public static final int tech_support = 0x7f0f00da;
 
     @StringRes
-    public static final int ticket_sent_text = 0x7f0f00db;
+    public static final int tech_support_not_available = 0x7f0f00db;
 
     @StringRes
-    public static final int tickets_title = 0x7f0f00dc;
+    public static final int thank_u = 0x7f0f00dc;
 
     @StringRes
-    public static final int timeanddistance = 0x7f0f00dd;
+    public static final int ticket_sent_text = 0x7f0f00dd;
 
     @StringRes
-    public static final int title_activity_add_name_and_picture = 0x7f0f00de;
+    public static final int tickets_title = 0x7f0f00de;
 
     @StringRes
-    public static final int title_activity_auto_complete_place = 0x7f0f00df;
+    public static final int timeanddistance = 0x7f0f00df;
 
     @StringRes
-    public static final int title_activity_auto_complete_place_current = 0x7f0f00e0;
+    public static final int title_activity_add_name_and_picture = 0x7f0f00e0;
 
     @StringRes
-    public static final int title_activity_check_code = 0x7f0f00e1;
+    public static final int title_activity_auto_complete_place = 0x7f0f00e1;
 
     @StringRes
-    public static final int title_activity_chose_map = 0x7f0f00e2;
+    public static final int title_activity_auto_complete_place_current = 0x7f0f00e2;
 
     @StringRes
-    public static final int title_activity_complaint_support = 0x7f0f00e3;
+    public static final int title_activity_check_code = 0x7f0f00e3;
 
     @StringRes
-    public static final int title_activity_department2 = 0x7f0f00e4;
+    public static final int title_activity_chose_map = 0x7f0f00e4;
 
     @StringRes
-    public static final int title_activity_department_list = 0x7f0f00e5;
+    public static final int title_activity_complaint_support = 0x7f0f00e5;
 
     @StringRes
-    public static final int title_activity_department_list2 = 0x7f0f00e6;
+    public static final int title_activity_department2 = 0x7f0f00e6;
 
     @StringRes
-    public static final int title_activity_frequently_questions = 0x7f0f00e7;
+    public static final int title_activity_department_list = 0x7f0f00e7;
 
     @StringRes
-    public static final int title_activity_incomming_call = 0x7f0f00e8;
+    public static final int title_activity_department_list2 = 0x7f0f00e8;
 
     @StringRes
-    public static final int title_activity_main2 = 0x7f0f00e9;
+    public static final int title_activity_frequently_questions = 0x7f0f00e9;
 
     @StringRes
-    public static final int title_activity_main_map = 0x7f0f00ea;
+    public static final int title_activity_incomming_call = 0x7f0f00ea;
 
     @StringRes
-    public static final int title_activity_make_call_sinch = 0x7f0f00eb;
+    public static final int title_activity_main2 = 0x7f0f00eb;
 
     @StringRes
-    public static final int title_activity_map = 0x7f0f00ec;
+    public static final int title_activity_main_map = 0x7f0f00ec;
 
     @StringRes
-    public static final int title_activity_my_order_details = 0x7f0f00ed;
+    public static final int title_activity_make_call_sinch = 0x7f0f00ed;
 
     @StringRes
-    public static final int title_activity_my_orders = 0x7f0f00ee;
+    public static final int title_activity_map = 0x7f0f00ee;
 
     @StringRes
-    public static final int title_activity_my_orders2 = 0x7f0f00ef;
+    public static final int title_activity_my_order_details = 0x7f0f00ef;
 
     @StringRes
-    public static final int title_activity_my_profile = 0x7f0f00f0;
+    public static final int title_activity_my_orders = 0x7f0f00f0;
 
     @StringRes
-    public static final int title_activity_my_tickets = 0x7f0f00f1;
+    public static final int title_activity_my_orders2 = 0x7f0f00f1;
 
     @StringRes
-    public static final int title_activity_navigation_drawer = 0x7f0f00f2;
+    public static final int title_activity_my_profile = 0x7f0f00f2;
 
     @StringRes
-    public static final int title_activity_payment_and_review = 0x7f0f00f3;
+    public static final int title_activity_my_tickets = 0x7f0f00f3;
 
     @StringRes
-    public static final int title_activity_questions = 0x7f0f00f4;
+    public static final int title_activity_navigation_drawer = 0x7f0f00f4;
 
     @StringRes
-    public static final int title_activity_show_notification_content = 0x7f0f00f5;
+    public static final int title_activity_payment_and_review = 0x7f0f00f5;
 
     @StringRes
-    public static final int title_activity_splash = 0x7f0f00f6;
+    public static final int title_activity_questions = 0x7f0f00f6;
 
     @StringRes
-    public static final int title_activity_support = 0x7f0f00f7;
+    public static final int title_activity_show_notification_content = 0x7f0f00f7;
 
     @StringRes
-    public static final int title_activity_tarweej_code = 0x7f0f00f8;
+    public static final int title_activity_splash = 0x7f0f00f8;
 
     @StringRes
-    public static final int title_activity_testt = 0x7f0f00f9;
+    public static final int title_activity_support = 0x7f0f00f9;
 
     @StringRes
-    public static final int title_activity_trip_details = 0x7f0f00fa;
+    public static final int title_activity_tarweej_code = 0x7f0f00fa;
 
     @StringRes
-    public static final int title_activity_view_ticket = 0x7f0f00fb;
+    public static final int title_activity_testt = 0x7f0f00fb;
 
     @StringRes
-    public static final int title_complaintt = 0x7f0f00fc;
+    public static final int title_activity_trip_details = 0x7f0f00fc;
 
     @StringRes
-    public static final int title_support = 0x7f0f00fd;
+    public static final int title_activity_view_ticket = 0x7f0f00fd;
 
     @StringRes
-    public static final int title_tarwej = 0x7f0f00fe;
+    public static final int title_complaintt = 0x7f0f00fe;
 
     @StringRes
-    public static final int to = 0x7f0f00ff;
+    public static final int title_support = 0x7f0f00ff;
 
     @StringRes
-    public static final int track = 0x7f0f0100;
+    public static final int title_tarwej = 0x7f0f0100;
 
     @StringRes
-    public static final int trip_canceled_dialoge = 0x7f0f0101;
+    public static final int to = 0x7f0f0101;
 
     @StringRes
-    public static final int trip_duration = 0x7f0f0102;
+    public static final int track = 0x7f0f0102;
 
     @StringRes
-    public static final int trip_started = 0x7f0f0103;
+    public static final int trip_canceled_dialoge = 0x7f0f0103;
 
     @StringRes
-    public static final int triptype = 0x7f0f0104;
+    public static final int trip_duration = 0x7f0f0104;
 
     @StringRes
-    public static final int turnGps_confir = 0x7f0f0105;
+    public static final int trip_started = 0x7f0f0105;
 
     @StringRes
-    public static final int update = 0x7f0f0106;
+    public static final int triptype = 0x7f0f0106;
 
     @StringRes
-    public static final int use_code = 0x7f0f0107;
+    public static final int turnGps_confir = 0x7f0f0107;
 
     @StringRes
-    public static final int use_tarwej_code = 0x7f0f0108;
+    public static final int update = 0x7f0f0108;
 
     @StringRes
-    public static final int user_name_confir = 0x7f0f0109;
+    public static final int use_code = 0x7f0f0109;
 
     @StringRes
-    public static final int username = 0x7f0f010a;
+    public static final int use_tarwej_code = 0x7f0f010a;
 
     @StringRes
-    public static final int verify = 0x7f0f010b;
+    public static final int user_name_confir = 0x7f0f010b;
 
     @StringRes
-    public static final int waiting = 0x7f0f010c;
+    public static final int username = 0x7f0f010c;
 
     @StringRes
-    public static final int water = 0x7f0f010d;
+    public static final int verify = 0x7f0f010d;
 
     @StringRes
-    public static final int yes = 0x7f0f010e;
+    public static final int waiting = 0x7f0f010e;
+
+    @StringRes
+    public static final int water = 0x7f0f010f;
+
+    @StringRes
+    public static final int yes = 0x7f0f0110;
   }
 
   public static final class style {
