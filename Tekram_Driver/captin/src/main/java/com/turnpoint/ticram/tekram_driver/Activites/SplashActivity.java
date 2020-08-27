@@ -175,15 +175,16 @@ public class SplashActivity extends AppCompatActivity implements GoogleApiClient
         }
     }
     private void checkUpdate() {
+        int  version_code = BuildConfig.VERSION_CODE;
         DatabaseReference databaseReference = FirebaseDatabase.getInstance().getReference().child("version_code").child("driver_code");
         databaseReference.addListenerForSingleValueEvent(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot snapshot) {
-                String code = snapshot.getValue(String.class);
+                int  code = Integer.parseInt(snapshot.getValue(String.class));
                 Log.d("user_code_rahaf =", code + "");
                 Log.d("version_code_rahaf", BuildConfig.VERSION_CODE + "");
                 if (snapshot.exists()) {
-                    if (!code.equals(String.valueOf(BuildConfig.VERSION_CODE))) {
+                    if (code>version_code) {
                         checkVersion = false;
                         showForceUpdateDialog();
                     }else {
