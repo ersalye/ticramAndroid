@@ -85,7 +85,7 @@ public static  Context context ;
     FirebaseRemoteConfigSettings configSettings;
     long cacheExpiration = 43200;
     String BaseUrl = "";
-    boolean checkVersion = true;
+   public static   boolean checkVersion = true;
     DBHelper2 db = new DBHelper2(this);
 
     @Override
@@ -184,10 +184,7 @@ public static  Context context ;
 
                     }
                 }
-                else{
-                    checkVersion = false;
-                    showForceUpdateDialog();
-                }
+
 
             }
 
@@ -196,7 +193,7 @@ public static  Context context ;
 
             }
         });
-
+        Log.d("updsaadads" ,checkVersion+"");
     }
 
     private void showForceUpdateDialog() {

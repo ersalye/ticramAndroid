@@ -216,7 +216,7 @@ public class MapsMain extends FragmentActivity implements OnMapReadyCallback {
                     i.setType("text/plain");
                     i.putExtra(Intent.EXTRA_SUBJECT, "Ticram");
                     String sAux = "\nLet me recommend you this application\n\n";
-                    //sAux = sAux + "https://play.google.com/store/apps/details?id=" +appPackageName;
+                    // = sAux + "https://play.google.com/store/apps/details?id=" +appPackageName;
                     sAux = sAux + "http://www.ticram.com/invite.php";
                     i.putExtra(Intent.EXTRA_TEXT, sAux);
                     startActivity(Intent.createChooser(i, "choose one"));
