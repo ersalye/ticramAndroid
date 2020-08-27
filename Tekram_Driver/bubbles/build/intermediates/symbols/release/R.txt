@@ -1,7 +1,0 @@
-int animator bubble_down_click_animator 0x7f020001
-int animator bubble_shown_animator 0x7f020002
-int animator bubble_trash_hide_animator 0x7f020003
-int animator bubble_trash_hide_magnetism_animator 0x7f020004
-int animator bubble_trash_shown_animator 0x7f020005
-int animator bubble_trash_shown_magnetism_animator 0x7f020006
-int animator bubble_up_click_animator 0x7f020007
