@@ -2529,6 +2529,7 @@ string trip_started
 string triptype
 string turnGps_confir
 string update
+string update_force
 string use_code
 string use_tarwej_code
 string user_name_confir

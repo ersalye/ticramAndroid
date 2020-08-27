@@ -6391,14 +6391,15 @@ public final class R {
     public static final int triptype=0x7f0f0106;
     public static final int turnGps_confir=0x7f0f0107;
     public static final int update=0x7f0f0108;
-    public static final int use_code=0x7f0f0109;
-    public static final int use_tarwej_code=0x7f0f010a;
-    public static final int user_name_confir=0x7f0f010b;
-    public static final int username=0x7f0f010c;
-    public static final int verify=0x7f0f010d;
-    public static final int waiting=0x7f0f010e;
-    public static final int water=0x7f0f010f;
-    public static final int yes=0x7f0f0110;
+    public static final int update_force=0x7f0f0109;
+    public static final int use_code=0x7f0f010a;
+    public static final int use_tarwej_code=0x7f0f010b;
+    public static final int user_name_confir=0x7f0f010c;
+    public static final int username=0x7f0f010d;
+    public static final int verify=0x7f0f010e;
+    public static final int waiting=0x7f0f010f;
+    public static final int water=0x7f0f0110;
+    public static final int yes=0x7f0f0111;
   }
   public static final class style {
     public static final int AlertDialog_AppCompat=0x7f100000;

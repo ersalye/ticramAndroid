@@ -7559,28 +7559,31 @@ public final class R2 {
     public static final int update = 0x7f0f0108;
 
     @StringRes
-    public static final int use_code = 0x7f0f0109;
+    public static final int update_force = 0x7f0f0109;
 
     @StringRes
-    public static final int use_tarwej_code = 0x7f0f010a;
+    public static final int use_code = 0x7f0f010a;
 
     @StringRes
-    public static final int user_name_confir = 0x7f0f010b;
+    public static final int use_tarwej_code = 0x7f0f010b;
 
     @StringRes
-    public static final int username = 0x7f0f010c;
+    public static final int user_name_confir = 0x7f0f010c;
 
     @StringRes
-    public static final int verify = 0x7f0f010d;
+    public static final int username = 0x7f0f010d;
 
     @StringRes
-    public static final int waiting = 0x7f0f010e;
+    public static final int verify = 0x7f0f010e;
 
     @StringRes
-    public static final int water = 0x7f0f010f;
+    public static final int waiting = 0x7f0f010f;
 
     @StringRes
-    public static final int yes = 0x7f0f0110;
+    public static final int water = 0x7f0f0110;
+
+    @StringRes
+    public static final int yes = 0x7f0f0111;
   }
 
   public static final class style {

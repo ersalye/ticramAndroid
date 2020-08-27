@@ -67,6 +67,7 @@ import com.turnpoint.ticram.modules.user_info_splash3;
 
 import java.util.Hashtable;
 import java.util.Map;
+import java.util.concurrent.TimeUnit;
 
 import com.yayandroid.locationmanager.base.LocationBaseActivity;
 import com.yayandroid.locationmanager.configuration.DefaultProviderConfiguration;
@@ -134,6 +135,11 @@ public class SplashActivity extends LocationBaseActivity implements GoogleApiCli
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         checkUpdate();
+        try {
+            TimeUnit.SECONDS.sleep(1);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
         CalligraphyConfig.initDefault(new CalligraphyConfig.Builder()
                 .setDefaultFontPath("fonts/Al-Jazeera-Arabic-Regular.ttf")
                 .setFontAttrId(R.attr.fontPath)
@@ -344,6 +350,7 @@ public class SplashActivity extends LocationBaseActivity implements GoogleApiCli
                         Toast.makeText(SplashActivity.this, res.getMsg(), Toast.LENGTH_LONG).show();
                         if (ckeckVersion) {
                             Intent intent = new Intent(SplashActivity.this, LoginPhoneNumber.class);
+                            intent.setFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP);
                             startActivity(intent);
                             finish();
                         }
@@ -408,6 +415,7 @@ public class SplashActivity extends LocationBaseActivity implements GoogleApiCli
                                 new MySharedPreference(getApplicationContext()).setStringShared("order_status_splash", String.valueOf(user_info1.getOrderStatus()));
                                 if (ckeckVersion) {
                                     Intent intent = new Intent(SplashActivity.this, TripDetails.class);
+                                    intent.setFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP);
                                     startActivity(intent);
                                     finish();
                                 }
@@ -418,6 +426,7 @@ public class SplashActivity extends LocationBaseActivity implements GoogleApiCli
                                 new MySharedPreference(getApplicationContext()).setStringShared("order_status_splash", String.valueOf(user_info1.getOrderStatus()));
                                 if (ckeckVersion) {
                                     Intent intent = new Intent(SplashActivity.this, TripDetails.class);
+                                    intent.setFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP);
                                     startActivity(intent);
                                     finish();
                                 }
@@ -427,6 +436,7 @@ public class SplashActivity extends LocationBaseActivity implements GoogleApiCli
                                 new MySharedPreference(getApplicationContext()).setStringShared("order_id", String.valueOf(user_info1.getOrderId()));
                                 new MySharedPreference(getApplicationContext()).setStringShared("order_status_splash", String.valueOf(user_info1.getOrderStatus()));
                                 Intent intent = new Intent(SplashActivity.this, TripDetails.class);
+                                intent.setFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP);
                                 startActivity(intent);
                                 finish();
                             }
@@ -440,6 +450,7 @@ public class SplashActivity extends LocationBaseActivity implements GoogleApiCli
                                             String.valueOf(user_info1.getOrderId()));
                                     if (ckeckVersion) {
                                         Intent intent = new Intent(SplashActivity.this, PaymentAndReview.class);
+                                        intent.setFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP);
                                         startActivity(intent);
                                         finish();
                                     }
@@ -622,6 +633,7 @@ public class SplashActivity extends LocationBaseActivity implements GoogleApiCli
                 } else {
                     if (ckeckVersion) {
                         Intent intent = new Intent(SplashActivity.this, LoginPhoneNumber.class);
+                        intent.setFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP);
                         startActivity(intent);
                         finish();
                     }
@@ -636,35 +648,39 @@ public class SplashActivity extends LocationBaseActivity implements GoogleApiCli
     public void onLocationFailed(int type) {
 
     }
-
     private void checkUpdate() {
-        FirebaseDatabase.getInstance().getReference("version_code").addValueEventListener(new ValueEventListener() {
+        DatabaseReference databaseReference = FirebaseDatabase.getInstance().getReference().child("version_code").child("user_code");
+
+        databaseReference.addListenerForSingleValueEvent(new ValueEventListener() {
             @Override
-            public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
-                String code = dataSnapshot.child("user_code").getValue(String.class);
-                Log.d("user_code_rahaf =", code + "");
-                Log.d("version_code_rahaf", BuildConfig.VERSION_CODE + "");
-                if (dataSnapshot.child("user_code").exists()) {
-                    if (!code.equals(Integer.toString(BuildConfig.VERSION_CODE))) {
+            public void onDataChange(@NonNull DataSnapshot snapshot) {
+                String code = snapshot.getValue(String.class);
+                int user_code = Integer.parseInt(code);
+
+                if (snapshot.exists()) {
+                    if (BuildConfig.VERSION_CODE < user_code) {
                         ckeckVersion = false;
                         showForceUpdateDialog();
-
+                    } else {
+                        ckeckVersion = true;
                     }
                 }
             }
 
             @Override
-            public void onCancelled(@NonNull DatabaseError databaseError) {
+            public void onCancelled(@NonNull DatabaseError error) {
+
             }
         });
     }
+
 
     private void showForceUpdateDialog() {
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
         builder.setTitle(getResources().getString(R.string.alerte_force_update_title));
         builder.setMessage(getResources().getString(R.string.alerte_force_update_message));
         builder.setCancelable(false);
-        builder.setPositiveButton(getResources().getString(R.string.ok), new DialogInterface.OnClickListener() {
+        builder.setPositiveButton(getResources().getString(R.string.update), new DialogInterface.OnClickListener() {
 
             @Override
             public void onClick(DialogInterface dialogInterface, int i) {

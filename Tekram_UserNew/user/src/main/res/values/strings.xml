@@ -230,6 +230,7 @@
     <string name="no_driver">There is no responded  to your order,\n please try again</string>
     <string name="delete_oreder">Delete order</string>
     <string name="ok">OK</string>
+    <string name="update_force">update</string>
     <string name="hour">hour</string>
     <string name="min">min</string>
     <string name="alerte_force_update_title">Update Force</string>
