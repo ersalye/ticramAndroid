@@ -44,6 +44,7 @@ import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 import com.google.firebase.remoteconfig.FirebaseRemoteConfig;
@@ -62,6 +63,7 @@ import org.json.JSONObject;
 
 import java.util.Timer;
 import java.util.TimerTask;
+import java.util.concurrent.TimeUnit;
 
 import uk.co.chrisjenx.calligraphy.CalligraphyConfig;
 import uk.co.chrisjenx.calligraphy.CalligraphyContextWrapper;
@@ -71,7 +73,7 @@ public class SplashActivity extends AppCompatActivity implements GoogleApiClient
     IResult iresult;
     VolleyService voly_ser;
     public ProgressDialog loading;
-public static  Context context ;
+    public static  Context context ;
     // ticram
     public static final int REQUEST_LOCATION = 001;
     GoogleApiClient googleApiClient;
@@ -85,7 +87,7 @@ public static  Context context ;
     FirebaseRemoteConfigSettings configSettings;
     long cacheExpiration = 43200;
     String BaseUrl = "";
-   public static   boolean checkVersion = true;
+    boolean checkVersion = true;
     DBHelper2 db = new DBHelper2(this);
 
     @Override
@@ -97,16 +99,20 @@ public static  Context context ;
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         context = SplashActivity.this;
-        checkUpdate();
-
         InsertTOLocalDB();
-
         CalligraphyConfig.initDefault(new CalligraphyConfig.Builder()
                 .setDefaultFontPath("fonts/Al-Jazeera-Arabic-Regular.ttf")
                 .setFontAttrId(R.attr.fontPath)
                 .build()
         );
         setContentView(R.layout.activity_splash);
+        checkUpdate();
+        try {
+            TimeUnit.SECONDS.sleep(1);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
         mFirebaseRemoteConfig = FirebaseRemoteConfig.getInstance();
         configSettings = new FirebaseRemoteConfigSettings.Builder()
                 .setMinimumFetchIntervalInSeconds(1200)
@@ -169,31 +175,28 @@ public static  Context context ;
         }
     }
     private void checkUpdate() {
-
-        FirebaseDatabase.getInstance().getReference("version_code").addValueEventListener(new ValueEventListener() {
+        DatabaseReference databaseReference = FirebaseDatabase.getInstance().getReference().child("version_code").child("driver_code");
+        databaseReference.addListenerForSingleValueEvent(new ValueEventListener() {
             @Override
-            public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
-                if (dataSnapshot.child("driver_code").exists()) {
-                    String code = dataSnapshot.child("driver_code").getValue(String.class);
-                    Toast.makeText(SplashActivity.this, dataSnapshot.child("driver_code").getValue(String.class), Toast.LENGTH_SHORT).show();
-                    if (!code.equals(Integer.toString(BuildConfig.VERSION_CODE))) {
+            public void onDataChange(@NonNull DataSnapshot snapshot) {
+                String code = snapshot.getValue(String.class);
+                Log.d("user_code_rahaf =", code + "");
+                Log.d("version_code_rahaf", BuildConfig.VERSION_CODE + "");
+                if (snapshot.exists()) {
+                    if (!code.equals(String.valueOf(BuildConfig.VERSION_CODE))) {
                         checkVersion = false;
-
-                                showForceUpdateDialog();
-
-
+                        showForceUpdateDialog();
+                    }else {
+                        checkVersion = true;
                     }
                 }
-
-
             }
 
             @Override
-            public void onCancelled(@NonNull DatabaseError databaseError) {
+            public void onCancelled(@NonNull DatabaseError error) {
 
             }
         });
-<<<<<<< HEAD
 //        FirebaseDatabase.getInstance().getReference("version_code").addValueEventListener(new ValueEventListener() {
 //            @Override
 //            public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
@@ -216,11 +219,8 @@ public static  Context context ;
 //            public void onCancelled(@NonNull DatabaseError databaseError) {
 //
 //            }
-//        }); //
+//        });
 
-=======
-        Log.d("updsaadads" ,checkVersion+"");
->>>>>>> 2da2fac7b0ff8cd153d3b137db047e74bf1d36d6
     }
 
     private void showForceUpdateDialog() {
