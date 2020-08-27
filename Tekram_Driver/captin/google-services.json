@@ -1,58 +1,34 @@
 {
   "project_info": {
-    "project_number": "126898036308",
-    "firebase_url": "https://ticram-bc020.firebaseio.com",
-    "project_id": "ticram-bc020",
-    "storage_bucket": "ticram-bc020.appspot.com"
+    "project_number": "525170522502",
+    "firebase_url": "https://ticramllc-eb2d2.firebaseio.com",
+    "project_id": "ticramllc-eb2d2",
+    "storage_bucket": "ticramllc-eb2d2.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:126898036308:android:0837e34693699c7f1817c1",
+        "mobilesdk_app_id": "1:525170522502:android:81d0db9a5f0a288415d407",
         "android_client_info": {
           "package_name": "com.turnpoint.ticram"
         }
       },
       "oauth_client": [
         {
-          "client_id": "126898036308-29irifbik3bdgj9f00ro7mmp6mp4fajq.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.turnpoint.ticram",
-            "certificate_hash": "7b30228d8e49945b322aed2d5346106f3e343a21"
-          }
-        },
-        {
-          "client_id": "126898036308-s7ebe9jg2r080bb3c6f6jv9mv80mh2vc.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.turnpoint.ticram",
-            "certificate_hash": "b9ae1b1255140cdf929471f2e3d6d48abb5a3e67"
-          }
-        },
-        {
-          "client_id": "126898036308-8lcchamtkl0fe3np82k2svod9c1ukvmq.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.turnpoint.ticram",
-            "certificate_hash": "91c1869ab34b52037497e28db8f0aaf28b71b334"
-          }
-        },
-        {
-          "client_id": "126898036308-o51csrf8ujmgdk85miuqbb3ecq8ka73q.apps.googleusercontent.com",
+          "client_id": "525170522502-dv5rns6gk76h5r4mq1ra04onvdnq0hk0.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyAxc8T4Cu3HMPF9Pe1lE-WO9LqEc98fZPA"
+          "current_key": "AIzaSyCrBUhvuIULUX7buroHkeVDx5ZMeP1gKsU"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "126898036308-o51csrf8ujmgdk85miuqbb3ecq8ka73q.apps.googleusercontent.com",
+              "client_id": "525170522502-dv5rns6gk76h5r4mq1ra04onvdnq0hk0.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
@@ -61,43 +37,27 @@
     },
     {
       "client_info": {
-        "mobilesdk_app_id": "1:126898036308:android:b06dd62b9963dad51817c1",
+        "mobilesdk_app_id": "1:525170522502:android:80e90a38981e644315d407",
         "android_client_info": {
           "package_name": "com.turnpoint.ticram.tekram_driver"
         }
       },
       "oauth_client": [
         {
-          "client_id": "126898036308-lmh96ook16d2o92hgmo7si91jsgp0him.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.turnpoint.ticram.tekram_driver",
-            "certificate_hash": "7b30228d8e49945b322aed2d5346106f3e343a21"
-          }
-        },
-        {
-          "client_id": "126898036308-at8upv72ihlhvt9iq9gadcg8qti08i5s.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.turnpoint.ticram.tekram_driver",
-            "certificate_hash": "1f82b8a4898e54e48075e6b06299c2773ffd52f3"
-          }
-        },
-        {
-          "client_id": "126898036308-o51csrf8ujmgdk85miuqbb3ecq8ka73q.apps.googleusercontent.com",
+          "client_id": "525170522502-dv5rns6gk76h5r4mq1ra04onvdnq0hk0.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyAxc8T4Cu3HMPF9Pe1lE-WO9LqEc98fZPA"
+          "current_key": "AIzaSyCrBUhvuIULUX7buroHkeVDx5ZMeP1gKsU"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "126898036308-o51csrf8ujmgdk85miuqbb3ecq8ka73q.apps.googleusercontent.com",
+              "client_id": "525170522502-dv5rns6gk76h5r4mq1ra04onvdnq0hk0.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

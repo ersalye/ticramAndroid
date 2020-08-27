@@ -1,4 +1,0 @@
-# Referenced at C:\ticramAndroid\Tekram_UserNew\user\build\intermediates\merged_manifests\debug\AndroidManifest.xml:39
--keep class androidx.core.app.CoreComponentFactory { <init>(); }
-# Referenced at C:\ticramAndroid\Tekram_UserNew\user\build\intermediates\merged_manifests\debug\AndroidManifest.xml:39
--keep class androidx.multidex.MultiDexApplication { <init>(); }

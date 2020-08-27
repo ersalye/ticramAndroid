@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="default_web_client_id" translatable="false">126898036308-o51csrf8ujmgdk85miuqbb3ecq8ka73q.apps.googleusercontent.com</string>
-    <string name="firebase_database_url" translatable="false">https://ticram-bc020.firebaseio.com</string>
-    <string name="gcm_defaultSenderId" translatable="false">126898036308</string>
-    <string name="google_api_key" translatable="false">AIzaSyAxc8T4Cu3HMPF9Pe1lE-WO9LqEc98fZPA</string>
-    <string name="google_app_id" translatable="false">1:126898036308:android:b06dd62b9963dad51817c1</string>
-    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAxc8T4Cu3HMPF9Pe1lE-WO9LqEc98fZPA</string>
-    <string name="google_storage_bucket" translatable="false">ticram-bc020.appspot.com</string>
-    <string name="project_id" translatable="false">ticram-bc020</string>
+    <string name="default_web_client_id" translatable="false">525170522502-dv5rns6gk76h5r4mq1ra04onvdnq0hk0.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://ticramllc-eb2d2.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">525170522502</string>
+    <string name="google_api_key" translatable="false">AIzaSyCrBUhvuIULUX7buroHkeVDx5ZMeP1gKsU</string>
+    <string name="google_app_id" translatable="false">1:525170522502:android:80e90a38981e644315d407</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCrBUhvuIULUX7buroHkeVDx5ZMeP1gKsU</string>
+    <string name="google_storage_bucket" translatable="false">ticramllc-eb2d2.appspot.com</string>
+    <string name="project_id" translatable="false">ticramllc-eb2d2</string>
 </resources>
