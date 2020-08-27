@@ -61,6 +61,9 @@
     <string name="track">شاحنة</string>
     <string name="gas">غاز</string>
     <string name="water">مي</string>
+    <string name="update_new">New Update</string>
+    <string name="update_message">The application must be updated  to use it</string>
+
     <string name="email">البريد الالكتروني</string>
     <string name="please_add_password">Password</string>
     <string name="newss">جديد</string>
@@ -94,6 +97,7 @@
     <string name="title_activity_terms">TermsActivity</string>
     <string name="title_activity_my_order_details">MyOrderDetails</string>
     <string name="title_activity_show_notfication_logged_out">ShowNotficationLoggedOut</string>
+    <string name="update">Updaet</string>
 
 
 </resources>

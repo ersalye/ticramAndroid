@@ -1861,6 +1861,9 @@ string title_activity_terms
 string title_activity_trip
 string title_activity_view_details_order
 string track
+string update
+string update_message
+string update_new
 string user
 string water
 string yes

@@ -1,9 +1,0 @@
-R_DEF: Internal format may change without notice
-local
-animator bubble_down_click_animator
-animator bubble_shown_animator
-animator bubble_trash_hide_animator
-animator bubble_trash_hide_magnetism_animator
-animator bubble_trash_shown_animator
-animator bubble_trash_shown_magnetism_animator
-animator bubble_up_click_animator
