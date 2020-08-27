@@ -134,21 +134,6 @@ public class SplashActivity extends LocationBaseActivity implements GoogleApiCli
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-<<<<<<< HEAD
-        checkUpdate();
-        try {
-            TimeUnit.SECONDS.sleep(1);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-=======
->>>>>>> e7de0b7049cfc43b3bd64e5789309816b225ce48
-        CalligraphyConfig.initDefault(new CalligraphyConfig.Builder()
-                .setDefaultFontPath("fonts/Al-Jazeera-Arabic-Regular.ttf")
-                .setFontAttrId(R.attr.fontPath)
-                .build()
-        );
-        setContentView(R.layout.activity_splash);
 
         checkUpdate();
         try {
@@ -156,6 +141,14 @@ public class SplashActivity extends LocationBaseActivity implements GoogleApiCli
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
+
+        CalligraphyConfig.initDefault(new CalligraphyConfig.Builder()
+                .setDefaultFontPath("fonts/Al-Jazeera-Arabic-Regular.ttf")
+                .setFontAttrId(R.attr.fontPath)
+                .build()
+        );
+        setContentView(R.layout.activity_splash);
+
 
         mFirebaseRemoteConfig = FirebaseRemoteConfig.getInstance();
         configSettings = new FirebaseRemoteConfigSettings.Builder()
@@ -657,6 +650,7 @@ public class SplashActivity extends LocationBaseActivity implements GoogleApiCli
     public void onLocationFailed(int type) {
 
     }
+
     private void checkUpdate() {
         DatabaseReference databaseReference = FirebaseDatabase.getInstance().getReference().child("version_code").child("user_code");
 
@@ -664,7 +658,7 @@ public class SplashActivity extends LocationBaseActivity implements GoogleApiCli
             @Override
             public void onDataChange(@NonNull DataSnapshot snapshot) {
                 String code = snapshot.getValue(String.class);
-<<<<<<< HEAD
+
                 int user_code = Integer.parseInt(code);
 
                 if (snapshot.exists()) {
@@ -672,50 +666,31 @@ public class SplashActivity extends LocationBaseActivity implements GoogleApiCli
                         ckeckVersion = false;
                         showForceUpdateDialog();
                     } else {
-=======
-                Log.d("user_code_rahaf =", code + "");
-                Log.d("version_code_rahaf", BuildConfig.VERSION_CODE + "");
-                if (snapshot.exists()) {
-                    if (!code.equals(String.valueOf(BuildConfig.VERSION_CODE))) {
-                        ckeckVersion = false;
-                        showForceUpdateDialog();
-                    }else {
->>>>>>> e7de0b7049cfc43b3bd64e5789309816b225ce48
-                        ckeckVersion = true;
+
+                        if (snapshot.exists()) {
+                            if (!code.equals(String.valueOf(BuildConfig.VERSION_CODE))) {
+                                ckeckVersion = false;
+                                showForceUpdateDialog();
+                            } else {
+
+                                ckeckVersion = true;
+                            }
+                        }
                     }
                 }
             }
+
 
             @Override
             public void onCancelled(@NonNull DatabaseError error) {
 
             }
         });
-        //        databaseReference.addValueEventListener(new ValueEventListener() {
-//            @Override
-//            public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
-//                String code = dataSnapshot.child("user_code").getValue(String.class);
-//                Log.d("user_code_rahaf =", code + "");
-//                Log.d("version_code_rahaf", BuildConfig.VERSION_CODE + "");
-//                if (dataSnapshot.child("user_code").exists()) {
-//                    if (!code.equals(String.valueOf(BuildConfig.VERSION_CODE))) {
-//                        ckeckVersion = false;
-//                        showForceUpdateDialog();
-//                    }else {
-//                        ckeckVersion = true;
-//                    }
-//                }
-//            }
-//
-//            @Override
-//            public void onCancelled(@NonNull DatabaseError databaseError) {
-//            }
-//        });
     }
 
 
     private void showForceUpdateDialog() {
-        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        AlertDialog.Builder builder = new AlertDialog.Builder(SplashActivity.this);
         builder.setTitle(getResources().getString(R.string.alerte_force_update_title));
         builder.setMessage(getResources().getString(R.string.alerte_force_update_message));
         builder.setCancelable(false);
@@ -737,3 +712,4 @@ public class SplashActivity extends LocationBaseActivity implements GoogleApiCli
         builder.show();
     }
 }
+
