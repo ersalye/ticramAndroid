@@ -1,0 +1,4 @@
+# Referenced at C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\build\intermediates\merged_manifests\release\AndroidManifest.xml:51
+-keep class androidx.core.app.CoreComponentFactory { <init>(); }
+# Referenced at C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\build\intermediates\merged_manifests\release\AndroidManifest.xml:51
+-keep class com.turnpoint.ticram.tekram_driver.MyApplication { <init>(); }
