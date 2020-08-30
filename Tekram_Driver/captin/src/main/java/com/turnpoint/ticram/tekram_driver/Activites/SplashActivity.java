@@ -52,6 +52,7 @@ import com.google.firebase.remoteconfig.FirebaseRemoteConfigSettings;
 import com.turnpoint.ticram.tekram_driver.BuildConfig;
 import com.turnpoint.ticram.tekram_driver.CheckIntenetConn;
 import com.turnpoint.ticram.tekram_driver.DBHelper2;
+import com.turnpoint.ticram.tekram_driver.MyService;
 import com.turnpoint.ticram.tekram_driver.MySharedPreference;
 import com.turnpoint.ticram.tekram_driver.R;
 import com.turnpoint.ticram.tekram_driver.Volley.IResult;
@@ -105,6 +106,7 @@ public class SplashActivity extends AppCompatActivity implements GoogleApiClient
                 .setFontAttrId(R.attr.fontPath)
                 .build()
         );
+
         setContentView(R.layout.activity_splash);
         checkUpdate();
         try {

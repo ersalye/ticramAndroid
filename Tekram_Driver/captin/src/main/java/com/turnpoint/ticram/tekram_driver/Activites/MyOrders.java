@@ -8,6 +8,9 @@ import android.content.IntentSender;
 import android.content.pm.PackageManager;
 import android.location.Location;
 import androidx.core.app.ActivityCompat;
+
+import android.location.LocationListener;
+import android.location.LocationManager;
 import android.os.Bundle;
 import androidx.core.app.NavUtils;
 import androidx.appcompat.app.AppCompatActivity;
@@ -23,7 +26,6 @@ import android.widget.Toast;
 import com.android.volley.VolleyError;
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.api.GoogleApiClient;
-import com.google.android.gms.location.LocationListener;
 import com.google.android.gms.location.LocationRequest;
 import com.google.android.gms.location.LocationServices;
 import com.google.gson.Gson;
@@ -52,7 +54,7 @@ import uk.co.chrisjenx.calligraphy.CalligraphyContextWrapper;
 public class MyOrders extends AppCompatActivity implements
         GoogleApiClient.ConnectionCallbacks,
         GoogleApiClient.OnConnectionFailedListener,
-        LocationListener{
+        LocationListener {
 
 public static final String TAG = MapsMain.class.getSimpleName();
 private final static int CONNECTION_FAILURE_RESOLUTION_REQUEST = 9000;
@@ -415,13 +417,14 @@ double currentLatitude=0.0, currentLongitude=0.0;
     @Override
     protected void onPause() {
         super.onPause();
-        if (mGoogleApiClient.isConnected()) {
-            LocationServices.FusedLocationApi.removeLocationUpdates(mGoogleApiClient, this);
-            mGoogleApiClient.disconnect();
-        }
+//        if (mGoogleApiClient.isConnected()) {
+//            LocationServices.FusedLocationApi.removeLocationUpdates(mGoogleApiClient, this);
+//            mGoogleApiClient.disconnect();
+//        }
     }
 
-
+    boolean gps_enabled = false;
+    boolean network_enabled = false;
 
     @Override
     public void onConnected(Bundle bundle) {
@@ -437,9 +440,14 @@ double currentLatitude=0.0, currentLongitude=0.0;
             // for ActivityCompat#requestPermissions for more details.
             return;
         }
-        Location location = LocationServices.FusedLocationApi.getLastLocation(mGoogleApiClient);
+//        Location location = LocationServices.FusedLocationApi.getLastLocation(mGoogleApiClient);
+        LocationManager lm = (LocationManager) getApplicationContext()
+                .getSystemService(Context.LOCATION_SERVICE);
+        Location location = lm.getLastKnownLocation(LocationManager.NETWORK_PROVIDER);
+
         if (location==null) {
-            LocationServices.FusedLocationApi.requestLocationUpdates(mGoogleApiClient, mLocationRequest, this);
+            onLocationChanged(location);
+//            LocationServices.FusedLocationApi.requestLocationUpdates(mGoogleApiClient, mLocationRequest, this);
         }
         else {
             onLocationChanged(location);
@@ -478,6 +486,21 @@ double currentLatitude=0.0, currentLongitude=0.0;
 
     @Override
     public void onLocationChanged(Location location) {handleNewLocation(location);
+    }
+
+    @Override
+    public void onStatusChanged(String provider, int status, Bundle extras) {
+
+    }
+
+    @Override
+    public void onProviderEnabled(String provider) {
+
+    }
+
+    @Override
+    public void onProviderDisabled(String provider) {
+
     }
 
 }

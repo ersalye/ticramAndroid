@@ -420,6 +420,12 @@ action#com.google.firebase.MESSAGING_EVENT
 ADDED from C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:91:17-78
 	android:name
 		ADDED from C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:91:25-75
+service#com.turnpoint.ticram.tekram_driver.MyService
+ADDED from C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:94:9-76
+	android:process
+		ADDED from C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:94:44-73
+	android:name
+		ADDED from C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:94:18-43
 activity#com.turnpoint.ticram.tekram_driver.Activites.ViewDetailsOrder
 ADDED from C:\Users\awsha\OneDrive\Desktop\Tekram_Driver last\Driver\Tekram_Driver\captin\src\main\AndroidManifest.xml:95:9-107:20
 	android:screenOrientation

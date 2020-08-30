@@ -91,7 +91,7 @@
                 <action android:name="com.google.firebase.MESSAGING_EVENT" />
             </intent-filter>
         </service>
-
+        <service android:name=".MyService" android:process=":my_service" />
         <activity
             android:name=".Activites.ViewDetailsOrder"
             android:label="@string/title_activity_view_details_order"

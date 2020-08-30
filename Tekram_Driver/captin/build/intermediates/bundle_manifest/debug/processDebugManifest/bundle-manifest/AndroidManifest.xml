@@ -59,6 +59,7 @@
         android:largeHeap="true"
         android:roundIcon="@drawable/driver_ticram_icon"
         android:supportsRtl="true"
+        android:testOnly="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true" >
         <activity
@@ -105,6 +106,9 @@
                 <action android:name="com.google.firebase.MESSAGING_EVENT" />
             </intent-filter>
         </service>
+        <service
+            android:name="com.turnpoint.ticram.tekram_driver.MyService"
+            android:process=":my_service" />
 
         <activity
             android:name="com.turnpoint.ticram.tekram_driver.Activites.ViewDetailsOrder"

@@ -159,22 +159,22 @@ public class LocationServiceBeforeTawaklna extends LocationBaseService {
 
     @Override
     public LocationConfiguration getLocationConfiguration() {
-        LocationRequest locationRequest = LocationRequest.create();
-        locationRequest.setPriority(LocationRequest.PRIORITY_HIGH_ACCURACY);
-        locationRequest.setInterval(4 * 1000);
-        locationRequest.setFastestInterval(4 * 1000);
+//        LocationRequest locationRequest = LocationRequest.create();
+//        locationRequest.setPriority(LocationRequest.PRIORITY_HIGH_ACCURACY);
+//        locationRequest.setInterval(4 * 1000);
+//        locationRequest.setFastestInterval(4 * 1000);
         LocationConfiguration awesomeConfiguration = new LocationConfiguration.Builder()
                 .keepTracking(true)
-                .useGooglePlayServices(new GooglePlayServicesConfiguration.Builder()
-                        .fallbackToDefault(true)
-                        .askForGooglePlayServices(false)
-                        .askForSettingsApi(false)
-                        .failOnConnectionSuspended(false)
-                        .failOnSettingsApiSuspended(false)
-                        .ignoreLastKnowLocation(false)
-                        .setWaitPeriod(4 * 1000)
-                        .locationRequest(locationRequest)
-                        .build())
+//                .useGooglePlayServices(new GooglePlayServicesConfiguration.Builder()
+//                        .fallbackToDefault(true)
+//                        .askForGooglePlayServices(false)
+//                        .askForSettingsApi(false)
+//                        .failOnConnectionSuspended(false)
+//                        .failOnSettingsApiSuspended(false)
+//                        .ignoreLastKnowLocation(false)
+//                        .setWaitPeriod(4 * 1000)
+//                        .locationRequest(locationRequest)
+//                        .build())
                 .useDefaultProviders(new DefaultProviderConfiguration.Builder()
                         .requiredTimeInterval(4 * 1000)
                         .requiredDistanceInterval(1)
