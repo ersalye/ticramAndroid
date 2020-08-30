@@ -1,13 +1,10 @@
-#Thu Aug 27 11:26:05 EEST 2020
-path.3=classes_0.dex
-path.2=classes2.dex
-path.1=classes.dex
+#Sun Aug 30 10:07:36 EEST 2020
+path.2=classes3.dex
+path.1=classes2.dex
 path.0=classes.dex
-renamed.3=classes4.dex
 renamed.2=classes3.dex
 renamed.1=classes2.dex
 renamed.0=classes.dex
-base.3=C\:\\Users\\awsha\\OneDrive\\Desktop\\Tekram_Driver last\\Driver\\Tekram_Driver\\captin\\build\\intermediates\\dex\\debug\\mergeLibDexDebug\\out\\classes_0.dex
-base.2=C\:\\Users\\awsha\\OneDrive\\Desktop\\Tekram_Driver last\\Driver\\Tekram_Driver\\captin\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out\\classes2.dex
-base.1=C\:\\Users\\awsha\\OneDrive\\Desktop\\Tekram_Driver last\\Driver\\Tekram_Driver\\captin\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\out\\classes.dex
-base.0=C\:\\Users\\awsha\\OneDrive\\Desktop\\Tekram_Driver last\\Driver\\Tekram_Driver\\captin\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out\\classes.dex
+base.2=C\:\\Users\\awsha\\OneDrive\\Desktop\\Tekram_Driver last\\Driver\\Tekram_Driver\\captin\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes3.dex
+base.1=C\:\\Users\\awsha\\OneDrive\\Desktop\\Tekram_Driver last\\Driver\\Tekram_Driver\\captin\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes2.dex
+base.0=C\:\\Users\\awsha\\OneDrive\\Desktop\\Tekram_Driver last\\Driver\\Tekram_Driver\\captin\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes.dex

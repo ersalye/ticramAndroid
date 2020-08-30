@@ -9,6 +9,7 @@ import android.content.pm.PackageManager;
 import android.graphics.drawable.Drawable;
 import android.location.Criteria;
 import android.location.Location;
+import android.location.LocationListener;
 import android.location.LocationManager;
 import android.net.Uri;
 import android.os.Build;
@@ -242,7 +243,7 @@ public class MapsMain extends FragmentActivity implements OnMapReadyCallback {
                     Intent i = new Intent(Intent.ACTION_SEND);
                     i.setType("text/plain");
                     i.putExtra(Intent.EXTRA_SUBJECT, "Ticram");
-                    String sAux = "http://new.ticram.com/reg-captain";
+                    String sAux = "http://new.faistec.com/reg-captain";
                     i.putExtra(Intent.EXTRA_TEXT, sAux);
                     startActivity(Intent.createChooser(i, "choose one"));
                 } catch (Exception e) {
@@ -1205,7 +1206,7 @@ public class MapsMain extends FragmentActivity implements OnMapReadyCallback {
     }
 
 
-    private class LocationListenerMAPSMain implements android.location.LocationListener {
+    private class LocationListenerMAPSMain implements LocationListener {
 
         public LocationListenerMAPSMain(String provider) {
 

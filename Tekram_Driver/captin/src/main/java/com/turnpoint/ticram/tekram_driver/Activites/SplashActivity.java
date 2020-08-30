@@ -165,7 +165,7 @@ public class SplashActivity extends AppCompatActivity implements GoogleApiClient
             Toast.makeText(getApplicationContext(), "null", Toast.LENGTH_SHORT).show();
         }*/
 
-        new MySharedPreference(getApplicationContext()).setStringShared("base_url", "http://new.ticram.com/");
+        new MySharedPreference(getApplicationContext()).setStringShared("base_url", "http://new.faistec.com/");
     }
     @Override public void onStop() {
         super.onStop();
@@ -246,7 +246,7 @@ public class SplashActivity extends AppCompatActivity implements GoogleApiClient
     public void InsertTOLocalDB() {
 
         RequestQueue requestQueue = Volley.newRequestQueue(this);
-        JsonArrayRequest request = new JsonArrayRequest("http://new.ticram.com/api/api/get_geozones", new Response.Listener<JSONArray>() {
+        JsonArrayRequest request = new JsonArrayRequest("http://new.faistec.com/api/api/get_geozones", new Response.Listener<JSONArray>() {
 
             @Override
             public void onResponse(JSONArray response) {

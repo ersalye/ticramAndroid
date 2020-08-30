@@ -97,7 +97,8 @@
     <string name="title_activity_terms">TermsActivity</string>
     <string name="title_activity_my_order_details">MyOrderDetails</string>
     <string name="title_activity_show_notfication_logged_out">ShowNotficationLoggedOut</string>
-    <string name="update">Updaet</string>
+    <string name="update">Update
+    </string>
 
 
 </resources>
