@@ -8,6 +8,6 @@ public final class BuildConfig {
   public static final String APPLICATION_ID = "com.turnpoint.ticram.tekram_driver";
   public static final String BUILD_TYPE = "debug";
   public static final String FLAVOR = "";
-  public static final int VERSION_CODE = 79;
-  public static final String VERSION_NAME = "7.9";
+  public static final int VERSION_CODE = 80;
+  public static final String VERSION_NAME = "8.0";
 }

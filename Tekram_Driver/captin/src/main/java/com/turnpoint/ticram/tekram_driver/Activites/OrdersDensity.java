@@ -7,14 +7,12 @@ import android.content.IntentSender;
 import android.content.pm.PackageManager;
 import android.location.Location;
 import android.os.Bundle;
-import androidx.annotation.RequiresApi;
-import androidx.core.app.ActivityCompat;
-import androidx.fragment.app.FragmentActivity;
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.widget.Toolbar;
 import android.util.Log;
 import android.view.View;
 import android.widget.Toast;
+
+import androidx.core.app.ActivityCompat;
+import androidx.fragment.app.FragmentActivity;
 
 import com.android.volley.VolleyError;
 import com.google.android.gms.common.ConnectionResult;
@@ -56,7 +54,7 @@ public class OrdersDensity extends FragmentActivity implements OnMapReadyCallbac
     private final static int CONNECTION_FAILURE_RESOLUTION_REQUEST = 9000;
     private GoogleApiClient mGoogleApiClient;
     private LocationRequest mLocationRequest;
-    double currentLatitude=0.0, currentLongitude=0.0;
+    double currentLatitude = 0.0, currentLongitude = 0.0;
 
     IResult iresult;
     VolleyService voly_ser;
@@ -104,7 +102,7 @@ public class OrdersDensity extends FragmentActivity implements OnMapReadyCallbac
     }
 
 
-    public void back(View view){
+    public void back(View view) {
         onBackPressed();
     }
 
@@ -144,8 +142,8 @@ public class OrdersDensity extends FragmentActivity implements OnMapReadyCallbac
                         mMap.addMarker(new MarkerOptions().position(mylocation).title("Me"));
                         mMap.animateCamera(CameraUpdateFactory.newLatLngZoom(new
                                 LatLng(currentLatitude, currentLongitude), 14.0f));
+                    } catch (Exception ex) {
                     }
-                    catch (Exception ex){}
 
 
                 } else {
@@ -161,12 +159,12 @@ public class OrdersDensity extends FragmentActivity implements OnMapReadyCallbac
         }
     }
 
-    public void zoom_into_my_loc(View v){
+    public void zoom_into_my_loc(View v) {
         try {
             mMap.animateCamera(CameraUpdateFactory.newLatLngZoom(new LatLng(currentLatitude, currentLongitude),
                     14.0f));
+        } catch (Exception ex) {
         }
-        catch (Exception ex){}
     }
 
 
@@ -178,7 +176,6 @@ public class OrdersDensity extends FragmentActivity implements OnMapReadyCallbac
     }
 
 
-
     @Override
     protected void onPause() {
         super.onPause();
@@ -188,7 +185,6 @@ public class OrdersDensity extends FragmentActivity implements OnMapReadyCallbac
             mGoogleApiClient.disconnect();
         }
     }
-
 
 
     @Override
@@ -206,14 +202,12 @@ public class OrdersDensity extends FragmentActivity implements OnMapReadyCallbac
             return;
         }
         Location location = LocationServices.FusedLocationApi.getLastLocation(mGoogleApiClient);
-        if (location==null) {
+        if (location == null) {
             LocationServices.FusedLocationApi.requestLocationUpdates(mGoogleApiClient, mLocationRequest, this);
-        }
-        else {
+        } else {
             onLocationChanged(location);
         }
     }
-
 
 
     @Override
@@ -237,7 +231,6 @@ public class OrdersDensity extends FragmentActivity implements OnMapReadyCallbac
     }
 
 
-
     private void handleNewLocation(Location location) {
         try {
             mMap.clear();
@@ -249,19 +242,17 @@ public class OrdersDensity extends FragmentActivity implements OnMapReadyCallbac
             mMap.addMarker(markerOptionsss);
             mMap.animateCamera(CameraUpdateFactory.newLatLngZoom(mylocation, 14.0f));
             Volley_go();
+        } catch (Exception ex) {
         }
-        catch (Exception ex){}
     }
 
     @Override
-    public void onLocationChanged(Location location) {handleNewLocation(location);
+    public void onLocationChanged(Location location) {
+        handleNewLocation(location);
     }
 
 
-
-
-
-    private void Volley_go(){
+    private void Volley_go() {
         try {
             loading = ProgressDialog.show(OrdersDensity.this, "",
                     "الرجاء الانتظار...", false, false);
@@ -271,17 +262,15 @@ public class OrdersDensity extends FragmentActivity implements OnMapReadyCallbac
             params.put("location", currentLatitude + "," + currentLongitude);
             voly_ser = new VolleyService(iresult, getApplicationContext());
             voly_ser.postDataVolley(new MySharedPreference(getApplicationContext())
-                    .getStringShared("base_url")+PathUrl.OrderDensity, params);
+                    .getStringShared("base_url") + PathUrl.OrderDensity, params);
+        } catch (Exception ex) {
         }
-        catch (Exception ex){}
 
     }
 
 
-
-
-    void callBackVolly(){
-        iresult= new IResult() {
+    void callBackVolly() {
+        iresult = new IResult() {
             @Override
             public void notifySuccessPost(String response) {
                 try {
@@ -309,9 +298,8 @@ public class OrdersDensity extends FragmentActivity implements OnMapReadyCallbac
                             }
                         }
                     }
+                } catch (Exception ex) {
                 }
-                catch (Exception ex){}
-
 
 
             }
@@ -325,8 +313,6 @@ public class OrdersDensity extends FragmentActivity implements OnMapReadyCallbac
             }
         };
     }
-
-
 
 
 }

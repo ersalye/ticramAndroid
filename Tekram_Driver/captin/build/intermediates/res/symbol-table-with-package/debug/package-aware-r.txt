@@ -1774,6 +1774,7 @@ string character_counter_content_description
 string character_counter_pattern
 string check_conn
 string check_message_pin
+string clear_data
 string com_crashlytics_android_build_id
 string common_google_play_services_enable_button
 string common_google_play_services_enable_text

@@ -124,7 +124,7 @@
                     android:textSize="13dp"
                     android:textColor="@android:color/white"
                     android:layout_gravity="center"
-                    android:text="معدل قبول الطلبات :" />
+                    android:text="نسبة القبول :" />
             </LinearLayout>
         </LinearLayout>
 

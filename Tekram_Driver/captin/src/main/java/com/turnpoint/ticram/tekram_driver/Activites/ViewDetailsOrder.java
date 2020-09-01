@@ -37,8 +37,6 @@ import androidx.core.app.ActivityCompat;
 import com.android.volley.VolleyError;
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.request.RequestOptions;
-import com.google.android.gms.common.api.GoogleApiClient;
-import com.google.android.gms.location.LocationRequest;
 import com.google.android.gms.maps.CameraUpdate;
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
@@ -79,7 +77,6 @@ import com.txusballesteros.bubbles.BubblesManager;
 import com.txusballesteros.bubbles.OnInitializedCallback;
 import com.yayandroid.locationmanager.base.LocationBaseActivity;
 import com.yayandroid.locationmanager.configuration.DefaultProviderConfiguration;
-import com.yayandroid.locationmanager.configuration.GooglePlayServicesConfiguration;
 import com.yayandroid.locationmanager.configuration.LocationConfiguration;
 import com.yayandroid.locationmanager.constants.ProviderType;
 
@@ -136,9 +133,6 @@ public class ViewDetailsOrder extends LocationBaseActivity implements OnMapReady
     String trip_status = "";
 
     public static final String TAG = MapsMain.class.getSimpleName();
-    private final static int CONNECTION_FAILURE_RESOLUTION_REQUEST = 9000;
-    private GoogleApiClient mGoogleApiClient;
-    private LocationRequest mLocationRequest;
     double driver_cur_lat;
     double driver_cur_lng;
     String onbackPress_status = "can_go_back";
@@ -184,22 +178,10 @@ public class ViewDetailsOrder extends LocationBaseActivity implements OnMapReady
 
     @Override
     public LocationConfiguration getLocationConfiguration() {
-        LocationRequest locationRequest = LocationRequest.create();
-        locationRequest.setPriority(LocationRequest.PRIORITY_HIGH_ACCURACY);
-        locationRequest.setInterval(1 * 1000);
-        locationRequest.setFastestInterval(1 * 1000);
+
         LocationConfiguration awesomeConfiguration = new LocationConfiguration.Builder()
                 .keepTracking(true)
-                .useGooglePlayServices(new GooglePlayServicesConfiguration.Builder()
-                        .fallbackToDefault(true)
-                        .askForGooglePlayServices(false)
-                        .askForSettingsApi(false)
-                        .failOnConnectionSuspended(false)
-                        .failOnSettingsApiSuspended(false)
-                        .ignoreLastKnowLocation(false)
-                        .setWaitPeriod(1 * 1000)
-                        .locationRequest(locationRequest)
-                        .build())
+
                 .useDefaultProviders(new DefaultProviderConfiguration.Builder()
                         .requiredTimeInterval(1 * 1000)
                         .requiredDistanceInterval(1)
@@ -1207,7 +1189,7 @@ public class ViewDetailsOrder extends LocationBaseActivity implements OnMapReady
                 } else if (res.getHandle().equals("10")) {
                     try {
                         Order selected_order = res.getOrder();
-                        System.out.println("AWSORDER"+response);
+                        System.out.println("AWSORDER" + response);
 //                        System.out.println("AWSORDER"+res.getOrder().getDistance());
                         if (selected_order.getStatus().equalsIgnoreCase("F") || selected_order.getStatus().equalsIgnoreCase("C")) {
                             clearBubble();

@@ -1,10 +1,13 @@
 package com.turnpoint.ticram.tekram_driver.Services;
 
-import android.app.*;
+import android.app.ActivityManager;
+import android.app.Notification;
+import android.app.NotificationChannel;
+import android.app.NotificationManager;
+import android.app.PendingIntent;
 import android.content.ContentResolver;
 import android.content.Context;
 import android.content.Intent;
-import android.content.pm.PackageInfo;
 import android.graphics.Color;
 import android.location.Location;
 import android.media.AudioAttributes;
@@ -14,13 +17,18 @@ import android.os.Build;
 import android.os.Handler;
 import android.os.IBinder;
 import android.util.Log;
+
 import androidx.annotation.RequiresApi;
 import androidx.core.app.NotificationCompat;
+
 import com.android.volley.VolleyError;
 import com.crashlytics.android.Crashlytics;
-import com.google.android.gms.location.LocationRequest;
-import com.google.firebase.database.*;
-import com.google.gson.JsonObject;
+import com.google.firebase.database.ChildEventListener;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
 import com.turnpoint.ticram.tekram_driver.Activites.MapsMain;
 import com.turnpoint.ticram.tekram_driver.Activites.ShowNotficationLoggedOut;
 import com.turnpoint.ticram.tekram_driver.DBHelper2;
@@ -34,21 +42,27 @@ import com.turnpoint.ticram.tekram_driver.modules.addOrderFirebase;
 import com.turnpoint.ticram.tekram_driver.modules.addcoordsfirebase;
 import com.yayandroid.locationmanager.base.LocationBaseService;
 import com.yayandroid.locationmanager.configuration.DefaultProviderConfiguration;
-import com.yayandroid.locationmanager.configuration.GooglePlayServicesConfiguration;
 import com.yayandroid.locationmanager.configuration.LocationConfiguration;
 import com.yayandroid.locationmanager.constants.ProcessType;
 import com.yayandroid.locationmanager.constants.ProviderType;
-import io.paperdb.Paper;
 
 import java.text.SimpleDateFormat;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.Hashtable;
+import java.util.Locale;
+import java.util.Map;
+
+import io.paperdb.Paper;
+
+import static com.turnpoint.ticram.tekram_driver.Activites.MapsMain.setMarker;
 
 
 public class LocationServiceBeforeTawaklna extends LocationBaseService {
     private boolean isLocationRequested = false;
     private static final String TAG = "LocServiceBeforeTawklna";
     DBHelper2 db;
-    Context mContext  = MapsMain.context;
+    Context mContext = MapsMain.context;
 
     @Override
     public void onLocationChanged(Location location) {
@@ -63,6 +77,8 @@ public class LocationServiceBeforeTawaklna extends LocationBaseService {
             Paper.book().write("lastCall", newTime);
             System.out.println("shtayyat -> new location  ( " + difference_sec + " )" + location.getLatitude() + " - " + location.getLongitude());
             firebase(location.getLatitude(), location.getLongitude(), newTime);
+            if (MapsMain.mMap != null)
+                setMarker(location);
         }
     }
 
@@ -76,7 +92,9 @@ public class LocationServiceBeforeTawaklna extends LocationBaseService {
     public void onProcessTypeChanged(@ProcessType int processType) {
         System.out.println("shtayyat -> processType " + processType);
     }
+
     Boolean dataSent = false;
+
     private void firebase(double lat, double lon, long newTime) {
         db = new DBHelper2(mContext);
         String[][] Arr = db.getLatLongTable();
@@ -162,7 +180,7 @@ public class LocationServiceBeforeTawaklna extends LocationBaseService {
 //        LocationRequest locationRequest = LocationRequest.create();
 //        locationRequest.setPriority(LocationRequest.PRIORITY_HIGH_ACCURACY);
 //        locationRequest.setInterval(4 * 1000);
-//        locationRequest.setFastestInterval(4 * 1000);
+//        l ocationRequest.setFastestInterval(4 * 1000);
         LocationConfiguration awesomeConfiguration = new LocationConfiguration.Builder()
                 .keepTracking(true)
 //                .useGooglePlayServices(new GooglePlayServicesConfiguration.Builder()
@@ -272,7 +290,7 @@ public class LocationServiceBeforeTawaklna extends LocationBaseService {
             System.out.println("shtayyat ->speed T (new_time): " + difference_sec);
             System.out.println("shtayyat ->speed:T " + speed);
 
-            if (Double.isNaN(newDistance) || newDistance <=0 || newDistance >= 500) {  // error accured in gps -- distance is way too big
+            if (Double.isNaN(newDistance) || newDistance <= 0 || newDistance >= 500) {  // error accured in gps -- distance is way too big
                 System.out.println("shtayyat1 ->speed >= 200 ");
                 Paper.book().write("totalTimeNormal", difference_sec + Paper.book().read("totalTimeNormal", Double.parseDouble("0")));
                 Integer currentFails = Paper.book().read("inaccurate_locations_count", 0);
@@ -298,7 +316,7 @@ public class LocationServiceBeforeTawaklna extends LocationBaseService {
                     System.out.println("shtayyatfirebase ->adding to firebase LocationServiceBeforeTawaklna");
                     DatabaseReference coords_c = mDatabase.child("order_info").child(new MySharedPreference(getApplicationContext()).
                             getStringShared("cur_order_id")).child("coords_c").push();
-                    coords_c.setValue(new_latitude+","+new_longitude);
+                    coords_c.setValue(new_latitude + "," + new_longitude);
 
                     DatabaseReference array_time = mDatabase.child("order_info").child(new MySharedPreference(getApplicationContext()).
                             getStringShared("cur_order_id")).child("array_time").push();
@@ -307,7 +325,7 @@ public class LocationServiceBeforeTawaklna extends LocationBaseService {
                     DatabaseReference array_sec = mDatabase.child("order_info").child(new MySharedPreference(getApplicationContext()).
                             getStringShared("cur_order_id")).child("array_sec").push();
                     array_sec.setValue(difference_sec);
-                } catch ( Exception er) {
+                } catch (Exception er) {
                     er.printStackTrace();
                 }
 
@@ -349,13 +367,15 @@ public class LocationServiceBeforeTawaklna extends LocationBaseService {
         double tt = (double) Math.acos(t1 + t2 + t3);
         return 6366000 * tt;
     }
+
     DatabaseReference connectedRef;
     FirebaseDatabase database;
     private ValueEventListener mListener;
-    public void tracking_firebase(){
+
+    public void tracking_firebase() {
         database = FirebaseDatabase.getInstance();
-        System.out.println("shtayyatW=> onChildAdded "+new MySharedPreference(getApplicationContext()).
-                getStringShared("user_id") +" - ");
+        System.out.println("shtayyatW=> onChildAdded " + new MySharedPreference(getApplicationContext()).
+                getStringShared("user_id") + " - ");
 
         FirebaseDatabase.getInstance()
                 .getReference()
@@ -366,23 +386,24 @@ public class LocationServiceBeforeTawaklna extends LocationBaseService {
                     @Override
                     public void onChildAdded(DataSnapshot dataSnapshot, String s) {
 
-                        if(dataSnapshot.exists()) {
+                        if (dataSnapshot.exists()) {
                             addOrderFirebase values = dataSnapshot.getValue(addOrderFirebase.class);
-                            System.out.println("shtayyatW=> onChildAdded "+new MySharedPreference(getApplicationContext()).
-                                    getStringShared("user_id") +" - "+  values.id + " - "+values.status);
-                            if(values.status.equals("W")){
+                            System.out.println("shtayyatW=> onChildAdded " + new MySharedPreference(getApplicationContext()).
+                                    getStringShared("user_id") + " - " + values.id + " - " + values.status);
+                            if (values.status.equals("W")) {
                                 handleNewOrder(values);
                             }
                         }
 
                     }
+
                     @Override
                     public void onChildChanged(DataSnapshot dataSnapshot, String s) {
-                        if(dataSnapshot.exists()) {
+                        if (dataSnapshot.exists()) {
                             addOrderFirebase values = dataSnapshot.getValue(addOrderFirebase.class);
-                            System.out.println("shtayyatW=> onChildChanged "+new MySharedPreference(getApplicationContext()).
-                                    getStringShared("user_id") +" - "+  values.id + " - "+values.status);
-                            if(values.status.equals("W")){
+                            System.out.println("shtayyatW=> onChildChanged " + new MySharedPreference(getApplicationContext()).
+                                    getStringShared("user_id") + " - " + values.id + " - " + values.status);
+                            if (values.status.equals("W")) {
                                 handleNewOrder(values);
                             }
                         }
@@ -395,6 +416,7 @@ public class LocationServiceBeforeTawaklna extends LocationBaseService {
                     @Override
                     public void onChildMoved(DataSnapshot dataSnapshot, String s) {
                     }
+
                     @Override
                     public void onCancelled(DatabaseError databaseError) {
                     }
@@ -402,25 +424,27 @@ public class LocationServiceBeforeTawaklna extends LocationBaseService {
 
 
     }
-    private void handleNewOrder(addOrderFirebase values){
+
+    private void handleNewOrder(addOrderFirebase values) {
         System.out.println("shtayyatW=> handleNewOrder isMyServiceRunning" + isMyServiceRunning(WidgetNewOrder.class));
-        if(isMyServiceRunning(WidgetNewOrder.class) == true && !Paper.book().read("lastAccept", "").equalsIgnoreCase(""+ values.id)) return;
+        if (isMyServiceRunning(WidgetNewOrder.class) == true && !Paper.book().read("lastAccept", "").equalsIgnoreCase("" + values.id))
+            return;
         addNotification("لديك طلب جديد");
         try {
             Intent serviceIntent = new Intent(getApplicationContext(), WidgetNewOrder.class);
-            serviceIntent.putExtra("order_id",""+ values.id);
+            serviceIntent.putExtra("order_id", "" + values.id);
             serviceIntent.putExtra("time_to_user", values.time_to_user);
             serviceIntent.putExtra("distance_to_user", values.distance_to_user);
             serviceIntent.putExtra("user_name", values.user_name);
             serviceIntent.putExtra("user_photo", "");
-            serviceIntent.putExtra("user_rate",""+ values.user_rate);
+            serviceIntent.putExtra("user_rate", "" + values.user_rate);
             serviceIntent.putExtra("location_text", values.location_text);
-            serviceIntent.putExtra( "destination_text", values.destination_text);
+            serviceIntent.putExtra("destination_text", values.destination_text);
             serviceIntent.putExtra("order_info", values.order_info);
-            serviceIntent.putExtra("taxi", ""+values.taxi);
-            serviceIntent.putExtra("order_count_down", ""+values.order_count_down);
+            serviceIntent.putExtra("taxi", "" + values.taxi);
+            serviceIntent.putExtra("order_count_down", "" + values.order_count_down);
             startService(serviceIntent);
-        }catch (Exception ex){
+        } catch (Exception ex) {
             ex.printStackTrace();
         }
         try {
@@ -557,6 +581,7 @@ public class LocationServiceBeforeTawaklna extends LocationBaseService {
         builder.setChannelId(idChannel);
         mNotificationManager.notify(0, builder.build());
     }
+
     //To Converte Array of Address to Double
     public final double[] arrayConverter(String[] arrayToConvert) {
         double[] convertedArray = new double[arrayToConvert.length];
@@ -566,6 +591,7 @@ public class LocationServiceBeforeTawaklna extends LocationBaseService {
 
         return convertedArray;
     }
+
     //To check if the site is within any geoZones
     public final boolean IsPointInPolygonTest(int count, double[] verticesXArray, double[] verticesYArray, Double currentLat, Double currentLng) {
         boolean validater = false;

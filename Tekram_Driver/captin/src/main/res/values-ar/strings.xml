@@ -75,6 +75,7 @@
     <string name="title_activity_show_notfication_logged_out">ShowNotficationLoggedOut</string>
     <string name="update_message">يجب تحديث التطبيق حتى تتمكن من استخدام التطبيق</string>
     <string name="update">تحديث</string>
+    <string name="clear_data">ملاحظلة : سيتم حذف بيانات التطبيق , يرجى فتح التطبيق من جديد</string>
 
 
 </resources>

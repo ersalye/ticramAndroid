@@ -82,14 +82,14 @@ import uk.co.chrisjenx.calligraphy.CalligraphyContextWrapper;
 public class MapsMain extends FragmentActivity implements OnMapReadyCallback {
 
     //private MyFirebaseMessagingService mReceiver;
-    private GoogleMap mMap;
+    public static GoogleMap mMap;
     double currentLatitude = 0.0, currentLongitude = 0.0;
     public static Context context;
     IResult iresult;
     VolleyService voly_ser;
     String method;
     CoordinatorLayout lay_main;
-    BitmapDescriptor icon_driver;
+    static BitmapDescriptor icon_driver;
     SendLocationService sendLoc;
 
     RelativeLayout content_drawer;
@@ -243,7 +243,7 @@ public class MapsMain extends FragmentActivity implements OnMapReadyCallback {
                     Intent i = new Intent(Intent.ACTION_SEND);
                     i.setType("text/plain");
                     i.putExtra(Intent.EXTRA_SUBJECT, "Ticram");
-                    String sAux = "http://new.faistec.com/reg-captain";
+                    String sAux = "http://new.ticram.com/reg-captain";
                     i.putExtra(Intent.EXTRA_TEXT, sAux);
                     startActivity(Intent.createChooser(i, "choose one"));
                 } catch (Exception e) {
@@ -272,9 +272,18 @@ public class MapsMain extends FragmentActivity implements OnMapReadyCallback {
                             @Override
                             public void onClick(DialogInterface arg0, int arg1) {
                                 // stopService(new Intent(getApplicationContext(),StartSinch.class));
-                                method = "logout";
-                                Volley_go();
+//                                method = "logout";
+//                                Volley_go();
+                                if (Build.VERSION_CODES.KITKAT <= Build.VERSION.SDK_INT) {
+                                    ((ActivityManager) context.getSystemService(ACTIVITY_SERVICE))
+                                            .clearApplicationUserData();
+                                    Intent intent = new Intent(getApplicationContext(), SplashActivity.class);
+                                    intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                                    startActivity(intent);
+                                    finish();
 
+                                    return;
+                                }
                             }
                         });
                 alertDialogBuilder.setNegativeButton("لا",
@@ -527,43 +536,7 @@ public class MapsMain extends FragmentActivity implements OnMapReadyCallback {
         mMap.setMyLocationEnabled(true);
         mMap.getUiSettings().setMyLocationButtonEnabled(true);
 
-        mMap.setOnMyLocationChangeListener(new GoogleMap.OnMyLocationChangeListener() {
-            @Override
-            public void onMyLocationChange(Location location) {
-                mMap.clear();
-                currentLatitude = location.getLatitude();
-                currentLongitude = location.getLongitude();
-                try {
 
-                    LatLng mylatlng = new LatLng(currentLatitude, currentLongitude);
-                    //salam
-                    icon_driver = BitmapDescriptorFactory.fromResource(R.drawable.markermdpi);
-                    MarkerOptions markerOptionsss = new MarkerOptions().position(mylatlng).icon(icon_driver);
-                    mMap.addMarker(markerOptionsss);
-
-                    mMap.animateCamera(CameraUpdateFactory.newLatLngZoom(mylatlng, 14.0f));
-                    /*Geocoder geocoder;
-                    List<Address> addresses;
-                    geocoder = new Geocoder(getApplicationContext(), Locale.getDefault());
-                    try {
-                        addresses = geocoder.getFromLocation(currentLatitude, currentLongitude, 1);
-                        if (addresses != null && addresses.size() > 0) {
-                            String address = addresses.get(0).getAddressLine(0);
-                            String city = addresses.get(0).getLocality();
-                            String state = addresses.get(0).getAdminArea();
-                            String country = addresses.get(0).getCountryName();
-                            String postalCode = addresses.get(0).getPostalCode();
-                            String knownName = addresses.get(0).getFeatureName();
-                            tv_locationText.setText(address);
-                        }
-                    } catch (IOException e) {
-                        // TODO Auto-generated catch block
-                        e.printStackTrace();
-                    }*/
-                } catch (Exception ex) {
-                }
-            }
-        });
 
 
     }
@@ -1093,6 +1066,24 @@ public class MapsMain extends FragmentActivity implements OnMapReadyCallback {
         }
     }
 
+    public static void setMarker(Location location1){
+
+        mMap.clear();
+       double currentLatitude = location1.getLatitude();
+       double currentLongitude = location1.getLongitude();
+        try {
+
+            LatLng mylatlng = new LatLng(currentLatitude, currentLongitude);
+            //salam
+            icon_driver = BitmapDescriptorFactory.fromResource(R.drawable.markermdpi);
+            MarkerOptions markerOptionsss = new MarkerOptions().position(mylatlng).icon(icon_driver);
+            mMap.addMarker(markerOptionsss);
+
+            mMap.animateCamera(CameraUpdateFactory.newLatLngZoom(mylatlng, 14.0f));
+
+        } catch (Exception ex) {
+        }
+    }
 
     @Override
     public void onStop() {

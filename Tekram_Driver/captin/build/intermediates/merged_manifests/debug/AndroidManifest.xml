@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.turnpoint.ticram.tekram_driver"
-    android:versionCode="79"
-    android:versionName="7.9" >
+    android:versionCode="80"
+    android:versionName="8.0" >
 
     <uses-sdk
         android:minSdkVersion="16"
@@ -59,7 +59,6 @@
         android:largeHeap="true"
         android:roundIcon="@drawable/driver_ticram_icon"
         android:supportsRtl="true"
-        android:testOnly="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true" >
         <activity
@@ -84,7 +83,7 @@
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyBTEYwwSSVol2OMbYYmXTvswlx0xBEl0tw" />
+            android:value="AIzaSyCrBUhvuIULUX7buroHkeVDx5ZMeP1gKsU" />
         <meta-data
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />

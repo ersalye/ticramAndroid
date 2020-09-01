@@ -2,6 +2,7 @@ package com.turnpoint.ticram.tekram_driver.Activites;
 
 import android.Manifest;
 import android.app.Activity;
+import android.app.ActivityManager;
 import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.DialogInterface;
@@ -41,6 +42,7 @@ import com.google.android.gms.location.LocationSettingsResult;
 import com.google.android.gms.location.LocationSettingsStates;
 import com.google.android.gms.location.LocationSettingsStatusCodes;
 import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
@@ -52,7 +54,6 @@ import com.google.firebase.remoteconfig.FirebaseRemoteConfigSettings;
 import com.turnpoint.ticram.tekram_driver.BuildConfig;
 import com.turnpoint.ticram.tekram_driver.CheckIntenetConn;
 import com.turnpoint.ticram.tekram_driver.DBHelper2;
-import com.turnpoint.ticram.tekram_driver.MyService;
 import com.turnpoint.ticram.tekram_driver.MySharedPreference;
 import com.turnpoint.ticram.tekram_driver.R;
 import com.turnpoint.ticram.tekram_driver.Volley.IResult;
@@ -62,8 +63,6 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import java.util.Timer;
-import java.util.TimerTask;
 import java.util.concurrent.TimeUnit;
 
 import uk.co.chrisjenx.calligraphy.CalligraphyConfig;
@@ -74,7 +73,7 @@ public class SplashActivity extends AppCompatActivity implements GoogleApiClient
     IResult iresult;
     VolleyService voly_ser;
     public ProgressDialog loading;
-    public static  Context context ;
+    public static Context context;
     // ticram
     public static final int REQUEST_LOCATION = 001;
     GoogleApiClient googleApiClient;
@@ -109,6 +108,7 @@ public class SplashActivity extends AppCompatActivity implements GoogleApiClient
 
         setContentView(R.layout.activity_splash);
         checkUpdate();
+//        checkData();//check update for clear cach
         try {
             TimeUnit.SECONDS.sleep(1);
         } catch (InterruptedException e) {
@@ -167,29 +167,59 @@ public class SplashActivity extends AppCompatActivity implements GoogleApiClient
             Toast.makeText(getApplicationContext(), "null", Toast.LENGTH_SHORT).show();
         }*/
 
-        new MySharedPreference(getApplicationContext()).setStringShared("base_url", "http://new.faistec.com/");
+        new MySharedPreference(getApplicationContext()).setStringShared("base_url", "http://new.ticram.com/");
     }
-    @Override public void onStop() {
+
+//    private void checkData() {
+//        String driver_id = new MySharedPreference(getApplicationContext()).getStringShared("user_id");
+//        if (driver_id != null) {
+//            DatabaseReference databaseReference = FirebaseDatabase.getInstance().getReference("update").child(driver_id);
+//            databaseReference.addListenerForSingleValueEvent(new ValueEventListener() {
+//                @Override
+//                public void onDataChange(@NonNull DataSnapshot snapshot) {
+//                    String status = snapshot.child("status").getValue(String.class);
+//                    if (status != null) {
+//                        if (status.equalsIgnoreCase("on")) {
+//                            checkVersion = false;
+//                            showClearDataDialog(driver_id);
+//                        }
+//                    }
+//
+//                }
+//
+//                @Override
+//                public void onCancelled(@NonNull DatabaseError error) {
+//
+//                }
+//            });
+//
+//        }
+//
+//    }
+
+    @Override
+    public void onStop() {
         super.onStop();
         if (builder != null) {
             builder.create().dismiss();
             builder = null;
         }
     }
+
     private void checkUpdate() {
-        int  version_code = BuildConfig.VERSION_CODE;
+        int version_code = BuildConfig.VERSION_CODE;
         DatabaseReference databaseReference = FirebaseDatabase.getInstance().getReference().child("version_code").child("driver_code");
         databaseReference.addListenerForSingleValueEvent(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot snapshot) {
-                int  code = Integer.parseInt(snapshot.getValue(String.class));
+                int code = Integer.parseInt(snapshot.getValue(String.class));
                 Log.d("user_code_rahaf =", code + "");
                 Log.d("version_code_rahaf", BuildConfig.VERSION_CODE + "");
                 if (snapshot.exists()) {
-                    if (code>version_code) {
+                    if (code > version_code) {
                         checkVersion = false;
                         showForceUpdateDialog();
-                    }else {
+                    } else {
                         checkVersion = true;
                     }
                 }
@@ -200,31 +230,30 @@ public class SplashActivity extends AppCompatActivity implements GoogleApiClient
 
             }
         });
-//        FirebaseDatabase.getInstance().getReference("version_code").addValueEventListener(new ValueEventListener() {
-//            @Override
-//            public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
-//                if (dataSnapshot.child("driver_code").exists()) {
-//                    String code = dataSnapshot.child("driver_code").getValue(String.class);
-//                    Toast.makeText(SplashActivity.this, dataSnapshot.child("driver_code").getValue(String.class), Toast.LENGTH_SHORT).show();
-//                    if (!code.equals(Integer.toString(BuildConfig.VERSION_CODE))) {
-//                        checkVersion = false;
-//                                showForceUpdateDialog();
-//                    }
-//                }
-//                else{
-//                    checkVersion = false;
-//                    showForceUpdateDialog();
-//                }
-//
-//            }
-//
-//            @Override
-//            public void onCancelled(@NonNull DatabaseError databaseError) {
-//
-//            }
-//        });
 
     }
+//    private void showClearDataDialog(String id) {
+//        builder = new AlertDialog.Builder(this);
+//        builder.create().dismiss();
+//
+//        builder.setMessage(getResources().getString(R.string.clear_data));
+//        builder.setCancelable(false);
+//        builder.setPositiveButton(getResources().getString(R.string.done), new DialogInterface.OnClickListener() {
+//            @Override
+//            public void onClick(DialogInterface dialogInterface, int i) {
+//                FirebaseDatabase.getInstance().getReference("update").child(id).child("status").setValue("off").addOnSuccessListener(new OnSuccessListener<Void>() {
+//                    @Override
+//                    public void onSuccess(Void aVoid) {
+//                        if (Build.VERSION_CODES.KITKAT <= Build.VERSION.SDK_INT) {
+//                            ((ActivityManager) context.getSystemService(ACTIVITY_SERVICE))
+//                                    .clearApplicationUserData();
+//                        }
+//                    }
+//                });
+//            }
+//        });
+//        builder.create().show();
+//    }
 
     private void showForceUpdateDialog() {
         builder = new AlertDialog.Builder(this);
@@ -232,23 +261,27 @@ public class SplashActivity extends AppCompatActivity implements GoogleApiClient
         builder.setTitle(getResources().getString(R.string.update_new));
         builder.setMessage(getResources().getString(R.string.update_message));
         builder.setCancelable(false);
-        builder.setPositiveButton(getResources().getString(R.string.update),new  DialogInterface.OnClickListener(){
+        builder.setPositiveButton(getResources().getString(R.string.update), new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialogInterface, int i) {
                 final String appPackageName = getPackageName(); // getPackageName() from Context or Activity object
                 try {
                     startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("market://details?id=" + appPackageName)));
+                    finishAffinity();
+
                 } catch (android.content.ActivityNotFoundException anfe) {
                     startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://play.google.com/store/apps/details?id=" + appPackageName)));
+                    finishAffinity();
                 }
             }
         });
         builder.create().show();
     }
+
     public void InsertTOLocalDB() {
 
         RequestQueue requestQueue = Volley.newRequestQueue(this);
-        JsonArrayRequest request = new JsonArrayRequest("http://new.faistec.com/api/api/get_geozones", new Response.Listener<JSONArray>() {
+        JsonArrayRequest request = new JsonArrayRequest("http://new.ticram.com/api/api/get_geozones", new Response.Listener<JSONArray>() {
 
             @Override
             public void onResponse(JSONArray response) {
@@ -480,11 +513,6 @@ public class SplashActivity extends AppCompatActivity implements GoogleApiClient
 
                 break;
 
-         /*   case 987:
-                if (resultCode == RESULT_OK){
-                    //do nothing
-                }
-                break;*/
         }
 
 
