@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Tekram_UserNew.iml" filepath="$PROJECT_DIR$/.idea/modules/Tekram_UserNew.iml" group="Tekram_UserNew" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/user/Tekram_UserNew-user.iml" filepath="$PROJECT_DIR$/.idea/modules/user/Tekram_UserNew-user.iml" group="Tekram_UserNew/user" />
       <module fileurl="file://$PROJECT_DIR$/user/user.iml" filepath="$PROJECT_DIR$/user/user.iml" group="Tekram_UserNew/user" />
     </modules>
   </component>
