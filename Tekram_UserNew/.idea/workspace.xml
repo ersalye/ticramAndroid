@@ -422,10 +422,11 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="538" y="129" key="AndroidProcessChooserDialog/0.0.1366.728@0.0.1366.728" timestamp="1599152701477" />
-    <state x="280" y="0" key="CommitChangelistDialog2" timestamp="1599397872398">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="-1570" y="0" key="CommitChangelistDialog2" timestamp="1599557736636">
+      <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state x="249" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1599397405869" />
+    <state x="-1570" y="0" key="CommitChangelistDialog2/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1599557736636" />
     <state x="280" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1599397872398" />
     <state x="521" y="152" key="FileChooserDialogImpl" timestamp="1599403799031">
       <screen x="0" y="0" width="1536" height="824" />
@@ -491,10 +492,11 @@
     </state>
     <state x="-1920" y="166" key="SettingsEditor/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1598475139303" />
     <state x="0" y="110" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1599397806989" />
-    <state x="309" y="110" key="Vcs.Push.Dialog.v2" timestamp="1599397901195">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="-1534" y="139" key="Vcs.Push.Dialog.v2" timestamp="1599557749853">
+      <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1598426077500" />
+    <state x="-1534" y="139" key="Vcs.Push.Dialog.v2/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1599557749853" />
     <state x="309" y="110" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1599397901195" />
     <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1597602024991">
       <screen x="0" y="0" width="1366" height="728" />
