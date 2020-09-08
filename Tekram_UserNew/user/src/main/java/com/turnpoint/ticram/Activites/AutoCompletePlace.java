@@ -81,7 +81,7 @@ private LocationRequest mLocationRequest;
         );
         setContentView(R.layout.content_auto_complete_place);
 // Initialize the AutocompleteSupportFragment.
-        Places.initialize(getApplicationContext(),"AIzaSyBTEYwwSSVol2OMbYYmXTvswlx0xBEl0tw");
+        Places.initialize(getApplicationContext()," AIzaSyCrBUhvuIULUX7buroHkeVDx5ZMeP1gKsU");
         // Create a new Places client instance.
         PlacesClient placesClient = Places.createClient(this);
 

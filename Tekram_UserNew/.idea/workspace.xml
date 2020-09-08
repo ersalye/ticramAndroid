@@ -30,14 +30,55 @@
       <change beforePath="$PROJECT_DIR$/../Tekram_Driver/.idea/libraries/Gradle__de_hdodenhof_circleimageview_2_2_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Tekram_Driver/.idea/libraries/Gradle__de_hdodenhof_circleimageview_2_2_0_aar.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Tekram_Driver/.idea/libraries/Gradle__uk_co_chrisjenx_calligraphy_2_2_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Tekram_Driver/.idea/libraries/Gradle__uk_co_chrisjenx_calligraphy_2_2_0_aar.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Tekram_Driver/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Tekram_Driver/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tekram_Driver/bubbles/bubbles.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Tekram_Driver/bubbles/bubbles.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tekram_Driver/captin/captin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Tekram_Driver/captin/captin.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tekram_Driver/captin/src/main/res/values-ar/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Tekram_Driver/captin/src/main/res/values-ar/strings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Tekram_Driver/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Tekram_Driver/local.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/user/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/google-services.json" beforeDir="false" afterPath="$PROJECT_DIR$/user/google-services.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/debug/res/values/google_maps_api.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/debug/res/values/google_maps_api.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/com/turnpoint/ticram/Activites/AutoCompletePlace.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/com/turnpoint/ticram/Activites/AutoCompletePlace.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/com/turnpoint/ticram/Activites/AutoCompletePlaceCurrent.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/com/turnpoint/ticram/Activites/AutoCompletePlaceCurrent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/com/turnpoint/ticram/Activites/LoginPhoneNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/com/turnpoint/ticram/Activites/LoginPhoneNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/com/turnpoint/ticram/Activites/MapActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/com/turnpoint/ticram/Activites/MapActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/com/turnpoint/ticram/Activites/SplashActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/com/turnpoint/ticram/Activites/SplashActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/com/turnpoint/ticram/Services/SingleShotLocationProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/com/turnpoint/ticram/Services/SingleShotLocationProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/res/drawable-v21/ic_menu_camera.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/res/drawable-v21/ic_menu_camera.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/res/drawable-v21/ic_menu_gallery.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/res/drawable-v21/ic_menu_gallery.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/res/drawable-v21/ic_menu_manage.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/res/drawable-v21/ic_menu_manage.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/res/drawable-v21/ic_menu_send.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/res/drawable-v21/ic_menu_send.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/res/drawable-v21/ic_menu_share.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/res/drawable-v21/ic_menu_share.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/res/drawable-v21/ic_menu_slideshow.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/res/drawable-v21/ic_menu_slideshow.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/res/drawable/blue_circle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/res/drawable/blue_circle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/res/drawable/green_circle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/res/drawable/green_circle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/res/drawable/ic_add_black_24dp.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/res/drawable/ic_add_black_24dp.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/res/drawable/ic_arrow_drop_down_black_24dp.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/res/drawable/ic_arrow_drop_down_black_24dp.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/res/drawable/ic_back.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/res/drawable/ic_back.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/res/drawable/rectangle_edit.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/res/drawable/rectangle_edit.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/res/drawable/side_nav_bar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/res/drawable/side_nav_bar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/res/values-ar/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/res/values-ar/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/res/xml/remote_config_defaults.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/res/xml/remote_config_defaults.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/user.iml" beforeDir="false" afterPath="$PROJECT_DIR$/user/user.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="d555da31" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="Pixel_2_API_30" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -82,7 +123,7 @@
   </component>
   <component name="GenerateSignedApkSettings">
     <option name="EXPORT_PRIVATE_KEY" value="false" />
-    <option name="KEY_STORE_PATH" value="C:\Users\awsha\OneDrive\Desktop\New folder (4)\keyuser.jks" />
+    <option name="KEY_STORE_PATH" value="D:\private\FuAIS\AndroidProject\Tekram\Tekram User\key user\keyuser.jks" />
     <option name="KEY_ALIAS" value="keyuser" />
     <option name="REMEMBER_PASSWORDS" value="true" />
     <option name="BUILD_TARGET_KEY" value="apk" />
@@ -114,14 +155,14 @@
     <property name="DEBUGGER_ID" value="Auto" />
     <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="Pixel_2_API_26" />
     <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2020-08-26T10:05:05.236Z" />
-    <property name="ExportApk.ApkPath" value="C:\Users\awsha\OneDrive\Desktop\New folder (4)" />
+    <property name="ExportApk.ApkPath" value="C:\Users\alnajjar\Desktop" />
     <property name="ExportApk.BuildVariants" value="release" />
     <property name="ExportApk.SignV1" value="true" />
     <property name="ExportApk.SignV2" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHOW_ALL_PROCESSES" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Suggestions" />
@@ -333,7 +374,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598426038171</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="clear cache">
+      <created>1599397877488</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1599397877488</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView">
@@ -350,7 +398,8 @@
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
     <MESSAGE value="add new links" />
-    <option name="LAST_COMMIT_MESSAGE" value="add new links" />
+    <MESSAGE value="clear cache" />
+    <option name="LAST_COMMIT_MESSAGE" value="clear cache" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="22" key="#Notifications" timestamp="1597080611243">
@@ -373,16 +422,17 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="538" y="129" key="AndroidProcessChooserDialog/0.0.1366.728@0.0.1366.728" timestamp="1599152701477" />
-    <state x="249" y="0" key="CommitChangelistDialog2" timestamp="1599397405869">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="280" y="0" key="CommitChangelistDialog2" timestamp="1599397872398">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="249" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1599397405869" />
-    <state x="463" y="134" key="FileChooserDialogImpl" timestamp="1599164653599">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="280" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1599397872398" />
+    <state x="521" y="152" key="FileChooserDialogImpl" timestamp="1599403799031">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="463" y="134" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1599164653599" />
     <state x="-1269" y="191" key="FileChooserDialogImpl/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1598475159538" />
-    <state x="521" y="152" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1593641519471" />
+    <state x="521" y="152" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1599403799031" />
     <state x="534" y="256" key="Github.ShareDialog" timestamp="1598358942288">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -392,42 +442,46 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="425" y="102" key="Github.UntrackedFilesDialog/0.0.1536.824@0.0.1536.824" timestamp="1593856940261" />
-    <state width="1323" height="190" key="GridCell.Tab.0.bottom" timestamp="1599163789103">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1491" height="381" key="GridCell.Tab.0.bottom" timestamp="1599404826510">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1323" height="190" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1599163789103" />
-    <state width="1340" height="329" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593672844966" />
-    <state width="1323" height="190" key="GridCell.Tab.0.center" timestamp="1599163789046">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1491" height="381" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1599404826510" />
+    <state width="1491" height="381" key="GridCell.Tab.0.center" timestamp="1599404826509">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1323" height="190" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1599163789046" />
-    <state width="1340" height="329" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1593672844966" />
-    <state width="1323" height="190" key="GridCell.Tab.0.left" timestamp="1599163789039">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1491" height="381" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1599404826509" />
+    <state width="1491" height="381" key="GridCell.Tab.0.left" timestamp="1599404826509">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1323" height="190" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1599163789039" />
-    <state width="1340" height="329" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1593672844966" />
-    <state width="1323" height="190" key="GridCell.Tab.0.right" timestamp="1599163789047">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1491" height="381" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1599404826509" />
+    <state width="1491" height="381" key="GridCell.Tab.0.right" timestamp="1599404826510">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1323" height="190" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1599163789047" />
-    <state width="1340" height="329" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1593672844966" />
-    <state width="1323" height="222" key="GridCell.Tab.1.bottom" timestamp="1598442788092">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1491" height="381" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1599404826510" />
+    <state width="1491" height="257" key="GridCell.Tab.1.bottom" timestamp="1599400972644">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1323" height="222" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1598442788092" />
-    <state width="1323" height="222" key="GridCell.Tab.1.center" timestamp="1598442788092">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1491" height="257" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1599400972644" />
+    <state width="1491" height="257" key="GridCell.Tab.1.center" timestamp="1599400972644">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1323" height="222" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1598442788092" />
-    <state width="1323" height="222" key="GridCell.Tab.1.left" timestamp="1598442788092">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1491" height="257" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1599400972644" />
+    <state width="1491" height="257" key="GridCell.Tab.1.left" timestamp="1599400972643">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1323" height="222" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1598442788092" />
-    <state width="1323" height="222" key="GridCell.Tab.1.right" timestamp="1598442788092">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1491" height="257" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1599400972643" />
+    <state width="1491" height="257" key="GridCell.Tab.1.right" timestamp="1599400972644">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1323" height="222" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1598442788092" />
+    <state width="1491" height="257" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1599400972644" />
     <state x="0" y="0" key="MultipleFileMergeDialog" timestamp="1598511718831">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -437,23 +491,26 @@
     </state>
     <state x="-1920" y="166" key="SettingsEditor/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1598475139303" />
     <state x="0" y="110" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1599397806989" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1598426077500">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="309" y="110" key="Vcs.Push.Dialog.v2" timestamp="1599397901195">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1598426077500" />
+    <state x="309" y="110" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1599397901195" />
     <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1597602024991">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1366.728@0.0.1366.728" timestamp="1597602024991" />
-    <state x="389" y="194" key="com.intellij.ide.util.TipDialog" timestamp="1598339710888">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="-1373" y="277" key="com.intellij.ide.util.TipDialog" timestamp="1599422742188">
+      <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state x="389" y="194" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1598339710888" />
+    <state x="-1373" y="277" key="com.intellij.ide.util.TipDialog/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1599422742188" />
     <state x="437" y="220" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1593657023911" />
-    <state x="492" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598956943436">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="553" y="318" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599397947562">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="492" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1598956943436" />
+    <state x="553" y="318" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1599397947562" />
     <state x="375" y="155" key="git4idea.merge.GitPullDialog" timestamp="1598955360705">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -543,183 +600,163 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
           <url>file://$PROJECT_DIR$/user/src/main/java/com/turnpoint/ticram/Activites/MapActivity.java</url>
-          <line>1697</line>
+          <line>1662</line>
           <option name="timeStamp" value="81" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
           <url>file://$PROJECT_DIR$/user/src/main/java/com/turnpoint/ticram/Activites/MapActivity.java</url>
-          <line>2684</line>
+          <line>2651</line>
           <option name="timeStamp" value="96" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
           <url>file://$PROJECT_DIR$/user/src/main/java/com/turnpoint/ticram/Activites/MapActivity.java</url>
-          <line>2689</line>
+          <line>2656</line>
           <option name="timeStamp" value="97" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
           <url>file://$PROJECT_DIR$/user/src/main/java/com/turnpoint/ticram/Activites/MapActivity.java</url>
-          <line>1503</line>
+          <line>1470</line>
           <option name="timeStamp" value="107" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
           <url>file://$PROJECT_DIR$/user/src/main/java/com/turnpoint/ticram/Activites/MapActivity.java</url>
-          <line>1481</line>
+          <line>1448</line>
           <option name="timeStamp" value="108" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
           <url>file://$PROJECT_DIR$/user/src/main/java/com/turnpoint/ticram/Activites/MapActivity.java</url>
-          <line>1465</line>
+          <line>1432</line>
           <option name="timeStamp" value="110" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
           <url>file://$PROJECT_DIR$/user/src/main/java/com/turnpoint/ticram/Activites/MapActivity.java</url>
-          <line>2430</line>
+          <line>2397</line>
           <option name="timeStamp" value="112" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
           <url>file://$PROJECT_DIR$/user/src/main/java/com/turnpoint/ticram/Activites/MapActivity.java</url>
-          <line>493</line>
-          <option name="timeStamp" value="119" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
-          <url>file://$PROJECT_DIR$/user/src/main/java/com/turnpoint/ticram/Activites/MapActivity.java</url>
-          <line>497</line>
-          <option name="timeStamp" value="120" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
-          <url>file://$PROJECT_DIR$/user/src/main/java/com/turnpoint/ticram/Activites/MapActivity.java</url>
-          <line>499</line>
-          <option name="timeStamp" value="121" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
-          <url>file://$PROJECT_DIR$/user/src/main/java/com/turnpoint/ticram/Activites/MapActivity.java</url>
-          <line>2409</line>
+          <line>2376</line>
           <option name="timeStamp" value="123" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
           <url>file://$PROJECT_DIR$/user/src/main/java/com/turnpoint/ticram/Activites/MapActivity.java</url>
-          <line>2338</line>
+          <line>2305</line>
           <option name="timeStamp" value="124" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
           <url>file://$PROJECT_DIR$/user/src/main/java/com/turnpoint/ticram/Activites/MapActivity.java</url>
-          <line>2341</line>
+          <line>2308</line>
           <option name="timeStamp" value="127" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
           <url>file://$PROJECT_DIR$/user/src/main/java/com/turnpoint/ticram/Activites/MapActivity.java</url>
-          <line>2414</line>
+          <line>2381</line>
           <option name="timeStamp" value="129" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
           <url>file://$PROJECT_DIR$/user/src/main/java/com/turnpoint/ticram/Activites/MapActivity.java</url>
-          <line>2386</line>
+          <line>2353</line>
           <option name="timeStamp" value="131" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
           <url>file://$PROJECT_DIR$/user/src/main/java/com/turnpoint/ticram/Activites/MapActivity.java</url>
-          <line>2387</line>
+          <line>2354</line>
           <option name="timeStamp" value="132" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
           <url>file://$PROJECT_DIR$/user/src/main/java/com/turnpoint/ticram/Activites/MapActivity.java</url>
-          <line>2445</line>
+          <line>2412</line>
           <option name="timeStamp" value="133" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
           <url>file://$PROJECT_DIR$/user/src/main/java/com/turnpoint/ticram/Activites/MapActivity.java</url>
-          <line>2447</line>
+          <line>2414</line>
           <option name="timeStamp" value="134" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
           <url>file://$PROJECT_DIR$/user/src/main/java/com/turnpoint/ticram/Activites/MapActivity.java</url>
-          <line>495</line>
-          <option name="timeStamp" value="139" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
-          <url>file://$PROJECT_DIR$/user/src/main/java/com/turnpoint/ticram/Activites/MapActivity.java</url>
-          <line>498</line>
-          <option name="timeStamp" value="140" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
-          <url>file://$PROJECT_DIR$/user/src/main/java/com/turnpoint/ticram/Activites/MapActivity.java</url>
-          <line>500</line>
-          <option name="timeStamp" value="142" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
-          <url>file://$PROJECT_DIR$/user/src/main/java/com/turnpoint/ticram/Activites/MapActivity.java</url>
-          <line>1421</line>
+          <line>1388</line>
           <option name="timeStamp" value="144" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
           <url>file://$PROJECT_DIR$/user/src/main/java/com/turnpoint/ticram/Activites/MapActivity.java</url>
-          <line>1422</line>
+          <line>1389</line>
           <option name="timeStamp" value="145" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
           <url>file://$PROJECT_DIR$/user/src/main/java/com/turnpoint/ticram/Activites/MapActivity.java</url>
-          <line>1423</line>
+          <line>1390</line>
           <option name="timeStamp" value="146" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
           <url>file://$PROJECT_DIR$/user/src/main/java/com/turnpoint/ticram/Activites/MapActivity.java</url>
-          <line>1427</line>
+          <line>1394</line>
           <option name="timeStamp" value="147" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
           <url>file://$PROJECT_DIR$/user/src/main/java/com/turnpoint/ticram/Activites/MapActivity.java</url>
-          <line>1442</line>
+          <line>1409</line>
           <option name="timeStamp" value="148" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
           <url>file://$PROJECT_DIR$/user/src/main/java/com/turnpoint/ticram/Activites/MapActivity.java</url>
-          <line>667</line>
+          <line>669</line>
           <option name="timeStamp" value="149" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
           <url>file://$PROJECT_DIR$/user/src/main/java/com/turnpoint/ticram/Activites/MapActivity.java</url>
-          <line>669</line>
+          <line>671</line>
           <option name="timeStamp" value="150" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
           <url>file://$PROJECT_DIR$/user/src/main/java/com/turnpoint/ticram/Activites/MapActivity.java</url>
-          <line>674</line>
+          <line>676</line>
           <option name="timeStamp" value="151" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
           <url>file://$PROJECT_DIR$/user/src/main/java/com/turnpoint/ticram/Activites/MapActivity.java</url>
-          <line>672</line>
+          <line>674</line>
           <option name="timeStamp" value="152" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
           <url>file://$PROJECT_DIR$/user/src/main/java/com/turnpoint/ticram/Activites/MapActivity.java</url>
-          <line>673</line>
+          <line>675</line>
           <option name="timeStamp" value="153" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
           <url>file://$PROJECT_DIR$/user/src/main/java/com/turnpoint/ticram/Activites/MapActivity.java</url>
-          <line>679</line>
+          <line>681</line>
           <option name="timeStamp" value="154" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
           <url>file://$PROJECT_DIR$/user/src/main/java/com/turnpoint/ticram/Activites/MapActivity.java</url>
-          <line>666</line>
+          <line>668</line>
           <option name="timeStamp" value="155" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
           <url>file://$PROJECT_DIR$/user/src/main/java/com/turnpoint/ticram/Activites/MapActivity.java</url>
-          <line>3686</line>
-          <option name="timeStamp" value="156" />
+          <line>321</line>
+          <option name="timeStamp" value="160" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
           <url>file://$PROJECT_DIR$/user/src/main/java/com/turnpoint/ticram/Activites/MapActivity.java</url>
-          <line>3693</line>
-          <option name="timeStamp" value="157" />
+          <line>318</line>
+          <option name="timeStamp" value="161" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
           <url>file://$PROJECT_DIR$/user/src/main/java/com/turnpoint/ticram/Activites/MapActivity.java</url>
-          <line>3685</line>
-          <option name="timeStamp" value="158" />
+          <line>315</line>
+          <option name="timeStamp" value="163" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/user/src/main/java/com/turnpoint/ticram/Activites/MapActivity.java</url>
+          <line>618</line>
+          <option name="timeStamp" value="185" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/user/src/main/java/com/turnpoint/ticram/Activites/MapActivity.java</url>
+          <line>1598</line>
+          <option name="timeStamp" value="188" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

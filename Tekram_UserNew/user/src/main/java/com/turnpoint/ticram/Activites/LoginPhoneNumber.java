@@ -33,6 +33,8 @@ import java.util.Map;
 import uk.co.chrisjenx.calligraphy.CalligraphyConfig;
 import uk.co.chrisjenx.calligraphy.CalligraphyContextWrapper;
 
+import static com.turnpoint.ticram.Activites.SplashActivity.deleteCache;
+
 public class LoginPhoneNumber extends AppCompatActivity {
     EditText ed_mobile;
     IResult iresult;
@@ -45,6 +47,7 @@ public class LoginPhoneNumber extends AppCompatActivity {
     }
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        deleteCache(getApplicationContext());
         CalligraphyConfig.initDefault(new CalligraphyConfig.Builder()
                 .setDefaultFontPath("fonts/Al-Jazeera-Arabic-Regular.ttf")
                 .setFontAttrId(R.attr.fontPath)

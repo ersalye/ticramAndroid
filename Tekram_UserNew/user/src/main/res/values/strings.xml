@@ -235,4 +235,6 @@
     <string name="min">min</string>
     <string name="alerte_force_update_title">Update Force</string>
     <string name="alerte_force_update_message">You have to update the app to be able to use it</string>
+    <string name="newUpdate">new Update</string>
+    <string name="updatee">Update</string>
 </resources>

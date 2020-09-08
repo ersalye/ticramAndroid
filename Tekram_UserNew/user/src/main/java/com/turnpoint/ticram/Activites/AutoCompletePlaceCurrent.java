@@ -83,7 +83,7 @@ public class AutoCompletePlaceCurrent extends FragmentActivity implements OnMapR
         // Initialize Places.
 
         if (!Places.isInitialized()) {
-            Places.initialize(getApplicationContext(),"AIzaSyBTEYwwSSVol2OMbYYmXTvswlx0xBEl0tw");
+            Places.initialize(getApplicationContext()," AIzaSyCrBUhvuIULUX7buroHkeVDx5ZMeP1gKsU");
         }
         // Create a new Places client instance.
         PlacesClient placesClient = Places.createClient(this);

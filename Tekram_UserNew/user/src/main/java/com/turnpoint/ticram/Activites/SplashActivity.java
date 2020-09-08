@@ -15,18 +15,16 @@ import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
 import android.provider.Settings;
-
-import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
-import androidx.annotation.RequiresApi;
-import androidx.core.app.ActivityCompat;
-import androidx.appcompat.app.AlertDialog;
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.util.Log;
 import android.view.View;
 import android.widget.RelativeLayout;
 import android.widget.Toast;
+
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.annotation.RequiresApi;
+import androidx.appcompat.app.AlertDialog;
+import androidx.core.app.ActivityCompat;
 
 import com.android.volley.VolleyError;
 import com.google.android.gms.common.ConnectionResult;
@@ -41,8 +39,6 @@ import com.google.android.gms.location.LocationSettingsResult;
 import com.google.android.gms.location.LocationSettingsStates;
 import com.google.android.gms.location.LocationSettingsStatusCodes;
 import com.google.android.gms.tasks.OnCompleteListener;
-import com.google.android.gms.tasks.OnFailureListener;
-import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
@@ -58,22 +54,21 @@ import com.turnpoint.ticram.GetCurrentLanguagePhone;
 import com.turnpoint.ticram.MySharedPreference;
 import com.turnpoint.ticram.PathUrl;
 import com.turnpoint.ticram.R;
-import com.turnpoint.ticram.Services.SingleShotLocationProvider;
 import com.turnpoint.ticram.Volley.IResult;
 import com.turnpoint.ticram.Volley.VolleyService;
 import com.turnpoint.ticram.modules.user_info_splash;
 import com.turnpoint.ticram.modules.user_info_splash2;
 import com.turnpoint.ticram.modules.user_info_splash3;
-
-import java.util.Hashtable;
-import java.util.Map;
-import java.util.concurrent.TimeUnit;
-
 import com.yayandroid.locationmanager.base.LocationBaseActivity;
 import com.yayandroid.locationmanager.configuration.DefaultProviderConfiguration;
 import com.yayandroid.locationmanager.configuration.GooglePlayServicesConfiguration;
 import com.yayandroid.locationmanager.configuration.LocationConfiguration;
 import com.yayandroid.locationmanager.constants.ProviderType;
+
+import java.io.File;
+import java.util.Hashtable;
+import java.util.Map;
+import java.util.concurrent.TimeUnit;
 
 import uk.co.chrisjenx.calligraphy.CalligraphyConfig;
 
@@ -134,7 +129,7 @@ public class SplashActivity extends LocationBaseActivity implements GoogleApiCli
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
+        deleteCache(getApplicationContext());
         checkUpdate();
         try {
             TimeUnit.SECONDS.sleep(1);
@@ -200,6 +195,32 @@ public class SplashActivity extends LocationBaseActivity implements GoogleApiCli
         }
 
 
+    }
+
+    public static void deleteCache(Context context) {
+        try {
+            File dir = context.getCacheDir();
+            deleteDir(dir);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+    public static boolean deleteDir(File dir) {
+        if (dir != null && dir.isDirectory()) {
+            String[] children = dir.list();
+            for (int i = 0; i < children.length; i++) {
+                boolean success = deleteDir(new File(dir, children[i]));
+                if (!success) {
+                    return false;
+                }
+            }
+            return dir.delete();
+        } else if (dir != null && dir.isFile()) {
+            return dir.delete();
+        } else {
+            return false;
+        }
     }
 
     @Override
@@ -603,7 +624,7 @@ public class SplashActivity extends LocationBaseActivity implements GoogleApiCli
                     public void onComplete(@NonNull Task<Boolean> task) {
                         BaseUrl = mFirebaseRemoteConfig.getString("base_url");
                         new MySharedPreference(getApplicationContext()).setStringShared("base_url", BaseUrl);
-                        //new MySharedPreference(getApplicationContext()).setStringShared("base_url", "https://new.faistec.com/");
+                        //new MySharedPreference(getApplicationContext()).setStringShared("base_url", "https://new.ticram.com/");
                     }
                 });
 
@@ -662,20 +683,11 @@ public class SplashActivity extends LocationBaseActivity implements GoogleApiCli
                 int user_code = Integer.parseInt(code);
 
                 if (snapshot.exists()) {
-                    if (BuildConfig.VERSION_CODE < user_code) {
+                    if (BuildConfig.VERSION_CODE >= user_code) {
+                        ckeckVersion = true;
+                    } else {
                         ckeckVersion = false;
                         showForceUpdateDialog();
-                    } else {
-
-                        if (snapshot.exists()) {
-                            if (!code.equals(String.valueOf(BuildConfig.VERSION_CODE))) {
-                                ckeckVersion = false;
-                                showForceUpdateDialog();
-                            } else {
-
-                                ckeckVersion = true;
-                            }
-                        }
                     }
                 }
             }
@@ -691,13 +703,14 @@ public class SplashActivity extends LocationBaseActivity implements GoogleApiCli
 
     private void showForceUpdateDialog() {
         AlertDialog.Builder builder = new AlertDialog.Builder(SplashActivity.this);
-        builder.setTitle(getResources().getString(R.string.alerte_force_update_title));
+        builder.setTitle(getResources().getString(R.string.newUpdate));
         builder.setMessage(getResources().getString(R.string.alerte_force_update_message));
         builder.setCancelable(false);
-        builder.setPositiveButton(getResources().getString(R.string.update), new DialogInterface.OnClickListener() {
+        builder.setPositiveButton(getResources().getString(R.string.updatee), new DialogInterface.OnClickListener() {
 
             @Override
             public void onClick(DialogInterface dialogInterface, int i) {
+                deleteCache(getApplicationContext());
                 final String appPackageName = getPackageName(); // getPackageName() from Context or Activity object
                 try {
                     startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("market://details?id=" + appPackageName)));
@@ -705,6 +718,7 @@ public class SplashActivity extends LocationBaseActivity implements GoogleApiCli
                     startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://play.google.com/store/apps/details?id=" + appPackageName)));
                 }
 
+                finishAffinity();
 
             }
         });

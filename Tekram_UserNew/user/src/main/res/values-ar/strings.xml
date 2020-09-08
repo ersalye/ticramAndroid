@@ -23,7 +23,7 @@
     <string name="please_chose_type_car">الرجاء اختيار نوع السيارة</string>
     <string name="cancel_free">للالغاء المجاني</string>
     <string name="cancel_payment">مبلغ الالغاء 1.2 د.أ</string>
-    <string name="update">تعديل</string>
+    <string name="update">تحديث</string>
     <string name="cancel_order">تم الغاؤ الطلب من</string>
     <string name="driver">السائق</string>
     <string name="admin">المسؤوول</string>
@@ -32,7 +32,6 @@
     <string name="cancel_question">من الغاء الطلب</string>
     <string name="no">لا</string>
     <string name="yes">نعم</string>
-
     <string name="ed_user_name">ادخل اسم المستخدم</string>
     <string name="btn_user_name_reg">تسجيل</string>
 
@@ -274,4 +273,6 @@
     <string name="update_force">تحديث</string>
     <string name="alerte_force_update_title">تحديث اجباري</string>
     <string name="alerte_force_update_message">عليك تحديث التطبيق حتى تتمكن من استخدامه</string>
+    <string name="newUpdate">تحديث جديد</string>
+    <string name="updatee">تحديث</string>
 </resources>

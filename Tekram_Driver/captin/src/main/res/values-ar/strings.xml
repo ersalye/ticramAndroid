@@ -39,12 +39,12 @@
 
     <string name="no">لا</string>
     <string name="yes">نعم</string>
-    <string name="update_new">تحدسيث جديد</string>
+    <string name="update_new">تحديث جديد</string>
 
 
     <string name="btn_tawklna">وصول</string>
     <string name="btn_arrive_user">وصول</string>
-    <string name="btn_cancel_trip">الغاء</string>
+    <string name="btn_cancel_trip">الغاء</string>3
     <string name="btn_start_trip">بدء</string>
     <string name="btn_done_transport_user">انهاء الرحلة</string>
 
