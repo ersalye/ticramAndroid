@@ -606,7 +606,6 @@ public class MapActivity extends FragmentActivity implements OnMapReadyCallback,
                     btn_tawklnaa.setOnClickListener(new View.OnClickListener() {
                         @Override
                         public void onClick(View v) {
-                            getAddress();
                             if (seleted_subcat_count.equals("0")) {
                                 Toast.makeText(getApplicationContext(), getResources().getString(R.string.pick_up_first),
                                         Toast.LENGTH_SHORT).show();
@@ -672,7 +671,7 @@ public class MapActivity extends FragmentActivity implements OnMapReadyCallback,
                                 handler.postDelayed(new Runnable() {
                                     @Override
                                     public void run() {
-                                        if(check_order == "0"){
+                                        if (check_order == "0") {
                                             showDialogElse();
                                         }
                                         pw_waiting.dismiss();
@@ -800,7 +799,7 @@ public class MapActivity extends FragmentActivity implements OnMapReadyCallback,
     public void Clear_locations() {
         try {
             img_marker_current.setVisibility(View.VISIBLE);
-            tv_currentLocation.setText("");
+            tv_currentLocation.setText(getResources().getString(R.string.starting_point));
             tv_time_.setText("");
             tv_distance_.setText("");
             tv_des_text.setText(getResources().getString(R.string.chose_place));
@@ -828,21 +827,6 @@ public class MapActivity extends FragmentActivity implements OnMapReadyCallback,
             //mMap.addMarker(markerOptionss_source);
             mMap.animateCamera(CameraUpdateFactory.newLatLngZoom(new LatLng(currentLatitude, currentLongitude), 16.0f));
             geocoder = new Geocoder(getApplicationContext(), Locale.getDefault());
-            try {
-                addresses = geocoder.getFromLocation(currentLatitude, currentLongitude, 1);
-                if (addresses != null && addresses.size() > 0) {
-                    String address = addresses.get(0).getAddressLine(0);
-                    String city = addresses.get(0).getLocality();
-                    String state = addresses.get(0).getAdminArea();
-                    String country = addresses.get(0).getCountryName();
-                    String postalCode = addresses.get(0).getPostalCode();
-                    String knownName = addresses.get(0).getFeatureName();
-                    tv_currentLocation.setText(address);
-                }
-            } catch (IOException e) {
-                // TODO Auto-generated catch block
-                e.printStackTrace();
-            }
             zoom_into_my_loc(null);
 
         } catch (Exception ex) {
@@ -870,12 +854,10 @@ public class MapActivity extends FragmentActivity implements OnMapReadyCallback,
         movingCarsHandler.postDelayed(movingCarsRunnable, 1000);
 
         tv_driverName.setText(new MySharedPreference(getApplicationContext()).getStringShared("user_name"));
-
         if (new MySharedPreference(getApplicationContext()).getStringShared("waiting_showing").equals("no")) {
             // show_choosen_startLoc();
             calculate_ditance_duration();
         } else if (new MySharedPreference(getApplicationContext()).getStringShared("waiting_showing").equals("yes")) {
-
             volly_ = "6";
             Volley_go();
         }
@@ -893,8 +875,7 @@ public class MapActivity extends FragmentActivity implements OnMapReadyCallback,
 
     public void getSubCars() {
         try {
-            String startLoc_selected = new MySharedPreference(getApplicationContext()).
-                    getStringShared("startloc_selected");
+            String startLoc_selected = new MySharedPreference(getApplicationContext()).getStringShared("startloc_selected");
             if (startLoc_selected.equals("no")) {
                 mMap.clear();
 
@@ -906,7 +887,6 @@ public class MapActivity extends FragmentActivity implements OnMapReadyCallback,
                 mMap.animateCamera(CameraUpdateFactory.newLatLngZoom(new LatLng(currentLatitude, currentLongitude), 16.0f));
 
             } else if (startLoc_selected.equals("yes")) {
-                tv_currentLocation.setText(new MySharedPreference(getApplicationContext()).getStringShared("startloc_trip"));
                 String start_lat = new MySharedPreference(getApplicationContext()).getStringShared("startloc_lat");
                 String start_lon = new MySharedPreference(getApplicationContext()).getStringShared("startloc_lon");
                 try {
@@ -1003,12 +983,10 @@ public class MapActivity extends FragmentActivity implements OnMapReadyCallback,
                 } else {
                     img_drawer.setImageDrawable(getResources().getDrawable(R.drawable.reset_locations));
                 }
-
-                tv_currentLocation.setText(new MySharedPreference(getApplicationContext()).
-                        getStringShared("startloc_trip"));
                 getNearestCars(currentLatitude + "," + currentLongitude, true);
                 mMap.clear();
                 //img_marker_current.setVisibility(View.INVISIBLE);
+                tv_currentLocation.setText(new MySharedPreference(getApplicationContext()).getStringShared("startloc_trip"));
                 String start_lat = new MySharedPreference(getApplicationContext()).getStringShared("startloc_lat");
                 String start_lon = new MySharedPreference(getApplicationContext()).getStringShared("startloc_lon");
                 markerOptionss_source = new MarkerOptions().
@@ -1065,7 +1043,6 @@ public class MapActivity extends FragmentActivity implements OnMapReadyCallback,
                 } else {
                     img_drawer.setImageDrawable(getResources().getDrawable(R.drawable.reset_locations));
                 }
-
                 final_des = new MySharedPreference(getApplicationContext()).getStringShared("destination_trip");
                 lin_dis_time.setVisibility(View.VISIBLE);
                 //img_marker_current.setVisibility(View.INVISIBLE);
@@ -1080,6 +1057,7 @@ public class MapActivity extends FragmentActivity implements OnMapReadyCallback,
 
                         mMap.clear();
                         mMap.setPadding(100, 500, 100, 700);
+                        tv_currentLocation.setText(new MySharedPreference(getApplicationContext()).getStringShared("startloc_trip"));
                         String start_lat = new MySharedPreference(getApplicationContext()).getStringShared("startloc_lat");
                         String start_lon = new MySharedPreference(getApplicationContext()).getStringShared("startloc_lon");
 
@@ -1281,12 +1259,43 @@ public class MapActivity extends FragmentActivity implements OnMapReadyCallback,
 
             }
         });
-//        mMap.setOnCameraIdleListener(new GoogleMap.OnCameraIdleListener() {
-//            @Override
-//            public void onCameraIdle() {
-//
-//            }
-//        });
+        mMap.setOnCameraIdleListener(new GoogleMap.OnCameraIdleListener() {
+            @Override
+            public void onCameraIdle() {
+                try {
+                    if (new MySharedPreference(getApplicationContext()).getStringShared("destination_selected").equals("yes")) {
+                        return;
+                    }
+                    LatLng midLatLng = mMap.getCameraPosition().target;
+                    double selected_lat = midLatLng.latitude;
+                    double selected_lon = midLatLng.longitude;
+                    if (!oneTimeDisableClearPoint) {
+                        img_marker_current.setVisibility(View.VISIBLE);
+                        //mMap.clear();
+                        des_lat = new MySharedPreference(getApplicationContext()).getStringShared("destination_lat");
+                        des_lon = new MySharedPreference(getApplicationContext()).getStringShared("destination_lon");
+                        if (new MySharedPreference(getApplicationContext()).getStringShared("destination_selected").equals("yes") && !(des_lat + des_lon).isEmpty()) {
+                            MarkerOptions markerOptionsss = new MarkerOptions().
+                                    position(new LatLng(Double.parseDouble(des_lat), Double.parseDouble(des_lon))).icon(icon_user_destination);
+                            mMap.addMarker(markerOptionsss);
+                        }
+                    }
+                    oneTimeDisableClearPoint = false;
+                    new MySharedPreference(getApplicationContext()).setStringShared("startloc_lat", String.valueOf(selected_lat));
+                    new MySharedPreference(getApplicationContext()).setStringShared("startloc_lon", String.valueOf(selected_lon));
+                    new MySharedPreference(getApplicationContext()).setStringShared("startloc_selected", "yes");
+                    currentLatitude = selected_lat;
+                    currentLongitude = selected_lon;
+                    getNearestCars(currentLatitude + "," + currentLongitude, false);
+                    volly_ = "0";
+                    Volley_go();
+                    volly_ = "5";
+                    Volley_go();
+                } catch (Exception ex) {
+
+                }
+            }
+        });
 
         handleNewLocation(MyCurrentLocation);
     }
@@ -1299,7 +1308,7 @@ public class MapActivity extends FragmentActivity implements OnMapReadyCallback,
             addresses = geocoder.getFromLocation(currentLatitude, currentLongitude, 1);
             if (addresses != null && addresses.size() > 0) {
                 String address = addresses.get(0).getAddressLine(0);
-                tv_currentLocation.setText(address);
+                //tv_currentLocation.setText(address);
                 getNearestCars(currentLatitude + "," + currentLongitude, true);
                 return address;
             }
@@ -1401,7 +1410,7 @@ public class MapActivity extends FragmentActivity implements OnMapReadyCallback,
 //                                        popupWindow_waittig_show = "noShow";
                             showDialogElse();
                         }
-                    }, 60*1000);
+                    }, 60 * 1000);
                 }
             }, 1000 * 2);
 
@@ -1595,7 +1604,6 @@ public class MapActivity extends FragmentActivity implements OnMapReadyCallback,
                                 btn_tawklnaa.setOnClickListener(new View.OnClickListener() {
                                     @Override
                                     public void onClick(View v) {
-                                        getAddress();
                                         if (seleted_subcat_count.equals("0")) {
                                             Toast.makeText(getApplicationContext(), getResources().getString(R.string.pick_up_first),
                                                     Toast.LENGTH_SHORT).show();
@@ -1765,7 +1773,6 @@ public class MapActivity extends FragmentActivity implements OnMapReadyCallback,
                                 btn_tawklnaa.setOnClickListener(new View.OnClickListener() {
                                     @Override
                                     public void onClick(View v) {
-                                        getAddress();
                                         if (seleted_subcat_count.equals("0")) {
                                             Toast.makeText(getApplicationContext(), getResources().getString(R.string.pick_up_first),
                                                     Toast.LENGTH_SHORT).show();
@@ -1935,8 +1942,7 @@ public class MapActivity extends FragmentActivity implements OnMapReadyCallback,
                     }
 
                     //Toast.makeText(getApplicationContext(), String.valueOf(des_lat)+","+ String.valueOf(des_lon), Toast.LENGTH_SHORT).show();
-                }
-                else if (new MySharedPreference(getApplicationContext()).getStringShared("destination_selected").equals("no")) {
+                } else if (new MySharedPreference(getApplicationContext()).getStringShared("destination_selected").equals("no")) {
 
                     String startLoc_selected = new MySharedPreference(getApplicationContext()).getStringShared("startloc_selected");
                     if (startLoc_selected.equals("yes")) {
@@ -2255,7 +2261,6 @@ public class MapActivity extends FragmentActivity implements OnMapReadyCallback,
                     btn_tawklnaa.setOnClickListener(new View.OnClickListener() {
                         @Override
                         public void onClick(View v) {
-                            getAddress();
                             if (seleted_subcat_count.equals("0")) {
                                 Toast.makeText(getApplicationContext(), getResources().getString(R.string.pick_up_first),
                                         Toast.LENGTH_SHORT).show();
@@ -3015,46 +3020,6 @@ public class MapActivity extends FragmentActivity implements OnMapReadyCallback,
 
     }
 
-    private void getAddress(){
-        try {
-            if (new MySharedPreference(getApplicationContext()).getStringShared("destination_selected").equals("yes")) {
-                return;
-            }
-            LatLng midLatLng = mMap.getCameraPosition().target;
-            double selected_lat = midLatLng.latitude;
-            double selected_lon = midLatLng.longitude;
-            if (!oneTimeDisableClearPoint) {
-                img_marker_current.setVisibility(View.VISIBLE);
-                //mMap.clear();
-                des_lat = new MySharedPreference(getApplicationContext()).getStringShared("destination_lat");
-                des_lon = new MySharedPreference(getApplicationContext()).getStringShared("destination_lon");
-                if (new MySharedPreference(getApplicationContext()).getStringShared("destination_selected").equals("yes") && !(des_lat + des_lon).isEmpty()) {
-                    MarkerOptions markerOptionsss = new MarkerOptions().
-                            position(new LatLng(Double.parseDouble(des_lat), Double.parseDouble(des_lon))).icon(icon_user_destination);
-                    mMap.addMarker(markerOptionsss);
-                }
-            }
-            oneTimeDisableClearPoint = false;
-            new MySharedPreference(getApplicationContext()).setStringShared("startloc_lat", String.valueOf(selected_lat));
-            new MySharedPreference(getApplicationContext()).setStringShared("startloc_lon", String.valueOf(selected_lon));
-            new MySharedPreference(getApplicationContext()).setStringShared("startloc_selected", "yes");
-            currentLatitude = selected_lat;
-            currentLongitude = selected_lon;
-            String addressText = address_text();
-            if (addressText != null && !addressText.isEmpty()) {
-                new MySharedPreference(getApplicationContext()).setStringShared("startloc_trip", addressText);
-                tv_currentLocation.setText(addressText);
-                getNearestCars(currentLatitude + "," + currentLongitude, false);
-            }
-            volly_ = "0";
-            Volley_go();
-            volly_ = "5";
-            Volley_go();
-        } catch (Exception ex) {
-
-        }
-    }
-
 
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
@@ -3681,24 +3646,24 @@ public class MapActivity extends FragmentActivity implements OnMapReadyCallback,
     }
 
 
-    public void getCheckOrderResult(){
+    public void getCheckOrderResult() {
         RequestQueue queue = Volley.newRequestQueue(this);
-        String url =(new MySharedPreference(getApplicationContext())
-                .getStringShared("base_url")+PathUrl.check_order+new MySharedPreference(getApplicationContext()).getStringShared("user_id"));
+        String url = (new MySharedPreference(getApplicationContext())
+                .getStringShared("base_url") + PathUrl.check_order + new MySharedPreference(getApplicationContext()).getStringShared("user_id"));
         // Request a string response from the provided URL.
         StringRequest stringRequest = new StringRequest(Request.Method.GET, url,
                 new Response.Listener<String>() {
                     @Override
                     public void onResponse(String response) {
                         check_order = response;
-                        Log.d(" Request  xxx" ,check_order);
+                        Log.d(" Request  xxx", check_order);
 
 
                     }
                 }, new Response.ErrorListener() {
             @Override
             public void onErrorResponse(VolleyError error) {
-                Log.d("Error Request ",error.getMessage());
+                Log.d("Error Request ", error.getMessage());
 
             }
         });

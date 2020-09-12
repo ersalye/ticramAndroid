@@ -1531,7 +1531,6 @@ id tv_cash_credit
 id tv_dash
 id tv_date
 id tv_date_from
-id tv_date_to
 id tv_discount
 id tv_dots1
 id tv_dots2
@@ -1819,6 +1818,7 @@ string min
 string mobile_number
 string mtrl_chip_close_icon_content_description
 string name
+string netPrice
 string newss
 string no
 string no_name

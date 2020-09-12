@@ -187,6 +187,7 @@
     <string name="send">ارسال</string>
     <string name="service_not_available">هذه الخدمة غير متوفرة حاليا!</string>
     <string name="settings">الاعدادات</string>
+    <string name="starting_point">نقطة البداية ؟</string>
     <string msgid="7988687684186075107" name="status_bar_notification_info_overflow">"999+"</string>
     <string name="suggest">المقترح</string>
     <string name="support">الدعم الفني</string>

@@ -16,13 +16,17 @@ import android.os.Build;
 import android.os.CountDownTimer;
 import android.os.Handler;
 import android.provider.Settings;
+
 import androidx.annotation.RequiresApi;
 import androidx.coordinatorlayout.widget.CoordinatorLayout;
 import androidx.core.app.ActivityCompat;
 import androidx.fragment.app.FragmentActivity;
+
 import android.os.Bundle;
+
 import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.appcompat.app.AlertDialog;
+
 import android.util.Log;
 import android.view.View;
 import android.view.Window;
@@ -82,14 +86,14 @@ import uk.co.chrisjenx.calligraphy.CalligraphyContextWrapper;
 public class MapsMain extends FragmentActivity implements OnMapReadyCallback {
 
     //private MyFirebaseMessagingService mReceiver;
-    public static GoogleMap mMap;
+    private GoogleMap mMap;
     double currentLatitude = 0.0, currentLongitude = 0.0;
     public static Context context;
     IResult iresult;
     VolleyService voly_ser;
     String method;
     CoordinatorLayout lay_main;
-    static BitmapDescriptor icon_driver;
+    BitmapDescriptor icon_driver;
     SendLocationService sendLoc;
 
     RelativeLayout content_drawer;
@@ -114,7 +118,6 @@ public class MapsMain extends FragmentActivity implements OnMapReadyCallback {
     ImageView icon_user;
     Button btn_tawklna;
     RatingBar rb;
-    DBHelper2 db;
     CountDownTimer myCountDownTimer;
     int ii;
     DatabaseReference connectedRef;
@@ -140,8 +143,8 @@ public class MapsMain extends FragmentActivity implements OnMapReadyCallback {
         requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.drawer_layout);
 
-        Log.d("SEND_LOCATIONUrl", "SEND_LOCATION: "+new MySharedPreference(getApplicationContext())
-                .getStringShared("base_url")+PathUrl.SEND_LOCATION);
+        Log.d("SEND_LOCATIONUrl", "SEND_LOCATION: " + new MySharedPreference(getApplicationContext())
+                .getStringShared("base_url") + PathUrl.SEND_LOCATION);
         callBackVolly();
         getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
         //startService(new Intent(getApplicationContext(),StartSinch.class));
@@ -272,18 +275,9 @@ public class MapsMain extends FragmentActivity implements OnMapReadyCallback {
                             @Override
                             public void onClick(DialogInterface arg0, int arg1) {
                                 // stopService(new Intent(getApplicationContext(),StartSinch.class));
-//                                method = "logout";
-//                                Volley_go();
-                                if (Build.VERSION_CODES.KITKAT <= Build.VERSION.SDK_INT) {
-                                    ((ActivityManager) context.getSystemService(ACTIVITY_SERVICE))
-                                            .clearApplicationUserData();
-                                    Intent intent = new Intent(getApplicationContext(), SplashActivity.class);
-                                    intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_CLEAR_TOP);
-                                    startActivity(intent);
-                                    finish();
+                                method = "logout";
+                                Volley_go();
 
-                                    return;
-                                }
                             }
                         });
                 alertDialogBuilder.setNegativeButton("لا",
@@ -393,10 +387,12 @@ public class MapsMain extends FragmentActivity implements OnMapReadyCallback {
         statusHandler.post(run);
 
     }
+
     Integer rangeCount = 0;
     Boolean enableThread = false;
     Handler statusHandler;
     BroadcastReceiver receiver;
+
     public void ask_forPermission_floatIcon() {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
             if (!Settings.canDrawOverlays(getApplicationContext())) {
@@ -463,7 +459,7 @@ public class MapsMain extends FragmentActivity implements OnMapReadyCallback {
                 mLocationManager.removeUpdates(mLocationListener);
             }
             Intent homeIntent = new Intent(Intent.ACTION_MAIN);
-            homeIntent.addCategory( Intent.CATEGORY_HOME );
+            homeIntent.addCategory(Intent.CATEGORY_HOME);
             homeIntent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
             startActivity(homeIntent);
             return;
@@ -476,7 +472,7 @@ public class MapsMain extends FragmentActivity implements OnMapReadyCallback {
 
             @Override
             public void run() {
-                doubleBackToExitPressedOnce=false;
+                doubleBackToExitPressedOnce = false;
             }
         }, 2000);
     }
@@ -536,7 +532,43 @@ public class MapsMain extends FragmentActivity implements OnMapReadyCallback {
         mMap.setMyLocationEnabled(true);
         mMap.getUiSettings().setMyLocationButtonEnabled(true);
 
+        mMap.setOnMyLocationChangeListener(new GoogleMap.OnMyLocationChangeListener() {
+            @Override
+            public void onMyLocationChange(Location location) {
+                mMap.clear();
+                currentLatitude = location.getLatitude();
+                currentLongitude = location.getLongitude();
+                try {
 
+                    LatLng mylatlng = new LatLng(currentLatitude, currentLongitude);
+                    //salam
+                    icon_driver = BitmapDescriptorFactory.fromResource(R.drawable.markermdpi);
+                    MarkerOptions markerOptionsss = new MarkerOptions().position(mylatlng).icon(icon_driver);
+                    mMap.addMarker(markerOptionsss);
+
+                    mMap.animateCamera(CameraUpdateFactory.newLatLngZoom(mylatlng, 14.0f));
+                    /*Geocoder geocoder;
+                    List<Address> addresses;
+                    geocoder = new Geocoder(getApplicationContext(), Locale.getDefault());
+                    try {
+                        addresses = geocoder.getFromLocation(currentLatitude, currentLongitude, 1);
+                        if (addresses != null && addresses.size() > 0) {
+                            String address = addresses.get(0).getAddressLine(0);
+                            String city = addresses.get(0).getLocality();
+                            String state = addresses.get(0).getAdminArea();
+                            String country = addresses.get(0).getCountryName();
+                            String postalCode = addresses.get(0).getPostalCode();
+                            String knownName = addresses.get(0).getFeatureName();
+                            tv_locationText.setText(address);
+                        }
+                    } catch (IOException e) {
+                        // TODO Auto-generated catch block
+                        e.printStackTrace();
+                    }*/
+                } catch (Exception ex) {
+                }
+            }
+        });
 
 
     }
@@ -689,7 +721,6 @@ public class MapsMain extends FragmentActivity implements OnMapReadyCallback {
                                     List<Current> list_orders = res.getCurrent();
                                     final Current item = list_orders.get(0);
                                     if (item.getOrderId() != null) {
-
                                         try {
                                             Intent serviceIntent = new Intent(getApplicationContext(), WidgetNewOrder.class);
                                             serviceIntent.putExtra("order_id", ""+item.getOrderId());
@@ -703,13 +734,11 @@ public class MapsMain extends FragmentActivity implements OnMapReadyCallback {
                                             startService(serviceIntent);
                                         } catch (Exception ex) {
                                         }
-
                                     }
                                 }*/
                             } else {
                                 Toast.makeText(MapsMain.this, res.getMsg(), Toast.LENGTH_LONG).show();
                             }
-
 
 
                             Double updateVersion = Double.parseDouble(res.getTransport().getAndroid_version());
@@ -718,7 +747,7 @@ public class MapsMain extends FragmentActivity implements OnMapReadyCallback {
                             if (updateVersion > currentVersion && updateAlert == null) {
                                 updateDialogBuilder = new AlertDialog.Builder(MapsMain.this);
                                 updateDialogBuilder.setMessage("يرجى تحديث تطبيق تكرم الى احدث اصدار لتتمكن من الاستفادة من كل المميزات الجديدة")
-                                        .setTitle("هناك اصدار جديد "+ updateVersion)
+                                        .setTitle("هناك اصدار جديد " + updateVersion)
                                         .setCancelable(false)
                                         .setPositiveButton("تحديث",
                                                 new DialogInterface.OnClickListener() {
@@ -966,7 +995,6 @@ public class MapsMain extends FragmentActivity implements OnMapReadyCallback {
                                     }
 
 
-
                                 }
                             } else {
                                 Paper.book().write("startDistanceCount", false);
@@ -1028,8 +1056,10 @@ public class MapsMain extends FragmentActivity implements OnMapReadyCallback {
             }
         };
     }
+
     static AlertDialog.Builder updateDialogBuilder;
     static AlertDialog updateAlert;
+
     public void timer_order(final int num) {
         myCountDownTimer = new CountDownTimer(num * 1000, 1000) {
             public void onTick(long millisUntilFinished) {
@@ -1066,24 +1096,6 @@ public class MapsMain extends FragmentActivity implements OnMapReadyCallback {
         }
     }
 
-    public static void setMarker(Location location1){
-
-        mMap.clear();
-       double currentLatitude = location1.getLatitude();
-       double currentLongitude = location1.getLongitude();
-        try {
-
-            LatLng mylatlng = new LatLng(currentLatitude, currentLongitude);
-            //salam
-            icon_driver = BitmapDescriptorFactory.fromResource(R.drawable.markermdpi);
-            MarkerOptions markerOptionsss = new MarkerOptions().position(mylatlng).icon(icon_driver);
-            mMap.addMarker(markerOptionsss);
-
-            mMap.animateCamera(CameraUpdateFactory.newLatLngZoom(mylatlng, 14.0f));
-
-        } catch (Exception ex) {
-        }
-    }
 
     @Override
     public void onStop() {
@@ -1094,11 +1106,10 @@ public class MapsMain extends FragmentActivity implements OnMapReadyCallback {
         try {
             if (receiver != null)
                 this.unregisterReceiver(receiver);
-        } catch ( Exception e ) {
+        } catch (Exception e) {
             e.printStackTrace();
         }
     }
-
 
     private void handleNewLocation() {
 
@@ -1128,7 +1139,6 @@ public class MapsMain extends FragmentActivity implements OnMapReadyCallback {
                     String postalCode = addresses.get(0).getPostalCode();
                     String knownName = addresses.get(0).getFeatureName();
                     tv_locationText.setText(address);
-
             } catch (Exception e) {
                 // TODO Auto-generated catch block
                 e.printStackTrace();
@@ -1147,7 +1157,6 @@ public class MapsMain extends FragmentActivity implements OnMapReadyCallback {
                 firebase_send_currentLocation(currentLatitude, currentLongitude);
                 method = "get_current_orders";
                 Volley_go();
-
             }*/
 
         } catch (Exception ex) {
@@ -1156,44 +1165,16 @@ public class MapsMain extends FragmentActivity implements OnMapReadyCallback {
 
 
     private void firebase_send_currentLocation(double lat, double lon) {
-
-        db = new DBHelper2(getApplicationContext());
-        String[][] Arr = db.getLatLongTable();
         //Seperate Address to Lat & Long and get the Id
-        for (int i = 0; i < Arr.length; i++) {
             try {
-                String id = Arr[i][0];
-                String title = Arr[i][1];
-                String Lat = Arr[i][2];
-                String Lon = Arr[i][3];
-
-                String[] ArrLon = Lon.split(",");
-                String[] ArrLat = Lat.split(",");
-                //Convert Array To Double
-
-                double[] convertedVerticesYArray = arrayConverter(ArrLon);
-                double[] convertedVerticesXArray = arrayConverter(ArrLat);
-
                 // Check if Current Location inside Geo Zone
                 mDatabase = FirebaseDatabase.getInstance().getReference();
-                if (IsPointInPolygonTest(ArrLat.length, convertedVerticesXArray, convertedVerticesYArray, lat, lon)) {
-
-                    Log.d("result", "true" + i + id);
-                    addcoordsfirebase values = new addcoordsfirebase(String.valueOf(lat) + "," + String.valueOf(lon), id, title);
-                    mDatabase.child("drivers").child(new MySharedPreference(getApplicationContext()).getStringShared("user_id")).child("info").setValue(values);
-                    break;
-
-                } else
-                    Log.d("result", "false" + i + id);
-
-
+                addcoordsfirebase values = new addcoordsfirebase(String.valueOf(lat) + "," + String.valueOf(lon));
+                mDatabase.child("drivers").child(new MySharedPreference(getApplicationContext()).getStringShared("user_id")).child("info").setValue(values);
             } catch (Exception e) {
                 Toast.makeText(this, e.getMessage(), Toast.LENGTH_LONG).show();
                 e.printStackTrace();
             }
-
-        }
-
     }
 
 
@@ -1350,40 +1331,18 @@ public class MapsMain extends FragmentActivity implements OnMapReadyCallback {
         }
     }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
          /* private void addNotification(String title) {
-
               String idChannel = "channel_notification";
               NotificationChannel mChannel = null;
               int importance = NotificationManager.IMPORTANCE_HIGH;
-
               NotificationManager mNotificationManager = (NotificationManager)
                       getSystemService(Context.NOTIFICATION_SERVICE);
-
               Intent notificationIntent = new Intent(this, MapsMain.class);
               PendingIntent contentIntent = PendingIntent.getActivity(this, 0,
                       notificationIntent, PendingIntent.FLAG_UPDATE_CURRENT);
-
               Intent notificationIntentOpen = new Intent(this, MyOrders.class);
               PendingIntent contentIntent_open = PendingIntent.getActivity(this, 0,
                       notificationIntentOpen, PendingIntent.FLAG_UPDATE_CURRENT);
-
               // Uri notf_sound = RingtoneManager.getDefaultUri(RingtoneManager.TYPE_NOTIFICATION);
               NotificationCompat.Builder builder =
                       new NotificationCompat.Builder(this)
@@ -1393,17 +1352,13 @@ public class MapsMain extends FragmentActivity implements OnMapReadyCallback {
                               .setAutoCancel(true)
                               .addAction(R.drawable.ic_open, "Open", contentIntent_open)
                               .setContentIntent(contentIntent);
-
-
               if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
                   Uri sound = Uri.parse(ContentResolver.SCHEME_ANDROID_RESOURCE + "://" + this.getPackageName()
                           + "/" + R.raw.in_a_hurryyy);
-
                   AudioAttributes attributes = new AudioAttributes.Builder()
                           .setContentType(AudioAttributes.CONTENT_TYPE_SONIFICATION)
                           .setUsage(AudioAttributes.USAGE_NOTIFICATION)
                           .build();
-
                   mChannel = new NotificationChannel(idChannel, getApplicationContext().
                           getString(R.string.app_name), importance);
                   mChannel.setSound(sound, attributes);
@@ -1412,37 +1367,22 @@ public class MapsMain extends FragmentActivity implements OnMapReadyCallback {
               } else {
                   builder.setSound(Uri.parse("android.resource://"
                           + getApplicationContext().getPackageName() + "/" + R.raw.in_a_hurryyy));
-
               }
-
               builder.setChannelId(idChannel);
               mNotificationManager.notify(0, builder.build());
           }*/
-
-
-
-
-
-
-
-
-
-
-
 
 
 /*
 public class BroadcastReceiver_UpdateAvailable extends BroadcastReceiver {
     @Override
     public void onReceive(Context context, Intent intent) {
-
          if(!((Activity) context).isFinishing()) {
              new MySharedPreference(getApplicationContext()).setStringShared("available", "off");
              tv_availability.setVisibility(View.VISIBLE);
               Drawable image = getResources().getDrawable(R.drawable.off);
                 img_onoff.setBackground(image);
             }
-
     }
 }*/
 
@@ -1524,7 +1464,7 @@ public class BroadcastReceiver_UpdateAvailable extends BroadcastReceiver {
 
     }
 
-    private void checkAndupdateVersion(){
+    private void checkAndupdateVersion() {
         try {
             if (PathUrl.VERSION_NUMBER.equals(new MySharedPreference(getApplicationContext()).getStringShared("VERSION_NUMBER")))
                 return;
@@ -1545,10 +1485,11 @@ public class BroadcastReceiver_UpdateAvailable extends BroadcastReceiver {
             }, getApplicationContext());
             voly_ser.postDataVolley(new MySharedPreference(getApplicationContext())
                     .getStringShared("base_url") + PathUrl.updateVersion, params);
-        } catch ( Exception e ) {
+        } catch (Exception e) {
             e.printStackTrace();
         }
     }
+
     //To Converte Array of Address to Double
     public final double[] arrayConverter(String[] arrayToConvert) {
         double[] convertedArray = new double[arrayToConvert.length];
@@ -1558,6 +1499,7 @@ public class BroadcastReceiver_UpdateAvailable extends BroadcastReceiver {
 
         return convertedArray;
     }
+
     //To check if the site is within any geoZones
     public final boolean IsPointInPolygonTest(int count, double[] verticesXArray, double[] verticesYArray, Double currentLat, Double currentLng) {
         boolean validater = false;

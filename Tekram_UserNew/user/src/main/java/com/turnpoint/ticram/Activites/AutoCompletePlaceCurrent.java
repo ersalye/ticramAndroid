@@ -170,6 +170,7 @@ public class AutoCompletePlaceCurrent extends FragmentActivity implements OnMapR
                      new DialogInterface.OnClickListener() {
                          @Override
                          public void onClick(DialogInterface arg0, int arg1) {
+                             address_text();
                              new MySharedPreference(getApplicationContext()).setStringShared("startloc_trip", selected_place);
                              new MySharedPreference(getApplicationContext()).setStringShared("startloc_lat", String.valueOf(selected_lat));
                              new MySharedPreference(getApplicationContext()).setStringShared("startloc_lon", String.valueOf(selected_lon));
@@ -212,7 +213,6 @@ public class AutoCompletePlaceCurrent extends FragmentActivity implements OnMapR
                         LatLng midLatLng = mMap.getCameraPosition().target;
                         selected_lat = midLatLng.latitude;
                         selected_lon = midLatLng.longitude;
-                        address_text();
                     } catch (Exception ex){}
                 }
             });

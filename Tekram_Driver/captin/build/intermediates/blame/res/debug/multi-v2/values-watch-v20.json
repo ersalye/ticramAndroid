@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\awsha\\OneDrive\\Desktop\\Tekram_Driver last\\Driver\\Tekram_Driver\\captin\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-watch-v20\\values-watch-v20.xml",
+            "outputFile": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_Driver\\captin\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-watch-v20\\values-watch-v20.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\awsha\\.gradle\\caches\\transforms-2\\files-2.1\\4f5bfb8e10e2e236e64ec07c3ebb6c4c\\appcompat-1.0.0\\res\\values-watch-v20\\values-watch-v20.xml",
+                    "source": "C:\\Users\\alnajjar\\.gradle\\caches\\transforms-2\\files-2.1\\4f5bfb8e10e2e236e64ec07c3ebb6c4c\\appcompat-1.0.0\\res\\values-watch-v20\\values-watch-v20.xml",
                     "from": {
                         "startLines": "2,5,8",
                         "startColumns": "4,4,4",

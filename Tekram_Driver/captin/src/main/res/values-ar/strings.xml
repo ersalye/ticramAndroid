@@ -36,6 +36,7 @@
     <string name="blank_fields">الرجاء ملئ المعلومات المطلوبة!</string>
     <string name="reset_passord">اعادة تعيين كلمة المرور.</string>
     <string name="check_conn">خلل بالاتصال بالانترنت!</string>
+    <string name="netPrice">صافي الربح</string>
 
     <string name="no">لا</string>
     <string name="yes">نعم</string>

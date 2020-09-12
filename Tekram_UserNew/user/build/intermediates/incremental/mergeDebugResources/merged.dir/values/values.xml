@@ -1038,7 +1038,7 @@
     <string name="choose_type_complaint">-- Choose Type --</string>
     <string name="chose_place">Final Destination ? </string>
     <string name="codee">Coupons</string>
-    <string name="com.crashlytics.android.build_id" ns2:ignore="UnusedResources,TypographyDashes" translatable="false">0c967961-8655-45bd-9319-3bbc13ba0be7</string>
+    <string name="com.crashlytics.android.build_id" ns2:ignore="UnusedResources,TypographyDashes" translatable="false">5a90e1ca-99be-407c-8fb1-2a7ad0b62bb3</string>
     <string msgid="2523291102206661146" name="common_google_play_services_enable_button">Enable</string>
     <string msgid="227660514972886228" name="common_google_play_services_enable_text"><ns1:g id="app_name">%1$s</ns1:g> won\'t work unless you enable Google Play services.</string>
     <string msgid="5122002158466380389" name="common_google_play_services_enable_title">Enable Google Play services</string>
@@ -1091,7 +1091,7 @@
     <string name="google_api_key" translatable="false">AIzaSyCBQs4nBT8jAYB3S52j1oqpZikyNEs-Jqo</string>
     <string name="google_app_id" translatable="false">1:525170522502:android:81d0db9a5f0a288415d407</string>
     <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCBQs4nBT8jAYB3S52j1oqpZikyNEs-Jqo</string>
-    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false"> AIzaSyCrBUhvuIULUX7buroHkeVDx5ZMeP1gKsU</string>
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyCrBUhvuIULUX7buroHkeVDx5ZMeP1gKsU</string>
     <string name="google_storage_bucket" translatable="false">ticramllc-eb2d2.appspot.com</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="help">Help</string>
@@ -1159,6 +1159,7 @@
     <string name="send">Send</string>
     <string name="service_not_available">Service Not Available!</string>
     <string name="settings">Settings</string>
+    <string name="starting_point">Starting Point ? </string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="suggest">Suggestions</string>
     <string name="support">Support</string>

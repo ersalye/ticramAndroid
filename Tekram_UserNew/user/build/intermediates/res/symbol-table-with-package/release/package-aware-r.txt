@@ -2474,6 +2474,7 @@ string search_menu_title
 string send
 string service_not_available
 string settings
+string starting_point
 string status_bar_notification_info_overflow
 string suggest
 string support

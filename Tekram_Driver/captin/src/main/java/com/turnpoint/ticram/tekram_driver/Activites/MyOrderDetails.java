@@ -183,7 +183,7 @@ public class MyOrderDetails extends AppCompatActivity {
                     tv_date.setText(v.getDateTime());
                     tv_start_loc.setText(v.getLocationTxt());
                     tv_end_loc.setText(v.getToLocationTxt());
-                    tv_payMethod_.setText(v.getPaymentType());
+                    tv_payMethod_.setText(getIntent().getStringExtra("fee"));
 
                     String loc_from=v.getLocation();
                     String loc_to=v.getToLocation();

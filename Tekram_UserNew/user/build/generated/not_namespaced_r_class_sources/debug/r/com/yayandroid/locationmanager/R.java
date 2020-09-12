@@ -744,7 +744,7 @@ public final class R {
         public static final int common_signin_button_text = 0x7f0f006a;
         public static final int common_signin_button_text_long = 0x7f0f006b;
         public static final int search_menu_title = 0x7f0f00ce;
-        public static final int status_bar_notification_info_overflow = 0x7f0f00d2;
+        public static final int status_bar_notification_info_overflow = 0x7f0f00d3;
     }
     public static final class style {
         private style() {}

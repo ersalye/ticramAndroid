@@ -12,12 +12,12 @@
         "source": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_UserNew\\user\\src\\main\\res\\layout\\subcatogaray_layout.xml"
     },
     {
-        "merged": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_UserNew\\user\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_earth_view.png.flat",
-        "source": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_UserNew\\user\\src\\main\\res\\drawable-xhdpi\\earth_view.png"
-    },
-    {
         "merged": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_UserNew\\user\\build\\intermediates\\res\\merged\\debug\\layout_places_autocomplete_search_bar.xml.flat",
         "source": "C:\\Users\\alnajjar\\.gradle\\caches\\transforms-2\\files-2.1\\74bee7d80dc7a7e608e0927262e64d21\\places-2.0.0\\res\\layout\\places_autocomplete_search_bar.xml"
+    },
+    {
+        "merged": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_UserNew\\user\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_earth_view.png.flat",
+        "source": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_UserNew\\user\\src\\main\\res\\drawable-xhdpi\\earth_view.png"
     },
     {
         "merged": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_UserNew\\user\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_scrubber_control_to_pressed_mtrl_005.png.flat",
@@ -28,12 +28,12 @@
         "source": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_UserNew\\user\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_UserNew\\user\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_list_pressed_holo_dark.9.png.flat",
-        "source": "C:\\Users\\alnajjar\\.gradle\\caches\\transforms-2\\files-2.1\\0f9dd3bce8adc69beb57c07956805d9a\\appcompat-1.0.0\\res\\drawable-mdpi-v4\\abc_list_pressed_holo_dark.9.png"
-    },
-    {
         "merged": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_UserNew\\user\\build\\intermediates\\res\\merged\\debug\\drawable_common_google_signin_btn_text_dark_focused.xml.flat",
         "source": "C:\\Users\\alnajjar\\.gradle\\caches\\transforms-2\\files-2.1\\2f6b67f3a70350fae2128ebf0b664e29\\play-services-base-17.0.0\\res\\drawable\\common_google_signin_btn_text_dark_focused.xml"
+    },
+    {
+        "merged": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_UserNew\\user\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_list_pressed_holo_dark.9.png.flat",
+        "source": "C:\\Users\\alnajjar\\.gradle\\caches\\transforms-2\\files-2.1\\0f9dd3bce8adc69beb57c07956805d9a\\appcompat-1.0.0\\res\\drawable-mdpi-v4\\abc_list_pressed_holo_dark.9.png"
     },
     {
         "merged": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_UserNew\\user\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_aplash_bg.png.flat",
@@ -124,28 +124,28 @@
         "source": "C:\\Users\\alnajjar\\.gradle\\caches\\transforms-2\\files-2.1\\17035e7b0d10cfb5a5b05a273bf0a94b\\material-1.0.0\\res\\color\\mtrl_btn_bg_color_selector.xml"
     },
     {
-        "merged": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_UserNew\\user\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_ic_star_black_16dp.png.flat",
-        "source": "C:\\Users\\alnajjar\\.gradle\\caches\\transforms-2\\files-2.1\\0f9dd3bce8adc69beb57c07956805d9a\\appcompat-1.0.0\\res\\drawable-mdpi-v4\\abc_ic_star_black_16dp.png"
+        "merged": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_UserNew\\user\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_notification_bg_low_pressed.9.png.flat",
+        "source": "C:\\Users\\alnajjar\\.gradle\\caches\\transforms-2\\files-2.1\\e014b1634a3e6ef61d6ec75f83a31be0\\core-1.0.0\\res\\drawable-mdpi-v4\\notification_bg_low_pressed.9.png"
     },
     {
         "merged": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_UserNew\\user\\build\\intermediates\\res\\merged\\debug\\anim_abc_popup_exit.xml.flat",
         "source": "C:\\Users\\alnajjar\\.gradle\\caches\\transforms-2\\files-2.1\\0f9dd3bce8adc69beb57c07956805d9a\\appcompat-1.0.0\\res\\anim\\abc_popup_exit.xml"
     },
     {
-        "merged": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_UserNew\\user\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_notification_bg_low_pressed.9.png.flat",
-        "source": "C:\\Users\\alnajjar\\.gradle\\caches\\transforms-2\\files-2.1\\e014b1634a3e6ef61d6ec75f83a31be0\\core-1.0.0\\res\\drawable-mdpi-v4\\notification_bg_low_pressed.9.png"
+        "merged": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_UserNew\\user\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_ic_star_black_16dp.png.flat",
+        "source": "C:\\Users\\alnajjar\\.gradle\\caches\\transforms-2\\files-2.1\\0f9dd3bce8adc69beb57c07956805d9a\\appcompat-1.0.0\\res\\drawable-mdpi-v4\\abc_ic_star_black_16dp.png"
     },
     {
         "merged": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_UserNew\\user\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-xxhdpi-v17_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
         "source": "C:\\Users\\alnajjar\\.gradle\\caches\\transforms-2\\files-2.1\\0f9dd3bce8adc69beb57c07956805d9a\\appcompat-1.0.0\\res\\drawable-ldrtl-xxhdpi-v17\\abc_ic_menu_copy_mtrl_am_alpha.png"
     },
     {
-        "merged": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_UserNew\\user\\build\\intermediates\\res\\merged\\debug\\drawable_answer.png.flat",
-        "source": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_UserNew\\user\\src\\main\\res\\drawable\\answer.png"
-    },
-    {
         "merged": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_UserNew\\user\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_quantum_ic_search_grey600_24.png.flat",
         "source": "C:\\Users\\alnajjar\\.gradle\\caches\\transforms-2\\files-2.1\\74bee7d80dc7a7e608e0927262e64d21\\places-2.0.0\\res\\drawable-xhdpi-v4\\quantum_ic_search_grey600_24.png"
+    },
+    {
+        "merged": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_UserNew\\user\\build\\intermediates\\res\\merged\\debug\\drawable_answer.png.flat",
+        "source": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_UserNew\\user\\src\\main\\res\\drawable\\answer.png"
     },
     {
         "merged": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_UserNew\\user\\build\\intermediates\\res\\merged\\debug\\layout_activity_tarweej_code.xml.flat",
@@ -220,12 +220,12 @@
         "source": "C:\\Users\\alnajjar\\.gradle\\caches\\transforms-2\\files-2.1\\0f9dd3bce8adc69beb57c07956805d9a\\appcompat-1.0.0\\res\\drawable-hdpi-v4\\abc_btn_radio_to_on_mtrl_015.png"
     },
     {
-        "merged": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_UserNew\\user\\build\\intermediates\\res\\merged\\debug\\layout_design_navigation_item_subheader.xml.flat",
-        "source": "C:\\Users\\alnajjar\\.gradle\\caches\\transforms-2\\files-2.1\\17035e7b0d10cfb5a5b05a273bf0a94b\\material-1.0.0\\res\\layout\\design_navigation_item_subheader.xml"
-    },
-    {
         "merged": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_UserNew\\user\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_truck.png.flat",
         "source": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_UserNew\\user\\src\\main\\res\\drawable-xhdpi\\truck.png"
+    },
+    {
+        "merged": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_UserNew\\user\\build\\intermediates\\res\\merged\\debug\\layout_design_navigation_item_subheader.xml.flat",
+        "source": "C:\\Users\\alnajjar\\.gradle\\caches\\transforms-2\\files-2.1\\17035e7b0d10cfb5a5b05a273bf0a94b\\material-1.0.0\\res\\layout\\design_navigation_item_subheader.xml"
     },
     {
         "merged": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_UserNew\\user\\build\\intermediates\\res\\merged\\debug\\drawable_round_white.xml.flat",
@@ -256,12 +256,12 @@
         "source": "C:\\Users\\alnajjar\\.gradle\\caches\\transforms-2\\files-2.1\\0f9dd3bce8adc69beb57c07956805d9a\\appcompat-1.0.0\\res\\drawable-v23\\abc_control_background_material.xml"
     },
     {
-        "merged": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_UserNew\\user\\build\\intermediates\\res\\merged\\debug\\layout_content_my_tickets.xml.flat",
-        "source": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_UserNew\\user\\src\\main\\res\\layout\\content_my_tickets.xml"
-    },
-    {
         "merged": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_UserNew\\user\\build\\intermediates\\res\\merged\\debug\\drawable_cashmdpi.png.flat",
         "source": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_UserNew\\user\\src\\main\\res\\drawable\\cashmdpi.png"
+    },
+    {
+        "merged": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_UserNew\\user\\build\\intermediates\\res\\merged\\debug\\layout_content_my_tickets.xml.flat",
+        "source": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_UserNew\\user\\src\\main\\res\\layout\\content_my_tickets.xml"
     },
     {
         "merged": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_UserNew\\user\\build\\intermediates\\res\\merged\\debug\\drawable_user_imagehdpi.png.flat",
@@ -288,12 +288,12 @@
         "source": "C:\\Users\\alnajjar\\.gradle\\caches\\transforms-2\\files-2.1\\0f9dd3bce8adc69beb57c07956805d9a\\appcompat-1.0.0\\res\\drawable-mdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png"
     },
     {
-        "merged": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_UserNew\\user\\build\\intermediates\\res\\merged\\debug\\drawable_img_water.png.flat",
-        "source": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_UserNew\\user\\src\\main\\res\\drawable\\img_water.png"
-    },
-    {
         "merged": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_UserNew\\user\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_ic_star_half_black_48dp.png.flat",
         "source": "C:\\Users\\alnajjar\\.gradle\\caches\\transforms-2\\files-2.1\\0f9dd3bce8adc69beb57c07956805d9a\\appcompat-1.0.0\\res\\drawable-xxxhdpi-v4\\abc_ic_star_half_black_48dp.png"
+    },
+    {
+        "merged": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_UserNew\\user\\build\\intermediates\\res\\merged\\debug\\drawable_img_water.png.flat",
+        "source": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_UserNew\\user\\src\\main\\res\\drawable\\img_water.png"
     },
     {
         "merged": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_UserNew\\user\\build\\intermediates\\res\\merged\\debug\\drawable_design_password_eye.xml.flat",
@@ -320,12 +320,12 @@
         "source": "C:\\Users\\alnajjar\\.gradle\\caches\\transforms-2\\files-2.1\\0f9dd3bce8adc69beb57c07956805d9a\\appcompat-1.0.0\\res\\drawable\\abc_cab_background_top_material.xml"
     },
     {
-        "merged": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_UserNew\\user\\build\\intermediates\\res\\merged\\debug\\drawable_circle_blank_nomdpi.png.flat",
-        "source": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_UserNew\\user\\src\\main\\res\\drawable\\circle_blank_nomdpi.png"
-    },
-    {
         "merged": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_UserNew\\user\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_text_select_handle_right_mtrl_dark.png.flat",
         "source": "C:\\Users\\alnajjar\\.gradle\\caches\\transforms-2\\files-2.1\\0f9dd3bce8adc69beb57c07956805d9a\\appcompat-1.0.0\\res\\drawable-hdpi-v4\\abc_text_select_handle_right_mtrl_dark.png"
+    },
+    {
+        "merged": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_UserNew\\user\\build\\intermediates\\res\\merged\\debug\\drawable_circle_blank_nomdpi.png.flat",
+        "source": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_UserNew\\user\\src\\main\\res\\drawable\\circle_blank_nomdpi.png"
     },
     {
         "merged": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_UserNew\\user\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_cash_icon.png.flat",
@@ -344,20 +344,20 @@
         "source": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_UserNew\\user\\src\\main\\res\\drawable-xxhdpi\\back_dark.png"
     },
     {
-        "merged": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_UserNew\\user\\build\\intermediates\\res\\merged\\debug\\layout_design_layout_snackbar_include.xml.flat",
-        "source": "C:\\Users\\alnajjar\\.gradle\\caches\\transforms-2\\files-2.1\\17035e7b0d10cfb5a5b05a273bf0a94b\\material-1.0.0\\res\\layout\\design_layout_snackbar_include.xml"
-    },
-    {
         "merged": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_UserNew\\user\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_ic_menu_selectall_mtrl_alpha.png.flat",
         "source": "C:\\Users\\alnajjar\\.gradle\\caches\\transforms-2\\files-2.1\\0f9dd3bce8adc69beb57c07956805d9a\\appcompat-1.0.0\\res\\drawable-xxxhdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png"
     },
     {
-        "merged": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_UserNew\\user\\build\\intermediates\\res\\merged\\debug\\raw_incoming.wav.flat",
-        "source": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_UserNew\\user\\src\\main\\res\\raw\\incoming.wav"
+        "merged": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_UserNew\\user\\build\\intermediates\\res\\merged\\debug\\layout_design_layout_snackbar_include.xml.flat",
+        "source": "C:\\Users\\alnajjar\\.gradle\\caches\\transforms-2\\files-2.1\\17035e7b0d10cfb5a5b05a273bf0a94b\\material-1.0.0\\res\\layout\\design_layout_snackbar_include.xml"
     },
     {
         "merged": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_UserNew\\user\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_splash.png.flat",
         "source": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_UserNew\\user\\src\\main\\res\\drawable-mdpi\\splash.png"
+    },
+    {
+        "merged": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_UserNew\\user\\build\\intermediates\\res\\merged\\debug\\raw_incoming.wav.flat",
+        "source": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_UserNew\\user\\src\\main\\res\\raw\\incoming.wav"
     },
     {
         "merged": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_UserNew\\user\\build\\intermediates\\res\\merged\\debug\\animator-v21_design_appbar_state_list_animator.xml.flat",
@@ -380,12 +380,12 @@
         "source": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_UserNew\\user\\src\\main\\res\\drawable\\rectangle_edit.xml"
     },
     {
-        "merged": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_UserNew\\user\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_end_marker.png.flat",
-        "source": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_UserNew\\user\\src\\main\\res\\drawable-xxhdpi\\end_marker.png"
-    },
-    {
         "merged": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_UserNew\\user\\build\\intermediates\\res\\merged\\debug\\drawable_round_green.xml.flat",
         "source": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_UserNew\\user\\src\\main\\res\\drawable\\round_green.xml"
+    },
+    {
+        "merged": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_UserNew\\user\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_end_marker.png.flat",
+        "source": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_UserNew\\user\\src\\main\\res\\drawable-xxhdpi\\end_marker.png"
     },
     {
         "merged": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_UserNew\\user\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_logo_light.png.flat",
@@ -404,12 +404,12 @@
         "source": "C:\\Users\\alnajjar\\.gradle\\caches\\transforms-2\\files-2.1\\0f9dd3bce8adc69beb57c07956805d9a\\appcompat-1.0.0\\res\\drawable-ldrtl-mdpi-v17\\abc_ic_menu_copy_mtrl_am_alpha.png"
     },
     {
-        "merged": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_UserNew\\user\\build\\intermediates\\res\\merged\\debug\\layout_single_row_converation_ara.xml.flat",
-        "source": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_UserNew\\user\\src\\main\\res\\layout\\single_row_converation_ara.xml"
-    },
-    {
         "merged": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_UserNew\\user\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_icon_group.xml.flat",
         "source": "C:\\Users\\alnajjar\\.gradle\\caches\\transforms-2\\files-2.1\\e014b1634a3e6ef61d6ec75f83a31be0\\core-1.0.0\\res\\layout\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_UserNew\\user\\build\\intermediates\\res\\merged\\debug\\layout_single_row_converation_ara.xml.flat",
+        "source": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_UserNew\\user\\src\\main\\res\\layout\\single_row_converation_ara.xml"
     },
     {
         "merged": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_UserNew\\user\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_car.png.flat",
@@ -448,12 +448,12 @@
         "source": "C:\\Users\\alnajjar\\.gradle\\caches\\transforms-2\\files-2.1\\0f9dd3bce8adc69beb57c07956805d9a\\appcompat-1.0.0\\res\\drawable-xxhdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png"
     },
     {
-        "merged": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_UserNew\\user\\build\\intermediates\\res\\merged\\debug\\layout_abc_search_view.xml.flat",
-        "source": "C:\\Users\\alnajjar\\.gradle\\caches\\transforms-2\\files-2.1\\0f9dd3bce8adc69beb57c07956805d9a\\appcompat-1.0.0\\res\\layout\\abc_search_view.xml"
-    },
-    {
         "merged": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_UserNew\\user\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_switch_track_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\alnajjar\\.gradle\\caches\\transforms-2\\files-2.1\\0f9dd3bce8adc69beb57c07956805d9a\\appcompat-1.0.0\\res\\drawable-xxhdpi-v4\\abc_switch_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_UserNew\\user\\build\\intermediates\\res\\merged\\debug\\layout_abc_search_view.xml.flat",
+        "source": "C:\\Users\\alnajjar\\.gradle\\caches\\transforms-2\\files-2.1\\0f9dd3bce8adc69beb57c07956805d9a\\appcompat-1.0.0\\res\\layout\\abc_search_view.xml"
     },
     {
         "merged": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_UserNew\\user\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_rate_disactive.png.flat",
@@ -472,52 +472,52 @@
         "source": "C:\\Users\\alnajjar\\.gradle\\caches\\transforms-2\\files-2.1\\0f9dd3bce8adc69beb57c07956805d9a\\appcompat-1.0.0\\res\\drawable-xhdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png"
     },
     {
-        "merged": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_UserNew\\user\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_truck.png.flat",
-        "source": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_UserNew\\user\\src\\main\\res\\drawable-ldpi\\truck.png"
+        "merged": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_UserNew\\user\\build\\intermediates\\res\\merged\\debug\\drawable_foot_bg.png.flat",
+        "source": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_UserNew\\user\\src\\main\\res\\drawable\\foot_bg.png"
     },
     {
         "merged": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_UserNew\\user\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_start_bullet.png.flat",
         "source": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_UserNew\\user\\src\\main\\res\\drawable-xhdpi\\start_bullet.png"
     },
     {
-        "merged": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_UserNew\\user\\build\\intermediates\\res\\merged\\debug\\drawable_foot_bg.png.flat",
-        "source": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_UserNew\\user\\src\\main\\res\\drawable\\foot_bg.png"
+        "merged": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_UserNew\\user\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_truck.png.flat",
+        "source": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_UserNew\\user\\src\\main\\res\\drawable-ldpi\\truck.png"
     },
     {
         "merged": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_UserNew\\user\\build\\intermediates\\res\\merged\\debug\\layout-v26_abc_screen_toolbar.xml.flat",
         "source": "C:\\Users\\alnajjar\\.gradle\\caches\\transforms-2\\files-2.1\\0f9dd3bce8adc69beb57c07956805d9a\\appcompat-1.0.0\\res\\layout-v26\\abc_screen_toolbar.xml"
     },
     {
-        "merged": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_UserNew\\user\\build\\intermediates\\res\\merged\\debug\\animator_mtrl_fab_show_motion_spec.xml.flat",
-        "source": "C:\\Users\\alnajjar\\.gradle\\caches\\transforms-2\\files-2.1\\17035e7b0d10cfb5a5b05a273bf0a94b\\material-1.0.0\\res\\animator\\mtrl_fab_show_motion_spec.xml"
-    },
-    {
         "merged": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_UserNew\\user\\build\\intermediates\\res\\merged\\debug\\drawable_circle_blank_.png.flat",
         "source": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_UserNew\\user\\src\\main\\res\\drawable\\circle_blank_.png"
+    },
+    {
+        "merged": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_UserNew\\user\\build\\intermediates\\res\\merged\\debug\\animator_mtrl_fab_show_motion_spec.xml.flat",
+        "source": "C:\\Users\\alnajjar\\.gradle\\caches\\transforms-2\\files-2.1\\17035e7b0d10cfb5a5b05a273bf0a94b\\material-1.0.0\\res\\animator\\mtrl_fab_show_motion_spec.xml"
     },
     {
         "merged": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_UserNew\\user\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_ic_menu_share_mtrl_alpha.png.flat",
         "source": "C:\\Users\\alnajjar\\.gradle\\caches\\transforms-2\\files-2.1\\0f9dd3bce8adc69beb57c07956805d9a\\appcompat-1.0.0\\res\\drawable-mdpi-v4\\abc_ic_menu_share_mtrl_alpha.png"
     },
     {
-        "merged": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_UserNew\\user\\build\\intermediates\\res\\merged\\debug\\drawable_abc_edit_text_material.xml.flat",
-        "source": "C:\\Users\\alnajjar\\.gradle\\caches\\transforms-2\\files-2.1\\0f9dd3bce8adc69beb57c07956805d9a\\appcompat-1.0.0\\res\\drawable\\abc_edit_text_material.xml"
-    },
-    {
         "merged": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_UserNew\\user\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_scrubber_primary_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\alnajjar\\.gradle\\caches\\transforms-2\\files-2.1\\0f9dd3bce8adc69beb57c07956805d9a\\appcompat-1.0.0\\res\\drawable-mdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_UserNew\\user\\build\\intermediates\\res\\merged\\debug\\drawable_abc_edit_text_material.xml.flat",
+        "source": "C:\\Users\\alnajjar\\.gradle\\caches\\transforms-2\\files-2.1\\0f9dd3bce8adc69beb57c07956805d9a\\appcompat-1.0.0\\res\\drawable\\abc_edit_text_material.xml"
     },
     {
         "merged": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_UserNew\\user\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_ab_share_pack_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\alnajjar\\.gradle\\caches\\transforms-2\\files-2.1\\0f9dd3bce8adc69beb57c07956805d9a\\appcompat-1.0.0\\res\\drawable-mdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png"
     },
     {
-        "merged": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_UserNew\\user\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_cash_icon.png.flat",
-        "source": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_UserNew\\user\\src\\main\\res\\drawable-mdpi\\cash_icon.png"
-    },
-    {
         "merged": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_UserNew\\user\\build\\intermediates\\res\\merged\\debug\\layout_mtrl_layout_snackbar_include.xml.flat",
         "source": "C:\\Users\\alnajjar\\.gradle\\caches\\transforms-2\\files-2.1\\17035e7b0d10cfb5a5b05a273bf0a94b\\material-1.0.0\\res\\layout\\mtrl_layout_snackbar_include.xml"
+    },
+    {
+        "merged": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_UserNew\\user\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_cash_icon.png.flat",
+        "source": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_UserNew\\user\\src\\main\\res\\drawable-mdpi\\cash_icon.png"
     },
     {
         "merged": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_UserNew\\user\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_text_select_handle_left_mtrl_light.png.flat",
@@ -560,12 +560,12 @@
         "source": "C:\\Users\\alnajjar\\.gradle\\caches\\transforms-2\\files-2.1\\74bee7d80dc7a7e608e0927262e64d21\\places-2.0.0\\res\\drawable-xhdpi-v4\\quantum_ic_arrow_back_grey600_24.png"
     },
     {
-        "merged": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_UserNew\\user\\build\\intermediates\\res\\merged\\debug\\drawable-v21_ic_menu_camera.xml.flat",
-        "source": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_UserNew\\user\\src\\main\\res\\drawable-v21\\ic_menu_camera.xml"
-    },
-    {
         "merged": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_UserNew\\user\\build\\intermediates\\res\\merged\\debug\\drawable_ic_mtrl_chip_close_circle.xml.flat",
         "source": "C:\\Users\\alnajjar\\.gradle\\caches\\transforms-2\\files-2.1\\17035e7b0d10cfb5a5b05a273bf0a94b\\material-1.0.0\\res\\drawable\\ic_mtrl_chip_close_circle.xml"
+    },
+    {
+        "merged": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_UserNew\\user\\build\\intermediates\\res\\merged\\debug\\drawable-v21_ic_menu_camera.xml.flat",
+        "source": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_UserNew\\user\\src\\main\\res\\drawable-v21\\ic_menu_camera.xml"
     },
     {
         "merged": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_UserNew\\user\\build\\intermediates\\res\\merged\\debug\\drawable_notification_icon_background.xml.flat",
@@ -696,12 +696,12 @@
         "source": "C:\\Users\\alnajjar\\.gradle\\caches\\transforms-2\\files-2.1\\17035e7b0d10cfb5a5b05a273bf0a94b\\material-1.0.0\\res\\drawable-v21\\avd_hide_password.xml"
     },
     {
-        "merged": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_UserNew\\user\\build\\intermediates\\res\\merged\\debug\\layout_fragment_tab_transport.xml.flat",
-        "source": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_UserNew\\user\\src\\main\\res\\layout\\fragment_tab_transport.xml"
-    },
-    {
         "merged": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_UserNew\\user\\build\\intermediates\\res\\merged\\debug\\menu_activity_main_map_drawer.xml.flat",
         "source": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_UserNew\\user\\src\\main\\res\\menu\\activity_main_map_drawer.xml"
+    },
+    {
+        "merged": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_UserNew\\user\\build\\intermediates\\res\\merged\\debug\\layout_fragment_tab_transport.xml.flat",
+        "source": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_UserNew\\user\\src\\main\\res\\layout\\fragment_tab_transport.xml"
     },
     {
         "merged": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_UserNew\\user\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_list_pressed_holo_light.9.png.flat",
@@ -760,12 +760,12 @@
         "source": "C:\\Users\\alnajjar\\.gradle\\caches\\transforms-2\\files-2.1\\74bee7d80dc7a7e608e0927262e64d21\\places-2.0.0\\res\\drawable-hdpi-v4\\quantum_ic_search_grey600_24.png"
     },
     {
-        "merged": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_UserNew\\user\\build\\intermediates\\res\\merged\\debug\\layout_dialoge_reply.xml.flat",
-        "source": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_UserNew\\user\\src\\main\\res\\layout\\dialoge_reply.xml"
-    },
-    {
         "merged": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_UserNew\\user\\build\\intermediates\\res\\merged\\debug\\color_design_error.xml.flat",
         "source": "C:\\Users\\alnajjar\\.gradle\\caches\\transforms-2\\files-2.1\\17035e7b0d10cfb5a5b05a273bf0a94b\\material-1.0.0\\res\\color\\design_error.xml"
+    },
+    {
+        "merged": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_UserNew\\user\\build\\intermediates\\res\\merged\\debug\\layout_dialoge_reply.xml.flat",
+        "source": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_UserNew\\user\\src\\main\\res\\layout\\dialoge_reply.xml"
     },
     {
         "merged": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_UserNew\\user\\build\\intermediates\\res\\merged\\debug\\layout_places_autocomplete_fragment.xml.flat",
@@ -824,24 +824,24 @@
         "source": "C:\\Users\\alnajjar\\.gradle\\caches\\transforms-2\\files-2.1\\0f9dd3bce8adc69beb57c07956805d9a\\appcompat-1.0.0\\res\\drawable-xhdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png"
     },
     {
-        "merged": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_UserNew\\user\\build\\intermediates\\res\\merged\\debug\\drawable_focushdpi.png.flat",
-        "source": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_UserNew\\user\\src\\main\\res\\drawable\\focushdpi.png"
-    },
-    {
         "merged": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_UserNew\\user\\build\\intermediates\\res\\merged\\debug\\drawable_timehdpi.png.flat",
         "source": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_UserNew\\user\\src\\main\\res\\drawable\\timehdpi.png"
+    },
+    {
+        "merged": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_UserNew\\user\\build\\intermediates\\res\\merged\\debug\\drawable_focushdpi.png.flat",
+        "source": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_UserNew\\user\\src\\main\\res\\drawable\\focushdpi.png"
     },
     {
         "merged": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_UserNew\\user\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_textfield_default_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\alnajjar\\.gradle\\caches\\transforms-2\\files-2.1\\0f9dd3bce8adc69beb57c07956805d9a\\appcompat-1.0.0\\res\\drawable-mdpi-v4\\abc_textfield_default_mtrl_alpha.9.png"
     },
     {
-        "merged": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_UserNew\\user\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_reset_locations.png.flat",
-        "source": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_UserNew\\user\\src\\main\\res\\drawable-xxxhdpi\\reset_locations.png"
-    },
-    {
         "merged": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_UserNew\\user\\build\\intermediates\\res\\merged\\debug\\animator_mtrl_fab_transformation_sheet_expand_spec.xml.flat",
         "source": "C:\\Users\\alnajjar\\.gradle\\caches\\transforms-2\\files-2.1\\17035e7b0d10cfb5a5b05a273bf0a94b\\material-1.0.0\\res\\animator\\mtrl_fab_transformation_sheet_expand_spec.xml"
+    },
+    {
+        "merged": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_UserNew\\user\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_reset_locations.png.flat",
+        "source": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_UserNew\\user\\src\\main\\res\\drawable-xxxhdpi\\reset_locations.png"
     },
     {
         "merged": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_UserNew\\user\\build\\intermediates\\res\\merged\\debug\\layout_places_autocomplete_main_fullscreen.xml.flat",
@@ -912,20 +912,20 @@
         "source": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_UserNew\\user\\src\\main\\res\\drawable-xxxhdpi\\back_white.png"
     },
     {
-        "merged": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_UserNew\\user\\build\\intermediates\\res\\merged\\debug\\layout_design_navigation_item.xml.flat",
-        "source": "C:\\Users\\alnajjar\\.gradle\\caches\\transforms-2\\files-2.1\\17035e7b0d10cfb5a5b05a273bf0a94b\\material-1.0.0\\res\\layout\\design_navigation_item.xml"
-    },
-    {
         "merged": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_UserNew\\user\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_main_marker.png.flat",
         "source": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_UserNew\\user\\src\\main\\res\\drawable-xxhdpi\\main_marker.png"
     },
     {
-        "merged": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_UserNew\\user\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_common_google_signin_btn_text_light_normal_background.9.png.flat",
-        "source": "C:\\Users\\alnajjar\\.gradle\\caches\\transforms-2\\files-2.1\\2f6b67f3a70350fae2128ebf0b664e29\\play-services-base-17.0.0\\res\\drawable-xhdpi-v4\\common_google_signin_btn_text_light_normal_background.9.png"
+        "merged": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_UserNew\\user\\build\\intermediates\\res\\merged\\debug\\layout_design_navigation_item.xml.flat",
+        "source": "C:\\Users\\alnajjar\\.gradle\\caches\\transforms-2\\files-2.1\\17035e7b0d10cfb5a5b05a273bf0a94b\\material-1.0.0\\res\\layout\\design_navigation_item.xml"
     },
     {
         "merged": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_UserNew\\user\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_notification_bg_low_pressed.9.png.flat",
         "source": "C:\\Users\\alnajjar\\.gradle\\caches\\transforms-2\\files-2.1\\e014b1634a3e6ef61d6ec75f83a31be0\\core-1.0.0\\res\\drawable-xhdpi-v4\\notification_bg_low_pressed.9.png"
+    },
+    {
+        "merged": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_UserNew\\user\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_common_google_signin_btn_text_light_normal_background.9.png.flat",
+        "source": "C:\\Users\\alnajjar\\.gradle\\caches\\transforms-2\\files-2.1\\2f6b67f3a70350fae2128ebf0b664e29\\play-services-base-17.0.0\\res\\drawable-xhdpi-v4\\common_google_signin_btn_text_light_normal_background.9.png"
     },
     {
         "merged": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_UserNew\\user\\build\\intermediates\\res\\merged\\debug\\drawable-watch-v20_abc_dialog_material_background.xml.flat",
@@ -964,12 +964,12 @@
         "source": "C:\\Users\\alnajjar\\.gradle\\caches\\transforms-2\\files-2.1\\17035e7b0d10cfb5a5b05a273bf0a94b\\material-1.0.0\\res\\animator\\design_fab_hide_motion_spec.xml"
     },
     {
-        "merged": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_UserNew\\user\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_UserNew\\user\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
-    },
-    {
         "merged": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_UserNew\\user\\build\\intermediates\\res\\merged\\debug\\drawable_shadow_bg.xml.flat",
         "source": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_UserNew\\user\\src\\main\\res\\drawable\\shadow_bg.xml"
+    },
+    {
+        "merged": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_UserNew\\user\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_UserNew\\user\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
         "merged": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_UserNew\\user\\build\\intermediates\\res\\merged\\debug\\layout_content_map.xml.flat",
@@ -1044,12 +1044,12 @@
         "source": "C:\\Users\\alnajjar\\.gradle\\caches\\transforms-2\\files-2.1\\0f9dd3bce8adc69beb57c07956805d9a\\appcompat-1.0.0\\res\\drawable-xxhdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png"
     },
     {
-        "merged": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_UserNew\\user\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_logo.png.flat",
-        "source": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_UserNew\\user\\src\\main\\res\\drawable-xhdpi\\logo.png"
-    },
-    {
         "merged": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_UserNew\\user\\build\\intermediates\\res\\merged\\debug\\layout_activity_add_name_and_picture.xml.flat",
         "source": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_UserNew\\user\\src\\main\\res\\layout\\activity_add_name_and_picture.xml"
+    },
+    {
+        "merged": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_UserNew\\user\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_logo.png.flat",
+        "source": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_UserNew\\user\\src\\main\\res\\drawable-xhdpi\\logo.png"
     },
     {
         "merged": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_UserNew\\user\\build\\intermediates\\res\\merged\\debug\\layout_content_my_orders2.xml.flat",
@@ -1084,12 +1084,12 @@
         "source": "C:\\Users\\alnajjar\\.gradle\\caches\\transforms-2\\files-2.1\\0f9dd3bce8adc69beb57c07956805d9a\\appcompat-1.0.0\\res\\drawable-mdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png"
     },
     {
-        "merged": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_UserNew\\user\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_scrubber_primary_mtrl_alpha.9.png.flat",
-        "source": "C:\\Users\\alnajjar\\.gradle\\caches\\transforms-2\\files-2.1\\0f9dd3bce8adc69beb57c07956805d9a\\appcompat-1.0.0\\res\\drawable-xhdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png"
-    },
-    {
         "merged": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_UserNew\\user\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_ic_star_black_48dp.png.flat",
         "source": "C:\\Users\\alnajjar\\.gradle\\caches\\transforms-2\\files-2.1\\0f9dd3bce8adc69beb57c07956805d9a\\appcompat-1.0.0\\res\\drawable-xxxhdpi-v4\\abc_ic_star_black_48dp.png"
+    },
+    {
+        "merged": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_UserNew\\user\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_scrubber_primary_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\alnajjar\\.gradle\\caches\\transforms-2\\files-2.1\\0f9dd3bce8adc69beb57c07956805d9a\\appcompat-1.0.0\\res\\drawable-xhdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png"
     },
     {
         "merged": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_UserNew\\user\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_googleg_standard_color_18.png.flat",

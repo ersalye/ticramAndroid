@@ -38,6 +38,7 @@
 
     <string name="please_add_location">الرجاء اختيار مكان</string>
     <string name="chose_place">Final Destination ? </string>
+    <string name="starting_point">Starting Point ? </string>
     <string name="please_chose_type_car">الرجاء اختيار نوع السيارة</string>
     <string name="cancel_free">الغاء الطلب</string>
     <string name="cancel_payment">مبلغ الالغاء 1.2 د.أ</string>

@@ -1,38 +1,46 @@
 package com.turnpoint.ticram.tekram_driver.Services;
 
+import android.Manifest;
 import android.app.Notification;
 import android.app.NotificationChannel;
 import android.app.NotificationManager;
+import android.app.Service;
 import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
+import android.content.pm.PackageManager;
 import android.graphics.Color;
+import android.location.Criteria;
 import android.location.Location;
+import android.location.LocationManager;
 import android.os.Build;
+import android.os.Bundle;
 import android.os.IBinder;
+import androidx.annotation.RequiresApi;
+import androidx.core.app.ActivityCompat;
+import androidx.core.app.NotificationCompat;
 import android.util.Log;
 
-import androidx.core.app.NotificationCompat;
-
 import com.crashlytics.android.Crashlytics;
+import com.google.android.gms.location.LocationRequest;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.turnpoint.ticram.tekram_driver.MySharedPreference;
 import com.turnpoint.ticram.tekram_driver.R;
 import com.turnpoint.ticram.tekram_driver.modules.FollowCooridnates;
+import com.turnpoint.ticram.tekram_driver.modules.addcoordsfirebase;
 import com.yayandroid.locationmanager.base.LocationBaseService;
 import com.yayandroid.locationmanager.configuration.DefaultProviderConfiguration;
+import com.yayandroid.locationmanager.configuration.GooglePlayServicesConfiguration;
 import com.yayandroid.locationmanager.configuration.LocationConfiguration;
 import com.yayandroid.locationmanager.constants.ProcessType;
 import com.yayandroid.locationmanager.constants.ProviderType;
+import io.paperdb.Paper;
 
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.Locale;
-
-import io.paperdb.Paper;
-
-
 public class MyLocationServiceAfter extends LocationBaseService {
     private boolean isLocationRequested = false;
     private static final String TAG = "LocServiceBeforeTawklna";
@@ -77,9 +85,22 @@ public class MyLocationServiceAfter extends LocationBaseService {
 
     @Override
     public LocationConfiguration getLocationConfiguration() {
-
+        LocationRequest locationRequest = LocationRequest.create();
+        locationRequest.setPriority(LocationRequest.PRIORITY_HIGH_ACCURACY);
+        locationRequest.setInterval(1 * 1000);
+        locationRequest.setFastestInterval(1 * 1000);
         LocationConfiguration awesomeConfiguration = new LocationConfiguration.Builder()
                 .keepTracking(true)
+                .useGooglePlayServices(new GooglePlayServicesConfiguration.Builder()
+                        .fallbackToDefault(true)
+                        .askForGooglePlayServices(false)
+                        .askForSettingsApi(false)
+                        .failOnConnectionSuspended(false)
+                        .failOnSettingsApiSuspended(false)
+                        .ignoreLastKnowLocation(false)
+                        .setWaitPeriod(1 * 1000)
+                        .locationRequest(locationRequest)
+                        .build())
                 .useDefaultProviders(new DefaultProviderConfiguration.Builder()
                         .requiredTimeInterval(1 * 1000)
                         .requiredDistanceInterval(1)
@@ -172,7 +193,7 @@ public class MyLocationServiceAfter extends LocationBaseService {
             }*/
             double speed = difference_sec != 0 ? ((newDistance / 1000) * 3600) / difference_sec : 0;
 
-            if (Double.isNaN(newDistance) || newDistance <= 0 || newDistance >= 500) {  // error accured in gps -- distance is way too big
+            if (Double.isNaN(newDistance) || newDistance <=0 || newDistance >= 500) {  // error accured in gps -- distance is way too big
                 Paper.book().write("totalTimeNormal", difference_sec + Paper.book().read("totalTimeNormal", Double.parseDouble("0")));
                 Integer currentFails = Paper.book().read("inaccurate_locations_count", 0);
                 if (currentFails > 10) {
@@ -194,7 +215,7 @@ public class MyLocationServiceAfter extends LocationBaseService {
                     DatabaseReference mDatabase = FirebaseDatabase.getInstance().getReference();
                     DatabaseReference coords_c = mDatabase.child("order_info").child(new MySharedPreference(getApplicationContext()).
                             getStringShared("cur_order_id")).child("coords_c").push();
-                    coords_c.setValue(new_latitude + "," + new_longitude);
+                    coords_c.setValue(new_latitude+","+new_longitude);
 
                     DatabaseReference array_time = mDatabase.child("order_info").child(new MySharedPreference(getApplicationContext()).
                             getStringShared("cur_order_id")).child("array_time").push();
@@ -203,7 +224,7 @@ public class MyLocationServiceAfter extends LocationBaseService {
                     DatabaseReference array_sec = mDatabase.child("order_info").child(new MySharedPreference(getApplicationContext()).
                             getStringShared("cur_order_id")).child("array_sec").push();
                     array_sec.setValue(difference_sec);
-                } catch (Exception er) {
+                } catch ( Exception er) {
                     er.printStackTrace();
                 }
 

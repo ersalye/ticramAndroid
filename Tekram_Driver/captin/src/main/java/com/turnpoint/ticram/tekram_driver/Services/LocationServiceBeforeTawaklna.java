@@ -1,13 +1,10 @@
 package com.turnpoint.ticram.tekram_driver.Services;
 
-import android.app.ActivityManager;
-import android.app.Notification;
-import android.app.NotificationChannel;
-import android.app.NotificationManager;
-import android.app.PendingIntent;
+import android.app.*;
 import android.content.ContentResolver;
 import android.content.Context;
 import android.content.Intent;
+import android.content.pm.PackageInfo;
 import android.graphics.Color;
 import android.location.Location;
 import android.media.AudioAttributes;
@@ -23,12 +20,9 @@ import androidx.core.app.NotificationCompat;
 
 import com.android.volley.VolleyError;
 import com.crashlytics.android.Crashlytics;
-import com.google.firebase.database.ChildEventListener;
-import com.google.firebase.database.DataSnapshot;
-import com.google.firebase.database.DatabaseError;
-import com.google.firebase.database.DatabaseReference;
-import com.google.firebase.database.FirebaseDatabase;
-import com.google.firebase.database.ValueEventListener;
+import com.google.android.gms.location.LocationRequest;
+import com.google.firebase.database.*;
+import com.google.gson.JsonObject;
 import com.turnpoint.ticram.tekram_driver.Activites.MapsMain;
 import com.turnpoint.ticram.tekram_driver.Activites.ShowNotficationLoggedOut;
 import com.turnpoint.ticram.tekram_driver.DBHelper2;
@@ -42,26 +36,22 @@ import com.turnpoint.ticram.tekram_driver.modules.addOrderFirebase;
 import com.turnpoint.ticram.tekram_driver.modules.addcoordsfirebase;
 import com.yayandroid.locationmanager.base.LocationBaseService;
 import com.yayandroid.locationmanager.configuration.DefaultProviderConfiguration;
+import com.yayandroid.locationmanager.configuration.GooglePlayServicesConfiguration;
 import com.yayandroid.locationmanager.configuration.LocationConfiguration;
 import com.yayandroid.locationmanager.constants.ProcessType;
 import com.yayandroid.locationmanager.constants.ProviderType;
 
-import java.text.SimpleDateFormat;
-import java.util.ArrayList;
-import java.util.Date;
-import java.util.Hashtable;
-import java.util.Locale;
-import java.util.Map;
-
 import io.paperdb.Paper;
 
-import static com.turnpoint.ticram.tekram_driver.Activites.MapsMain.setMarker;
+import java.text.SimpleDateFormat;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
+import java.util.*;
 
 
 public class LocationServiceBeforeTawaklna extends LocationBaseService {
     private boolean isLocationRequested = false;
     private static final String TAG = "LocServiceBeforeTawklna";
-    DBHelper2 db;
     Context mContext = MapsMain.context;
 
     @Override
@@ -77,8 +67,6 @@ public class LocationServiceBeforeTawaklna extends LocationBaseService {
             Paper.book().write("lastCall", newTime);
             System.out.println("shtayyat -> new location  ( " + difference_sec + " )" + location.getLatitude() + " - " + location.getLongitude());
             firebase(location.getLatitude(), location.getLongitude(), newTime);
-            if (MapsMain.mMap != null)
-                setMarker(location);
         }
     }
 
@@ -96,53 +84,26 @@ public class LocationServiceBeforeTawaklna extends LocationBaseService {
     Boolean dataSent = false;
 
     private void firebase(double lat, double lon, long newTime) {
-        db = new DBHelper2(mContext);
-        String[][] Arr = db.getLatLongTable();
 
         //Seperate Address to Lat & Long and get the Id
-        for (int i = 0; i < Arr.length; i++) {
             try {
-                String id = Arr[i][0];
-                String title = Arr[i][1];
-                String Lat = Arr[i][2];
-                String Lon = Arr[i][3];
+                addcoordsfirebase values = new addcoordsfirebase(String.valueOf(lat) + "," + String.valueOf(lon));
+                //System.out.println("shtayyat_firebase -> setting " + new MySharedPreference(getApplicationContext()).getStringShared("user_id") + " location to: "+values) ;
+                dataSent = false;
+                DatabaseReference mDatabase = FirebaseDatabase.getInstance().getReference();
+                mDatabase.child("drivers").child(new MySharedPreference(mContext).getStringShared("user_id")).child("info").setValue(values, new DatabaseReference.CompletionListener() {
+                    public void onComplete(DatabaseError error, DatabaseReference ref) {
+                        if (error == null)
+                            dataSent = true;
+                        System.out.println("Value was set. Error = " + error);
+                    }
 
-                String[] ArrLon = Lon.split(",");
-                String[] ArrLat = Lat.split(",");
-                //Convert Array To Double
-
-                double[] convertedVerticesYArray = arrayConverter(ArrLon);
-                double[] convertedVerticesXArray = arrayConverter(ArrLat);
-
-                // Check if Current Location inside Geo Zone
-
-                if (IsPointInPolygonTest(ArrLat.length, convertedVerticesXArray, convertedVerticesYArray, lat, lon)) {
-                    Log.d("result", "true" + i + id);
-                    addcoordsfirebase values = new addcoordsfirebase(String.valueOf(lat) + "," + String.valueOf(lon), id, title);
-                    //System.out.println("shtayyat_firebase -> setting " + new MySharedPreference(getApplicationContext()).getStringShared("user_id") + " location to: "+values) ;
-                    dataSent = false;
-                    DatabaseReference mDatabase = FirebaseDatabase.getInstance().getReference();
-                    mDatabase.child("drivers").child(new MySharedPreference(mContext).getStringShared("user_id")).child("info").setValue(values, new DatabaseReference.CompletionListener() {
-                        public void onComplete(DatabaseError error, DatabaseReference ref) {
-                            if (error == null)
-                                dataSent = true;
-                            System.out.println("Value was set. Error = " + error);
-                        }
-
-                    });
-                    break;
-
-                } else
-                    Log.d("result", "false" + i + id);
+                });
 
 
             } catch (Exception e) {
                 e.printStackTrace();
             }
-
-
-        }
-
 
         if (new MySharedPreference(mContext).getBooleanShared("startDistanceCount", false) || Paper.book().read("startDistanceCount", false)) {
             calculations(lat, lon, newTime);
@@ -177,22 +138,22 @@ public class LocationServiceBeforeTawaklna extends LocationBaseService {
 
     @Override
     public LocationConfiguration getLocationConfiguration() {
-//        LocationRequest locationRequest = LocationRequest.create();
-//        locationRequest.setPriority(LocationRequest.PRIORITY_HIGH_ACCURACY);
-//        locationRequest.setInterval(4 * 1000);
-//        l ocationRequest.setFastestInterval(4 * 1000);
+        LocationRequest locationRequest = LocationRequest.create();
+        locationRequest.setPriority(LocationRequest.PRIORITY_HIGH_ACCURACY);
+        locationRequest.setInterval(4 * 1000);
+        locationRequest.setFastestInterval(4 * 1000);
         LocationConfiguration awesomeConfiguration = new LocationConfiguration.Builder()
                 .keepTracking(true)
-//                .useGooglePlayServices(new GooglePlayServicesConfiguration.Builder()
-//                        .fallbackToDefault(true)
-//                        .askForGooglePlayServices(false)
-//                        .askForSettingsApi(false)
-//                        .failOnConnectionSuspended(false)
-//                        .failOnSettingsApiSuspended(false)
-//                        .ignoreLastKnowLocation(false)
-//                        .setWaitPeriod(4 * 1000)
-//                        .locationRequest(locationRequest)
-//                        .build())
+                .useGooglePlayServices(new GooglePlayServicesConfiguration.Builder()
+                        .fallbackToDefault(true)
+                        .askForGooglePlayServices(false)
+                        .askForSettingsApi(false)
+                        .failOnConnectionSuspended(false)
+                        .failOnSettingsApiSuspended(false)
+                        .ignoreLastKnowLocation(false)
+                        .setWaitPeriod(4 * 1000)
+                        .locationRequest(locationRequest)
+                        .build())
                 .useDefaultProviders(new DefaultProviderConfiguration.Builder()
                         .requiredTimeInterval(4 * 1000)
                         .requiredDistanceInterval(1)

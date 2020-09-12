@@ -125,7 +125,7 @@ public class SendLoc_beforeTawklnaOreo extends Service implements
 
         setUpLocationClientIfNeeded();
         if (!mGoogleApiClient.isConnected() || !mGoogleApiClient.isConnecting() && !mInProgress) {
-           // appendLog(DateFormat.getDateTimeInstance().format(new Date()) + ": Started", SyncStateContract.Constants.LOG_FILE);
+            // appendLog(DateFormat.getDateTimeInstance().format(new Date()) + ": Started", SyncStateContract.Constants.LOG_FILE);
             mInProgress = true;
             mGoogleApiClient.connect();
         }
@@ -145,7 +145,7 @@ public class SendLoc_beforeTawklnaOreo extends Service implements
         // Report to the UI that the location was updated
         String msg = Double.toString(location.getLatitude()) + "," +
                 Double.toString(location.getLongitude());
-         Log.d("debug", msg);
+        Log.d("debug", msg);
 
         // Toast.makeText(this, msg, Toast.LENGTH_SHORT).show();
         //appendLog(DateFormat.getDateTimeInstance().format(new Date()) + ":" + msg, Constants.LOCATION_FILE);
@@ -239,7 +239,7 @@ public class SendLoc_beforeTawklnaOreo extends Service implements
         }
         LocationServices.FusedLocationApi.requestLocationUpdates(this.mGoogleApiClient,
                 mLocationRequest, this); // This is the changed line.
-       // appendLog(DateFormat.getDateTimeInstance().format(new Date()) + ": Connected", SyncStateContract.Constants.LOG_FILE);
+        // appendLog(DateFormat.getDateTimeInstance().format(new Date()) + ": Connected", SyncStateContract.Constants.LOG_FILE);
 
     }
 

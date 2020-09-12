@@ -599,7 +599,7 @@ public class TripDetails extends FragmentActivity implements OnMapReadyCallback,
 
                 @Override
                 public void onCancelled(DatabaseError error) {
-                    //System.err.println("Listener was cancelled at .info/connected");
+                    System.err.println("Listener was cancelled at .info/connected");
                 }
             });
 
@@ -1141,7 +1141,6 @@ public class TripDetails extends FragmentActivity implements OnMapReadyCallback,
                             tv_des_text.setText(myOrder.getToLocationTxt());
                             //if (myOrder)
                             // Toast.makeText(getApplicationContext(),myOrder.getTimetoUser(), Toast.LENGTH_SHORT).show();
-
                             int timetouser = Integer.parseInt(myOrder.getTimetoUser()) * 60;
                             // int timetouser = 1;
 
@@ -1657,7 +1656,6 @@ public class TripDetails extends FragmentActivity implements OnMapReadyCallback,
                             tv_des_text.setText(myOrder.getToLocationTxt());
                             //if (myOrder)
                             // Toast.makeText(getApplicationContext(),myOrder.getTimetoUser(), Toast.LENGTH_SHORT).show();
-
                             int timetouser = Integer.parseInt(myOrder.getTimetoUser()) * 60;
                             // int timetouser = 1;
 

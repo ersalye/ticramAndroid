@@ -20,6 +20,7 @@
 
     <string name="please_add_location">الرجاء اختيار مكان</string>
     <string name="chose_place">لوين العزم ؟</string>
+    <string name="starting_point">نقطة البداية ؟</string>
     <string name="please_chose_type_car">الرجاء اختيار نوع السيارة</string>
     <string name="cancel_free">للالغاء المجاني</string>
     <string name="cancel_payment">مبلغ الالغاء 1.2 د.أ</string>

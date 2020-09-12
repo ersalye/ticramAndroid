@@ -12,11 +12,13 @@ import android.location.Address;
 import android.location.Geocoder;
 import android.location.Location;
 import android.os.Bundle;
+
 import androidx.core.app.ActivityCompat;
 import androidx.fragment.app.FragmentActivity;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
+
 import android.util.Log;
 import android.view.View;
 
@@ -50,27 +52,29 @@ import java.util.Locale;
 import uk.co.chrisjenx.calligraphy.CalligraphyConfig;
 import uk.co.chrisjenx.calligraphy.CalligraphyContextWrapper;
 
-public class AutoCompletePlace  extends FragmentActivity implements OnMapReadyCallback,  GoogleApiClient.ConnectionCallbacks,
+public class AutoCompletePlace extends FragmentActivity implements OnMapReadyCallback, GoogleApiClient.ConnectionCallbacks,
         GoogleApiClient.OnConnectionFailedListener,
         LocationListener {
 
 
-private GoogleMap mMap;
-        BitmapDescriptor icon_user_start;
-        // MarkerOptions markerOptions_currentloc;
-        double selected_lat;
-        double selected_lon;
-        String selected_place;
+    private GoogleMap mMap;
+    BitmapDescriptor icon_user_start;
+    // MarkerOptions markerOptions_currentloc;
+    double selected_lat;
+    double selected_lon;
+    String selected_place;
 
-public static final String TAG = MapActivity.class.getSimpleName();
-private final static int CONNECTION_FAILURE_RESOLUTION_REQUEST = 9000;
-private GoogleApiClient mGoogleApiClient;
-private LocationRequest mLocationRequest;
-        double currentLatitude, currentLongitude;
+    public static final String TAG = MapActivity.class.getSimpleName();
+    private final static int CONNECTION_FAILURE_RESOLUTION_REQUEST = 9000;
+    private GoogleApiClient mGoogleApiClient;
+    private LocationRequest mLocationRequest;
+    double currentLatitude, currentLongitude;
+
     @Override
     protected void attachBaseContext(Context newBase) {
         super.attachBaseContext(CalligraphyContextWrapper.wrap(newBase));
     }
+
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -81,7 +85,7 @@ private LocationRequest mLocationRequest;
         );
         setContentView(R.layout.content_auto_complete_place);
 // Initialize the AutocompleteSupportFragment.
-        Places.initialize(getApplicationContext()," AIzaSyCrBUhvuIULUX7buroHkeVDx5ZMeP1gKsU");
+        Places.initialize(getApplicationContext(), " AIzaSyCrBUhvuIULUX7buroHkeVDx5ZMeP1gKsU");
         // Create a new Places client instance.
         PlacesClient placesClient = Places.createClient(this);
 
@@ -89,7 +93,7 @@ private LocationRequest mLocationRequest;
                 getSupportFragmentManager().findFragmentById(R.id.place_autocomplete_fragment);
 
         // Specify the types of place data to return.
-        autocompleteFragment.setPlaceFields(Arrays.asList(Place.Field.ID, Place.Field.NAME,Place.Field.LAT_LNG));
+        autocompleteFragment.setPlaceFields(Arrays.asList(Place.Field.ID, Place.Field.NAME, Place.Field.LAT_LNG));
 
         // Set up a PlaceSelectionListener to handle the response.
         autocompleteFragment.setOnPlaceSelectedListener(new PlaceSelectionListener() {
@@ -107,7 +111,7 @@ private LocationRequest mLocationRequest;
                     selected_lon = selected_lat_lon.longitude;
                     LatLng latLng = new LatLng(selected_lat, selected_lon);
                     mMap.animateCamera(CameraUpdateFactory.newLatLngZoom(new LatLng(selected_lat, selected_lon), 16.0f));
-                } catch (Exception ex){
+                } catch (Exception ex) {
                     ex.printStackTrace();
                 }
 
@@ -150,18 +154,20 @@ private LocationRequest mLocationRequest;
 
         try {
             icon_user_start = BitmapDescriptorFactory.fromResource(R.drawable.start_bullet);
-        } catch (Exception ex){}
+        } catch (Exception ex) {
+        }
         mapFragment.getMapAsync(this);
 
     }
 
-       public void done_current_loc(View v ){
+    public void done_current_loc(View v) {
         AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(this);
         alertDialogBuilder.setMessage(R.string.dialoge_select_destination);
         alertDialogBuilder.setPositiveButton(R.string.yes,
                 new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface arg0, int arg1) {
+                        address_text();
                         new MySharedPreference(getApplicationContext()).setStringShared("destination_trip", selected_place);
                         new MySharedPreference(getApplicationContext()).setStringShared("destination_lat", String.valueOf(selected_lat));
                         new MySharedPreference(getApplicationContext()).setStringShared("destination_lon", String.valueOf(selected_lon));
@@ -169,7 +175,6 @@ private LocationRequest mLocationRequest;
                         Intent returnIntent = new Intent();
                         returnIntent.putExtra("result", "OK");
                         setResult(Activity.RESULT_OK, returnIntent);
-
                         finish();
                     }
                 });
@@ -181,7 +186,6 @@ private LocationRequest mLocationRequest;
                 Intent returnIntent = new Intent();
                 returnIntent.putExtra("result", "NO");
                 setResult(Activity.RESULT_CANCELED, returnIntent);
-
                 finish();
             }
         });
@@ -202,14 +206,14 @@ private LocationRequest mLocationRequest;
                     LatLng midLatLng = mMap.getCameraPosition().target;
                     selected_lat = midLatLng.latitude;
                     selected_lon = midLatLng.longitude;
-                    address_text();
-                } catch (Exception ex){}
+                } catch (Exception ex) {
+                }
             }
         });
     }
 
 
-    public void address_text(){
+    public void address_text() {
         Geocoder geocoder;
         List<Address> addresses;
         geocoder = new Geocoder(this, Locale.getDefault());
@@ -222,14 +226,13 @@ private LocationRequest mLocationRequest;
                 String country = addresses.get(0).getCountryName();
                 String postalCode = addresses.get(0).getPostalCode();
                 String knownName = addresses.get(0).getFeatureName();
-                selected_place=address;
+                selected_place = address;
             }
         } catch (IOException e) {
             // TODO Auto-generated catch block
             e.printStackTrace();
         }
     }
-
 
 
     @Override
@@ -241,9 +244,8 @@ private LocationRequest mLocationRequest;
     @Override
     protected void onDestroy() {
         super.onDestroy();
-       // new MySharedPreference(getApplicationContext()).setStringShared("destination_selected", "no");
+        // new MySharedPreference(getApplicationContext()).setStringShared("destination_selected", "no");
     }
-
 
 
     @Override
@@ -264,15 +266,13 @@ private LocationRequest mLocationRequest;
     }
 
 
-
-
-
     private void handleNewLocation(Location location) {
         try {
             currentLatitude = location.getLatitude();
             currentLongitude = location.getLongitude();
             mMap.animateCamera(CameraUpdateFactory.newLatLngZoom(new LatLng(currentLatitude, currentLongitude), 16.0f));
-        } catch (Exception ex){}
+        } catch (Exception ex) {
+        }
     }
 
 
@@ -290,18 +290,18 @@ private LocationRequest mLocationRequest;
             return;
         }
         Location location = LocationServices.FusedLocationApi.getLastLocation(mGoogleApiClient);
-        if (location==null) {
+        if (location == null) {
             LocationServices.FusedLocationApi.requestLocationUpdates(mGoogleApiClient, mLocationRequest, this);
-        }
-        else {
+        } else {
             onLocationChanged(location);
         }
     }
 
 
-
     @Override
-    public void onConnectionSuspended(int i) {}
+    public void onConnectionSuspended(int i) {
+    }
+
     @Override
     public void onConnectionFailed(ConnectionResult connectionResult) {
         if (connectionResult.hasResolution()) {
@@ -310,18 +310,18 @@ private LocationRequest mLocationRequest;
             } catch (IntentSender.SendIntentException e) {
                 e.printStackTrace();
             }
-        } else {Log.i(TAG, "Location services connection failed with code " + connectionResult.getErrorCode());}
+        } else {
+            Log.i(TAG, "Location services connection failed with code " + connectionResult.getErrorCode());
+        }
     }
 
     Location lastCurrentLocation = null;
+
     @Override
-    public void onLocationChanged(Location location)
-    {
+    public void onLocationChanged(Location location) {
         lastCurrentLocation = location;
         handleNewLocation(location);
     }
-
-
 
 
 }

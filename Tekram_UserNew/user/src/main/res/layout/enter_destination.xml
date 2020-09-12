@@ -41,7 +41,7 @@
                 android:drawablePadding="20dp"
                 android:drawableRight="@drawable/blue_circle"
                 android:onClick="choose_current_loc"
-                android:text="------" />
+                android:text="@string/starting_point" />
 
 
         </LinearLayout>

@@ -100,6 +100,7 @@
     <string name="update">Update
     </string>
     <string name="clear_data">Note: The application data will be deleted, please open the application again</string>
+    <string name="netPrice">صافي الربح</string>
 
 
 </resources>

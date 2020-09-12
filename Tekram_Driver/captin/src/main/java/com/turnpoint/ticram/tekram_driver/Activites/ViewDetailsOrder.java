@@ -282,7 +282,7 @@ public class ViewDetailsOrder extends LocationBaseActivity implements OnMapReady
                             Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(uri));
                             intent.setPackage("com.google.android.apps.maps");
                             startActivity(intent);
-                            addNewBubble();
+                            //addNewBubble();
                         } else if (final_dest_exists.equals("no")) {
                             //do nothing
                             Toast.makeText(getApplicationContext(), "لم يتم تحديد وجهة الراكب!",
@@ -297,7 +297,7 @@ public class ViewDetailsOrder extends LocationBaseActivity implements OnMapReady
                         Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(uri));
                         intent.setPackage("com.google.android.apps.maps");
                         startActivity(intent);
-                        addNewBubble();
+                        //addNewBubble();
                     }
                 } catch (Exception ex) {
                     ex.printStackTrace();
@@ -694,6 +694,8 @@ public class ViewDetailsOrder extends LocationBaseActivity implements OnMapReady
         try {
             from_what_Act = "activity";
             check_onresume = "no";
+            btn_type = "start";
+            trip_status = "wosoul";
             tv_title_DistTime.setText("التكلفة المتوقعة");
             if (timer == null) {
                 //add_timer();
@@ -724,11 +726,8 @@ public class ViewDetailsOrder extends LocationBaseActivity implements OnMapReady
                 }
             }.start();
 
-            btn_type = "start";
-            trip_status = "wosoul";
             tv_timeTOuser.setVisibility(View.INVISIBLE);
             // tv_timeTOuser.setText("-");
-
 
             btn_tawklna.setText(R.string.btn_start_trip);
             btn_cancel.setVisibility(View.VISIBLE);
@@ -1608,7 +1607,6 @@ public class ViewDetailsOrder extends LocationBaseActivity implements OnMapReady
                     }
                 });
                 bubbleView.setOnBubbleClickListener(new BubbleLayout.OnBubbleClickListener() {
-
                     @Override
                     public void onBubbleClick(BubbleLayout bubble) {
                         try {
@@ -1618,6 +1616,7 @@ public class ViewDetailsOrder extends LocationBaseActivity implements OnMapReady
                         }
                         Intent i = new Intent(getApplicationContext(), ViewDetailsOrder.class);
                         i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                        i.addFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP);
                         i.putExtra("from_act", "splash");
                         startActivity(i);
                         finish();

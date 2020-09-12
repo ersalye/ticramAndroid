@@ -282,7 +282,7 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:gravity="right"
-                                    android:text="طريقة الدفع" />
+                                    android:text= "@string/netPrice" />
 
                                 <TextView
                                     android:id="@+id/tv_payMethod"

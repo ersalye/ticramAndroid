@@ -1,4 +1,4 @@
-#Sun Sep 06 17:50:30 EEST 2020
+#Sat Sep 12 11:52:02 EEST 2020
 base.0=D\:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_UserNew\\user\\build\\intermediates\\dex\\release\\mergeDexRelease\\out\\classes.dex
 path.1=classes2.dex
 renamed.1=classes2.dex
