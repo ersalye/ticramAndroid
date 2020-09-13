@@ -3,11 +3,14 @@ package com.turnpoint.ticram.tekram_driver.Activites;
 import android.Manifest;
 import android.app.Activity;
 import android.app.ActivityManager;
+import android.app.AppOpsManager;
 import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.IntentSender;
+import android.content.pm.ApplicationInfo;
+import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
 import android.location.LocationManager;
 import android.net.Uri;
@@ -63,6 +66,10 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.HashSet;
+import java.util.List;
 import java.util.concurrent.TimeUnit;
 
 import uk.co.chrisjenx.calligraphy.CalligraphyConfig;
@@ -88,6 +95,7 @@ public class SplashActivity extends AppCompatActivity implements GoogleApiClient
     long cacheExpiration = 43200;
     String BaseUrl = "";
     boolean checkVersion = true;
+    boolean checkMockGPS = true;
     DBHelper2 db = new DBHelper2(this);
 
     @Override
@@ -108,9 +116,11 @@ public class SplashActivity extends AppCompatActivity implements GoogleApiClient
 
         setContentView(R.layout.activity_splash);
         checkUpdate();
+        checkMockGPS();
+
 //        checkData();//check update for clear cach
         try {
-            TimeUnit.SECONDS.sleep(1);
+            TimeUnit.SECONDS.sleep(2);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -278,6 +288,97 @@ public class SplashActivity extends AppCompatActivity implements GoogleApiClient
         builder.create().show();
     }
 
+
+    private void checkMockGPS() {
+        List<String> appFakeFPS = getListOfFakeLocationApps(context);
+        if(appFakeFPS != null){
+            if (appFakeFPS.size() > 0){
+                checkMockGPS = false;
+                String packageNameApp = " ";
+                for (String nameApp : appFakeFPS){
+                    packageNameApp = packageNameApp + nameApp + "   ";
+                }
+                showMockGPSDialog(packageNameApp);
+            }
+        }
+    }
+
+    public static List<String> getListOfFakeLocationApps(Context context) {
+        List<String> apps = getApps(context);
+        List<String> fakeApps = new ArrayList<>();
+        for (String app : apps) {
+            if(!isSystemPackage(context, app) && hasAppPermission(context, app, "android.permission.ACCESS_MOCK_LOCATION")){
+                fakeApps.add(getApplicationName(context, app));
+            }
+        }
+        return fakeApps;
+    }
+
+    public static List<String> getApps(Context context) {
+        List<String> apps = new ArrayList<>();
+        PackageManager pm = context.getPackageManager();
+        List<ApplicationInfo> packages = pm.getInstalledApplications(PackageManager.GET_META_DATA);
+        for (ApplicationInfo pack : packages){
+            apps.add(pack.packageName);
+        }
+        return apps;
+    }
+
+    public static boolean isSystemPackage(Context context, String app){
+        PackageManager packageManager = context.getPackageManager();
+        try {
+            PackageInfo pkgInfo = packageManager.getPackageInfo(app, 0);
+            return (pkgInfo.applicationInfo.flags & ApplicationInfo.FLAG_SYSTEM) != 0;
+        } catch (PackageManager.NameNotFoundException e) {
+            e.printStackTrace();
+        }
+        return false;
+    }
+
+    public static boolean hasAppPermission(Context context, String app, String permission){
+        PackageManager packageManager = context.getPackageManager();
+        PackageInfo packageInfo;
+        try {
+            packageInfo = packageManager.getPackageInfo(app, PackageManager.GET_PERMISSIONS);
+            if(packageInfo.requestedPermissions!= null){
+                for (String requestedPermission : packageInfo.requestedPermissions) {
+                    if (requestedPermission.equals(permission)) {
+                        return true;
+                    }
+                }
+            }
+        } catch (PackageManager.NameNotFoundException e) {
+            e.printStackTrace();
+        }
+        return false;
+    }
+
+    public static String getApplicationName(Context context, String packageName) {
+        String appName = packageName;
+        PackageManager packageManager = context.getPackageManager();
+        try {
+            appName = packageManager.getApplicationLabel(packageManager.getApplicationInfo(packageName, PackageManager.GET_META_DATA)).toString();
+        } catch (PackageManager.NameNotFoundException e) {
+            e.printStackTrace();
+        }
+        return appName;
+    }
+
+    private void showMockGPSDialog(String packageNameApp) {
+        builder = new AlertDialog.Builder(this);
+        builder.create().dismiss();
+        builder.setTitle(getResources().getString(R.string.fake_gps));
+        builder.setMessage(getResources().getString(R.string.fake_gps_message) + packageNameApp);
+        builder.setCancelable(false);
+        builder.setPositiveButton(getResources().getString(R.string.close), new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialogInterface, int i) {
+                finishAffinity();
+            }
+        });
+        builder.create().show();
+    }
+
     public void InsertTOLocalDB() {
 
         RequestQueue requestQueue = Volley.newRequestQueue(this);
@@ -348,7 +449,7 @@ public class SplashActivity extends AppCompatActivity implements GoogleApiClient
                         new DialogInterface.OnClickListener() {
                             public void onClick(DialogInterface dialog, int id) {
                                 Intent i = new Intent(Settings.ACTION_WIRELESS_SETTINGS);
-                                if (checkVersion)
+                                if (checkVersion && checkMockGPS)
                                     startActivity(i);
                             }
                         }
@@ -405,7 +506,7 @@ public class SplashActivity extends AppCompatActivity implements GoogleApiClient
                     Intent intent = new Intent(SplashActivity.this, MapsMain.class);
                     intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
 
-                    if (checkVersion) {
+                    if (checkVersion && checkMockGPS) {
                         startActivity(intent);
                         finish();
                     }
@@ -413,7 +514,7 @@ public class SplashActivity extends AppCompatActivity implements GoogleApiClient
                 } else {
                     Intent intent = new Intent(SplashActivity.this, LoginActivity.class);
                     intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-                    if (checkVersion) {
+                    if (checkVersion && checkMockGPS) {
                         startActivity(intent);
                         finish();
                     }

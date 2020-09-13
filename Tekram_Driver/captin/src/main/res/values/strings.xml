@@ -61,7 +61,10 @@
     <string name="track">شاحنة</string>
     <string name="gas">غاز</string>
     <string name="water">مي</string>
-    <string name="update_new">New Update</string>
+    <string name="fake_gps">Fake GPS</string>
+    <string name="fake_gps_message">Please remove the fake location apps : </string>
+    <string name="close">Close</string>
+    <string name="update_new">Update New</string>
     <string name="update_message">The application must be updated  to use it</string>
 
     <string name="email">البريد الالكتروني</string>

@@ -77,6 +77,8 @@
     <string name="update_message">يجب تحديث التطبيق حتى تتمكن من استخدام التطبيق</string>
     <string name="update">تحديث</string>
     <string name="clear_data">ملاحظلة : سيتم حذف بيانات التطبيق , يرجى فتح التطبيق من جديد</string>
-
+    <string name="fake_gps">تزوير الموقع</string>
+    <string name="fake_gps_message">الرجاء إزالة التطبيقات الموقع وهمية : </string>
+    <string name="close">اغلاق</string>
 
 </resources>

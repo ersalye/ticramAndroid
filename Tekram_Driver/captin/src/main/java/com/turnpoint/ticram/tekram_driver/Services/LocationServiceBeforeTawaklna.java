@@ -66,8 +66,12 @@ public class LocationServiceBeforeTawaklna extends LocationBaseService {
             }
             Paper.book().write("lastCall", newTime);
             System.out.println("shtayyat -> new location  ( " + difference_sec + " )" + location.getLatitude() + " - " + location.getLongitude());
-            firebase(location.getLatitude(), location.getLongitude(), newTime);
+            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN_MR2) {
+                if (! location.isFromMockProvider())
+                    firebase(location.getLatitude(), location.getLongitude(), newTime);
+            }
         }
+
     }
 
     @Override
@@ -86,24 +90,24 @@ public class LocationServiceBeforeTawaklna extends LocationBaseService {
     private void firebase(double lat, double lon, long newTime) {
 
         //Seperate Address to Lat & Long and get the Id
-            try {
-                addcoordsfirebase values = new addcoordsfirebase(String.valueOf(lat) + "," + String.valueOf(lon));
-                //System.out.println("shtayyat_firebase -> setting " + new MySharedPreference(getApplicationContext()).getStringShared("user_id") + " location to: "+values) ;
-                dataSent = false;
-                DatabaseReference mDatabase = FirebaseDatabase.getInstance().getReference();
-                mDatabase.child("drivers").child(new MySharedPreference(mContext).getStringShared("user_id")).child("info").setValue(values, new DatabaseReference.CompletionListener() {
-                    public void onComplete(DatabaseError error, DatabaseReference ref) {
-                        if (error == null)
-                            dataSent = true;
-                        System.out.println("Value was set. Error = " + error);
-                    }
+        try {
+            addcoordsfirebase values = new addcoordsfirebase(String.valueOf(lat) + "," + String.valueOf(lon));
+            //System.out.println("shtayyat_firebase -> setting " + new MySharedPreference(getApplicationContext()).getStringShared("user_id") + " location to: "+values) ;
+            dataSent = false;
+            DatabaseReference mDatabase = FirebaseDatabase.getInstance().getReference();
+            mDatabase.child("drivers").child(new MySharedPreference(mContext).getStringShared("user_id")).child("info").setValue(values, new DatabaseReference.CompletionListener() {
+                public void onComplete(DatabaseError error, DatabaseReference ref) {
+                    if (error == null)
+                        dataSent = true;
+                    System.out.println("Value was set. Error = " + error);
+                }
 
-                });
+            });
 
 
-            } catch (Exception e) {
-                e.printStackTrace();
-            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
 
         if (new MySharedPreference(mContext).getBooleanShared("startDistanceCount", false) || Paper.book().read("startDistanceCount", false)) {
             calculations(lat, lon, newTime);

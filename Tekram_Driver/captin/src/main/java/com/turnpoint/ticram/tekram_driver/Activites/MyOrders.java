@@ -12,6 +12,7 @@ import androidx.core.app.ActivityCompat;
 
 import android.location.LocationListener;
 import android.location.LocationManager;
+import android.os.Build;
 import android.os.Bundle;
 
 import androidx.core.app.NavUtils;
@@ -466,7 +467,10 @@ public class MyOrders extends AppCompatActivity implements
 
     @Override
     public void onLocationChanged(Location location) {
-        handleNewLocation(location);
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN_MR2) {
+            if(! location.isFromMockProvider())
+                handleNewLocation(location);
+        }
     }
 
     @Override

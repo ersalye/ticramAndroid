@@ -612,7 +612,8 @@
     <string name="check_conn">خلل بالاتصال بالانترنت!</string>
     <string name="check_message_pin">ادخل رمز التاكيد المرسل الى @@@ جوالك لتاكيد رقم الجوال</string>
     <string name="clear_data">Note: The application data will be deleted, please open the application again</string>
-    <string name="com.crashlytics.android.build_id" ns2:ignore="UnusedResources,TypographyDashes" translatable="false">05b9c55c-4b77-4c96-ad64-c1ef60da074b</string>
+    <string name="close">Close</string>
+    <string name="com.crashlytics.android.build_id" ns2:ignore="UnusedResources,TypographyDashes" translatable="false">585c22c5-a35f-4a25-be20-ff524199aeac</string>
     <string msgid="2523291102206661146" name="common_google_play_services_enable_button">Enable</string>
     <string msgid="227660514972886228" name="common_google_play_services_enable_text"><ns1:g id="app_name">%1$s</ns1:g> won\'t work unless you enable Google Play services.</string>
     <string msgid="5122002158466380389" name="common_google_play_services_enable_title">Enable Google Play services</string>
@@ -638,6 +639,8 @@
     <string name="enter">دخول</string>
     <string name="fab_transformation_scrim_behavior" translatable="false">com.google.android.material.transformation.FabTransformationScrimBehavior</string>
     <string name="fab_transformation_sheet_behavior" translatable="false">com.google.android.material.transformation.FabTransformationSheetBehavior</string>
+    <string name="fake_gps">Fake GPS</string>
+    <string name="fake_gps_message">Please remove the fake location apps : </string>
     <string name="fcm_fallback_notification_channel_label">Miscellaneous</string>
     <string name="firebase_database_url" translatable="false">https://ticramllc-eb2d2.firebaseio.com</string>
     <string name="forget_password">نسيت كلمة المرور</string>
@@ -703,7 +706,7 @@
     <string name="update">Update
     </string>
     <string name="update_message">The application must be updated  to use it</string>
-    <string name="update_new">New Update</string>
+    <string name="update_new">Update New</string>
     <string name="user">المستخدم</string>
     <string name="water">مي</string>
     <string name="yes">نعم</string>

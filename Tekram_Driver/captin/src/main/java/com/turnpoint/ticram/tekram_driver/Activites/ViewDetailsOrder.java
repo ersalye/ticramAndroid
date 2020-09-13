@@ -2041,7 +2041,7 @@ public class ViewDetailsOrder extends LocationBaseActivity implements OnMapReady
                         1,
                         mLocationListener);
 
-            } catch (java.lang.SecurityException ex) {
+            } catch (SecurityException ex) {
                 // Log.i(TAG, "fail to request location update, ignore", ex);
             } catch (IllegalArgumentException ex) {
                 //Log.d(TAG, "network provider does not exist, " + ex.getMessage());
@@ -2063,7 +2063,10 @@ public class ViewDetailsOrder extends LocationBaseActivity implements OnMapReady
                 driver_cur_lat = location.getLongitude();
                 driver_cur_lng = location.getLatitude();
                 // Toast.makeText(getApplicationContext(), String.valueOf(location.getLatitude())+ String.valueOf(location.getLongitude()) , Toast.LENGTH_LONG).show();
-                handleNewLocation(location);
+                if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN_MR2) {
+                    if(! location.isFromMockProvider())
+                        handleNewLocation(location);
+                }
             } else if (location == null) {
                 mLocationManager = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
                 boolean network_enabled = mLocationManager.isProviderEnabled(LocationManager.NETWORK_PROVIDER);
@@ -2084,11 +2087,11 @@ public class ViewDetailsOrder extends LocationBaseActivity implements OnMapReady
                         driver_cur_lat = location.getLongitude();
                         driver_cur_lng = location.getLatitude();
                         // Toast.makeText(getApplicationContext(), String.valueOf(location.getLatitude())+ String.valueOf(location.getLongitude()) , Toast.LENGTH_LONG).show();
-                        handleNewLocation(location);
-
+                        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN_MR2) {
+                            if(! location.isFromMockProvider())
+                                handleNewLocation(location);
+                        }
                     }
-
-
                 }
             }
         }
