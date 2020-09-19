@@ -8,7 +8,7 @@ public class PathUrl {
 
  public static String VERSION_NUMBER = "4";
 
-   public static String MAIN_URL2 = "http://test3.ticram.com/";
+   public static String MAIN_URL2 = "http://test3.faistec.com/";
 
  public static String LOGIN = "api/api/logintransport";
  public static String ResetPassowrd ="api/api/resetpassword";
@@ -26,6 +26,7 @@ public class PathUrl {
 
  public static String Edit_profile = "api/api/update_info_transport";
  public static String ViewMyOrders = "api/api/transport_orders";
+ public static String ViewMyNotification = "api/api/transport_notification";
  public static String TransportInfo= "api/api/transport_info";
 
  public static String ReportComplain="api/report/reports?local=ara&type=R";

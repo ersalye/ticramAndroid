@@ -7,8 +7,8 @@ package com.turnpoint.ticram.tekram_driver.retrofitServices;
 
 public class ApiUtils {
 
-    public static final String BASE_URL = "https://test.ticram.com/api/api/";
-   // public static String SEND_LOCATION = "https://test.ticram.com/api/api/send_location";
+    public static final String BASE_URL = "https://test.faistec.com/api/api/";
+   // public static String SEND_LOCATION = "https://test.faistec.com/api/api/send_location";
 
 
     public static SendLocationService sendLoc() {

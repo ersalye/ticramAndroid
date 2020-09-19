@@ -67,11 +67,13 @@ public class Adapter_ViewMyOrders extends RecyclerView.Adapter<Adapter_ViewMyOrd
         TextView TVCASH = holder.tv_cash_credit_;
         TextView TVPrice= holder.tv_price ;
         TextView TVCancel= holder.tv_cancel ;
+        TextView TVDuration = holder.tv_duration;
         TV_from.setText(item.getLocationTxt());
         TV_to.setText(item.getToLocationTxt());
         TVDate.setText(item.getDateTrip());
         TVPrice.setText(item.getFee()+"د.أ");
         TVCASH.setText(mContext.getResources().getString(R.string.netPrice));
+        TVDuration.setVisibility(View.GONE);
         if(!item.getStatus().equals("C")){
             TVCancel.setVisibility(View.INVISIBLE);
         }

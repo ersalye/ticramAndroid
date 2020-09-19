@@ -1676,6 +1676,10 @@
         "source": "C:\\Users\\alnajjar\\.gradle\\caches\\transforms-2\\files-2.1\\9dfff5c81036fc71e64a7ff3971afe78\\material-1.0.0\\res\\layout\\design_navigation_menu.xml"
     },
     {
+        "merged": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_Driver\\captin\\build\\intermediates\\res\\merged\\debug\\layout_activity_my_notification.xml.flat",
+        "source": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_Driver\\captin\\src\\main\\res\\layout\\activity_my_notification.xml"
+    },
+    {
         "merged": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_Driver\\captin\\build\\intermediates\\res\\merged\\debug\\color-v23_abc_tint_default.xml.flat",
         "source": "C:\\Users\\alnajjar\\.gradle\\caches\\transforms-2\\files-2.1\\4f5bfb8e10e2e236e64ec07c3ebb6c4c\\appcompat-1.0.0\\res\\color-v23\\abc_tint_default.xml"
     },
@@ -2338,6 +2342,10 @@
     {
         "merged": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_Driver\\captin\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_icon_menu.png.flat",
         "source": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_Driver\\captin\\src\\main\\res\\drawable-xxxhdpi\\icon_menu.png"
+    },
+    {
+        "merged": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_Driver\\captin\\build\\intermediates\\res\\merged\\debug\\layout_single_row_viewmynotification.xml.flat",
+        "source": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_Driver\\captin\\src\\main\\res\\layout\\single_row_viewmynotification.xml"
     },
     {
         "merged": "D:\\private\\FuAIS\\AndroidProject\\Tekram\\ticramAndroid\\Tekram_Driver\\captin\\build\\intermediates\\res\\merged\\debug\\menu_menu_main.xml.flat",

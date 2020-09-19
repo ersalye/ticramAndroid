@@ -69,9 +69,15 @@ public class LocationServiceBeforeTawaklna extends LocationBaseService {
             if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN_MR2) {
                 if (! location.isFromMockProvider())
                     firebase(location.getLatitude(), location.getLongitude(), newTime);
+                else {
+                    FirebaseDatabase.getInstance()
+                            .getReference()
+                            .child("FakeGPS")
+                            .child(new MySharedPreference( getApplicationContext()).getStringShared("user_id"))
+                            .setValue("2");
+                }
             }
         }
-
     }
 
     @Override

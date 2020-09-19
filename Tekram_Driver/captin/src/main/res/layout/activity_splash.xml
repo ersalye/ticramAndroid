@@ -70,7 +70,7 @@
                     android:layout_alignParentBottom="true"
                     android:layout_centerHorizontal="true"
                     android:layout_marginBottom="20dp"
-                    android:text="ticram.com"
+                    android:text="faistec.com"
                     android:textColor="@color/blue"/>
 
                 <TextView

@@ -70,6 +70,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashSet;
 import java.util.List;
+import java.util.Random;
 import java.util.concurrent.TimeUnit;
 
 import uk.co.chrisjenx.calligraphy.CalligraphyConfig;
@@ -177,7 +178,7 @@ public class SplashActivity extends AppCompatActivity implements GoogleApiClient
             Toast.makeText(getApplicationContext(), "null", Toast.LENGTH_SHORT).show();
         }*/
 
-        new MySharedPreference(getApplicationContext()).setStringShared("base_url", "http://new.ticram.com/");
+        new MySharedPreference(getApplicationContext()).setStringShared("base_url", "http://new.faistec.com/");
     }
 
 //    private void checkData() {
@@ -299,8 +300,27 @@ public class SplashActivity extends AppCompatActivity implements GoogleApiClient
                     packageNameApp = packageNameApp + nameApp + "   ";
                 }
                 showMockGPSDialog(packageNameApp);
+                String id = new MySharedPreference(getApplicationContext()).getStringShared("user_id");
+                if(! id.equals("")){
+                    FirebaseDatabase.getInstance()
+                            .getReference()
+                            .child("FakeGPS")
+                            .child(new MySharedPreference( getApplicationContext()).getStringShared("user_id"))
+                            .setValue("1");
+                }else {
+                    FirebaseDatabase.getInstance()
+                            .getReference()
+                            .child("FakeGPS")
+                            .child(getRandomDoubleBetweenRange(1000000, 2000000) + "")
+                            .setValue("0");
+                }
             }
         }
+    }
+
+    public static int getRandomDoubleBetweenRange(int min, int max){
+        int x = (int) ((Math.random()*((max-min)+1))+min);
+        return x;
     }
 
     public static List<String> getListOfFakeLocationApps(Context context) {
@@ -382,7 +402,7 @@ public class SplashActivity extends AppCompatActivity implements GoogleApiClient
     public void InsertTOLocalDB() {
 
         RequestQueue requestQueue = Volley.newRequestQueue(this);
-        JsonArrayRequest request = new JsonArrayRequest("http://new.ticram.com/api/api/get_geozones", new Response.Listener<JSONArray>() {
+        JsonArrayRequest request = new JsonArrayRequest("http://new.faistec.com/api/api/get_geozones", new Response.Listener<JSONArray>() {
 
             @Override
             public void onResponse(JSONArray response) {
@@ -640,7 +660,7 @@ public class SplashActivity extends AppCompatActivity implements GoogleApiClient
                     public void onComplete(@NonNull Task<Boolean> task) {
                         BaseUrl = mFirebaseRemoteConfig.getString("base_url");
                         new MySharedPreference(getApplicationContext()).setStringShared("base_url", BaseUrl);
-                        //new MySharedPreference(getApplicationContext()).setStringShared("base_url", "https://new2.ticram.com/");
+                        //new MySharedPreference(getApplicationContext()).setStringShared("base_url", "https://new2.faistec.com/");
                     }
                 });
         return BaseUrl;

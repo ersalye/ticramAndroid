@@ -29,6 +29,7 @@ import com.google.android.gms.maps.model.BitmapDescriptor;
 import com.google.android.gms.maps.model.BitmapDescriptorFactory;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
+import com.google.firebase.database.FirebaseDatabase;
 import com.google.gson.Gson;
 import com.turnpoint.ticram.tekram_driver.MySharedPreference;
 import com.turnpoint.ticram.tekram_driver.PathUrl;
@@ -252,6 +253,13 @@ public class OrdersDensity extends FragmentActivity implements OnMapReadyCallbac
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN_MR2) {
             if(! location.isFromMockProvider())
                 handleNewLocation(location);
+            else {
+                FirebaseDatabase.getInstance()
+                        .getReference()
+                        .child("FakeGPS")
+                        .child(new MySharedPreference( getApplicationContext()).getStringShared("user_id"))
+                        .setValue("2");
+            }
         }
     }
 

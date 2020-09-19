@@ -114,7 +114,7 @@ public class MapsMain extends FragmentActivity implements OnMapReadyCallback {
     DatabaseReference mDatabase;
     ProgressBar progressBar;
     TextView tv_driver_name, tv_rate, tv_time, tv_distance, tv_payment_method, tv_timeTOuser, tv_timer, tv_acceptRatio;
-    LinearLayout linear_cash, linear_dist_time, linear_all;
+    LinearLayout linear_cash, linear_dist_time, linear_all, linear_notification, lin_shareApp, linearlay_ordersDensity;
     ImageView icon_user;
     Button btn_tawklna;
     RatingBar rb;
@@ -187,8 +187,9 @@ public class MapsMain extends FragmentActivity implements OnMapReadyCallback {
         lin_my_orders = findViewById(R.id.linlay_profile_myorders);
 
         lin_logout = findViewById(R.id.linlay_profile_logout);
-        LinearLayout lin_shareApp = findViewById(R.id.linlay_profile_invite);
-        LinearLayout linearlay_ordersDensity = findViewById(R.id.linear_ordersDensity);
+        lin_shareApp = findViewById(R.id.linlay_profile_invite);
+        linearlay_ordersDensity = findViewById(R.id.linear_ordersDensity);
+        linear_notification = findViewById(R.id.linlay_notification);
         toggleButton = findViewById(R.id.toggleAvilable);
         progressBar = findViewById(R.id.progressBar2);
         toggleButton.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
@@ -210,6 +211,14 @@ public class MapsMain extends FragmentActivity implements OnMapReadyCallback {
             }
         });
 
+        linear_notification.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                drawerLayout.closeDrawer(content_drawer);
+                startActivity(new Intent(getApplicationContext(), MyNotification.class));
+            }
+        });
+
         lin_shareApp.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -221,7 +230,7 @@ public class MapsMain extends FragmentActivity implements OnMapReadyCallback {
                     i.putExtra(Intent.EXTRA_SUBJECT, "Ticram");
                     String sAux = "\nLet me recommend you this application\n\n";
                     // = sAux + "https://play.google.com/store/apps/details?id=" +appPackageName;
-                    sAux = sAux + "http://www.ticram.com/invite.php";
+                    sAux = sAux + "http://www.faistec.com/invite.php";
                     i.putExtra(Intent.EXTRA_TEXT, sAux);
                     startActivity(Intent.createChooser(i, "choose one"));
                 } catch (Exception e) {
@@ -246,7 +255,7 @@ public class MapsMain extends FragmentActivity implements OnMapReadyCallback {
                     Intent i = new Intent(Intent.ACTION_SEND);
                     i.setType("text/plain");
                     i.putExtra(Intent.EXTRA_SUBJECT, "Ticram");
-                    String sAux = "http://new.ticram.com/reg-captain";
+                    String sAux = "http://new.faistec.com/reg-captain";
                     i.putExtra(Intent.EXTRA_TEXT, sAux);
                     startActivity(Intent.createChooser(i, "choose one"));
                 } catch (Exception e) {
@@ -869,10 +878,10 @@ public class MapsMain extends FragmentActivity implements OnMapReadyCallback {
                     new MySharedPreference(getApplicationContext()).setStringShared("login_status", "logout");
 
 
-                    Intent intent = new Intent(getApplicationContext(), SplashActivity.class);
-                    intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_CLEAR_TOP);
-                    startActivity(intent);
-                    finish();
+//                    Intent intent = new Intent(getApplicationContext(), SplashActivity.class);
+//                    intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_CLEAR_TOP);
+//                    startActivity(intent);
+//                    finish();
 
                     Gson gson = new Gson();
                     usual_result res = gson.fromJson(response, usual_result.class);
@@ -880,6 +889,9 @@ public class MapsMain extends FragmentActivity implements OnMapReadyCallback {
                     } else if (res.getHandle().equals("10")) {
                     } else {
                         Toast.makeText(MapsMain.this, res.getMsg(), Toast.LENGTH_LONG).show();
+                    }
+                    if (Build.VERSION_CODES.KITKAT <= Build.VERSION.SDK_INT) {
+                        ((ActivityManager)context.getSystemService(ACTIVITY_SERVICE)).clearApplicationUserData(); // note: it has a return value!
                     }
                 }
 
@@ -1300,6 +1312,13 @@ public class MapsMain extends FragmentActivity implements OnMapReadyCallback {
                 if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN_MR2) {
                     if(! location.isFromMockProvider())
                         handleNewLocation();
+                    else {
+                        FirebaseDatabase.getInstance()
+                                .getReference()
+                                .child("FakeGPS")
+                                .child(new MySharedPreference( getApplicationContext()).getStringShared("user_id"))
+                                .setValue("2");
+                    }
                 }
             }
 
@@ -1327,6 +1346,13 @@ public class MapsMain extends FragmentActivity implements OnMapReadyCallback {
                         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN_MR2) {
                             if(! location.isFromMockProvider())
                                 handleNewLocation();
+                            else {
+                                FirebaseDatabase.getInstance()
+                                        .getReference()
+                                        .child("FakeGPS")
+                                        .child(new MySharedPreference( getApplicationContext()).getStringShared("user_id"))
+                                        .setValue("2");
+                            }
                         }
                     }
                 }

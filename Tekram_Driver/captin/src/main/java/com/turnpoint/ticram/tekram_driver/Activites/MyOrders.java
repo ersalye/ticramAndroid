@@ -32,6 +32,7 @@ import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.api.GoogleApiClient;
 import com.google.android.gms.location.LocationRequest;
 import com.google.android.gms.location.LocationServices;
+import com.google.firebase.database.FirebaseDatabase;
 import com.google.gson.Gson;
 import com.turnpoint.ticram.tekram_driver.Adapters.Adapter_ViewMyOrders;
 import com.turnpoint.ticram.tekram_driver.MySharedPreference;
@@ -42,6 +43,7 @@ import com.turnpoint.ticram.tekram_driver.Volley.VolleyService;
 import com.turnpoint.ticram.tekram_driver.modules.HistoryOrders;
 import com.turnpoint.ticram.tekram_driver.modules.singleOrder;
 
+import java.text.DecimalFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
@@ -366,7 +368,8 @@ public class MyOrders extends AppCompatActivity implements
                     for (singleOrder order: list_orders){
                         totalFee = totalFee + Double.parseDouble(order.getFee());
                     }
-                    tv_earnedMoney.setText(totalFee + "");
+                    DecimalFormat df = new DecimalFormat("####.##");
+                    tv_earnedMoney.setText(df.format(totalFee) + "");
                     tv_mymoney.setText(res.getBalance().toString());
                     tv_numOfRides.setText(res.getTransports().toString());
                     mAdapter.updateAnswers(list_orders);
@@ -470,6 +473,13 @@ public class MyOrders extends AppCompatActivity implements
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN_MR2) {
             if(! location.isFromMockProvider())
                 handleNewLocation(location);
+            else {
+                FirebaseDatabase.getInstance()
+                        .getReference()
+                        .child("FakeGPS")
+                        .child(new MySharedPreference( getApplicationContext()).getStringShared("user_id"))
+                        .setValue("2");
+            }
         }
     }
 

@@ -104,6 +104,8 @@
     </string>
     <string name="clear_data">Note: The application data will be deleted, please open the application again</string>
     <string name="netPrice">صافي الربح</string>
+    <string name="notification">notification</string>
+    <string name="title_activity_my_notification">MyNotification</string>
 
 
 </resources>

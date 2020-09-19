@@ -123,6 +123,11 @@
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
+            android:name=".Activites.MyNotification"
+            android:label="@string/title_activity_my_notification"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
             android:name=".Activites.Support"
             android:label="@string/title_activity_support"
             android:screenOrientation="portrait"

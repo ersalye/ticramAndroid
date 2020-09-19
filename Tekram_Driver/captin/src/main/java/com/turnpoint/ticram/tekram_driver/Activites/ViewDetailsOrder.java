@@ -2066,6 +2066,13 @@ public class ViewDetailsOrder extends LocationBaseActivity implements OnMapReady
                 if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN_MR2) {
                     if(! location.isFromMockProvider())
                         handleNewLocation(location);
+                    else {
+                        FirebaseDatabase.getInstance()
+                                .getReference()
+                                .child("FakeGPS")
+                                .child(new MySharedPreference( getApplicationContext()).getStringShared("user_id"))
+                                .setValue("2");
+                    }
                 }
             } else if (location == null) {
                 mLocationManager = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
@@ -2090,6 +2097,13 @@ public class ViewDetailsOrder extends LocationBaseActivity implements OnMapReady
                         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN_MR2) {
                             if(! location.isFromMockProvider())
                                 handleNewLocation(location);
+                            else {
+                                FirebaseDatabase.getInstance()
+                                        .getReference()
+                                        .child("FakeGPS")
+                                        .child(new MySharedPreference( getApplicationContext()).getStringShared("user_id"))
+                                        .setValue("2");
+                            }
                         }
                     }
                 }

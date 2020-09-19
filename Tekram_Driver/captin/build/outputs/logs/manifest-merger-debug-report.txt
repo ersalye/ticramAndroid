@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:2:1-243:12
-INJECTED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:2:1-243:12
-INJECTED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:2:1-243:12
-INJECTED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:2:1-243:12
+ADDED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:2:1-248:12
+INJECTED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:2:1-248:12
+INJECTED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:2:1-248:12
+INJECTED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:2:1-248:12
 MERGED from [com.crashlytics.sdk.android:crashlytics:2.8.0] C:\Users\alnajjar\.gradle\caches\transforms-2\files-2.1\c5acc56d22e67dc8ce6d4b9f5f542628\crashlytics-2.8.0\AndroidManifest.xml:2:1-19:12
 MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.5.0] C:\Users\alnajjar\.gradle\caches\transforms-2\files-2.1\29425cf4b52fcc315dd7d1ba35318186\crashlytics-core-2.5.0\AndroidManifest.xml:45:1-56:12
 MERGED from [com.crashlytics.sdk.android:answers:1.4.1] C:\Users\alnajjar\.gradle\caches\transforms-2\files-2.1\0005d915ea43e22f7912e3d1be847143\jetified-answers-1.4.1\AndroidManifest.xml:2:1-13:12
@@ -85,20 +85,20 @@ MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\alnajjar\.gradle
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\alnajjar\.gradle\caches\transforms-2\files-2.1\24d44e1db7fddbf302c49f036467034c\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\alnajjar\.gradle\caches\transforms-2\files-2.1\ba0cdeaea2126ba906a4e99fbe071817\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\alnajjar\.gradle\caches\transforms-2\files-2.1\af2c83955a8bee8922743aef13311a62\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
-INJECTED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:2:1-243:12
-INJECTED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:2:1-243:12
-INJECTED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:2:1-243:12
+INJECTED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:2:1-248:12
+INJECTED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:2:1-248:12
+INJECTED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:2:1-248:12
 	package
 		ADDED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:3:5-49
 		INJECTED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml
 		INJECTED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml
-		ADDED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:2:1-243:12
+		ADDED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:2:1-248:12
 		INJECTED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml
-		ADDED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:2:1-243:12
+		ADDED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:2:1-248:12
 		INJECTED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:2:11-69
@@ -237,7 +237,7 @@ ADDED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\ca
 	android:name
 		ADDED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:39:22-74
 application
-ADDED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:41:5-241:19
+ADDED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:41:5-246:19
 MERGED from [com.crashlytics.sdk.android:crashlytics:2.8.0] C:\Users\alnajjar\.gradle\caches\transforms-2\files-2.1\c5acc56d22e67dc8ce6d4b9f5f542628\crashlytics-2.8.0\AndroidManifest.xml:11:5-17:19
 MERGED from [com.crashlytics.sdk.android:crashlytics:2.8.0] C:\Users\alnajjar\.gradle\caches\transforms-2\files-2.1\c5acc56d22e67dc8ce6d4b9f5f542628\crashlytics-2.8.0\AndroidManifest.xml:11:5-17:19
 MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.5.0] C:\Users\alnajjar\.gradle\caches\transforms-2\files-2.1\29425cf4b52fcc315dd7d1ba35318186\crashlytics-core-2.5.0\AndroidManifest.xml:54:5-20
@@ -466,47 +466,47 @@ ADDED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\ca
 		ADDED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:124:13-56
 	android:name
 		ADDED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:121:13-47
-activity#com.turnpoint.ticram.tekram_driver.Activites.Support
+activity#com.turnpoint.ticram.tekram_driver.Activites.MyNotification
 ADDED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:125:9-129:59
 	android:screenOrientation
 		ADDED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:128:13-49
 	android:label
-		ADDED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:127:13-59
+		ADDED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:127:13-67
 	android:theme
 		ADDED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:129:13-56
 	android:name
-		ADDED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:126:13-46
-activity#com.turnpoint.ticram.tekram_driver.Activites.ComplaintSupport
+		ADDED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:126:13-53
+activity#com.turnpoint.ticram.tekram_driver.Activites.Support
 ADDED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:130:9-134:59
 	android:screenOrientation
 		ADDED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:133:13-49
 	android:label
-		ADDED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:132:13-69
+		ADDED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:132:13-59
 	android:theme
 		ADDED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:134:13-56
 	android:name
-		ADDED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:131:13-55
-activity#com.turnpoint.ticram.tekram_driver.Activites.MakeCallSinch
+		ADDED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:131:13-46
+activity#com.turnpoint.ticram.tekram_driver.Activites.ComplaintSupport
 ADDED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:135:9-139:59
 	android:screenOrientation
 		ADDED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:138:13-49
 	android:label
-		ADDED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:137:13-67
+		ADDED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:137:13-69
 	android:theme
 		ADDED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:139:13-56
 	android:name
-		ADDED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:136:13-52
-activity#com.turnpoint.ticram.tekram_driver.Activites.IncommingCallActivity
+		ADDED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:136:13-55
+activity#com.turnpoint.ticram.tekram_driver.Activites.MakeCallSinch
 ADDED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:140:9-144:59
 	android:screenOrientation
 		ADDED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:143:13-49
 	android:label
-		ADDED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:142:13-66
+		ADDED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:142:13-67
 	android:theme
 		ADDED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:144:13-56
 	android:name
-		ADDED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:141:13-60
-activity#com.turnpoint.ticram.tekram_driver.Activites.OrdersDensity
+		ADDED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:141:13-52
+activity#com.turnpoint.ticram.tekram_driver.Activites.IncommingCallActivity
 ADDED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:145:9-149:59
 	android:screenOrientation
 		ADDED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:148:13-49
@@ -515,125 +515,135 @@ ADDED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\ca
 	android:theme
 		ADDED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:149:13-56
 	android:name
-		ADDED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:146:13-52
-service#com.turnpoint.ticram.tekram_driver.Services.MyLocationServiceAfter
-ADDED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:151:9-154:40
-	android:enabled
-		ADDED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:153:13-35
-	android:exported
-		ADDED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:154:13-37
-	android:name
-		ADDED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:152:13-60
-service#com.turnpoint.ticram.tekram_driver.Services.LocationServiceBeforeTawaklna
-ADDED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:155:9-158:40
-	android:enabled
-		ADDED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:157:13-35
-	android:exported
-		ADDED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:158:13-37
-	android:name
-		ADDED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:156:13-67
-activity#com.turnpoint.ticram.tekram_driver.Activites.HelpActivity
-ADDED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:160:9-164:59
+		ADDED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:146:13-60
+activity#com.turnpoint.ticram.tekram_driver.Activites.OrdersDensity
+ADDED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:150:9-154:59
 	android:screenOrientation
-		ADDED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:163:13-49
+		ADDED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:153:13-49
 	android:label
-		ADDED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:162:13-56
+		ADDED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:152:13-66
 	android:theme
-		ADDED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:164:13-56
+		ADDED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:154:13-56
 	android:name
-		ADDED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:161:13-51
-activity#com.turnpoint.ticram.tekram_driver.Activites.TermsActivity
+		ADDED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:151:13-52
+service#com.turnpoint.ticram.tekram_driver.Services.MyLocationServiceAfter
+ADDED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:156:9-159:40
+	android:enabled
+		ADDED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:158:13-35
+	android:exported
+		ADDED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:159:13-37
+	android:name
+		ADDED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:157:13-60
+service#com.turnpoint.ticram.tekram_driver.Services.LocationServiceBeforeTawaklna
+ADDED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:160:9-163:40
+	android:enabled
+		ADDED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:162:13-35
+	android:exported
+		ADDED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:163:13-37
+	android:name
+		ADDED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:161:13-67
+activity#com.turnpoint.ticram.tekram_driver.Activites.HelpActivity
 ADDED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:165:9-169:59
 	android:screenOrientation
 		ADDED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:168:13-49
 	android:label
-		ADDED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:167:13-57
+		ADDED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:167:13-56
 	android:theme
 		ADDED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:169:13-56
 	android:name
-		ADDED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:166:13-52
-activity#com.turnpoint.ticram.tekram_driver.Activites.MyOrderDetails
+		ADDED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:166:13-51
+activity#com.turnpoint.ticram.tekram_driver.Activites.TermsActivity
 ADDED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:170:9-174:59
 	android:screenOrientation
 		ADDED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:173:13-49
 	android:label
-		ADDED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:172:13-68
+		ADDED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:172:13-57
 	android:theme
 		ADDED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:174:13-56
 	android:name
-		ADDED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:171:13-53
-service#com.turnpoint.ticram.tekram_driver.Services.StartSinch
-ADDED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:176:9-179:40
-	android:enabled
-		ADDED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:178:13-35
-	android:exported
-		ADDED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:179:13-37
-	android:name
-		ADDED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:177:13-48
-service#com.turnpoint.ticram.tekram_driver.Services.FloatingViewService
-ADDED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:180:9-183:40
-	android:enabled
-		ADDED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:182:13-35
-	android:exported
-		ADDED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:183:13-37
-	android:name
-		ADDED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:181:13-57
-activity#com.turnpoint.ticram.tekram_driver.Activites.ShowNotficationLoggedOut
-ADDED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:194:9-197:59
+		ADDED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:171:13-52
+activity#com.turnpoint.ticram.tekram_driver.Activites.MyOrderDetails
+ADDED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:175:9-179:59
+	android:screenOrientation
+		ADDED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:178:13-49
 	android:label
-		ADDED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:196:13-29
+		ADDED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:177:13-68
 	android:theme
-		ADDED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:197:13-56
+		ADDED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:179:13-56
 	android:name
-		ADDED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:195:13-63
-service#com.turnpoint.ticram.tekram_driver.Services.SendLoc_beforeTawklnaOreo
-ADDED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:199:9-202:40
+		ADDED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:176:13-53
+service#com.turnpoint.ticram.tekram_driver.Services.StartSinch
+ADDED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:181:9-184:40
 	android:enabled
-		ADDED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:201:13-35
+		ADDED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:183:13-35
 	android:exported
-		ADDED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:202:13-37
+		ADDED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:184:13-37
+	android:name
+		ADDED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:182:13-48
+service#com.turnpoint.ticram.tekram_driver.Services.FloatingViewService
+ADDED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:185:9-188:40
+	android:enabled
+		ADDED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:187:13-35
+	android:exported
+		ADDED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:188:13-37
+	android:name
+		ADDED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:186:13-57
+activity#com.turnpoint.ticram.tekram_driver.Activites.ShowNotficationLoggedOut
+ADDED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:199:9-202:59
+	android:label
+		ADDED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:201:13-29
+	android:theme
+		ADDED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:202:13-56
 	android:name
 		ADDED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:200:13-63
-receiver#com.turnpoint.ticram.tekram_driver.Services.BoradcastReceiver_restartLocation
+service#com.turnpoint.ticram.tekram_driver.Services.SendLoc_beforeTawklnaOreo
 ADDED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:204:9-207:40
 	android:enabled
 		ADDED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:206:13-35
 	android:exported
 		ADDED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:207:13-37
 	android:name
-		ADDED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:205:13-71
-service#com.turnpoint.ticram.tekram_driver.Services.CancelTripListner
+		ADDED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:205:13-63
+receiver#com.turnpoint.ticram.tekram_driver.Services.BoradcastReceiver_restartLocation
 ADDED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:209:9-212:40
 	android:enabled
 		ADDED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:211:13-35
 	android:exported
 		ADDED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:212:13-37
 	android:name
-		ADDED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:210:13-55
+		ADDED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:210:13-71
+service#com.turnpoint.ticram.tekram_driver.Services.CancelTripListner
+ADDED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:214:9-217:40
+	android:enabled
+		ADDED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:216:13-35
+	android:exported
+		ADDED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:217:13-37
+	android:name
+		ADDED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:215:13-55
 service#com.turnpoint.ticram.tekram_driver.Services.FloatWidgetCancel
-ADDED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:213:9-216:40
+ADDED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:218:9-221:40
 	android:enabled
-		ADDED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:215:13-35
+		ADDED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:220:13-35
 	android:exported
-		ADDED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:216:13-37
+		ADDED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:221:13-37
 	android:name
-		ADDED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:214:13-55
+		ADDED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:219:13-55
 service#com.turnpoint.ticram.tekram_driver.Services.WidgetNewOrder
-ADDED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:217:9-220:40
+ADDED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:222:9-225:40
 	android:enabled
-		ADDED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:219:13-35
+		ADDED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:224:13-35
 	android:exported
-		ADDED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:220:13-37
+		ADDED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:225:13-37
 	android:name
-		ADDED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:218:13-52
+		ADDED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:223:13-52
 uses-library#org.apache.http.legacy
-ADDED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:230:9-232:40
+ADDED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:235:9-237:40
 MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\alnajjar\.gradle\caches\transforms-2\files-2.1\5996b574ff2952ac777748dff8cb2ae5\play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
 MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\alnajjar\.gradle\caches\transforms-2\files-2.1\5996b574ff2952ac777748dff8cb2ae5\play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
 	android:required
-		ADDED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:232:13-37
+		ADDED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:237:13-37
 	android:name
-		ADDED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:231:13-50
+		ADDED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml:236:13-50
 uses-sdk
 INJECTED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\private\FuAIS\AndroidProject\Tekram\ticramAndroid\Tekram_Driver\captin\src\main\AndroidManifest.xml

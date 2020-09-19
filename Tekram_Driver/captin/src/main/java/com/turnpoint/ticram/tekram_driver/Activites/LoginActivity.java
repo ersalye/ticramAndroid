@@ -199,7 +199,7 @@ public class LoginActivity extends AppCompatActivity implements GoogleApiClient.
 
     /*private void getgeozone() {
         RequestQueue requestQueue = Volley.newRequestQueue(this);
-        JsonArrayRequest request= new JsonArrayRequest("https://new.ticram.com/service/geozones.php", new Response.Listener<JSONArray>() {
+        JsonArrayRequest request= new JsonArrayRequest("https://new.faistec.com/service/geozones.php", new Response.Listener<JSONArray>() {
 
             @Override
             public void onResponse(JSONArray response) {

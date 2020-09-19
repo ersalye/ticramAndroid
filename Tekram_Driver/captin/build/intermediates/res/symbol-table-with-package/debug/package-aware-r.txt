@@ -1324,6 +1324,7 @@ id imageView4
 id imageView5
 id imageView6
 id imageView7
+id imageViewBack
 id imageView_back
 id imageView_next
 id imgCash
@@ -1360,8 +1361,8 @@ id linearLay_call
 id linearLay_help
 id linearLay_policy
 id linearLay_send_shakwaa
-id linear_onoff
 id linear_ordersDensity
+id linlay_notification
 id linlay_profile_invite
 id linlay_profile_logout
 id linlay_profile_mycars
@@ -1408,6 +1409,7 @@ id ratingBar2
 id ratingBar_me
 id rb_user
 id recycle_myorders
+id recycle_notification
 id relative
 id relativeLayout
 id relative_details
@@ -1497,6 +1499,7 @@ id textView_info
 id textView_min
 id textView_mymoney
 id textView_name
+id textView_no_notificationLabel
 id textView_no_orderLabel
 id textView_numOfRides
 id textView_rate
@@ -1539,6 +1542,7 @@ id tv_driver_number
 id tv_duration
 id tv_from
 id tv_locationtxt
+id tv_notification
 id tv_payMethod
 id tv_price2
 id tv_price_trip
@@ -1626,6 +1630,7 @@ layout activity_incomming_call
 layout activity_login
 layout activity_make_call_sinch
 layout activity_maps_main
+layout activity_my_notification
 layout activity_my_order_details
 layout activity_my_orders
 layout activity_notes
@@ -1697,6 +1702,7 @@ layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout single_row_myordes
+layout single_row_viewmynotification
 layout single_row_viewmyorders
 layout start_trip_to_user
 layout support_simple_spinner_dropdown_item
@@ -1825,6 +1831,7 @@ string netPrice
 string newss
 string no
 string no_name
+string notification
 string password
 string password_toggle_content_description
 string path_password_eye
@@ -1854,6 +1861,7 @@ string title_activity_main2
 string title_activity_make_call_sinch
 string title_activity_maps
 string title_activity_maps_main
+string title_activity_my_notification
 string title_activity_my_order_details
 string title_activity_my_orders
 string title_activity_orders_density
